@@ -1,0 +1,6 @@
+.. _diagnostics:
+
+Diagnostics
+===========
+
+TBD
