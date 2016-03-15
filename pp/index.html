@@ -51,8 +51,8 @@
   <ul>
 <li><a class="reference internal" href="#">Photometry Pipeline Documentation</a><ul>
 <li><a class="reference internal" href="#introduction">Introduction</a><ul>
-<li><a class="reference internal" href="#observatories">Observatories</a></li>
-<li><a class="reference internal" href="#reference-catalogs">Reference Catalogs</a></li>
+<li><a class="reference internal" href="#supported-observatories">Supported Observatories</a></li>
+<li><a class="reference internal" href="#supported-reference-catalogs">Supported Reference Catalogs</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#contents">Contents</a></li>
@@ -105,18 +105,20 @@ to register and photometrically calibrate images based on catalogs
 that are available online; photometry is measured using Source
 Extractor aperture photometry. PP has been designed for asteroid
 observations, but can be used with any kind of imaging data.</p>
-<div class="section" id="observatories">
-<h3>Observatories<a class="headerlink" href="#observatories" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="supported-observatories">
+<span id="id1"></span><h3>Supported Observatories<a class="headerlink" href="#supported-observatories" title="Permalink to this headline">¶</a></h3>
 <p>The pipeline is currently set up to work on data from the following
-observatories/instruments:</p>
+observatories/instruments (telescope identifiers are given in square brackets):</p>
 <ul class="simple">
-<li>VATT/VATT4k</li>
+<li>CTIO/ANDICAM (CCD camera) [ANDICAM]</li>
+<li>DCT/LMI [DCTLMI]</li>
+<li>VATT/VATT4k [VATT4k]</li>
 </ul>
 <p>If you would like to use the pipeline for other observatories, please
 contact me.</p>
 </div>
-<div class="section" id="reference-catalogs">
-<h3>Reference Catalogs<a class="headerlink" href="#reference-catalogs" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="supported-reference-catalogs">
+<span id="supported-catalogs"></span><h3>Supported Reference Catalogs<a class="headerlink" href="#supported-reference-catalogs" title="Permalink to this headline">¶</a></h3>
 <p>PP is currently able to use the following catalogs for astrometric and
 photometric calibration:</p>
 <ul class="simple">
@@ -144,31 +146,28 @@ please let me know.</p>
 <li class="toctree-l2"><a class="reference internal" href="quickstart.html#results">Results</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="functions.html">Functions</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="functions.html#pp-run">pp_run</a></li>
-<li class="toctree-l2"><a class="reference internal" href="functions.html#pp-prepare">pp_prepare</a></li>
-<li class="toctree-l2"><a class="reference internal" href="functions.html#pp-extract">pp_extract</a></li>
-<li class="toctree-l2"><a class="reference internal" href="functions.html#pp-register">pp_register</a></li>
-<li class="toctree-l2"><a class="reference internal" href="functions.html#pp-photometry">pp_photometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="functions.html#pp-calibrate">pp_calibrate</a></li>
-<li class="toctree-l2"><a class="reference internal" href="functions.html#pp-distill">pp_distill</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diagnostics.html">Diagnostics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="diagnostics.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="diagnostics.html#diagnostics-details">Diagnostics Details</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="diagnostics.html">Diagnostics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="problems.html">Problems?</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="license-and-contact">
 <h2>License and Contact<a class="headerlink" href="#license-and-contact" title="Permalink to this headline">¶</a></h2>
 <p>The Photometry Pipeline is distributed under the GNU GPL license.</p>
-<p>copyright 2016 Michael Mommert</p>
+<p>Copyright (C) 2016  Michael Mommert</p>
 <p>Feel free to contact me in case of questions or suggestions: michael
 (at) mommert . nau . edu</p>
 </div>
 <div class="section" id="acknowledgments">
 <h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">¶</a></h2>
-<p>PP is supported by NASA grant No XXXX and the Mission Accessible
-Near-Earth Objects Survey (<a class="reference external" href="http://manosobs.wordpress.com/">MANOS</a>) through NSF grant No XXXX.</p>
+<p>PP is supported by NASA grants NNX15AE90G and NNX14AN82G, as well as
+NSF grant XXX through the Mission Accessible Near-Earth Objects Survey
+(<a class="reference external" href="http://manosobs.wordpress.com/">MANOS</a>).</p>
 </div>
 </div>
 <div class="section" id="indices-and-tables">

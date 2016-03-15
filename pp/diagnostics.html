@@ -26,6 +26,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/bizstyle.js"></script>
     <link rel="top" title="Photometry Pipeline 0.9 documentation" href="index.html" />
+    <link rel="next" title="Problems?" href="problems.html" />
     <link rel="prev" title="Functions" href="functions.html" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--[if lt IE 9]>
@@ -40,6 +41,9 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
+          <a href="problems.html" title="Problems?"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
           <a href="functions.html" title="Functions"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">Photometry Pipeline 0.9 documentation</a> &raquo;</li> 
@@ -47,9 +51,25 @@
     </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Diagnostics</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a><ul>
+<li><a class="reference internal" href="#html-output">HTML Output</a></li>
+<li><a class="reference internal" href="#log-file">LOG File</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#diagnostics-details">Diagnostics Details</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="functions.html"
                         title="previous chapter">Functions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="problems.html"
+                        title="next chapter">Problems?</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -80,7 +100,47 @@
             
   <div class="section" id="diagnostics">
 <span id="id1"></span><h1>Diagnostics<a class="headerlink" href="#diagnostics" title="Permalink to this headline">¶</a></h1>
+<p>By default, PP creates extensive diagnostic output to provide the user
+with a comfortable way to assess the quality of the derived
+results. Focusing on human readability, the diagnostic output is
+accessible with a web browser.</p>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="html-output">
+<h3>HTML Output<a class="headerlink" href="#html-output" title="Permalink to this headline">¶</a></h3>
+<p>The diagnostic output for one specific data set can be accessed by
+opening the <code class="docutils literal"><span class="pre">diagnostics.html</span></code> website that is created in that
+directory, e.g., using:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>firefox diagnostics.html
+</pre></div>
+</div>
+<p>Data presented in this website are all stored in a sub-directory named
+<code class="docutils literal"><span class="pre">.diagnostics/</span></code> in the respective data directory (note that the dot
+prefix makes this a hidden directory).</p>
+<p>In case PP has been run using the <cite>all</cite> option on a number of
+underlying data directories, it will create <code class="docutils literal"><span class="pre">diagnostics.html</span></code> and
+<code class="docutils literal"><span class="pre">.diagnostics/</span></code> in every sub-directory containing data. In order to
+provide easy access to the individual <code class="docutils literal"><span class="pre">diagnostics.html</span></code> file, PP
+will also create a website named <code class="docutils literal"><span class="pre">summary.html</span></code> in the root
+directory from which is has been called, linking to all created
+<code class="docutils literal"><span class="pre">diagnostics.html</span></code> websites.</p>
+</div>
+<div class="section" id="log-file">
+<h3>LOG File<a class="headerlink" href="#log-file" title="Permalink to this headline">¶</a></h3>
+<p>All tasks performed by PP are documented using Python&#8217;s logging
+system. The LOG file is linked from the <code class="docutils literal"><span class="pre">diagnostics.html</span></code> files
+(see top of the page). If you run PP using the <cite>all</cite> option, there is
+one LOG file for all data sets (unfortunately, I haven&#8217;t figured out
+how to change the logging filename during runtime...).</p>
+<p>The LOG file can be used to check proper performance of the
+pipeline. Its main purpose is to simplify debbuging in case something
+went wrong.</p>
+</div>
+</div>
+<div class="section" id="diagnostics-details">
+<h2>Diagnostics Details<a class="headerlink" href="#diagnostics-details" title="Permalink to this headline">¶</a></h2>
 <p>TBD</p>
+</div>
 </div>
 
 
@@ -95,6 +155,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="problems.html" title="Problems?"
+             >next</a> |</li>
         <li class="right" >
           <a href="functions.html" title="Functions"
              >previous</a> |</li>

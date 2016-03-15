@@ -18,20 +18,26 @@ Extractor aperture photometry. PP has been designed for asteroid
 observations, but can be used with any kind of imaging data.
 
 
-Observatories
-~~~~~~~~~~~~~
+.. _supported_observatories:
+
+Supported Observatories
+~~~~~~~~~~~~~~~~~~~~~~~
 
 The pipeline is currently set up to work on data from the following
-observatories/instruments:
+observatories/instruments (telescope identifiers are given in square brackets):
 
-* VATT/VATT4k
+* CTIO/ANDICAM (CCD camera) [ANDICAM]
+* DCT/LMI [DCTLMI]
+* VATT/VATT4k [VATT4k]
+
 
 If you would like to use the pipeline for other observatories, please
 contact me.
 
+.. _supported_catalogs:
 
-Reference Catalogs 
-~~~~~~~~~~~~~~~~~~
+Supported Reference Catalogs 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 PP is currently able to use the following catalogs for astrometric and
 photometric calibration:
@@ -57,13 +63,15 @@ Contents
 
    diagnostics
 
+   problems
+
 
 License and Contact
 -------------------
 
 The Photometry Pipeline is distributed under the GNU GPL license.
 
-copyright 2016 Michael Mommert
+Copyright (C) 2016  Michael Mommert 
 
 Feel free to contact me in case of questions or suggestions: michael
 (at) mommert . nau . edu
@@ -73,8 +81,9 @@ Feel free to contact me in case of questions or suggestions: michael
 Acknowledgments
 ---------------
 
-PP is supported by NASA grant No XXXX and the Mission Accessible
-Near-Earth Objects Survey (`MANOS`_) through NSF grant No XXXX.
+PP is supported by NASA grants NNX15AE90G and NNX14AN82G, as well as
+NSF grant XXX through the Mission Accessible Near-Earth Objects Survey
+(`MANOS`_).
 
 
 Indices and tables

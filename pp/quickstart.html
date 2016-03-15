@@ -101,23 +101,24 @@
           <div class="body" role="main">
             
   <div class="section" id="quickstart">
-<h1>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h1>
+<span id="id1"></span><h1>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="prerequisits">
 <h2>Prerequisits<a class="headerlink" href="#prerequisits" title="Permalink to this headline">¶</a></h2>
 <p>Image data should be properly reduced before using the pipeline for
 best results. PP&#8217;s ability to provide astrometric and photometric
-calibration put some constraints on the way data is stored: data from
-separated fields should be stored in individual directories, which in
-turn are separated by filters:</p>
-<div class="highlight-python"><div class="highlight"><pre><span></span>-+ all_data -+
-             |
-             +- field_1 -+- filter_1
-             |           +- filter_2
-             |           +- filter_3
-             |
-             +- field_2 -+- filter_1
-             |           +- filter_2
-            ...
+calibration puts some constraints on the way data is stored: data from
+separated fields, as well as data using different instrument settings
+(e.g., different binning modes) should be stored in individual
+directories, which in turn should be separated by filters:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>-+- all_data -+
+              |
+              +- field_1 -+- filter_1
+              |           +- filter_2
+              |           +- filter_3
+              |
+              +- field_2 -+- filter_1
+              |           +- filter_2
+             ...
 </pre></div>
 </div>
 <p>Separated fields are defined as having gaps between individual frames
@@ -125,6 +126,11 @@ that are comparable to, or larger than, the field of view. Series of
 frames that were tracked on a moving target can be put in the same
 directory if the total track is smaller than 3-5 times the size of a
 single-frame field of view.</p>
+<p>Moving objects are currently only identified based on the images&#8217;
+<code class="docutils literal"><span class="pre">OBJECT</span></code> keywords. The object name should be as simple as possible,
+consisting either of the bodies official number or designation; please
+use either a blank or an underscore to separate the designation&#8217;s year
+from the identifier.</p>
 </div>
 <div class="section" id="running-pp">
 <h2>Running PP<a class="headerlink" href="#running-pp" title="Permalink to this headline">¶</a></h2>
