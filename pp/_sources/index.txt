@@ -29,6 +29,8 @@ observatories/instruments (telescope identifiers are given in square brackets):
 * CTIO/ANDICAM (CCD camera) [ANDICAM]
 * DCT/LMI [DCTLMI]
 * VATT/VATT4k [VATT4k]
+* Apache Point ARC 3.5m/AGILE [ARC35AGILE]
+* Apache Point ARC 3.5m/ARCTIC [ARC35ARCTIC]
 
 
 If you would like to use the pipeline for other observatories, please
@@ -69,7 +71,7 @@ Contents
 License and Contact
 -------------------
 
-The Photometry Pipeline is distributed under the GNU GPL license.
+The Photometry Pipeline is distributed under the GNU GPLv3 license.
 
 Copyright (C) 2016  Michael Mommert 
 
