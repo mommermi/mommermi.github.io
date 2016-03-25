@@ -31,7 +31,11 @@ observatories/instruments (telescope identifiers are given in square brackets):
 * VATT/VATT4k [VATT4k]
 * Apache Point ARC 3.5m/AGILE [ARC35AGILE]
 * Apache Point ARC 3.5m/ARCTIC [ARC35ARCTIC]
+<<<<<<< HEAD
 * Magellan/IMACS [MAGIMACS]
+=======
+
+>>>>>>> 4c1bd173c2aa79a14a6b4d03b0fa71a45c54099c
 
 If you would like to use the pipeline for other observatories, please
 contact me.
