@@ -47,8 +47,6 @@ the logical order:
    :param -rotate: (optional) rotates the image's orientation in the sky
 		   (East-of-North) relative to the respective
                    :ref:`telescope_setup` setting
-   :param -telescope: (optional) manual override for the telescope
-                      identifier (see :ref:`supported_observatories`)
    :param images: images on which `pp_prepare` is supposed to run
 
 		  
