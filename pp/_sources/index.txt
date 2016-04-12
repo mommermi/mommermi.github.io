@@ -9,7 +9,7 @@ Photometry Pipeline Documentation
 Introduction
 ------------
 
-The Photometry Pipeline (PP) is a Python software package for
+The Photometry Pipeline (PP) is a Python 2.7 software package for
 automated photometric analysis of imaging data from small to
 medium-sized observatories. It uses `Source Extractor`_ and `SCAMP`_
 to register and photometrically calibrate images based on catalogs
@@ -18,42 +18,19 @@ Extractor aperture photometry. PP has been designed for asteroid
 observations, but can be used with any kind of imaging data.
 
 
-.. _supported_observatories:
+Scope
+-----
 
-Supported Observatories
-~~~~~~~~~~~~~~~~~~~~~~~
+PP has been designed to provide automated photometry for the majority
+of data coming from small to medium-sized observatories. It is not
+intended to provide high-accuracy photometry, nor is it designed to
+work on extremely sparse or crowded fields. PP requires a field of
+view of a few arcminutes to ensure that sufficient background stars
+are available for registration and photometric calibration. For a
+7'x7' field, photometric uncertaintes are of the order of 0.03 mag (if
+sufficient SDSS-R9 or URAT-1 stars are in the field). Feel free to try
+PP on your data, but please be aware that it has its limits.
 
-The pipeline is currently set up to work on data from the following
-observatories/instruments (telescope identifiers are given in square brackets):
-
-* CTIO/ANDICAM (CCD camera) [ANDICAM]
-* DCT/LMI [DCTLMI]
-* VATT/VATT4k [VATT4k]
-* Apache Point ARC 3.5m/AGILE [ARC35AGILE]
-* Apache Point ARC 3.5m/ARCTIC [ARC35ARCTIC]
-<<<<<<< HEAD
-* Magellan/IMACS [MAGIMACS]
-=======
-
->>>>>>> 4c1bd173c2aa79a14a6b4d03b0fa71a45c54099c
-
-If you would like to use the pipeline for other observatories, please
-contact me.
-
-.. _supported_catalogs:
-
-Supported Reference Catalogs 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-PP is currently able to use the following catalogs for astrometric and
-photometric calibration:
-
-* SDSS-R9
-* URAT-1
-* 2MASS
-
-If you are interested in using catalogs other than those listed,
-please let me know.
 
 
 Contents
@@ -64,11 +41,9 @@ Contents
 
    install
    quickstart
-
+   supported
    functions
-
    diagnostics
-
    problems
 
 
