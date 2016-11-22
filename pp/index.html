@@ -7,7 +7,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Photometry Pipeline Documentation &mdash; Photometry Pipeline 0.9 documentation</title>
+    <title>Photometry Pipeline Documentation &#8212; Photometry Pipeline 0.9 documentation</title>
     
     <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -42,7 +42,7 @@
         <li class="right" >
           <a href="install.html" title="Installation and Setup"
              accesskey="N">next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">Photometry Pipeline 0.9 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="#">Photometry Pipeline 0.9 documentation</a> &#187;</li> 
       </ul>
     </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -51,7 +51,7 @@
   <ul>
 <li><a class="reference internal" href="#">Photometry Pipeline Documentation</a><ul>
 <li><a class="reference internal" href="#introduction">Introduction</a></li>
-<li><a class="reference internal" href="#scope">Scope</a></li>
+<li><a class="reference internal" href="#scope-and-applicability">Scope and Applicability</a></li>
 <li><a class="reference internal" href="#contents">Contents</a></li>
 <li><a class="reference internal" href="#license-and-contact">License and Contact</a></li>
 <li><a class="reference internal" href="#acknowledgments">Acknowledgments</a></li>
@@ -73,14 +73,11 @@
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -103,18 +100,31 @@ that are available online; photometry is measured using Source
 Extractor aperture photometry. PP has been designed for asteroid
 observations, but can be used with any kind of imaging data.</p>
 </div>
-<div class="section" id="scope">
-<h2>Scope<a class="headerlink" href="#scope" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="scope-and-applicability">
+<h2>Scope and Applicability<a class="headerlink" href="#scope-and-applicability" title="Permalink to this headline">¶</a></h2>
 <p>PP has been designed to provide automated photometry for the majority
 of data coming from small to medium-sized observatories. It is not
 intended to provide high-accuracy photometry, nor is it designed to
 work on extremely sparse or crowded fields. PP requires a field of
 view of a few arcminutes to ensure that sufficient background stars
 are available for registration and photometric calibration. For a
-field several arcminutes across, photometric uncertaintes are of the
-order of 0.03 mag, if sufficient cataloged background stars are
-available. Feel free to try PP on your data, but please be aware that
-it has its limits.</p>
+field several arcminutes across, calibrated photometric uncertaintes
+are usually better than 0.05 mag, if sufficient non-saturated
+background stars with cataloged brightness are available. Feel free to
+try PP on your data, but please be aware that it has its limitations.</p>
+<p>The following features are currently available as part of PP:</p>
+<ul class="simple">
+<li>automated aperture photometry based on a curve-of-growth analysis</li>
+<li>photometric calibration in ugriz, BVRI, JHK based on catalog coverage</li>
+<li>full support of moving target photometry</li>
+<li>target identification based on tabulated positions for fixed targets
+and moving targets, target identifier for moving targets</li>
+</ul>
+<p>Future versions of the pipeline will support newly available catalogs
+for astrometry and photometry (e.g., GAIA) and enable the extraction
+of serendipitously observed targets of interests, e.g., variable stars
+or moving targets. If you are interesting in using PP for a specific
+task, let me know!</p>
 </div>
 <div class="section" id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
@@ -148,6 +158,7 @@ it has its limits.</p>
 <li class="toctree-l2"><a class="reference internal" href="problems.html#this-does-not-solve-my-problem">... This Does Not Solve My Problem...</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
 </ul>
 </div>
 </div>
@@ -156,7 +167,7 @@ it has its limits.</p>
 <p>The Photometry Pipeline is distributed under the GNU GPLv3 license.</p>
 <p>Copyright (C) 2016  Michael Mommert</p>
 <p>Feel free to contact me in case of questions or suggestions: michael
-(at) mommert . nau . edu</p>
+. mommert (at) nau . edu</p>
 </div>
 <div class="section" id="acknowledgments">
 <h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">¶</a></h2>
@@ -168,9 +179,9 @@ Objects Survey (<a class="reference external" href="http://manosobs.wordpress.co
 <div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li><a class="reference internal" href="genindex.html"><span>Index</span></a></li>
-<li><a class="reference internal" href="py-modindex.html"><span>Module Index</span></a></li>
-<li><a class="reference internal" href="search.html"><span>Search Page</span></a></li>
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
 </ul>
 </div>
 
@@ -189,12 +200,12 @@ Objects Survey (<a class="reference external" href="http://manosobs.wordpress.co
         <li class="right" >
           <a href="install.html" title="Installation and Setup"
              >next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">Photometry Pipeline 0.9 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="#">Photometry Pipeline 0.9 documentation</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &copy; Copyright 2016, Michael Mommert.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.
+        &#169; Copyright 2016, Michael Mommert.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
     </div>
   </body>
 </html>

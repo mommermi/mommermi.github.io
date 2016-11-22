@@ -7,7 +7,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Diagnostics &mdash; Photometry Pipeline 0.9 documentation</title>
+    <title>Diagnostics &#8212; Photometry Pipeline 0.9 documentation</title>
     
     <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -46,7 +46,7 @@
         <li class="right" >
           <a href="functions.html" title="Functions"
              accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">Photometry Pipeline 0.9 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">Photometry Pipeline 0.9 documentation</a> &#187;</li> 
       </ul>
     </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -87,14 +87,11 @@
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -118,7 +115,7 @@ the form of a HTML website that is accessible with any web browser.</p>
 <p>The diagnostic output for one specific data set can be accessed by
 opening the <code class="docutils literal"><span class="pre">diagnostics.html</span></code> website that is created in the
 respective data directory, e.g., using:</p>
-<div class="highlight-python"><div class="highlight"><pre><span></span>firefox diagnostics.html
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">firefox</span> <span class="n">diagnostics</span><span class="o">.</span><span class="n">html</span>
 </pre></div>
 </div>
 <p>Data presented in this website are all stored in a sub-directory named
@@ -147,7 +144,7 @@ went wrong.</p>
 <div class="section" id="diagnostics-details">
 <h2>Diagnostics Details<a class="headerlink" href="#diagnostics-details" title="Permalink to this headline">¶</a></h2>
 <p>The following sections discuss the output of a successful pipeline run
-in detail based on <a class="reference external" href="http://phy54.phy.nau.edu/photometrypipeline/example_7813/diagnostics.html">this</a> example page.</p>
+in detail based on <a class="reference external" href="http://134.114.60.45/photometrypipeline/example_7813/diagnostics.html">this</a> example page.</p>
 <div class="section" id="data-overview">
 <h3>Data Overview<a class="headerlink" href="#data-overview" title="Permalink to this headline">¶</a></h3>
 <p>The top of the diagnostics website lists the data directory, some
@@ -157,7 +154,7 @@ above) is linked here, too.</p>
 <p>All the frames considered in the process are listed in a table,
 providing information on the date and time, target, filter, airmass,
 exposure time, and field of view. For each frame, a link is provided
-that leads to an <a class="reference external" href="http://phy54.phy.nau.edu/photometrypipeline/example_7813/.diagnostics//mscience0300.fits.png">image of that frame</a>.</p>
+that leads to an <a class="reference external" href="http://134.114.60.45/photometrypipeline/example_7813/.diagnostics//mscience0300.fits.png">image of that frame</a>.</p>
 </div>
 <div class="section" id="registration">
 <h3>Registration<a class="headerlink" href="#registration" title="Permalink to this headline">¶</a></h3>
@@ -165,7 +162,7 @@ that leads to an <a class="reference external" href="http://phy54.phy.nau.edu/ph
 frames) is listed, as well as the astrometric catalog that was used in
 the registration. Additional information on each frame is given on a
 separate website that is linked from here.</p>
-<p>The table on the <a class="reference external" href="http://phy54.phy.nau.edu/photometrypipeline/example_7813/.diagnostics/registration.html">registration website</a> lists for each frame some
+<p>The table on the <a class="reference external" href="http://134.114.60.45/photometrypipeline/example_7813/.diagnostics/registration.html">registration website</a> lists for each frame some
 diagnostics from SCAMP, as well as an image with overplotted stars
 from the respective astrometric catalog that was used. The image
 enables a quick check of the reliability of the astrometric
@@ -175,7 +172,7 @@ and scale, and the frame&#8217;s shift, respectively. <code class="docutils lite
 <code class="docutils literal"><span class="pre">DEC_sig</span></code> provide a sense for positional uncertainties in arcsecs;
 <code class="docutils literal"><span class="pre">Chi2_Reference</span></code> and <code class="docutils literal"><span class="pre">Chi2_Internal</span></code> quantify the goodness of
 fit. For additional information on these parameters, please refer to
-the <a class="reference external" href="http://astromatic.iap.fr/wordpress/wp-content/uploads/2009/01/pdf-dist.png">SCAMP manual</a>.</p>
+the <a class="reference external" href="https://www.astromatic.net/pubsvn/software/scamp/trunk/doc/scamp.pdf">SCAMP manual</a>.</p>
 </div>
 <div class="section" id="photometric-calibration-aperture-size">
 <h3>Photometric Calibration - Aperture Size<a class="headerlink" href="#photometric-calibration-aperture-size" title="Permalink to this headline">¶</a></h3>
@@ -224,7 +221,7 @@ function of time:</p>
 airmass, as well as due to transparency and seeing variations (see
 FWHM plot above). In the case of the data shown here, thin cirrus led
 to the clearly visible transparency variations.</p>
-<p>In addition to the overview plot, PP provides <a class="reference external" href="http://phy54.phy.nau.edu/photometrypipeline/example_7813/.diagnostics/calibration.html">detailed information</a>
+<p>In addition to the overview plot, PP provides <a class="reference external" href="http://134.114.60.45/photometrypipeline/example_7813/.diagnostics/calibration.html">detailed information</a>
 on every single frame as shown below:</p>
 <div class="align-center figure">
 <a class="reference internal image-reference" href="_images/phot_calibration_single.png"><img alt="photometric calibration single frame" src="_images/phot_calibration_single.png" style="width: 800px; height: 298px;" /></a>
@@ -270,7 +267,7 @@ provides a GIF animation and a lightcurve showing calibrated
 photometry. The individual frames in the GIF show the expected target
 position (green cross) and the actual aperture placement and size used
 (red circle). The GIF allows for identifying target mismatches and
-contaminations of the photometry aperture. A <a class="reference external" href="http://phy54.phy.nau.edu/photometrypipeline/example_7813/.diagnostics/7813_results.html">dedicated photometry page</a>
+contaminations of the photometry aperture. A <a class="reference external" href="http://134.114.60.45/photometrypipeline/example_7813/.diagnostics/7813_results.html">dedicated photometry page</a>
 is featured for each target, allowing for a quick and easy
 identification of corrupted frames.</p>
 </div>
@@ -295,12 +292,12 @@ identification of corrupted frames.</p>
         <li class="right" >
           <a href="functions.html" title="Functions"
              >previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">Photometry Pipeline 0.9 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">Photometry Pipeline 0.9 documentation</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &copy; Copyright 2016, Michael Mommert.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.
+        &#169; Copyright 2016, Michael Mommert.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
     </div>
   </body>
 </html>
