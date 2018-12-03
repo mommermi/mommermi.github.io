@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<HTML>
+<HEAD>
+<TITLE>Photometry Pipeline - Diagnostics</TITLE>
+<LINK rel="stylesheet" href="diagnostics_stylesheet.css">
+</HEAD>
+<BODY>
+<script>
+function toggledisplay(elementID)
+{
+(function(style) {
+style.display = style.display === 'none' ? '' :'none';
+})(document.getElementById(elementID).style);
+}
+</script>
+
+<!-- pp_prepare -->
+<H1>Photometry Pipeline Diagnostic Output</H1>
+<TABLE CLASS="gridtable">
+  <TR><TH>Data Directory</TH><TD>/data/path</TD></TR>
+  <TR><TH>Telescope/Instrument</TH><TD>VATT/VATT4k</TD></TR>
+  <TR><TH>Number of Frames</TH><TD>2</TD></TR>
+  <TR><TH>Raw Filter Identifier</TH><TD>TOP 2 BOT 1</TD></TR>
+  <TR><TH>Translated Filter Identifier</TH><TD>V</TD></TR>
+  <TR><TH>Log File</TH>      <TD><A HREF="LOG">available here</A></TD></TR></TABLE>
+<H3>Data Summary</H3>
+<P><TABLE CLASS="gridtable">
+<TR><TH>Idx</TH><TH>Filename</TH><TH>Observation Midtime (UT)</TH><TH>Object Name</TH><TH>Airmass</TH><TH>Exptime (s)</TH><TH>Pixel Size (")<TH>Binning</TH><TH>FoV (')</TH></TR>
+<TR><TD>1</TD><TD><A HREF=".diagnostics/mscience0217.fits.html">mscience0217.fits</A></TD><TD>2017-02-02 10:57:33.149</TD><TD>3552</TD><TD>1.19</TD><TD>180.0</TD><TD>0.19 x 0.19</TD><TD>2 x 2</TD><TD>12.7 x 12.7</TD>
+</TR>
+<TR><TD>2</TD><TD><A HREF=".diagnostics/mscience0218.fits.html">mscience0218.fits</A></TD><TD>2017-02-02 11:01:04.845</TD><TD>3552</TD><TD>1.19</TD><TD>180.0</TD><TD>0.19 x 0.19</TD><TD>2 x 2</TD><TD>12.7 x 12.7</TD>
+</TR>
+</TABLE>
+
+<!-- pp_register -->
+<H2>Registration</H2>
+<P>Registration based on GAIA catalog: 
+<STRONG><FONT COLOR="GREEN">All frames registered successfully</FONT></STRONG></P>
+<TABLE CLASS="gridtable">
+<TR>
+<TH>Filename</TH><TH>C<SUB>AS</SUB></TH><TH>C<SUB>XY</SUB></TH><TH>&sigma;<SUB>RA</SUB> (arcsec)</TH><TH>&sigma;<SUB>DEC</SUB> (arcsec)</TH><TH>&chi;<SUP>2</SUP><SUB>Reference</SUB></TH><TH>&chi;<SUP>2</SUP><SUB>Internal</SUB></TH>
+</TR>
+<TR><TD><A HREF=".diagnostics/mscience0217.fits.html">mscience0217.fits</A></TD><TD>10.9</TD><TD> 9.6</TD><TD>0.017</TD><TD>0.019</TD><TD>2.464460e-07</TD><TD>2.437970e-07</TD>
+</TR>
+<TR><TD><A HREF=".diagnostics/mscience0218.fits.html">mscience0218.fits</A></TD><TD>10.3</TD><TD> 9.4</TD><TD>0.016</TD><TD>0.015</TD><TD>1.711520e-07</TD><TD>2.437970e-07</TD>
+</TR>
+</TABLE>
+<P CLASS="caption"><STRONG>Legend</STRONG>: C<SUB>AS</SUB>: position angle/scale contrast (values >2.5 are ok); C<SUB>XY</SUB>: xy-shift contrast (values >2.5 are ok); &sigma;<SUB>RA</SUB> and &sigma;<SUB>DEC</SUB> refer to the internal astrometric uncertainties as provided by SCAMP; &chi;<SUP>2</SUP><SUB>Reference</SUB> and &chi;<SUP>2</SUP><SUB>Internal</SUB> refer to the &chi;<SUP>2</SUP> statistics based on the reference catalog and the respective frame as provided by SCAMP.</P>
+<!-- pp_photometry -->
+<H2>Instrumental Photometry</H2>
+<TABLE CLASS="gridtable">
+<TR><TH>Photometry Method</TH><TD>Aperture Photometry</TD></TR>
+<TR><TH>Source Extractor MINAREA (px)</TH><TD>12.0</TD></TR>
+<TR><TH>Source Extractor Detection Threshold (&sigma;)</TH><TD>1.5</TD></TR>
+<TR><TH>Aperture Radius (px)</TH><TD>4.11</TD></TR>
+<TR><TH>Aperture Radius Basis</TH><TD>20 target detections and 20 background detections</TD></TR>
+<TR><TH>Aperture Radius Strategy</TH><TD>target+background fluxes > fluxlimit, flux difference < margin</TD></TR>
+</TABLE>
+<P><IMG SRC=".diagnostics/curve_of_growth.png">
+<IMG SRC=".diagnostics/fwhm.png" USEMAP="#FWHM">
+<MAP NAME="#FWHM">
+<area shape="circle" coords="103.3,108.0,5.0" href=".diagnostics/mscience0217.fits.html#" alt="mscience0217.fits" title="mscience0217.fits">
+<area shape="circle" coords="552.7,112.8,5.0" href=".diagnostics/mscience0218.fits.html#" alt="mscience0218.fits" title="mscience0218.fits">
+</MAP>
+<!-- pp_calibrate -->
+<H2>Photometric Calibration</H2>
+<TABLE CLASS="gridtable">
+<TR><TH>Reference Catalog</TH><TD>PANSTARRS_transformed</TD></TR>
+<TR><TH>Reference Catalog History</TH><TD>210 sources downloaded, 210 transformed to V (Vega)</TD></TR>
+<TR><TH>Target Filter</TH><TD>V</TD></TR>
+</TABLE>
+<P><TABLE CLASS="gridtable">
+<TR>
+<TH>Filename</TH><TH>Zeropoint (mag)</TH><TH>&sigma; (mag)</TH><TH>N<SUP>*</SUP><SUB>used</SUB></TH><TH>N<SUP>*</SUP><SUB>matched</SUB></TH>
+</TR>
+<TR><TD><A HREF=".diagnostics/mscience0217.fits.html">mscience0217.fits</A></TD><TD>29.3333</TD><TD> 0.0516</TD><TD>59</TD><TD>118</TD>
+</TR><TR><TD><A HREF=".diagnostics/mscience0218.fits.html">mscience0218.fits</A></TD><TD>29.4724</TD><TD> 0.0488</TD><TD>59</TD><TD>119</TD>
+</TR></TABLE></P>
+<P><IMG SRC=".diagnostics/zeropoints.png" USEMAP="#Zeropoints">
+<MAP NAME="#Zeropoints">
+<area shape="circle" coords="102.5,146.8,5.0" href=".diagnostics/mscience0217.fits.html#calibration_overview" alt="mscience0217.fits" title="mscience0217.fits">
+<area shape="circle" coords="553.5,341.9,5.0" href=".diagnostics/mscience0218.fits.html#calibration_overview" alt="mscience0218.fits" title="mscience0218.fits">
+</MAP>
+<!-- pp_distill -->
+<H2>Photometry Results</H2>
+<A HREF="#3552_Don_Quixote_(1983_SA)" ONCLICK="toggledisplay('3552_Don_Quixote_(1983_SA)');"><H3>3552 Don Quixote (1983 SA)</H3></A>
+<DIV ID="3552_Don_Quixote_(1983_SA)" STYLE="display: none"\>
+<TABLE BORDER="0"><TR><TD>
+<IMG SRC=".diagnostics/3552_Don_Quixote__1983_SA_.png" USEMAP="#3552_Don_Quixote_(1983_SA)">
+<MAP NAME="3552_Don_Quixote_(1983_SA)">
+<area shape="circle" coords="102.5,206.5,5.0" href=".diagnostics/mscience0217.fits.html#3552_Don_Quixote_(1983_SA)" alt="mscience0217.fits" title="mscience0217.fits">
+<area shape="circle" coords="553.5,285.7,5.0" href=".diagnostics/mscience0218.fits.html#3552_Don_Quixote_(1983_SA)" alt="mscience0218.fits" title="mscience0218.fits">
+</MAP>
+
+</TD>
+<TD><IMG SRC=".diagnostics/3552_Don_Quixote__1983_SA_.gif" \></TD></TR></TABLE>
+</DIV>
+<A HREF="#Control Star" ONCLICK="toggledisplay('Control Star');"><H3>Control Star</H3></A>
+<DIV ID="Control Star" STYLE="display: none"\>
+<TABLE BORDER="0"><TR><TD>
+<IMG SRC=".diagnostics/Control_Star.png" USEMAP="#Control Star">
+<MAP NAME="Control Star">
+<area shape="circle" coords="102.5,185.2,5.0" href=".diagnostics/mscience0217.fits.html#Control Star" alt="mscience0217.fits" title="mscience0217.fits">
+<area shape="circle" coords="553.5,305.5,5.0" href=".diagnostics/mscience0218.fits.html#Control Star" alt="mscience0218.fits" title="mscience0218.fits">
+</MAP>
+
+</TD>
+<TD><IMG SRC=".diagnostics/Control_Star.gif" \></TD></TR></TABLE>
+</DIV>
+</BODY>
+</HTML>

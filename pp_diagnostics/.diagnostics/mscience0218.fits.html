@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<HTML>
+<HEAD>
+<TITLE>Photometry Pipeline - Diagnostics</TITLE>
+<LINK rel="stylesheet" href="/home/mommermi/lowell/software/photometrypipeline/diagnostics_stylesheet.css">
+</HEAD>
+<BODY>
+<script>
+function toggledisplay(elementID)
+{
+(function(style) {
+style.display = style.display === 'none' ? '' :'none';
+})(document.getElementById(elementID).style);
+}
+</script>
+
+<H1>mscience0218.fits Diagnostics</H1><P><TABLE CLASS="gridtable">
+<TR><TH>Telescope/Instrument</TH><TD>VATT/VATT4k (VATT4K)</TD></TR>
+<TR><TH>Target/Field Identifier</TH><TD>3552</TD></TR>
+<TR><TH>RA</TH><TD>11:58:08.00</TD></TR>
+<TR><TH>Dec</TH><TD>+00:19:56.5</TD></TR>
+<TR><TH>Exposure Time (s)</TH><TD>180.0</TD></TR>
+<TR><TH>Observation Midtime</TH><TD>2017-02-02 11:01:04.845</TD></TR>
+</TABLE><P>
+<A HREF="mscience0217.fits.html">&laquo; previous frame &laquo;</A> | <A HREF="mscience0217.fits.html">&raquo; next frame &raquo;</A></P>
+
+
+<!-- Quickview -->
+<A HREF="#quickview" ONCLICK="toggledisplay('quickview');"><H2>Quickview Image</H2></A>
+<IMG ID="quickview" SRC="mscience0218.fits.png" STYLE="display: none"\>
+
+<!-- Registration -->
+<A HREF="#registration" ONCLICK="toggledisplay('registration');"><H2>Astrometric Registration</H2></A>
+<DIV ID="registration" STYLE="display: none">
+<TABLE CLASS="gridtable">
+<TR>
+<TH>Filename</TH><TH>C<SUB>AS</SUB></TH><TH>C<SUB>XY</SUB></TH><TH>&sigma;<SUB>RA</SUB> (arcsec)</TH><TH>&sigma;<SUB>DEC</SUB> (arcsec)</TH><TH>&chi;<SUP>2</SUP><SUB>Reference</SUB></TH><TH>&chi;<SUP>2</SUP><SUB>Internal</SUB></TH>
+</TR>
+<TR><TD>mscience0218.fits</TD><TD>10.3</TD><TD> 9.4</TD><TD>0.016</TD><TD>0.015</TD><TD>1.711520e-07</TD><TD>2.437970e-07</TD>
+</TR>
+</TABLE>
+<STRONG><P><FONT COLOR="GREEN">Registration successful</FONT></P></STRONG><DIV CLASS="parent_image">
+  <IMG CLASS="back_image" SRC="mscience0218.fits.png" />
+  <IMG CLASS="front_image" SRC="mscience0218.fits_astrometry.png" />
+</DIV>
+</DIV>
+
+<!-- Calibration -->
+<A HREF="#calibration_overview" ONCLICK="toggledisplay('calibration_overview');"><H2>Photometric Calibration</H2></A>
+<DIV ID="calibration_overview" STYLE="display: none"\>
+<P><TABLE CLASS="gridtable">
+<TR><TH>Reference Catalog</TH><TD>PANSTARRS_transformed</TD></TR>
+<TR><TH>Reference Catalog History</TH><TD>210 sources downloaded, 210 transformed to V (Vega)</TD></TR>
+<TR><TH>Target Filter</TH><TD>V</TD></TR>
+<TR><TH>Zeropoint (mag)</TH><TD>29.4724+-0.0488</TD></TR>
+<TR><TH>N<SUP>*</SUP><SUB>used</SUB></TH><TD>59</TD></TR>
+<TH>N<SUP>*</SUP><SUB>matched</SUB></TH><TD>119</TD></TR>
+</TABLE></P>
+<A HREF="#calibration_plot" ONCLICK="toggledisplay('calibration_plot');"><H3>Calibration Analysis</H3></A>
+<DIV ID="calibration_plot">
+<P><IMG SRC=mscience0218.ldac_photcal.png \></DIV>
+<A HREF="#calibration_starmap" ONCLICK="toggledisplay('calibration_starmap');"><H3>Calibration Map</H3></A>
+<DIV ID="calibration_starmap" STYLE="display: none"\>
+<DIV CLASS="parent_image">
+<IMG CLASS="back_image" SRC="mscience0218.fits.png" />
+<IMG CLASS="front_image" SRC="mscience0218.fits_reference_stars.png" />
+</DIV></DIV>
+<A HREF="#calibration_table" ONCLICK="toggledisplay('calibration_table');"><H3>Calibration Data Table</H3></A>
+<DIV ID="calibration_table" STYLE="display: none"\>
+<P><TD><TABLE CLASS="gridtable">
+<TR>
+<TH>Idx</TH><TH>Source Name</TH><TH>RA</TH><TH>Dec</TH><TH>Catalog (mag)</TH><TH>Instrumental (mag)</TH><TH>Calibrated (mag)</TH><TH>Residual (mag</TH>
+</TR>
+<TR><TD>1</TD><TD>108391793411795849</TD><TD>179.34109797</TD><TD>  0.32946012</TD><TD>19.819+-0.031</TD><TD>-9.654+-0.015</TD><TD>19.819+-0.051</TD><TD>0.000</TD></TR><TR><TD>2</TD><TD>108391793918725955</TD><TD>179.39175805</TD><TD>  0.32958477</TD><TD>20.779+-0.035</TD><TD>-8.669+-0.036</TD><TD>20.803+-0.061</TD><TD>0.024</TD></TR><TR><TD>3</TD><TD>108401793953936554</TD><TD>179.39533307</TD><TD>  0.33840766</TD><TD>17.705+-0.015</TD><TD>-11.719+-0.002</TD><TD>17.753+-0.049</TD><TD>0.048</TD></TR><TR><TD>4</TD><TD>108411793675426968</TD><TD>179.36744686</TD><TD>  0.34708032</TD><TD>20.077+-0.020</TD><TD>-9.415+-0.018</TD><TD>20.058+-0.052</TD><TD>-0.019</TD></TR><TR><TD>5</TD><TD>108441793873800599</TD><TD>179.38732122</TD><TD>  0.36676409</TD><TD>20.216+-0.033</TD><TD>-9.227+-0.022</TD><TD>20.246+-0.053</TD><TD>0.029</TD></TR><TR><TD>6</TD><TD>108411792818957068</TD><TD>179.28182526</TD><TD>  0.34715418</TD><TD>18.259+-0.017</TD><TD>-11.189+-0.004</TD><TD>18.283+-0.049</TD><TD>0.024</TD></TR><TR><TD>7</TD><TD>108451793588614382</TD><TD>179.35876139</TD><TD>  0.37826403</TD><TD>20.612+-0.047</TD><TD>-8.797+-0.032</TD><TD>20.675+-0.058</TD><TD>0.063</TD></TR><TR><TD>8</TD><TD>108431793709794854</TD><TD>179.37089403</TD><TD>  0.36197129</TD><TD>18.131+-0.014</TD><TD>-11.405+-0.003</TD><TD>18.067+-0.049</TD><TD>-0.063</TD></TR><TR><TD>9</TD><TD>108451793075622252</TD><TD>179.30745067</TD><TD>  0.37648263</TD><TD>20.015+-0.014</TD><TD>-9.450+-0.017</TD><TD>20.023+-0.052</TD><TD>0.008</TD></TR><TR><TD>10</TD><TD>108481793444467065</TD><TD>179.34437514</TD><TD>  0.40547072</TD><TD>20.642+-0.029</TD><TD>-8.826+-0.031</TD><TD>20.646+-0.058</TD><TD>0.004</TD></TR><TR><TD>11</TD><TD>108481793388364119</TD><TD>179.33871346</TD><TD>  0.40305031</TD><TD>21.110+-0.058</TD><TD>-8.301+-0.051</TD><TD>21.172+-0.070</TD><TD>0.062</TD></TR><TR><TD>12</TD><TD>108471793277876339</TD><TD>179.32771849</TD><TD>  0.39654673</TD><TD>19.360+-0.018</TD><TD>-10.148+-0.009</TD><TD>19.324+-0.050</TD><TD>-0.036</TD></TR><TR><TD>13</TD><TD>108461793431597387</TD><TD>179.34301882</TD><TD>  0.38906566</TD><TD>21.077+-0.084</TD><TD>-8.446+-0.044</TD><TD>21.026+-0.066</TD><TD>-0.051</TD></TR><TR><TD>14</TD><TD>108471793273086961</TD><TD>179.32725627</TD><TD>  0.39705448</TD><TD>19.416+-0.024</TD><TD>-10.071+-0.010</TD><TD>19.401+-0.050</TD><TD>-0.015</TD></TR><TR><TD>15</TD><TD>108441792493451342</TD><TD>179.24930052</TD><TD>  0.36738080</TD><TD>15.731+-0.013</TD><TD>-13.763+-0.000</TD><TD>15.709+-0.049</TD><TD>-0.021</TD></TR><TR><TD>16</TD><TD>108451792783794179</TD><TD>179.27814157</TD><TD>  0.37811530</TD><TD>17.552+-0.012</TD><TD>-11.890+-0.002</TD><TD>17.582+-0.049</TD><TD>0.030</TD></TR><TR><TD>17</TD><TD>108451792832784454</TD><TD>179.28316878</TD><TD>  0.37832419</TD><TD>15.725+-0.013</TD><TD>-13.765+-0.000</TD><TD>15.707+-0.049</TD><TD>-0.018</TD></TR><TR><TD>18</TD><TD>108431792806565606</TD><TD>179.28055773</TD><TD>  0.36261257</TD><TD>16.566+-0.013</TD><TD>-12.895+-0.001</TD><TD>16.577+-0.049</TD><TD>0.012</TD></TR><TR><TD>19</TD><TD>108451792335622805</TD><TD>179.23351835</TD><TD>  0.37695362</TD><TD>20.607+-0.032</TD><TD>-8.886+-0.029</TD><TD>20.586+-0.057</TD><TD>-0.021</TD></TR><TR><TD>20</TD><TD>108441792427630663</TD><TD>179.24272268</TD><TD>  0.36682270</TD><TD>19.825+-0.021</TD><TD>-9.637+-0.015</TD><TD>19.835+-0.051</TD><TD>0.010</TD></TR><TR><TD>21</TD><TD>108481792975833249</TD><TD>179.29750427</TD><TD>  0.40230125</TD><TD>18.577+-0.015</TD><TD>-10.938+-0.004</TD><TD>18.534+-0.049</TD><TD>-0.043</TD></TR><TR><TD>22</TD><TD>108491793317838336</TD><TD>179.33171675</TD><TD>  0.41489158</TD><TD>20.893+-0.031</TD><TD>-8.609+-0.038</TD><TD>20.863+-0.062</TD><TD>-0.030</TD></TR><TR><TD>23</TD><TD>108511793074486687</TD><TD>179.30738885</TD><TD>  0.43016109</TD><TD>16.068+-0.013</TD><TD>-13.456+-0.000</TD><TD>16.016+-0.049</TD><TD>-0.052</TD></TR><TR><TD>24</TD><TD>108511792995042071</TD><TD>179.29939736</TD><TD>  0.42634583</TD><TD>19.344+-0.018</TD><TD>-10.178+-0.009</TD><TD>19.294+-0.050</TD><TD>-0.050</TD></TR><TR><TD>25</TD><TD>108501792862836697</TD><TD>179.28623301</TD><TD>  0.42184618</TD><TD>20.577+-0.028</TD><TD>-8.950+-0.028</TD><TD>20.523+-0.056</TD><TD>-0.054</TD></TR><TR><TD>26</TD><TD>108491793853780111</TD><TD>179.38531830</TD><TD>  0.40800583</TD><TD>20.840+-0.038</TD><TD>-8.629+-0.037</TD><TD>20.843+-0.061</TD><TD>0.004</TD></TR><TR><TD>27</TD><TD>108491793881455809</TD><TD>179.38808217</TD><TD>  0.41274960</TD><TD>19.001+-0.015</TD><TD>-10.432+-0.007</TD><TD>19.040+-0.049</TD><TD>0.039</TD></TR><TR><TD>28</TD><TD>108501793953040501</TD><TD>179.39523952</TD><TD>  0.41666845</TD><TD>18.156+-0.012</TD><TD>-11.374+-0.003</TD><TD>18.098+-0.049</TD><TD>-0.058</TD></TR><TR><TD>29</TD><TD>108511794118068522</TD><TD>179.41173693</TD><TD>  0.43168792</TD><TD>16.513+-0.013</TD><TD>-12.963+-0.001</TD><TD>16.510+-0.049</TD><TD>-0.004</TD></TR><TR><TD>30</TD><TD>108541794055989668</TD><TD>179.40554875</TD><TD>  0.45765079</TD><TD>18.387+-0.013</TD><TD>-11.041+-0.004</TD><TD>18.431+-0.049</TD><TD>0.044</TD></TR><TR><TD>31</TD><TD>108551794120897680</TD><TD>179.41203035</TD><TD>  0.46432654</TD><TD>20.279+-0.027</TD><TD>-9.170+-0.023</TD><TD>20.302+-0.054</TD><TD>0.023</TD></TR><TR><TD>32</TD><TD>108511793366050946</TD><TD>179.33653335</TD><TD>  0.42537895</TD><TD>20.360+-0.029</TD><TD>-9.150+-0.023</TD><TD>20.322+-0.054</TD><TD>-0.039</TD></TR><TR><TD>33</TD><TD>108511793381838059</TD><TD>179.33812640</TD><TD>  0.43130497</TD><TD>17.309+-0.013</TD><TD>-12.157+-0.001</TD><TD>17.315+-0.049</TD><TD>0.006</TD></TR><TR><TD>34</TD><TD>108531793470827427</TD><TD>179.34700142</TD><TD>  0.44744995</TD><TD>18.674+-0.013</TD><TD>-10.816+-0.005</TD><TD>18.656+-0.049</TD><TD>-0.018</TD></TR><TR><TD>35</TD><TD>108541793732437114</TD><TD>179.37317491</TD><TD>  0.45552152</TD><TD>20.724+-0.034</TD><TD>-8.751+-0.033</TD><TD>20.721+-0.059</TD><TD>-0.003</TD></TR><TR><TD>36</TD><TD>108531793633557749</TD><TD>179.36331775</TD><TD>  0.44767658</TD><TD>16.616+-0.015</TD><TD>-12.886+-0.001</TD><TD>16.587+-0.049</TD><TD>-0.029</TD></TR><TR><TD>37</TD><TD>108541793558653927</TD><TD>179.35577209</TD><TD>  0.45285656</TD><TD>18.856+-0.023</TD><TD>-10.588+-0.006</TD><TD>18.884+-0.049</TD><TD>0.028</TD></TR><TR><TD>38</TD><TD>108541793185429995</TD><TD>179.31849347</TD><TD>  0.45791839</TD><TD>19.153+-0.014</TD><TD>-10.358+-0.008</TD><TD>19.115+-0.049</TD><TD>-0.038</TD></TR><TR><TD>39</TD><TD>108571793421250291</TD><TD>179.34203704</TD><TD>  0.47483487</TD><TD>20.022+-0.032</TD><TD>-9.433+-0.018</TD><TD>20.039+-0.052</TD><TD>0.017</TD></TR><TR><TD>40</TD><TD>108551793544705638</TD><TD>179.35441605</TD><TD>  0.46259151</TD><TD>19.552+-0.018</TD><TD>-9.916+-0.011</TD><TD>19.556+-0.050</TD><TD>0.004</TD></TR><TR><TD>41</TD><TD>108561793961330643</TD><TD>179.39609086</TD><TD>  0.46677560</TD><TD>18.317+-0.015</TD><TD>-11.114+-0.004</TD><TD>18.358+-0.049</TD><TD>0.041</TD></TR><TR><TD>42</TD><TD>108581793718362289</TD><TD>179.37177491</TD><TD>  0.48482160</TD><TD>20.640+-0.020</TD><TD>-8.769+-0.033</TD><TD>20.703+-0.059</TD><TD>0.063</TD></TR><TR><TD>43</TD><TD>108561793684768269</TD><TD>179.36842914</TD><TD>  0.47314381</TD><TD>16.954+-0.013</TD><TD>-12.493+-0.001</TD><TD>16.979+-0.049</TD><TD>0.025</TD></TR><TR><TD>44</TD><TD>108601793686627054</TD><TD>179.36859992</TD><TD>  0.50546350</TD><TD>16.919+-0.012</TD><TD>-12.523+-0.001</TD><TD>16.949+-0.049</TD><TD>0.030</TD></TR><TR><TD>45</TD><TD>108491792326938210</TD><TD>179.23265815</TD><TD>  0.41479087</TD><TD>20.552+-0.035</TD><TD>-8.881+-0.030</TD><TD>20.591+-0.057</TD><TD>0.040</TD></TR><TR><TD>46</TD><TD>108491792508753753</TD><TD>179.25083709</TD><TD>  0.41105807</TD><TD>19.602+-0.012</TD><TD>-9.869+-0.012</TD><TD>19.603+-0.050</TD><TD>0.001</TD></TR><TR><TD>47</TD><TD>108521792512722726</TD><TD>179.25128339</TD><TD>  0.43516056</TD><TD>18.624+-0.014</TD><TD>-10.786+-0.005</TD><TD>18.686+-0.049</TD><TD>0.063</TD></TR><TR><TD>48</TD><TD>108511792547378770</TD><TD>179.25464662</TD><TD>  0.43190256</TD><TD>20.529+-0.016</TD><TD>-8.914+-0.029</TD><TD>20.559+-0.057</TD><TD>0.029</TD></TR><TR><TD>49</TD><TD>108541792806698757</TD><TD>179.28063003</TD><TD>  0.45689059</TD><TD>19.048+-0.015</TD><TD>-10.456+-0.007</TD><TD>19.017+-0.049</TD><TD>-0.031</TD></TR><TR><TD>50</TD><TD>108531792557205536</TD><TD>179.25566031</TD><TD>  0.44589207</TD><TD>19.855+-0.013</TD><TD>-9.675+-0.014</TD><TD>19.797+-0.051</TD><TD>-0.058</TD></TR><TR><TD>51</TD><TD>108521792250685909</TD><TD>179.22502526</TD><TD>  0.43785630</TD><TD>20.376+-0.022</TD><TD>-9.042+-0.025</TD><TD>20.430+-0.055</TD><TD>0.055</TD></TR><TR><TD>52</TD><TD>108531792263071982</TD><TD>179.22628993</TD><TD>  0.44292947</TD><TD>19.756+-0.019</TD><TD>-9.660+-0.014</TD><TD>19.812+-0.051</TD><TD>0.056</TD></TR><TR><TD>53</TD><TD>108551792648523267</TD><TD>179.26472938</TD><TD>  0.46072696</TD><TD>15.283+-0.013</TD><TD>-14.213+-0.000</TD><TD>15.259+-0.049</TD><TD>-0.024</TD></TR><TR><TD>54</TD><TD>108561792115177748</TD><TD>179.21153099</TD><TD>  0.47272098</TD><TD>20.837+-0.030</TD><TD>-8.693+-0.035</TD><TD>20.780+-0.060</TD><TD>-0.058</TD></TR><TR><TD>55</TD><TD>108561792946347389</TD><TD>179.29457488</TD><TD>  0.47242912</TD><TD>19.030+-0.015</TD><TD>-10.407+-0.007</TD><TD>19.065+-0.049</TD><TD>0.035</TD></TR><TR><TD>56</TD><TD>108591793072486561</TD><TD>179.30720482</TD><TD>  0.49671954</TD><TD>15.914+-0.013</TD><TD>-13.558+-0.000</TD><TD>15.915+-0.049</TD><TD>0.001</TD></TR><TR><TD>57</TD><TD>108601793341964902</TD><TD>179.33414198</TD><TD>  0.50365146</TD><TD>20.719+-0.042</TD><TD>-8.767+-0.033</TD><TD>20.705+-0.059</TD><TD>-0.014</TD></TR><TR><TD>58</TD><TD>108611793389868220</TD><TD>179.33892901</TD><TD>  0.51477251</TD><TD>18.808+-0.012</TD><TD>-10.618+-0.006</TD><TD>18.854+-0.049</TD><TD>0.046</TD></TR><TR><TD>59</TD><TD>108601793210367327</TD><TD>179.32101921</TD><TD>  0.50569235</TD><TD>20.578+-0.049</TD><TD>-8.836+-0.031</TD><TD>20.636+-0.058</TD><TD>0.058</TD></TR></TABLE>
+</DIV>
+</DIV>
+
+<!-- Results 3552_Don_Quixote_(1983_SA) -->
+<A HREF="#3552_Don_Quixote_(1983_SA)" ONCLICK="toggledisplay('3552_Don_Quixote_(1983_SA)');"><H1>3552 Don Quixote (1983 SA)  Photometry</H1></A>
+<DIV ID="3552_Don_Quixote_(1983_SA)"\>
+<TABLE BORDER="0"><TR><TD><TABLE CLASS="gridtable">
+<TR><TH>Apparent Magnitude</TH><TD>19.46 +- 0.05</TD></TR>
+<TR><TH>Target RA (deg)</TH><TD>179.27963</TD></TR>
+<TR><TH>Target Dec (deg)</TH><TD>0.4283</TD></TR>
+<TR><TH>RA Offset from Prediction (")</TH><TD>-0.03</TD></TR>
+<TR><TH>Dec Offset from Prediction (")</TH><TD>-0.01</TD></TR>
+<TH>Target Source Flag</TH><TD>0</TD></TR>
+</TABLE>
+<P ALIGN="center"><BUTTON ONCLICK="window.open('3552_Don_Quixote__1983_SA_.gif', 'targetWindow', 'height=376,width=376,status=no,location=no,scrollbars=no,toolbar=no,menubar=no')">open animation in new window</BUTTON></P>
+<P ALIGN="center"><BUTTON ONCLICK="window.open('3552_Don_Quixote__1983_SA_.png', 'targetWindow', 'height=480,width=640,status=no,location=no,scrollbars=no,toolbar=no,menubar=no')">open lightcurve in new window</BUTTON></P><P ALIGN="center"><BUTTON ONCLICK="toggledisplay('overlay_3552_Don_Quixote_(1983_SA)');">toggle overlay</BUTTON></P></TD><TD>
+<DIV CLASS="parent_image">
+<IMG CLASS="back_image" SRC="3552_Don_Quixote__1983_SA__mscience0218_thumb.png" />
+<IMG ID="overlay_3552_Don_Quixote_(1983_SA)" CLASS="front_image" SRC="3552_Don_Quixote__1983_SA__mscience0218_thumb_overlay.png" />
+</DIV>
+<DIV ALIGN="center"><A HREF="mscience0217.fits.html#3552_Don_Quixote_(1983_SA)">&laquo; previous frame &laquo;</A> | <A HREF="mscience0217.fits.html#3552_Don_Quixote_(1983_SA)">&raquo; next frame &raquo;</A></DIV>
+</TD></TR></TABLE></DIV>
+<!-- Results Control Star -->
+<A HREF="#Control Star" ONCLICK="toggledisplay('Control Star');"><H1>Control Star  Photometry</H1></A>
+<DIV ID="Control Star"\>
+<TABLE BORDER="0"><TR><TD><TABLE CLASS="gridtable">
+<TR><TH>Apparent Magnitude</TH><TD>17.30 +- 0.05</TD></TR>
+<TR><TH>Target RA (deg)</TH><TD>179.36268</TD></TR>
+<TR><TH>Target Dec (deg)</TH><TD>0.4474</TD></TR>
+<TR><TH>RA Offset from Prediction (")</TH><TD>0.00</TD></TR>
+<TR><TH>Dec Offset from Prediction (")</TH><TD>0.00</TD></TR>
+<TH>Target Source Flag</TH><TD>3</TD></TR>
+</TABLE>
+<P ALIGN="center"><BUTTON ONCLICK="window.open('Control_Star.gif', 'targetWindow', 'height=376,width=376,status=no,location=no,scrollbars=no,toolbar=no,menubar=no')">open animation in new window</BUTTON></P>
+<P ALIGN="center"><BUTTON ONCLICK="window.open('Control_Star.png', 'targetWindow', 'height=480,width=640,status=no,location=no,scrollbars=no,toolbar=no,menubar=no')">open lightcurve in new window</BUTTON></P><P ALIGN="center"><BUTTON ONCLICK="toggledisplay('overlay_Control Star');">toggle overlay</BUTTON></P></TD><TD>
+<DIV CLASS="parent_image">
+<IMG CLASS="back_image" SRC="Control_Star_mscience0218_thumb.png" />
+<IMG ID="overlay_Control Star" CLASS="front_image" SRC="Control_Star_mscience0218_thumb_overlay.png" />
+</DIV>
+<DIV ALIGN="center"><A HREF="mscience0217.fits.html#Control Star">&laquo; previous frame &laquo;</A> | <A HREF="mscience0217.fits.html#Control Star">&raquo; next frame &raquo;</A></DIV>
+</TD></TR></TABLE></DIV>
+</BODY>
+</HTML>
