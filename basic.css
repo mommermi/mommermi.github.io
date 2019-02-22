@@ -641,3 +641,7 @@ div.math:hover a.headerlink {
         display: none;
     }
 }
+
+.biglogo img{
+    width: 30%;
+}
