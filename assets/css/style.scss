@@ -1,0 +1,32 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+/* Center navbar and only span part of the width */
+.navbar {
+  width: 80%;
+  overflow: auto;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);}
+
+/* Navbar elements */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  width: 25%;
+  text-align: center; 
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  text-weight: bold;
+}

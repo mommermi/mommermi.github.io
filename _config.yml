@@ -1,0 +1,9 @@
+title: Michael Mommert
+description: Researcher
+theme: jekyll-theme-midnight
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+default:
+  layout: default

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+{% include head.html %}         
+
+<body>
+  
+  {% include header.html %}
+    
+  <div class="wrapper">
+
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date: "%-d %B %Y" }}</p>
+    <p>| {% for cat in page.categories %} {{ cat }} | {% endfor %} </p>
+
+    <section>
+      {{ content }}
+    </section>
+
+    {% include footer.html %}
+      
+  </div>
+
+  {% include analytics.html %}
+  
+</body>
+</html>
+
+
