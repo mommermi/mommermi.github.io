@@ -1,16 +1,18 @@
 ---
 author: mommermi
-comments: false
 date: 2014-11-25 01:48:50+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2014/11/24/rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/
-slug: rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir
 title: Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR
-wordpress_id: 75
+description: |
+  With rapid-response observations using UKIRT, we are able to observe newly
+  discovered near-Earth asteroids when they are still close to Earth and
+  thus bright. Our observations enable a probabilistic taxonomic
+  classification of asteroids with typically small sizes and the determination
+  of their compositional distribution.
 categories:
-- NEOs
-- observations
-- taxonomy
+- astronomy
+tags:
+- publication
 ---
 
 The understanding of the compositional distribution of NEOs is important to reconstruct their dynamical and physical evolution, assess the damage potential in case of an impact, and estimate the resources that can be obtained from these bodies in the not-so-far future. Also, there is still a discrepancy between the compositional distribution of meteoritic material found on Earth and the overall composition of the NEO distribution.

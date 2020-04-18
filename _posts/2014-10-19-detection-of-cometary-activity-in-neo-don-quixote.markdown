@@ -1,21 +1,22 @@
 ---
 author: mommermi
-comments: false
 date: 2014-10-19 23:29:58+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2014/10/19/detection-of-cometary-activity-in-neo-don-quixote/
-slug: detection-of-cometary-activity-in-neo-don-quixote
 title: Detection of Cometary Activity in NEO Don Quixote
-wordpress_id: 68
+description: |
+  Near-Earth asteroid Don Quixote has long since been considered a good
+  candidate for an inactive comet nucleus due to its comet-like orbit. Since
+  its discovery in 1983, comet-like has never been observed - until we
+  observed this object with the Spitzer Space Telescope...
 categories:
-- dead comets
-- NEOs
-- Spitzer
+- astronomy
+tags:
+- publication
 ---
 
 Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.
 
-One of the dead comet prototypes is NEO (3552) Don Quixote. We observed Don Quixote as part of the ExploreNEOs program, in which ~600 NEOs were observed to derive the diameters and albedos of these objects. Our observations at 3.6 and 4.5 µm were saturated because the target was brighter than expect, revealing something rather unexpected.
+The dead comet archetype is NEO (3552) Don Quixote. We observed Don Quixote as part of the ExploreNEOs program, in which ~600 NEOs were observed to derive the diameters and albedos of these objects. Our observations at 3.6 and 4.5 µm were saturated because the target was brighter than expect, revealing something rather unexpected.
 
 ![donquixote1](https://michaelmommert.files.wordpress.com/2014/10/donquixote1.png?w=300)The subtraction of the Spitzer IRAC point-spread-function (psf) from our observations show some kind of extended emission around the object at 4.5 µm, but not so at 3.6 µm. We went into some effort to show that the extended emission is not an image artifact, it is not a background source, not a latency effect, and not a result of the saturation of the object. The latter is obvious after applying the same psf-subtraction technique to a saturated image of an even brighter calibration star (HD 149661).
 

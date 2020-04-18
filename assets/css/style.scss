@@ -30,3 +30,23 @@
 .navbar a.active {
   text-weight: bold;
 }
+
+/* Customize button for categories and tags */
+.btn {
+    background-color: #353535;
+    color: #ffcc00;
+}
+
+.btn:hover {
+    background-color: #252525;
+    color: #fff;
+}
+
+/* Define teaser block for blog posts */
+#teaser {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-style: italic;
+    color: #aaa;
+}

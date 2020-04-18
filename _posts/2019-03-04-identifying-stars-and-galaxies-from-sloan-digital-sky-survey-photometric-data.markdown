@@ -1,15 +1,16 @@
 ---
 author: mommermi
-comments: true
 date: 2019-03-04 05:28:42+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/03/03/identifying-stars-and-galaxies-from-sloan-digital-sky-survey-photometric-data/
-slug: identifying-stars-and-galaxies-from-sloan-digital-sky-survey-photometric-data
 title: Identifying Stars and Galaxies from Sloan Digital Sky Survey Photometric Data
-wordpress_id: 579
+description: |
+  Is it possible to distinguish stars from galaxies based on their photometric
+  properties? Yes, and it's actually pretty easy.
 categories:
-- data science
-- software
+- machine learning
+- astronomy
+tags:
+- toy project
 ---
 
 This is a little toy project that started out of curiosity about what simple machine learning models are able to accomplish and ended up being my contribution to this year's Flagstaff Astronomy Symposium. I hope this project will serve as a motivation for  astronomers to consider machine learning approaches in their work.

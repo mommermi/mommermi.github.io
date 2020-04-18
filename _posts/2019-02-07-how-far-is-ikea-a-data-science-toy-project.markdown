@@ -1,17 +1,16 @@
 ---
 author: mommermi
-comments: true
 date: 2019-02-07 04:28:23+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/02/06/how-far-is-ikea-a-data-science-toy-project/
-slug: how-far-is-ikea-a-data-science-toy-project
 title: How far is Ikea? A data science toy project.
-wordpress_id: 553
+description: |
+  This question popped up during a Sunday afternoon walk in the park: It takes
+  us two hours to drive to Ikea - is that a lot or not? By combining location
+  data and population density estimates I find the answer.
 categories:
-- data mining
 - data science
-- python
-- software
+tags:
+- toy project
 ---
 
 And now for something completely different...

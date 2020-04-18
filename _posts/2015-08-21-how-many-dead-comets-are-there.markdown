@@ -1,15 +1,18 @@
 ---
 author: mommermi
-comments: false
 date: 2015-08-21 03:09:15+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2015/08/20/how-many-dead-comets-are-there/
-slug: how-many-dead-comets-are-there
 title: How many Dead Comets are there?
-wordpress_id: 140
+description: |
+  Dead comets are small bodies that appear as inactive asteroids, but have
+  a cometary origin. Some of these objects might still harbor ices and can
+  still activate and appear comet-like. Since these objects might signifcantly
+  contribute to the volatile reservoir of the asteroid population, it is
+  important to understand how many of these objects there are.
 categories:
-- dead comets
-- NEOs
+- astronomy
+tags:
+- publication
 ---
 
 One long-standing question is: how many asteroids - especially near-Earth asteroids (NEAs) - were comets in the past? In the classical conception, comets have surface ices and form tails and comae in the vicinity of the Sun; asteroids are simply rocks in space. In the recent years, the two classifications became less clear than that.

@@ -3,14 +3,14 @@ author: mommermi
 comments: true
 date: 2019-01-27 21:18:46+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/01/27/generating-latex-publication-lists-from-nasa-ads/
-slug: generating-latex-publication-lists-from-nasa-ads
 title: Generating LaTeX Publication lists from NASA ADS
-wordpress_id: 528
+description: |
+  Building publication lists can be painful. This recipe shows how to build
+  a publication list from NASA ADS.
 categories:
-- General
-- python
 - software
+tags:
+- code
 ---
 
 Compiling lists of publications for proposals, applications, or simply your cv can be a cumbersome process. If only there was some code that could produce a nicely formatted pdf from the information listed on the [NASA ADS system](https://ui.adsabs.harvard.edu/#).... [Like this one. ](https://michaelmommert.files.wordpress.com/2019/01/refereed.pdf)

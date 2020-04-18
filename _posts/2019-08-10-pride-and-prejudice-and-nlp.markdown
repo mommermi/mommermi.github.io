@@ -1,16 +1,18 @@
 ---
 author: mommermi
-comments: true
 date: 2019-08-10 04:53:50+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/08/09/pride-and-prejudice-and-nlp/
-slug: pride-and-prejudice-and-nlp
 title: Pride and Prejudice and NLP
-wordpress_id: 607
+description: |
+  Natural Language Processing (NLP) extracts structured data from
+  human language so that machines can work with.
+  I was interested in this toolkit and applied it
+  to a literature classic - Pride and Prejudice - in order to figure out
+  what the book is about. My results were not too far off.
 categories:
 - data science
-- machine learning
-- nlp
+tags:
+- toy project
 ---
 
 And now for something completely different...

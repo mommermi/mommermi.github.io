@@ -1,16 +1,15 @@
 ---
 author: mommermi
-comments: true
 date: 2019-02-02 21:37:21+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/02/02/pyoorb-a-python-interface-for-orbit-calculations-with-openorb/
-slug: pyoorb-a-python-interface-for-orbit-calculations-with-openorb
 title: pyoorb - A Python interface for orbit calculations with OpenOrb
-wordpress_id: 551
+description: |
+  This recipe introduces pyoorb, a Python interface to the OpenOrb package
+  for ephemerides calculations and orbit transformations.
 categories:
-- python
-- sbpy
 - software
+tags:
+- code
 ---
 
 [OpenOrb](https://github.com/oorb/oorb) is a software suite for performing all sorts of orbit calculations, including orbit integration, ephemerides calculations, and ranging to determine orbit solutions based on observations. Coded in Fortran, OpenOrb is usually compiled locally and run from the command line.

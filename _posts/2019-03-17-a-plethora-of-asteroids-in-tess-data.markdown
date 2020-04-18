@@ -1,16 +1,16 @@
 ---
 author: mommermi
-comments: true
 date: 2019-03-17 05:41:43+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/03/16/a-plethora-of-asteroids-in-tess-data/
-slug: a-plethora-of-asteroids-in-tess-data
 title: A plethora of asteroids in TESS data
-wordpress_id: 557
+description: |
+  TESS is a satellite that observes bright stars to find brightness
+  modulations that reveals planets around these stars - but it also observes
+  a lot of asteroids...
 categories:
-- data mining
-- observations
-- software
+- astronomy
+tags:
+- publication
 ---
 
 TESS is the [Transiting Exoplanet Survey Satellite](https://tess.mit.edu/), which was launched into space by NASA in 2018 to identify faint brightness variations in stars that are characteristic of planets orbiting around and transiting in front of these stars.

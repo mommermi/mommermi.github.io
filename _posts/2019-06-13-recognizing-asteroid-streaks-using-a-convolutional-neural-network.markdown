@@ -1,17 +1,18 @@
 ---
 author: mommermi
-comments: true
 date: 2019-06-13 04:41:41+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/06/12/recognizing-asteroid-streaks-using-a-convolutional-neural-network/
-slug: recognizing-asteroid-streaks-using-a-convolutional-neural-network
 title: Recognizing Asteroid Streaks using a Convolutional Neural Network
-wordpress_id: 603
+description: |
+  Asteroid streaks are common in long exposure images from professional
+  telescopes. Finding them can improve orbit estimates or even enable the
+  discovery of previously unknown objects. Based on simulated data, I
+  investigate how hard it is to identify asteroid streaks.
 categories:
-- data science
+- astronomy
 - deep learning
-- machine learning
-- software
+tags:
+- toy project
 ---
 
 This toy project is aimed at recognizing asteroid streaks - caused by the movement of asteroids against the fixed background in long-exposure astronomical images. This is an important task to discover new asteroids in large survey programs.

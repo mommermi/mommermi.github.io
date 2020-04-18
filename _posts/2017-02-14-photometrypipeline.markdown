@@ -1,16 +1,17 @@
 ---
 author: mommermi
-comments: false
 date: 2017-02-14 05:16:25+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2017/02/13/photometrypipeline/
-slug: photometrypipeline
 title: PHOTOMETRYPIPELINE
-wordpress_id: 486
+description: |
+  photometrypipeline is a Python software package for automated image
+  registration, calibration, and extraction of photometry tailored to the
+  needs of asteroid observer. However, pp can also be applied to other
+  imaging observations.
 categories:
-- observations
-- python
-- software
+- astronomy
+tags:
+- code
 ---
 
 In the framework of the [MANOS](https://manosobs.wordpress.com/) program, I have been working on an automated data analysis pipeline for calibrated asteroid photometry and astrometry from imaging data. This pipeline, which can be applied to any kind of point source observations, is now in a robust state and available through [github](https://github.com/mommermi/photometrypipeline).

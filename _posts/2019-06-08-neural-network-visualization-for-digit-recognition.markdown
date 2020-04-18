@@ -1,16 +1,15 @@
 ---
 author: mommermi
-comments: true
 date: 2019-06-08 06:10:29+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/06/07/neural-network-visualization-for-digit-recognition/
-slug: neural-network-visualization-for-digit-recognition
 title: Neural Network Visualization for Digit Recognition
-wordpress_id: 600
+description: |
+  How do neural networks work? This little project helped me to get a
+  better understanding of their workings.
 categories:
-- data science
 - deep learning
-- machine learning
+tags:
+- toy project
 ---
 
 Neural Networks can do amazing things, but they are complex which makes them often hard to understand.

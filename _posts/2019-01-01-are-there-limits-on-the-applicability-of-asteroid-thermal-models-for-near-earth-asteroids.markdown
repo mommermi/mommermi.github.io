@@ -1,18 +1,16 @@
 ---
 author: mommermi
-comments: false
 date: 2019-01-01 21:25:12+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/01/01/are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/
-slug: are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids
-title: Are there Limits on the Applicability of Asteroid Thermal Models for Near-Earth
-  Asteroids?
-wordpress_id: 525
+title: Are there Limits on the Applicability of Asteroid Thermal Models for Near-Earth  Asteroids?
+description: |
+  There is a range of asteroid thermal models that are based on different
+  physical assumptions. In this analysis, I investigate how these assumptions
+  affect their results and applicability to different situations.
 categories:
-- NEOs
-- observations
-- thermal modeling
-- thermophysical modeling
+- astronomy
+tags:
+- publication
 ---
 
 The vast majority of all asteroid diameters and albedos that are currently available have been derived from thermal infrared observations using a method called thermal modeling. Thermal models simulate the surface temperature distribution on an asteroid which is used to derive the thermal infrared flux that is emitted by the body. By varying the model parameters - mainly its diameter and albedo - the properties of an asteroid can be fit to observations of the thermal emission and hence estimated.

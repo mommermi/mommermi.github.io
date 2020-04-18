@@ -1,16 +1,15 @@
 ---
 author: mommermi
-comments: true
 date: 2019-02-03 22:07:54+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/02/03/solar-system-data-using-astroquery/
-slug: solar-system-data-using-astroquery
 title: Solar System Data using astroquery
-wordpress_id: 552
+description: |
+  A quick overview of Solar System data tools available in the astroquery
+  package.
 categories:
-- python
-- sbpy
 - software
+tags:
+- code
 ---
 
 As mentioned in an [earlier post](https://michaelmommert.wordpress.com/2016/01/08/a-python-module-to-query-jpl-horizons/), I published some code to query the JPL Horizons system, which provides ephemerides, orbital elements, and state vectors for Solar System bodies, in the framework of _astroquery_.

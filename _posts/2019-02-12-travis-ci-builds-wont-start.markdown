@@ -1,14 +1,15 @@
 ---
 author: mommermi
-comments: true
 date: 2019-02-12 21:29:44+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2019/02/12/travis-ci-builds-wont-start/
-slug: travis-ci-builds-wont-start
 title: Travis-CI builds won't start
-wordpress_id: 577
+description: |
+  Ever had problems with your Travis-CI builds? This recipe might save you
+  some time debugging...
 categories:
 - software
+tags:
+- advice
 ---
 
 I was having troubles using Travis-CI and github that I would like to spare you: after modifying the `.travis.yml` of my github repository and pushing the changes to an already submitted pull request, the Travis-CI build checks just wouldn't start. It's not that the checks failed, they just simply would not start.

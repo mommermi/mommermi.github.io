@@ -1,16 +1,16 @@
 ---
 author: mommermi
-comments: false
 date: 2018-07-27 23:32:51+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2018/07/27/sbpy-a-python-module-for-small-body-planetary-astronomy/
-slug: sbpy-a-python-module-for-small-body-planetary-astronomy
 title: sbpy - A Python module for small-body planetary astronomy
-wordpress_id: 508
+description: |
+  sbpy is an astropy affiliated package for small-body planetary astronomers.
+  We proposed this idea to NASA and were funded for developing this Python
+  module, which is outlined here.
 categories:
-- python
-- sbpy
-- software
+- astronomy
+tags:
+- code
 ---
 
 

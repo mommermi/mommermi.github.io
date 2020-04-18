@@ -1,15 +1,15 @@
 ---
 author: mommermi
-comments: false
 date: 2017-02-14 05:00:53+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2017/02/13/accessing-the-gaia-and-pan-starrs-catalogs-using-python/
-slug: accessing-the-gaia-and-pan-starrs-catalogs-using-python
 title: Accessing the Gaia and Pan-STARRS catalogs using Python
-wordpress_id: 407
+description: |
+  This recipe shows how to query the Gaia and Pan-STARRS catalogs using
+  astroquery.
 categories:
-- python
-- software
+- astronomy
+tags:
+- code
 ---
 
 _update 2019/01: I updated the following code to reflect recent developments (mostly the availability of Pan-STARRS in Vizier)_

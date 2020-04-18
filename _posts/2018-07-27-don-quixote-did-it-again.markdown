@@ -1,15 +1,15 @@
 ---
 author: mommermi
-comments: false
 date: 2018-07-27 23:31:01+00:00
 layout: post
 link: https://michaelmommert.wordpress.com/2018/07/27/don-quixote-did-it-again/
-slug: don-quixote-did-it-again
 title: Don Quixote did it again...
-wordpress_id: 510
+description: |
+  Yes, Don Quixote is active again! Here's a quick note for the world.
 categories:
-- dead comets
-- NEOs
+- astronomy
+tags:
+- publication
 ---
 
 Don Quixote is active again and this time the activity is observable in the optical, pointing toward the presence of dust ([CBET 4502](http://www.cbat.eps.harvard.edu/iau/cbet/004500/CBET004502.txt), requires a CBET subscription). More details coming soon...
