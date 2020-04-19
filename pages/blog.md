@@ -24,3 +24,6 @@ title: Blog Posts by Year
   {% endif %}
  {% endif %}
 {% endfor %}
+
+Hint: there is also a [list of posts by topic](./blog_category) and a
+[list of posts by type](./blog_tag).

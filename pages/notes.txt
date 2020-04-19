@@ -1,0 +1,2 @@
+custom format for publication list, https://ui.adsabs.harvard.edu
+%l (%Y), "*%T*", %J, %V, %p., [publication](http://doi.org/%d), [arxiv](http://arxiv.org/abs/%X)\n

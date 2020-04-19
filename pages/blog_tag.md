@@ -11,3 +11,6 @@ title: Blog Posts by Type
   {% endfor %}
   </ul>
 {% endfor %}
+
+Hint: there is also a [list of posts by topic](./blog_category) and a
+[list of posts by publication year](./blog).
