@@ -4,7 +4,7 @@ date: 2019-02-02 21:37:21+00:00
 layout: post
 title: pyoorb - A Python interface for orbit calculations with OpenOrb
 description: |
-  This recipe introduces pyoorb, a Python interface to the OpenOrb package
+  This post introduces pyoorb, a Python interface to the OpenOrb package
   for ephemerides calculations and orbit transformations.
 categories:
 - software
@@ -19,14 +19,11 @@ A few years ago, [LSST](https://www.lsst.org/) software developers started worki
 [_pyoorb_](https://github.com/oorb/oorb/tree/master/python) currently provides functions for orbit integration, ephemerides calculations, as well as orbital element transformations. Orbit ranging will be implemented in the near future. Since _pyoorb_ uses the existing OpenOrb Fortran code as a basis, function input has to follow the specifications meticulously, not offering the dynamic typing that you are used to as a Python user. In order to make _pyoorb_ functions more user-friendly, _sbpy_ provides convenience functions for the use of _pyoorb_.
 
 Consider the following examples, which require _sbpy_ and _pyoorb_ to be installed:
-
-
-
 	
   * Calculate the ephemerides of asteroid Ceres for some point in time; we obtain the orbital elements for the same epoch from [JPL Horizons](https://ssd.jpl.nasa.gov/horizons.cgi):
 
 
-[sourcecode language="python" wraplines="false" collapse="false"]
+```python
 import pyoorb as oo
 from astropy.time import Time
 from sbpy.data import Orbit, Ephem
@@ -43,24 +40,18 @@ epoch = Time('2019-02-01 12:00', format='iso')
 # calculate ephemerides
 eph = Ephem.from_oo(orb, epoch)
 print(eph['epoch', 'RA', 'DEC'])
-[/sourcecode]
-
+```
     
       epoch          RA               DEC        
         d           deg               deg        
     --------- ---------------- ------------------
     2458516.0 241.143973372825 -14.38567839898754
 
-
-
-
-
 	
   * Transform Ceres' Keplerian orbit to cartesian coordinates, comet orbit elements, and back to Keplerian coordinates; we compare the semi-major axis of the original Keplerian orbit with that of the transformed orbit:
 
 
-[sourcecode language="python" wraplines="false" collape="false"]
-
+```python
 import pyoorb as oo
 from sbpy.data import Orbit
 
@@ -80,21 +71,15 @@ comorb = keporb.oo_transform('COM')
 keporb2 = comorb.oo_transform('KEP')
 
 print('discrepancy in semi-major axis:', keporb['a']-keporb2['a'])
-[/sourcecode]
-
+```
     
     discrepancy in semi-major axis: [0.] AU
-
-
-
-
 
 	
   * Propagate Ceres' orbit 100 years into the future and compare the result to the orbit derived by JPL Horizons:
 
 
-[sourcecode language="python" wraplines="false" collape="false"]
-
+```python
 import pyoorb as oo
 from astropy.time import Time
 from sbpy.data import Orbit
@@ -116,8 +101,7 @@ orbthen_jpl = Orbit.from_horizons('Ceres', epochs=then_jd)
 
 print('discrepancy in semi-major axis:',
       (orbthen['a']-orbthen_jpl['a']).to('m'))
-[/sourcecode]
-
+```
     
     discrepancy in semi-major axis: [51.80632224] m
 

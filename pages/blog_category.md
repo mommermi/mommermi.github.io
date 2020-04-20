@@ -8,7 +8,8 @@ title: Blog Posts by Topic
  <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
   <ul>     
   {% for post in category.last %}
-   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+   <li><a href="{{ post.url }}" title="{{ post.description }}">
+   {{ post.title }}</a></li>
   {% endfor %}
   </ul>
 {% endfor %}

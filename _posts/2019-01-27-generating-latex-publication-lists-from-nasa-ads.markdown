@@ -13,11 +13,11 @@ tags:
 - code
 ---
 
-Compiling lists of publications for proposals, applications, or simply your cv can be a cumbersome process. If only there was some code that could produce a nicely formatted pdf from the information listed on the [NASA ADS system](https://ui.adsabs.harvard.edu/#).... [Like this one. ](https://michaelmommert.files.wordpress.com/2019/01/refereed.pdf)
+Compiling lists of publications for proposals, applications, or simply your cv can be a cumbersome process. If only there was some code that could produce a nicely formatted pdf from the information listed on the [NASA ADS system](https://ui.adsabs.harvard.edu/#)...
 
 Et voilà:
 
-[code language="python" highlight=4,5,6,7]
+```python
 from pylatexenc.latexencode import utf8tolatex
 import ads
 
@@ -197,76 +197,37 @@ with open('publication_list.tex', 'w') as outf:
             print(paper.author[0], paper.year)
             outf.write(ref + '\n\n')
     outf.write(latex_footer + '\n')
-[/code]
+```
 
 This script will produce the LaTeX source file for the pdf linked above. To run the code, you will need the following:
-
-
-
 	
   * an [account](https://ui.adsabs.harvard.edu/#user/account/register) with the new ADS system and the private token you have been assigned with in
-
-	
   * python 3 installed along with the modules [ads](https://github.com/andycasey/ads) and [pylatexenc](https://github.com/phfaist/pylatexenc)
-
-	
   * pdflatex or latex installed to compile the resulting LaTeX file as a pdf or ps file, respectively
 
-
 To create a publication list for yourself (or somebody else) follow these steps:
-
 	
   1. download the code snippet and save it into a file, e.g., _create_publist.py_
-
-	
   2. modify the highlighted lines in the code, i.e., the following items:
 
-	
-    * add your ADS token
+   * add your ADS token
+   * add your name (this is the name that will be queried in ADS)
+   * add the years to be queried, e.g., (2015, 2019) will query all publications published in the years 2015 till 2019
+   * select whether you want a list of refereed publications or a list of non-refereed publications
 
-	
-    * add your name (this is the name that will be queried in ADS)
-
-	
-    * add the years to be queried, e.g., (2015, 2019) will query all publications published in the years 2015 till 2019
-
-	
-    * select whether you want a list of refereed publications or a list of non-refereed publications
-
-
-
-
-	
   3. run the code in a terminal as: _python create_publist.py_
-
-	
   4. compile the LaTeX source file: _pdflatex publication_list.tex_
-
-	
   5. enjoy your publication list!
 
 
 A few features of this script:
 
-	
   * the number of authors listed is limited to 3; if there are more than 3 authors, the list if culled at 3 authors and "et al." is added automatically
-
-	
   * your name is automatically highlighted in bold and it will never be culled from the author list provided
-
-	
   * article titles are provided, as well as journal names, volume and page numbers
-
-	
   * a hyperlink to the article on [arxiv](https://arxiv.org/) is automatically added (this was chosen over the official journal website since arxiv is open access)
-
-	
   * if an article has been cited by others, the number of citations is provided
-
-	
   * special characters are converted to LaTeX using pylatexenc
-
-	
   * the _fixme_ function allows to reject publications based on buzzwords (e.g., '_erratum_', see line 156) and it will replace certain substrings if the formatting in ADS is messed up (in that case, look up the substring causing trouble in the LaTeX source file and add it to the dictionary ending in line 165)
 
 

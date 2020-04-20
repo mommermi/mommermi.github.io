@@ -17,11 +17,11 @@ tags:
 
 The [ESA mission Gaia](http://sci.esa.int/gaia/) not only observes a good fraction of the stars in the milky way, but also a huge number of asteroids. Gaia Data Release 2 (DR2) is the first data release to include a number of asteroid observations, limited to G magnitudes (no color information) and a pre-selected sample of 14099 asteroids from different populations. For each asteroids, DR2 contains a median number of 9 observations over the first 9 months of the mission. While this limited data set does not allow for deriving the targets' rotational periods or constraining their taxonomic types, it is useful for a look into the shape distribution of asteroids.
 
-In [this study](http://this study) we extracted lower limit lightcurve amplitudes for all main belt asteroids in the DR2 sample in order to investigate the population shape distribution and to compare it with other populations.
+In this study we extracted lower limit lightcurve amplitudes for all main belt asteroids in the DR2 sample in order to investigate the population shape distribution and to compare it with other populations.
 
 In order to derive lower-limit lightcurve amplitudes, we subtracted expected brightness variations as a result of the changing solar phase angle based on literature data. Amplitudes (peak-to-peak) were then derived from the resulting scatter of the reported magnitudes. These amplitudes only represent lower limit amplitudes due to the incomplete coverage of the lightcurves. For each main belt object, we translate this lightcurve amplitude into an aspect ratio assuming a triaxial ellipsoidal shape model. The following panel (Figure 2 in the paper) shows the distribution of these aspect ratios as a function of other target properties:
 
-![gaia](https://michaelmommert.files.wordpress.com/2019/01/gaia.png)
+{% include image.html url="/images/2019-01-02-asteroid-shape-information-from-gaia-dr2/gaia.png" description="Aspect ratios for different target properties (panels) and different asteroid populations (colored bars)." %}
 
 While a significant amount of variation in the distributions over different subsamples (separated by dashed vertical lines) is evident, debiased averages (colored symbols) differ only marginally with respect to their error bars. Debiasing has been achieved using a Monte Carlo simulation that accounts for deficiencies in the sampling process and in the accuracy of the photometric phase parameters taken from the literature.
 

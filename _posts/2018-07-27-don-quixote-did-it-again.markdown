@@ -2,7 +2,6 @@
 author: mommermi
 date: 2018-07-27 23:31:01+00:00
 layout: post
-link: https://michaelmommert.wordpress.com/2018/07/27/don-quixote-did-it-again/
 title: Don Quixote did it again...
 description: |
   Yes, Don Quixote is active again! Here's a quick note for the world.

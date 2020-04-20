@@ -12,7 +12,8 @@ title: Blog Posts by Year
  <ul>
  {% endif %}
 
- <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li><a href="{{ post.url }}" title="{{ post.description }}">
+ {{ post.title }}</a></li>
 
  {% if forloop.last %}
  </ul>
