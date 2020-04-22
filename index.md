@@ -4,7 +4,7 @@ layout: page
 
 <h2>What's New?</h2>
 
-A few things have changed as of recently.
+A few things have changed recently.
 
 This website is new. I decided to move my website from wordpress to
 github pages as it provides me more flexibility.
