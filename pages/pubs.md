@@ -5,19 +5,20 @@ title: Publication Record
 
 <h2>Overview</h2>
 
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 1938 citations, h-index=26 (as of April 2020)
+
 <h3>Astronomy</h3>
 * 10 publications as first author in peer-reviewed journals
 * 10+ conference contributions as first author
 * 50+ publications as co-author in peer-reviewed journals
 * 70+ conference contributions as co-author
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 1938 citations, h-index=26 (as of April 2020)
 
 <h2>2020</h2>
 
 **Mommert, M.** (2020), "*Cloud Identification from All-sky Camera Data with Machine Learning*", The Astronomical Journal, 159, 178., [publication](http://doi.org/10.3847/1538-3881/ab744f), [arxiv](http://arxiv.org/abs/2003.11109)
 
-**Mommert, M.** (2020), "*mommermi/cloudynight: first release*", Zenodo,., [publication](http://doi.org/10.5281/zenodo.3662849)
+**Mommert, M.** (2020), "*mommermi/cloudynight: first release*", Zenodo, [publication](http://doi.org/10.5281/zenodo.3662849)
 
 Farkas-Takács, A., Kiss, C., Vilenius, E., Marton, G., Müller, T. G., **Mommert, M.**, Stansberry, J., Lellouch, E., Lacerda, P., & Pál, A. (2020), "*TNOs are Cool! A Survey of the transneptunian Region XV. Physical characteristics of 23 resonant transneptunian and scattered disk objects*", arXiv e-prints, 2002.12712., [arxiv](http://arxiv.org/abs/2002.12712)
 
