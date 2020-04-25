@@ -30,4 +30,5 @@ presented on this blog, together with some data science toy projects.</p>
 
 [email](mailto:mommermiscience (you-know-what) gmail.com) |
 [Github](https://github.com/mommermi) |
-[LinkedIn](https://www.linkedin.com/in/michael-mommert/)
+[LinkedIn](https://www.linkedin.com/in/michael-mommert/) |
+[Twitter](https://twitter.com/mommermi)
