@@ -16,6 +16,11 @@ title: Publication Record
 
 <h2>2020</h2>
 
+
+**Mommert, M.**, Hora, J. L., Trilling, D. E., Biver, N., Wierzchos, K., Harrington Pinto, O., Agarwal, J., Kim, Y., McNeill, A., Womack, M., Knight, M. M., Polishook, D., Moskovitz, N., Kelley, M. S. P. Smith, H. A. (2020), *"Recurrent Cometary Activity in Near-Earth Object (3552) Don Quixote"*, The Planetary Science Journal, 1, 12, [publication (open access)](https://iopscience.iop.org/article/10.3847/PSJ/ab8ae5) 
+
+**Mommert, M.**, Trilling, D. E., Hora, J. L., Lejoly, C., Gustafsson, A., Knight, M., Moskovitz, N. and Smith, H. A. (2020), *"Systematic Characterization of and Search for Activity in Potentially Active Asteroids"*, The Planetary Science Journal, 1, 10, [publication (open access)](https://iopscience.iop.org/article/10.3847/PSJ/ab8191)
+
 **Mommert, M.** (2020), "*Cloud Identification from All-sky Camera Data with Machine Learning*", The Astronomical Journal, 159, 178., [publication](http://doi.org/10.3847/1538-3881/ab744f), [arxiv](http://arxiv.org/abs/2003.11109)
 
 **Mommert, M.** (2020), "*mommermi/cloudynight: first release*", Zenodo, [publication](http://doi.org/10.5281/zenodo.3662849)
