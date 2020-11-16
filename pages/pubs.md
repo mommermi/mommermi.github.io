@@ -5,9 +5,8 @@ title: Publication Record
 
 <h2>Overview</h2>
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 1938 citations, h-index=26 (as of April 2020)
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 2184 citations, h-index=28 (as of November 2020)
 
-<h3>Astronomy</h3>
 * 10 publications as first author in peer-reviewed journals
 * 10+ conference contributions as first author
 * 50+ publications as co-author in peer-reviewed journals
@@ -16,6 +15,14 @@ title: Publication Record
 
 <h2>2020</h2>
 
+**Mommert, M.**, Sigel, M., Neuhausler, M., Scheibenreif, L., Borth, D.,
+"Characterization of Industrial Smoke Plumes from Remote Sensing Data",
+Tackling Climate Change with Machine Learning Workshop,
+NeurIPS 2020; [data](https://zenodo.org/record/4250706), [code](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection).
+
+Devogèle, M., MacLennan, E., Gustafsson, A., Moskovitz, N., Chatelain, J., Borisov, G., Abe, S., Arai, T., Fedorets, G., Ferrais, M., Granvik, M., Jehin, E., Siltala, L., Pöntinen, M., **Mommert, M.**, Polishook, D., Skiff, B., Tanga, P., & Yoshida, F. (2020), "*New Evidence for a Physical Link between Asteroids (155140) 2005 UD and (3200) Phaethon*", The Planetary Science Journal, 1, 15., [publication](http://doi.org/10.3847/PSJ/ab8e45), [arxiv](http://arxiv.org/abs/)
+
+Doughty, C. E., Abraham, A., Windsor, J., **Mommert, M.**, Gowenlock, M., Robinson, T., & Trilling, D. (2020), "*Distinguishing multicellular life on exoplanets by testing Earth as an exoplanet*", arXiv e-prints, arXiv:2002.10368., [publication](http://doi.org/), [arxiv](http://arxiv.org/abs/arXiv:2002.10368)
 
 **Mommert, M.**, Hora, J. L., Trilling, D. E., Biver, N., Wierzchos, K., Harrington Pinto, O., Agarwal, J., Kim, Y., McNeill, A., Womack, M., Knight, M. M., Polishook, D., Moskovitz, N., Kelley, M. S. P. Smith, H. A. (2020), *"Recurrent Cometary Activity in Near-Earth Object (3552) Don Quixote"*, The Planetary Science Journal, 1, 12, [publication (open access)](https://iopscience.iop.org/article/10.3847/PSJ/ab8ae5) 
 

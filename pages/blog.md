@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Posts by Year
+title: Articles by Year
 ---
 
 {% for post in site.posts  %}
@@ -26,5 +26,5 @@ title: Blog Posts by Year
  {% endif %}
 {% endfor %}
 
-Hint: there is also a [list of posts by topic](./blog_category) and a
-[list of posts by type](./blog_tag).
+Hint: there is also a [list of articles by topic](./blog_category) and a
+[list of articles by type](./blog_tag).

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Posts by Type
+title: Articles by Type
 ---
 
 {% for tag in site.tags %}
@@ -13,5 +13,5 @@ title: Blog Posts by Type
   </ul>
 {% endfor %}
 
-Hint: there is also a [list of posts by topic](./blog_category) and a
-[list of posts by publication year](./blog).
+Hint: there is also a [list of articles by topic](./blog_category) and a
+[list of articles by publication year](./blog).

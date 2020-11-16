@@ -6,21 +6,20 @@ title: About
 <p align="justify">
 <img src="/images/moi.jpg" alt="C'est moi" class="img-circle"
 align="right" hspace="25" height="30%" width="30%">
-As of May 2020, I am a senior researcher at the
+I am a senior researcher at the
 <a href="https://ics.unisg.ch/chair-aiml-borth">
 Institute of Computer Science</a> of the
 <a href="http://www.unisg.ch">University of St. Gallen</a> where my research 
-focuses on the application of Machine Learning techniques to Earth remote
+focuses on the application of artificial intelligence
+techniques to Earth remote
 sensing data. </p>
 
 <p align="justify">In my previous life, I worked as an astronomer,
-exploring asteroids and comets in our Solar System. As part of this
-work, I gained significant experience in automated data processing and
-analysis, open-source software development, and the presentation and
-visualization of scientific data.</p>
+exploring asteroids and comets in our Solar System.</p>
 
 <p align="justify">Results from my current and previous research are
-presented on this blog, together with some data science toy projects.</p>
+presented in a number of articles on this website,
+together with some data science toy projects.</p>
 
 <h2>Contact</h2>
 
