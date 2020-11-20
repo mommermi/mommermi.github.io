@@ -1,22 +1,25 @@
 ---
+title: Remote Sensing and Artificial Intelligence
 layout: page
 ---
 
-<h2>Remote Sensing and Artificial Intelligence</h2>
+Earth-observing satellites provide a plethora of data directly related
+to environmental, economic, and societal issues. Due to their sheer
+amount, the systematic interpretation of remote sensing data on a regional or
+even global scale requires highly scalable analysis methods.
 
-Earth-observing satellites provide a plethora of data that are
-directly related to our environment, our habitat, and our community. I
-am applying artificial intelligence methods to remote sensing data to
-extract information that affect us and our planet.
+As a researcher at the intersection between artificial intelligence
+research and remote sensing, I am utilizing artificial neural networks
+to extract knowledge from satellite observations in the form of
+classification, segmentation, and object detection problems.
 
-My research currently focuses on quantifying the forces that are
-driving climate change: greenhouse gas emissions, human mobility, and
-other economic factors.
-
-I utilize state-of-the-art computer vision methods for the
-classification and segmentation of Earth observation data covering a
-wide range of the electromagnetic spectrum, as well as to detect
-individual objects in remote sensing image data.
+My current research focuses on quantifying climate change drivers,
+including greenhouse gas emissions from industrial plants and human
+mobility, as well as other economic sectors. In general, I am
+interested in the combination of artificial intelligence methods with
+imaging data of Earth to investigate current issues related to
+environmental science, hazard prevention and monitoring, geoscience,
+and making Earth a better place for all of us.
 
 
 <h2>Latest Articles</h2>
