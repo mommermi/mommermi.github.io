@@ -3,6 +3,11 @@ layout: page
 title: Articles by Year
 ---
 
+There is also a [list of articles by topic](./blog_category) and a
+[list of articles by type](./blog_tag).
+
+
+
 {% for post in site.posts  %}
  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
@@ -26,5 +31,3 @@ title: Articles by Year
  {% endif %}
 {% endfor %}
 
-Hint: there is also a [list of articles by topic](./blog_category) and a
-[list of articles by type](./blog_tag).

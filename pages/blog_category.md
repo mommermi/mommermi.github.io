@@ -3,6 +3,9 @@ layout: page
 title: Articles by Topic
 ---
 
+There is also a [list of articles by publication year](./blog) and a
+[list of articles by type](./blog_tag).
+
 
 {% for category in site.categories %}
  <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
@@ -14,5 +17,3 @@ title: Articles by Topic
   </ul>
 {% endfor %}
 
-Hint: there is also a [list of articles by publication year](./blog) and a
-[list of articles by type](./blog_tag).
