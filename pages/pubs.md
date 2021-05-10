@@ -5,12 +5,22 @@ title: Publication Record
 
 <h2>Overview</h2>
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 2184 citations, h-index=28 (as of November 2020)
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 2,720 citations, h-index=29, i10-index=43 (as of May 2021)
 
-* 10 publications as first author in peer-reviewed journals
-* 10+ conference contributions as first author
-* 50+ publications as co-author in peer-reviewed journals
-* 70+ conference contributions as co-author
+* 12 publications as first author in peer-reviewed journals
+* 50 publications as co-author in peer-reviewed journals
+* 3 peer-reviewed contributions to conferences
+* 1 book contribution
+* 92 conference contributions (non peer-reviewed) 
+
+
+<h2>2021</h2>
+
+**Mommert, M.**, Scheibenreif, L., Hanna, J., Borth, D., "Power Plant Classification from Remote Imaging With Deep Learning", accepted for an oral presentation at the IEEE International Geoscience and Remote Sensing Symposium 2021 ([IGARSS 2021](https://igarss2021.com/)).
+
+Scheibenreif, L. , **Mommert, M.**, Borth, D., "A Novel Dataset and Benchmark for Surface NO2 Prediction from Remote Sensing Data Including COVID Lockdown Measures", accepted for an oral presentation at the IEEE International Geoscience and Remote Sensing Symposium 2021 ([IGARSS 2021](https://igarss2021.com/)).
+
+**Mommert, M.**, "Characterizing Industrial Smoke Plumes from Remote Sensing Data with Deep Learning", oral presentation at [NVIDIA GTC21](https://www.nvidia.com/en-us/gtc/). 
 
 
 <h2>2020</h2>
@@ -22,8 +32,6 @@ NeurIPS 2020; [data](https://zenodo.org/record/4250706), [code](https://github.c
 
 Devogèle, M., MacLennan, E., Gustafsson, A., Moskovitz, N., Chatelain, J., Borisov, G., Abe, S., Arai, T., Fedorets, G., Ferrais, M., Granvik, M., Jehin, E., Siltala, L., Pöntinen, M., **Mommert, M.**, Polishook, D., Skiff, B., Tanga, P., & Yoshida, F. (2020), "*New Evidence for a Physical Link between Asteroids (155140) 2005 UD and (3200) Phaethon*", The Planetary Science Journal, 1, 15., [publication](http://doi.org/10.3847/PSJ/ab8e45), [arxiv](http://arxiv.org/abs/)
 
-Doughty, C. E., Abraham, A., Windsor, J., **Mommert, M.**, Gowenlock, M., Robinson, T., & Trilling, D. (2020), "*Distinguishing multicellular life on exoplanets by testing Earth as an exoplanet*", arXiv e-prints, arXiv:2002.10368., [publication](http://doi.org/), [arxiv](http://arxiv.org/abs/arXiv:2002.10368)
-
 **Mommert, M.**, Hora, J. L., Trilling, D. E., Biver, N., Wierzchos, K., Harrington Pinto, O., Agarwal, J., Kim, Y., McNeill, A., Womack, M., Knight, M. M., Polishook, D., Moskovitz, N., Kelley, M. S. P. Smith, H. A. (2020), *"Recurrent Cometary Activity in Near-Earth Object (3552) Don Quixote"*, The Planetary Science Journal, 1, 12, [publication (open access)](https://iopscience.iop.org/article/10.3847/PSJ/ab8ae5) 
 
 **Mommert, M.**, Trilling, D. E., Hora, J. L., Lejoly, C., Gustafsson, A., Knight, M., Moskovitz, N. and Smith, H. A. (2020), *"Systematic Characterization of and Search for Activity in Potentially Active Asteroids"*, The Planetary Science Journal, 1, 10, [publication (open access)](https://iopscience.iop.org/article/10.3847/PSJ/ab8191)
@@ -32,11 +40,9 @@ Doughty, C. E., Abraham, A., Windsor, J., **Mommert, M.**, Gowenlock, M., Robins
 
 **Mommert, M.** (2020), "*mommermi/cloudynight: first release*", Zenodo, [publication](http://doi.org/10.5281/zenodo.3662849)
 
-Farkas-Takács, A., Kiss, C., Vilenius, E., Marton, G., Müller, T. G., **Mommert, M.**, Stansberry, J., Lellouch, E., Lacerda, P., & Pál, A. (2020), "*TNOs are Cool! A Survey of the transneptunian Region XV. Physical characteristics of 23 resonant transneptunian and scattered disk objects*", arXiv e-prints, 2002.12712., [arxiv](http://arxiv.org/abs/2002.12712)
+Farkas-Takács, A., Kiss, C., Vilenius, E., Marton, G., Müller, T. G., **Mommert, M.**, Stansberry, J., Lellouch, E., Lacerda, P., & Pál, A. (2020), "*TNOs are Cool! A Survey of the transneptunian Region XV. Physical characteristics of 23 resonant transneptunian and scattered disk objects*", Astronomy & Astrophysics 638, A23, [publication](https://www.aanda.org/articles/aa/abs/2020/06/aa36183-19/aa36183-19.html).
 
-Doughty, C. E., Abraham, A., Windsor, J., **Mommert, M.**, Gowenlock, M., Robinson, T., & Trilling, D. (2020), "*Distinguishing multicellular life on exoplanets by testing Earth as an exoplanet*", arXiv e-prints, 2002.10368., [arxiv](http://arxiv.org/abs/2002.10368)
-
-<h2>2019</h2>
+Doughty, C. E., Abraham, A., Windsor, J., **Mommert, M.**, Gowenlock, M., Robinson, T., & Trilling, D. (2020), "*Distinguishing multicellular life on exoplanets by testing Earth as an exoplanet*", International Journal of Astrobiology, [publication](https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/distinguishing-multicellular-life-on-exoplanets-by-testing-earth-as-an-exoplanet/F9F31835A1E2A5EB04F3A12A09AA68E8).
 
 National Academies of Sciences, Engineering, and Medicine. 2019. "*Finding Hazardous Asteroids Using Infrared and Visible Wavelength Telescopes*", Washington, DC: The National Academies Press, [publication](https://doi.org/10.17226/25476).
 
@@ -341,8 +347,6 @@ Abdo, A. A., Ackermann, M., Ajello, M., Baldini, L., Ballet, J., Barbiellini, G.
 Mueller, M., Delbo', M., Hora, J. L., Trilling, D. E., Bhattacharya, B., Bottke, W. F., Chesley, S., Emery, J. P., Fazio, G., Harris, A. W., Mainzer, A., **Mommert, M.**, Penprase, B., Smith, H. A., Spahr, T. B., Stansberry, J. A., & Thomas, C. A. (2011), "*ExploreNEOs. III. Physical Characterization of 65 Potential Spacecraft Target Asteroids*", The Astronomical Journal, 141, 109., [publication](http://doi.org/10.1088/0004-6256/141/4/109)
 
 Harris, A. W., **Mommert, M.**, Hora, J. L., Mueller, M., Trilling, D. E., Bhattacharya, B., Bottke, W. F., Chesley, S., Delbo, M., Emery, J. P., Fazio, G., Mainzer, A., Penprase, B., Smith, H. A., Spahr, T. B., Stansberry, J. A., & Thomas, C. A. (2011), "*ExploreNEOs. II. The Accuracy of the Warm Spitzer Near-Earth Object Survey*", The Astronomical Journal, 141, 75., [publication](http://doi.org/10.1088/0004-6256/141/3/75)
-
-Mueller, M., Delbo', M., Hora, J. L., Trilling, D. E., Bhattacharya, B., Bottke, W. F., Chesley, S., Emery, J. P., Fazio, G., Harris, A. W., Mainzer, A., **Mommert, M.**, Penprase, B., Smith, H. A., Spahr, T. B., Stansberry, J. A., & Thomas, C. A. (2011), "*ExploreNEOs III: Physical characterization of 65 low-deltaV NEOs*", arXiv e-prints, 1101.4977., [arxiv](http://arxiv.org/abs/1101.4977)
 
 Abdo, A. A., Ackermann, M., Ajello, M., Baldini, L., Ballet, J., Barbiellini, G., Bastieri, D., Bechtol, K., Bellazzini, R., Berenji, B., Blandford, R. D., Bonamente, E., Borgland, A. W., Bouvier, A., Bregeon, J., Brez, A., Brigida, M., Bruel, P., Buehler, R., Buson, S., Caliandro, G. A., Cameron, R. A., Caraveo, P. A., Carrigan, S., Casandjian, J. M., Cavazzuti, E., Cecchi, C., Çelik, Ö., Charles, E., Chekhtman, A., Cheung, C. C., Chiang, J., Ciprini, S., Claus, R., Cohen-Tanugi, J., Conrad, J., Costamante, L., Cutini, S., Davis, D. S., Dermer, C. D., de Palma, F., Digel, S. W., do Couto e Silva, E., Drell, P. S., Dubois, R., Dumora, D., Favuzzi, C., Fegan, S. J., Fortin, P., Frailis, M., Fuhrmann, L., Fukazawa, Y., Funk, S., Fusco, P., Gargano, F., Gasparrini, D., Gehrels, N., Germani, S., Giglietto, N., Giommi, P., Giordano, F., Giroletti, M., Glanzman, T., Godfrey, G., Grenier, I. A., Grove, J. E., Guillemot, L., Guiriec, S., Hadasch, D., Hayashida, M., Hays, E., Horan, D., Hughes, R. E., Itoh, R., Jóhannesson, G., Johnson, A. S., Johnson, T. J., Johnson, W. N., Kamae, T., Katagiri, H., Kataoka, J., Knödlseder, J., Kuss, M., Lande, J., Latronico, L., Lee, S.-H., Longo, F., Loparco, F., Lott, B., Lovellette, M. N., Lubrano, P., Makeev, A., Mazziotta, M. N., McEnery, J. E., Mehault, J., Michelson, P. F., Mizuno, T., Moiseev, A. A., Monte, C., Monzani, M. E., Morselli, A., Moskalenko, I. V., Murgia, S., Nakamori, T., Naumann-Godo, M., Nestoras, I., Nolan, P. L., Norris, J. P., Nuss, E., Ohsugi, T., Okumura, A., Omodei, N., Orlando, E., Ormes, J. F., Ozaki, M., Paneque, D., Panetta, J. H., Parent, D., Pelassa, V., Pepe, M., Pesce-Rollins, M., Piron, F., Porter, T. A., Rainò, S., Rando, R., Razzano, M., Reimer, A., Reimer, O., Reyes, L. C., Ripken, J., Ritz, S., Romani, R. W., Roth, M., Sadrozinski, H. F.-W., Sanchez, D., Sander, A., Scargle, J. D., Sgrò, C., Shaw, M. S., Smith, P. D., Spandre, G., Spinelli, P., Strickman, M. S., Suson, D. J., Takahashi, H., Tanaka, T., Thayer, J. B., Thayer, J. G., Thompson, D. J., Tibaldo, L., Torres, D. F., Tosti, G., Tramacere, A., Usher, T. L., Vandenbroucke, J., Vasileiou, V., Vilchez, N., Vitale, V., Waite, A. P., Wang, P., Winer, B. L., Wood, K. S., Yang, Z., Ylinen, T., Ziegler, M., Acciari, V. A., Aliu, E., Arlen, T., Aune, T., Beilicke, M., Benbow, W., Böttcher, M., Boltuch, D., Bradbury, S. M., Buckley, J. H., Bugaev, V., Byrum, K., Cannon, A., Cesarini, A., Christiansen, J. L., Ciupik, L., Cui, W., de la Calle Perez, I., Dickherber, R., Errando, M., Falcone, A., Finley, J. P., Finnegan, G., Fortson, L., Furniss, A., Galante, N., Gall, D., Gillanders, G. H., Godambe, S., Grube, J., Guenette, R., Gyuk, G., Hanna, D., Holder, J., Hui, C. M., Humensky, T. B., Imran, A., Kaaret, P., Karlsson, N., Kertzman, M., Kieda, D., Konopelko, A., Krawczynski, H., Krennrich, F., Lang, M. J., LeBohec, S., Maier, G., McArthur, S., McCann, A., McCutcheon, M., Moriarty, P., Mukherjee, R., Ong, R. A., Otte, A. N., Pandel, D., Perkins, J. S., Pichel, A., Pohl, M., Quinn, J., Ragan, K., Reynolds, P. T., Roache, E., Rose, H. J., Schroedter, M., Sembroski, G. H., Senturk, G. D., Smith, A. W., Steele, D., Swordy, S. P., Tešić, G., Theiling, M., Thibadeau, S., Varlotta, A., Vassiliev, V. V., Vincent, S., Wakely, S. P., Ward, J. E., Weekes, T. C., Weinstein, A., Weisgarber, T., Williams, D. A., Wissel, S., Wood, M., Villata, M., Raiteri, C. M., Gurwell, M. A., Larionov, V. M., Kurtanidze, O. M., Aller, M. F., Lähteenmäki, A., Chen, W. P., Berduygin, A., Agudo, I., Aller, H. D., Arkharov, A. A., Bach, U., Bachev, R., Beltrame, P., Benítez, E., Buemi, C. S., Dashti, J., Calcidese, P., Capezzali, D., Carosati, D., Da Rio, D., Di Paola, A., Diltz, C., Dolci, M., Dultzin, D., Forné, E., Gómez, J. L., Hagen-Thorn, V. A., Halkola, A., Heidt, J., Hiriart, D., Hovatta, T., Hsiao, H.-Y., Jorstad, S. G., Kimeridze, G. N., Konstantinova, T. S., Kopatskaya, E. N., Koptelova, E., Leto, P., Ligustri, R., Lindfors, E., Lopez, J. M., Marscher, A. P., **Mommert, M.**, Mujica, R., Nikolashvili, M. G., Nilsson, K., Palma, N., Pasanen, M., Roca-Sogorb, M., Ros, J. A., Roustazadeh, P., Sadun, A. C., Saino, J., Sigua, L. A., Sillanää, A., Sorcia, M., Takalo, L. O., Tornikoski, M., Trigilio, C., Turchetti, R., Umana, G., Belloni, T., Blake, C. H., Bloom, J. S., Angelakis, E., Fumagalli, M., Hauser, M., Prochaska, J. X., Riquelme, D., Sievers, A., Starr, D. L., Tagliaferri, G., Ungerechts, H., Wagner, S., Zensus, J. A., Fermi LAT Collaboration, VERITAS Collaboration, & GASP-WEBT Consortium (2011), "*Multi-wavelength Observations of the Flaring Gamma-ray Blazar 3C 66A in 2008 October*", The Astrophysical Journal, 726, 43., [publication](http://doi.org/10.1088/0004-637X/726/1/43), [arxiv](http://arxiv.org/abs/1011.1053)
 
