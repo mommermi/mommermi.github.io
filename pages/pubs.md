@@ -11,7 +11,8 @@ title: Publication Record
 * 50 publications as co-author in peer-reviewed journals
 * 3 peer-reviewed contributions to conferences
 * 1 book contribution
-* 92 conference contributions (non peer-reviewed) 
+* 92 conference contributions (non peer-reviewed)
+* 9 publications of white papers, code, or data (non peer-reviewed)
 
 
 <h2>2021</h2>
