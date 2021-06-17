@@ -11,6 +11,7 @@ description: |
   greenhouse gas emissions from remote sensing data on a global scale.
 categories:
 - climate change
+- remote sensing
 - deep learning
 tags:
 - workshop contribution
@@ -40,4 +41,5 @@ url="/images/2020-12-07-Characterization_of_Industrial_Smoke_Plumes_from_Remote_
 description="Inference examples from our segmentation model. For different examples from our test sub-sample (columns), we show the RGB image (top row), a false color image (center row), and the footprint of the ground-truth labels (red areas) and predicted labels (green areas). In general, the segmentation model reliably identifies smoke plumes with few limitations." %}
 
 
-We made the [code](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection) and [data set](https://zenodo.org/record/4250706) from this work available online. The full workshop paper is available at [arXiv](https://arxiv.org/abs/2011.11344).
+This work was presented at the [``Tackling Climate Change with Machine Learning'' Workshop at the NeurIPS 2020](https://www.climatechange.ai/papers/neurips2020/9) conference and the [2021 NVIDIA GTC](https://www.nvidia.com/en-us/gtc/) conference.
+We made the [code](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection) and [data set](https://zenodo.org/record/4250706) from this work available online. The full workshop paper is available at [arXiv](https://arxiv.org/abs/2011.11344). 
