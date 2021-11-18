@@ -1,62 +1,27 @@
 ---
-# Please provide as much information here as possible. If you cannot fill in
-# a field, leave it empty. There is no need for quotation marks if your entry
-# consists of more than one word.
-
-# list of authors (first name, last name), comma separated
-# please put AIML researcher within <strong> XXX </strong> tags
-authors: <strong>Moritz Blattner</strong>, Michael Mommert, Damian Borth
-
-# date of publication (YYYY-MM-DD)
+author: mommermi
 date: 2021-11-17
-
-# leave this as is
 layout: post
-
-# title of the publication
 title: Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning
-# type of publication, please use captitalization (e.g., Journal Paper,
-# Conference Poster, Workshop Contribution, ...)
-itemtype: Conference Paper
-
-# name of publisher/journal/conference; feel free to add additional
-# information like volume number, page number, ...
-publisher:  ICML'21 - Workshop on Tackling Climate Change with Machine Learning
-
-# url to the official publication (could be conference, journal, arxiv)
-puburl: https://www.climatechange.ai/papers/icml2021/19
-
-# url to some pdf that is freely accessible (e.g., arxiv)
-pdfurl: https://www.climatechange.ai/papers/icml2021/19/paper.pdf
-
-# url to code repository (e.g., github)
-# codeurl: 
-
-# url to data repository (e.g., zenodo, github)
-# dataurl: 
-
-# email address of reponsible AIML author
-contactemail: michael.mommert@unisg.ch
-
-# publication language (e.g., English, German, ...)
-language: English
-
-# topical tags; try to cover the following topics:
-# - general field (e.g., remote sensing, TTS, financial data, ...)
-# - ML method (e.g., deep learning, gradient boosting, supervised learning,
-#              semi-supervised learning, self-supervised learning ...)
-# - task (e.g, classification, segmentation, representation learning, ...)
-# important note: if your tag contains a whitespace, please replace the
-# whitespace by an underscore!
-tags: remote_sensing object_detection mobility sentinel-2 deep_learning
-
+description: |
+  Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!
+categories:
+- deep learning
+- remote sensing
+- mobility
+tags:
+- publication
 ---
+
+# Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning
+
+Commercial vehicle traffic is currently responsible for 7% of global CO2 emissions. While road freight will remain the dominant mode of surface freight transportation, its contribution to climate change is likely to increase in the short term. Therefore, the quantitative monitoring of commercial vehicle (CV) traffic is essential for implementing targeted road emission regulations. However, ground monitoring stations are costly and less than half of all countries worldwide collect road freight activity. In this work, we investigate the feasibility of detecting and monitoring CV traffic in freely available
+satellite imagery from ESA's Sentinel-2 satellites.
 
 {% include image.html
 url="/images/2021-11-17-Commercial_Vehicle_Traffic_Detection_from_Satellite_Imagery_with_Deep_Learning/trucks.png"
-description="Green boxes indicate commercial vehicles (CV) as they move on a Swiss freeway section. Due to a delay in the imaging of the different channels, moving objects exhibit a characteristic rainbow-like appearance in Sentinel-2 images. This project exploits this characteristic feature to identify and measure commercial vehicle traffic from space." %}
-Commercial vehicle traffic is currently responsible for 7% of global CO2 emissions. While road freight will remain the dominant mode of surface freight transportation, its contribution to climate change is likely to increase in the short term. Therefore, the quantitative monitoring of commercial vehicle (CV) traffic is essential for implementing targeted road emission regulations. However, ground monitoring stations are costly and less than half of all countries worldwide collect road freight activity. In this work, we investigate the feasibility of detecting and monitoring CV traffic in freely available
-satellite imagery from ESA's Sentinel-2 satellites.
+description="Green boxes indicate commercial vehicles (CV) as they move on a Swiss freeway section. Due to a delay in the imaging of the different channels, moving objects exhibit a characteristic rainbow-like appearance in Sentinel-2 images." %}
+
 
 {% include image.html
 url="/images/2021-11-17-Commercial_Vehicle_Traffic_Detection_from_Satellite_Imagery_with_Deep_Learning/setup.png"
