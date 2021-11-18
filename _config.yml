@@ -1,8 +1,5 @@
 theme: jekyll-theme-midnight
 
-# Google Analytics
-google_analytics: UA-164239372-1
-
 exclude:
   - Gemfile
   - Gemfile.lock
