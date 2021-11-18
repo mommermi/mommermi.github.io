@@ -5,24 +5,32 @@ title: Publication Record
 
 <h2>Overview</h2>
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 2,720 citations, h-index=29, i10-index=43 (as of May 2021)
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 2,981 citations, h-index=30, i10-index=50 (as of November 2021)
 
 * 12 publications as first author in peer-reviewed journals
-* 50 publications as co-author in peer-reviewed journals
+* 52 publications as co-author in peer-reviewed journals
 * 3 peer-reviewed contributions to conferences
 * 1 book contribution
-* 92 conference contributions (non peer-reviewed)
+* 93 conference contributions (non peer-reviewed)
 * 9 publications of white papers, code, or data (non peer-reviewed)
 
 
 <h2>2021</h2>
 
-**Mommert, M.**, Scheibenreif, L., Hanna, J., Borth, D., "Power Plant Classification from Remote Imaging With Deep Learning", accepted for an oral presentation at the IEEE International Geoscience and Remote Sensing Symposium 2021 ([IGARSS 2021](https://igarss2021.com/)).
 
-Scheibenreif, L. , **Mommert, M.**, Borth, D., "A Novel Dataset and Benchmark for Surface NO2 Prediction from Remote Sensing Data Including COVID Lockdown Measures", accepted for an oral presentation at the IEEE International Geoscience and Remote Sensing Symposium 2021 ([IGARSS 2021](https://igarss2021.com/)).
+Hanna, J., **Mommert, M.**, Borth, D., "Estimating Greenhouse Gas Emissions from Satellite Imagery", ESA-ECMWF Workshop 2021.
+
+Scheibenreif, L, **Mommert, M.**, Borth, D., "Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space", ICML 2021 Tackling Climate Change with Machine Learning Workshop;
+[publication (open access)](https://www.climatechange.ai/papers/icml2021/23).
+
+Blattner, M., **Mommert, M.**, Borth, D., "Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning", ICML 2021 Tackling Climate Change with Machine Learning Workshop;
+[publication (open access)](https://www.climatechange.ai/papers/icml2021/19).
+
+**Mommert, M.**, Scheibenreif, L., Hanna, J., Borth, D., "Power Plant Classification from Remote Imaging With Deep Learning", IEEE International Geoscience and Remote Sensing Symposium 2021 ([IGARSS 2021](https://igarss2021.com/)); [publication](https://ieeexplore.ieee.org/iel7/9553015/9553016/09553219.pdf), [arxiv](https://arxiv.org/abs/2107.10894).
+
+Scheibenreif, L. , **Mommert, M.**, Borth, D., "A Novel Dataset and Benchmark for Surface NO2 Prediction from Remote Sensing Data Including COVID Lockdown Measures", IEEE International Geoscience and Remote Sensing Symposium 2021 ([IGARSS 2021](https://igarss2021.com/)); [publication](https://ieeexplore.ieee.org/iel7/9553015/9553016/09554037.pdf).
 
 **Mommert, M.**, "Characterizing Industrial Smoke Plumes from Remote Sensing Data with Deep Learning", oral presentation at [NVIDIA GTC21](https://www.nvidia.com/en-us/gtc/). 
-
 
 <h2>2020</h2>
 
