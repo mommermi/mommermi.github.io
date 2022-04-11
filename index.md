@@ -3,24 +3,18 @@ title: About
 layout: page
 ---
 
-Earth-observing satellites provide a plethora of data directly related
-to environmental, economic, and societal issues. Due to their sheer
-amount, the systematic interpretation of remote sensing data on a regional or
-even global scale requires highly scalable analysis methods.
-
-
 <p align="justify">
 <img src="/images/moi.jpg" alt="C'est moi" class="img-circle"
 align="right" hspace="25" height="30%" width="30%">
-I am currently a senior researcher at the
-<a href="https://hsg.ai">
-Institute of Computer Science</a> of the
-<a href="http://www.unisg.ch">University of St. Gallen</a> where my research 
-focuses on the intersection between computer vision and remote
-sensing. I am utilizing deep learning methods to extract knowledge
-from satellite observations to improve these methods and to address a
+I am Assistant Professor for Computer Vision 
+at the <a href="http://www.unisg.ch">University of St. Gallen</a>'s 
+<a href="https://www.unisg.ch/en/universitaet/schools/computer-science">
+School of Computer Science</a>. My research 
+focuses on the intersection between computer vision and Earth observation.
+Together with my team, I leverage Deep Learning methods to extract knowledge
+from remote sensing data to address a
 wide range of issues related to environmental science, hazard
-prevention and monitoring and geoscience.
+prevention and monitoring, as well as Earth science.
 </p>
 
 <p align="justify">In my previous life, I worked as an astronomer,

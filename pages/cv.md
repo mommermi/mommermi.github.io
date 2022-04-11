@@ -6,7 +6,8 @@ title: Curriculum Vitae
 
 ## Employment
 
-  * **senior researcher** at University of St. Gallen, 2020+	
+  * **assistant professor** at University of St. Gallen, 2022+
+  * **senior researcher** at University of St. Gallen, 2020-2022	
   * **assistant astronomer** (tenure track) at Lowell Observatory, Flagstaff, 2018-2020
   * **research associate** at Northern Arizona University, Flagstaff, 2016-2018
   * **post-doctoral researcher** at Northern Arizona University, Flagstaff, 2013-2016
