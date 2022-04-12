@@ -9,16 +9,25 @@ title: Publication Record
 
 * 12 publications as first author in peer-reviewed journals
 * 52 publications as co-author in peer-reviewed journals
-* 3 peer-reviewed contributions to conferences
+* 7 peer-reviewed contributions to conferences
 * 1 book contribution
 * 93 conference contributions (non peer-reviewed)
 * 9 publications of white papers, code, or data (non peer-reviewed)
 
+<h2>2022</h2>
+
+Eicher, L., **Mommert, M.**, Borth, D., "Traffic Noise Estimation from Satellite Imagery with Deep Learning", IEEE International Geoscience and Remote Sensing Symposium, accepted, 2022.
+
+Hanna, J., Scheibenreif, L., **Mommert, M.**, Borth, D., "A Multimodal Approach for Event Detection: Study of UK Lockdowns in the Year 2020", IEEE International Geoscience and Remote Sensing Symposium, accepted, 2022.
+
+Scheibenreif, L., **Mommert, M.**, Borth, D., "Contrastive Self-Supervised Data Fusion for Satellite Imagery", International Symposium for Photogrammetry and Remote Sensing, accepted, 2022.
+
+Scheibenreif, L., **Mommert, M.**, Borth, D., "Towards Global Estimation of Ground-Level NO2 Pollution with Deep Learning and Remote Sensing", IEEE Transactions on Geoscience and Remote Sensing, 2022, [in press](https://doi.org/10.1109/TGRS.2022.3160827).
+
 
 <h2>2021</h2>
 
-
-Hanna, J., **Mommert, M.**, Borth, D., "Estimating Greenhouse Gas Emissions from Satellite Imagery", ESA-ECMWF Workshop 2021.
+Hanna, J., **Mommert, M.**, Scheibenreif, L. Borth, D., "Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery", NeurIPS 2021 Tackling Climate Change with Machine Learning Workshop; [publication (open access)](https://www.climatechange.ai/papers/neurips2021/27).
 
 Scheibenreif, L, **Mommert, M.**, Borth, D., "Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space", ICML 2021 Tackling Climate Change with Machine Learning Workshop;
 [publication (open access)](https://www.climatechange.ai/papers/icml2021/23).
