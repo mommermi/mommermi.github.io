@@ -14,7 +14,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 # Don Quixote

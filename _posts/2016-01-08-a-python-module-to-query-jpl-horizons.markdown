@@ -10,7 +10,7 @@ description: |
 categories:
 - astronomy
 tags:
-- code
+- open-source software
 ---
 
 Working on Solar System small bodies, I make frequent use of the [JPL HORIZONS](http://ssd.jpl.nasa.gov/horizons.cgi) system, which provides ephemerides and orbital elements at given times for any Solar System body. HORIZONS provides access through email, telnet, and a website that can be queried manually.

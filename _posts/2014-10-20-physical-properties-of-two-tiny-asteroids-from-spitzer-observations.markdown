@@ -11,7 +11,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 Little is known about the physical properties of the smallest NEOs with diameters of less than 10 meters. Due to their small sizes, they are usually very faint and hard to observe. Hence, only a small number of asteroids in this size regime are known and for only very few of those physical properties like diameter and albedo have been measured. However, small NEOs are much more frequent than larger NEOs, making some of these objects easily accessible spacecraft targets and potential impactors. Traditionally, people believed that these small NEOs have formed through collisions and that they are individual slabs of rock, i.e,. monolithic bodies.

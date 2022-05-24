@@ -11,7 +11,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 TESS is the [Transiting Exoplanet Survey Satellite](https://tess.mit.edu/), which was launched into space by NASA in 2018 to identify faint brightness variations in stars that are characteristic of planets orbiting around and transiting in front of these stars.

@@ -14,7 +14,7 @@ categories:
 - remote sensing 
 - deep learning
 tags:
-- conference contribution
+- research
 ---
 
 {% include image.html

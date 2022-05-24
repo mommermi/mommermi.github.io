@@ -10,7 +10,8 @@ description: |
 categories:
 - software
 tags:
-- code
+- open-source software
+- note
 ---
 
 Compiling lists of publications for proposals, applications, or simply your cv can be a cumbersome process. If only there was some code that could produce a nicely formatted pdf from the information listed on the [NASA ADS system](https://ui.adsabs.harvard.edu/#)...

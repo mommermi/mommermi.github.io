@@ -5,16 +5,18 @@ title: Publication Record
 
 <h2>Overview</h2>
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 2,981 citations, h-index=30, i10-index=50 (as of November 2021)
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 3,274 citations, h-index=30, i10-index=52 (as of May 2022)
 
 * 12 publications as first author in peer-reviewed journals
 * 52 publications as co-author in peer-reviewed journals
-* 7 peer-reviewed contributions to conferences
+* 10 peer-reviewed contributions to conferences
 * 1 book contribution
 * 93 conference contributions (non peer-reviewed)
 * 9 publications of white papers, code, or data (non peer-reviewed)
 
 <h2>2022</h2>
+
+Scheibenreif, L., Hanna, J., **Mommert, M.**, Borth, D., "Self-Supervised Vision Transformers for Land-cover Segmentation and Classification", Earthvision Workshop at IEEE/CVPR 2022.
 
 Eicher, L., **Mommert, M.**, Borth, D., "Traffic Noise Estimation from Satellite Imagery with Deep Learning", IEEE International Geoscience and Remote Sensing Symposium, accepted, 2022.
 

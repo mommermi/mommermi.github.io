@@ -11,7 +11,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.

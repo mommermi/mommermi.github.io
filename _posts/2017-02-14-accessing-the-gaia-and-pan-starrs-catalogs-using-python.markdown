@@ -9,7 +9,8 @@ description: |
 categories:
 - astronomy
 tags:
-- code
+- open-source software
+- note
 ---
 
 _update 2019/01: I updated the following code to reflect recent developments (mostly the availability of Pan-STARRS in Vizier)_

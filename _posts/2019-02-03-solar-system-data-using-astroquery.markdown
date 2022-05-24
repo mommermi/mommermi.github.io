@@ -9,7 +9,7 @@ description: |
 categories:
 - software
 tags:
-- code
+- open-source software
 ---
 
 As mentioned in an [earlier post](http://mommermi.github.io/astronomy/2016/01/08/a-python-module-to-query-jpl-horizons.html), I published some code to query the JPL Horizons system, which provides ephemerides, orbital elements, and state vectors for Solar System bodies, in the framework of *astroquery*.

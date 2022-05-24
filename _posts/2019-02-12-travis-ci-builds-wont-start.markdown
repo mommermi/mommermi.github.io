@@ -9,7 +9,7 @@ description: |
 categories:
 - software
 tags:
-- advice
+- note
 ---
 
 I was having troubles using Travis-CI and github that I would like to spare you: after modifying the *.travis.yml* of my github repository and pushing the changes to an already submitted pull request, the Travis-CI build checks just wouldn't start. It's not that the checks failed, they just simply would not start.

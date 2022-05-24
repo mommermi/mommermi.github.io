@@ -12,7 +12,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 The understanding of the compositional distribution of NEOs is important to reconstruct their dynamical and physical evolution, assess the damage potential in case of an impact, and estimate the resources that can be obtained from these bodies in the not-so-far future. Also, there is still a discrepancy between the compositional distribution of meteoritic material found on Earth and the overall composition of the NEO distribution.

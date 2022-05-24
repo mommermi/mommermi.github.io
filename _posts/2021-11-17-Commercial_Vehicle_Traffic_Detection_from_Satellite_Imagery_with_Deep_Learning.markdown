@@ -10,7 +10,7 @@ categories:
 - remote sensing
 - mobility
 tags:
-- publication
+- research
 ---
 
 # Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning

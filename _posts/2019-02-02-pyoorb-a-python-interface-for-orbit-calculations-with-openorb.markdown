@@ -9,7 +9,7 @@ description: |
 categories:
 - software
 tags:
-- code
+- open-source software
 ---
 
 [OpenOrb](https://github.com/oorb/oorb) is a software suite for performing all sorts of orbit calculations, including orbit integration, ephemerides calculations, and ranging to determine orbit solutions based on observations. Coded in Fortran, OpenOrb is usually compiled locally and run from the command line.

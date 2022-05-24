@@ -10,7 +10,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 The vast majority of all asteroid diameters and albedos that are currently available have been derived from thermal infrared observations using a method called thermal modeling. Thermal models simulate the surface temperature distribution on an asteroid which is used to derive the thermal infrared flux that is emitted by the body. By varying the model parameters - mainly its diameter and albedo - the properties of an asteroid can be fit to observations of the thermal emission and hence estimated.

@@ -12,7 +12,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 One long-standing question is: how many asteroids - especially near-Earth asteroids (NEAs) - were comets in the past? In the classical conception, comets have surface ices and form tails and comae in the vicinity of the Sun; asteroids are simply rocks in space. In the recent years, the two classifications became less clear than that.

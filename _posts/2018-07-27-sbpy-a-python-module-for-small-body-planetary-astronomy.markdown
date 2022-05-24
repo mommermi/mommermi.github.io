@@ -10,7 +10,7 @@ description: |
 categories:
 - astronomy
 tags:
-- code
+- open-source software
 ---
 
 

@@ -3,8 +3,10 @@ layout: page
 title: Articles by Topic
 ---
 
-There is also a [list of articles by publication year](./blog) and a
-[list of articles by type](./blog_tag).
+This page contains a list of all articles published on this webpage sorted by topic.
+
+There is also a [list of articles by publication year](./archive) and a
+[list of articles by type](./archive_tag).
 
 
 {% for category in site.categories %}

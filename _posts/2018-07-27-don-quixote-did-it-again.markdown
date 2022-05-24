@@ -8,7 +8,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 Don Quixote is active again and this time the activity is observable in the optical, pointing toward the presence of dust ([CBET 4502](http://www.cbat.eps.harvard.edu/iau/cbet/004500/CBET004502.txt), requires a CBET subscription). More details coming soon...

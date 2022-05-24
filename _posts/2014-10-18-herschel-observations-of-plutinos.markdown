@@ -11,7 +11,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 Plutinos are a subpopulation of the Trans-Neptunian Objects (TNOs), which are pristine and icy objects on the outskirts of the Solar System. The orbits of Plutinos - which are named after their prototype, Pluto - are in 2:3 resonance with Neptune, meaning that by the time a Plutino performs 2 full orbits around the Sun, Neptune performs 3. This "mean motion resonance" provides a high degree of stability to the orbits of Plutinos. Hence, Plutinos are dynamically and physically pristine objects.

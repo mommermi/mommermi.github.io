@@ -10,7 +10,7 @@ categories:
 - remote sensing
 - pollution
 tags:
-- publication
+- research
 ---
 
 # Estimation of Surface Level NO2 from Remote Sensing Data

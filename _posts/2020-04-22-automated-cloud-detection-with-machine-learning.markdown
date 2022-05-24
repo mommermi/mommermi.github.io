@@ -12,7 +12,7 @@ categories:
 - machine learning
 - deep learning
 tags:
-- publication
+- research
 ---
 
 # Motivation

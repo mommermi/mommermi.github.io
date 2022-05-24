@@ -10,22 +10,20 @@ I am Assistant Professor for Computer Vision
 at the <a href="http://www.unisg.ch">University of St. Gallen</a>'s 
 <a href="https://www.unisg.ch/en/universitaet/schools/computer-science">
 School of Computer Science</a>. My research 
-focuses on the intersection between computer vision and Earth observation.
-Together with my team, I leverage Deep Learning methods to extract knowledge
-from remote sensing data to address a
-wide range of issues related to environmental science, hazard
-prevention and monitoring, as well as Earth science.
-</p>
+combines computer vision with Earth observation,
+thereby leveraging scalable Deep Learning approaches to extract knowledge
+from remote sensing data. By implementing new methodological approaches
+and tailoring existing methods in combination with unique, targeted datasets, 
+my team and I are able to address a
+wide range of environmental, economic, and societal issues. </p>
 
 <p align="justify">In my previous life, I worked as an astronomer,
-exploring asteroids and comets in our Solar System and building
+exploring <a href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=mommert&view=OPD">asteroids and comets</a> 
+in our Solar System and building
 <a href="https://sbpy.org/">open</a>
 <a href="https://github.com/mommermi/photometrypipeline">source</a>
 <a href="https://astroquery.readthedocs.io/en/latest/">software</a>
 tools to make astronomers' lifes easier.</p>
-
-<p align="justify">Results from my current and previous research are
-presented in a number of articles on this website.</p>
 
 <h2>Latest Research</h2>
 
@@ -38,11 +36,11 @@ presented in a number of articles on this website.</p>
 <h2>Contact</h2>
 
 <p>University of St. Gallen
-<br>Institute of Computer Science (ICS-HSG)
+<br>School of Computer Science
 <br>Rosenbergstrasse 30
 <br>CH-9000 St. Gallen</p>
 
-[email](mailto:mommermiscience (you-know-what) gmail.com) |
+[email](mailto:michael.mommert (you-know-what) unisg.ch) |
 [Github](https://github.com/mommermi) |
 [LinkedIn](https://www.linkedin.com/in/michael-mommert/) |
 [Twitter](https://twitter.com/mommermi) |

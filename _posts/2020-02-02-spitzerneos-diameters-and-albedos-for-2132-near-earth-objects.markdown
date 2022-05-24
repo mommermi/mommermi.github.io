@@ -10,7 +10,7 @@ description: |
 categories:
 - astronomy
 tags:
-- publication
+- research
 ---
 
 Ever since the early days of my PhD thesis, I have been involved in
