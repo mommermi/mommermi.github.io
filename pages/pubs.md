@@ -5,7 +5,7 @@ title: Publication Record
 
 <h2>Overview</h2>
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 3,274 citations, h-index=30, i10-index=52 (as of May 2022)
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 3,494 citations, h-index=31, i10-index=53 (as of October 2022)
 
 * 12 publications as first author in peer-reviewed journals
 * 52 publications as co-author in peer-reviewed journals
@@ -16,15 +16,15 @@ title: Publication Record
 
 <h2>2022</h2>
 
-Scheibenreif, L., Hanna, J., **Mommert, M.**, Borth, D., "Self-Supervised Vision Transformers for Land-cover Segmentation and Classification", Earthvision Workshop at IEEE/CVPR 2022.
+Scheibenreif, L., Hanna, J., **Mommert, M.**, Borth, D., "Self-Supervised Vision Transformers for Land-cover Segmentation and Classification", [Earthvision Workshop at IEEE/CVPR 2022](https://www.grss-ieee.org/events/earthvision-2022/), [publication (open access)](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.pdf).
 
-Eicher, L., **Mommert, M.**, Borth, D., "Traffic Noise Estimation from Satellite Imagery with Deep Learning", IEEE International Geoscience and Remote Sensing Symposium, accepted, 2022.
+Eicher, L., **Mommert, M.**, Borth, D., "Traffic Noise Estimation from Satellite Imagery with Deep Learning", [IEEE International Geoscience and Remote Sensing Symposium, 2022]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9883463) (open access: [unisg](http://www.alexandria.unisg.ch/267269/1/IGARSS_traffic_noise.pdf)), 2022.
 
-Hanna, J., Scheibenreif, L., **Mommert, M.**, Borth, D., "A Multimodal Approach for Event Detection: Study of UK Lockdowns in the Year 2020", IEEE International Geoscience and Remote Sensing Symposium, accepted, 2022.
+Hanna, J., Scheibenreif, L., **Mommert, M.**, Borth, D., "A Multimodal Approach for Event Detection: Study of UK Lockdowns in the Year 2020", [IEEE International Geoscience and Remote Sensing Symposium, 2022](https://ieeexplore.ieee.org/document/9883986) (open access: [unisg](http://www.alexandria.unisg.ch/267271/1/IGARSS_2022.pdf)).
 
-Scheibenreif, L., **Mommert, M.**, Borth, D., "Contrastive Self-Supervised Data Fusion for Satellite Imagery", International Symposium for Photogrammetry and Remote Sensing, accepted, 2022.
+Scheibenreif, L., **Mommert, M.**, Borth, D., "Contrastive Self-Supervised Data Fusion for Satellite Imagery", International Symposium for Photogrammetry and Remote Sensing, [publication](http://www.alexandria.unisg.ch/266528/1/Scheibenreif2022_ContrastiveSSLDataFusion.pdf), 2022.
 
-Scheibenreif, L., **Mommert, M.**, Borth, D., "Towards Global Estimation of Ground-Level NO2 Pollution with Deep Learning and Remote Sensing", IEEE Transactions on Geoscience and Remote Sensing, 2022, [in press](https://doi.org/10.1109/TGRS.2022.3160827).
+Scheibenreif, L., **Mommert, M.**, Borth, D., "Towards Global Estimation of Ground-Level NO2 Pollution with Deep Learning and Remote Sensing", IEEE Transactions on Geoscience and Remote Sensing, [publication](https://doi.org/10.1109/TGRS.2022.3160827), 2022.
 
 
 <h2>2021</h2>
@@ -69,6 +69,8 @@ National Academies of Sciences, Engineering, and Medicine. 2019. "*Finding Hazar
 Neugent, K. F., Massey, P., Georgy, C., Drout, M. R., **Mommert, M.**, Levesque, E. M., Meynet, G., & Ekström, S. (2020), "*The Luminosity Function of Red Supergiants in M31*", The Astrophysical Journal, 889, 44., [publication](http://doi.org/10.3847/1538-4357/ab5ba0), [arxiv](http://arxiv.org/abs/1911.10638)
 
 Holler, B., Grundy, W., Murray, K., Young, L., Porter, S., Buie, M., Noll, K., & **Mommert, M.** (2020), "*New Insights into the Eris/Dysnomia System*", American Astronomical Society Meeting Abstracts, 278.06.
+
+<h2>2019</h2>
 
 Müller, T., Kiss, C., Alí-Lagoa, V., Ortiz, J. L., Lellouch, E., Santos-Sanz, P., Fornasier, S., Marton, G., **Mommert, M.**, Farkas-Takács, A., Thirouin, A., & Vilenius, E. (2019), "*Haumea's thermal emission revisited in the light of the occultation results*", Icarus, 334, 39., [publication](http://doi.org/10.1016/j.icarus.2018.11.011), [arxiv](http://arxiv.org/abs/1811.09476)
 

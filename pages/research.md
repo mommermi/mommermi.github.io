@@ -31,15 +31,21 @@ The success of my research heavily relies on the help of students who work on a 
 
 ### Current Students
 
-* Joelle Hanna<span style="color:gray">\*</span>, PhD program in Computer Science, since 2021. 
-* Linus Scheibenreif<span style="color:gray">\*</span>, PhD program in Computer Science, since 2021.
+* Yosef Asefaw, Bachelor in Business Administration, *Deep clustering of traffic camera imagery*.
+* Aron Baeriswyl, Master in Quantitative Economics/Finance, *Improving Road Noise Estimation with Contrastive Self-Supervised Learning*.
+* Yannick Cadonau, Bachelor in Business Adminiistration, *Setting realistic expectations for solar power production forecasts utilizing weather predictions*.
+* Lorenz Dreyer, Master in General Management, *Characterization of Open-pit Mining Areas from Satellite Imagery*.
+* Joelle Hanna<span style="color:gray">\*</span>, PhD program in Computer Science, since 2021, official supervisor: [Damian Borth](https://www.alexandria.unisg.ch/persons/7781). 
+* Linus Scheibenreif<span style="color:gray">\*</span>, PhD program in Computer Science, since 2021, official supervisor: [Damian Borth](https://www.alexandria.unisg.ch/persons/7781).
+
+
 
 ### Former Students
 
 * Robin Sutter, *Time Series Forecasting of Photovoltaic
-Energy with Physics-guided Deep Learning Ensembles*, Master in Business Innovation, submitted.
+Energy with Physics-guided Deep Learning Ensembles*, Master in Business Innovation, 2022.
 * Leonardo Eicher<span style="color:gray">\*</span>, *Traffic Noise Estimation from Remote
-Imaging Data with Deep Learning*, Bachelor in Business Administration, 2022; results are to be published at IGARSS 2022.  
+Imaging Data with Deep Learning*, Bachelor in Business Administration, 2022; results were published at [IGARSS 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9883463) (open access: [unisg](http://www.alexandria.unisg.ch/267269/1/IGARSS_traffic_noise.pdf)).  
 * Moritz Blattner<span style="color:gray">\*</span>, *Detection and Monitoring of Commercial Vehicles from Satellite Images using Deep Learning*, Master in Business Innovation, 2021; results were published at the [*Tackling Climate Change with Machine Learning* workshop at ICML 2021](https://www.climatechange.ai/papers/icml2021/19).
 * Samuel Navarro-Meza<span style="color:gray">\*</span>, *Rapid response
 characterization of Near-Earth Asteroids using RATIR*, Universidad Nacional Autónoma de México/Northern Arizona University, PhD, 2021; co-mentored with Mauricio Reyes-Ruiz and David Trilling; results were published in *[The Astronomical Journal](https://arxiv.org/abs/1903.08320)*.
