@@ -10,11 +10,13 @@ description: |
   help us to estimate greenhouse gas emission rates for individual industrial
   sites in the future.
 categories:
-- climate change
-- remote sensing 
-- deep learning
+- Applied Research
 tags:
-- research
+- Earth Observation
+- Deep Learning
+- Classification
+- Power Plants
+- Sentinel-2
 ---
 
 {% include image.html
@@ -82,5 +84,9 @@ support us in estimating greenhouse gas emissions for any industrial
 site on Earth from remote imaging data.
 
 
-This work will be presented at the [IEEE International Geoscience and
+This work was presented at the [IEEE International Geoscience and
 Remote Sensing Symposion (IGARSS) 2021](https://igarss2021.com/).
+
+# Resources
+
+* Mommert, M., Scheibenreif, L., Hanna, J., Borth, D., "Power Plant Classification from Remote Imaging With Deep Learning", IEEE International Geoscience and Remote Sensing Symposium 2021 ([IGARSS 2021](https://igarss2021.com/)); [publication](https://ieeexplore.ieee.org/iel7/9553015/9553016/09553219.pdf), [arxiv](https://arxiv.org/abs/2107.10894).

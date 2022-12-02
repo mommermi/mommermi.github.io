@@ -10,9 +10,13 @@ description: |
   classification of asteroids with typically small sizes and the determination
   of their compositional distribution.
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Near-Earth Asteroids
+- Rapid-Response Observations
+- Spectrophotometry
+- UKIRT
+
 ---
 
 The understanding of the compositional distribution of NEOs is important to reconstruct their dynamical and physical evolution, assess the damage potential in case of an impact, and estimate the resources that can be obtained from these bodies in the not-so-far future. Also, there is still a discrepancy between the compositional distribution of meteoritic material found on Earth and the overall composition of the NEO distribution.
@@ -29,4 +33,10 @@ By combining spectrophotometry and rapid response observations, we are technical
 
 We perform our observations in the optical and near infrared regimes, which are particularly indicative for asteroid taxonomy, using two different instruments and telescopes: [WFCAM](http://www.jach.hawaii.edu/UKIRT/instruments/wfcam/) on [UKIRT](http://www.jach.hawaii.edu/UKIRT/) (3.8m, located on Mauna Kea, Hawai'i) and [RATIR](http://butler.lab.asu.edu/RATIR/) on the 1.5m  telescope at [San Pedro Martir](http://www.astrossp.unam.mx/), Mexico. Target selection, observation, data reduction, and analysis are mostly automated for both telescopes, allowing for a high throughput with minimal human interaction. Target asteroids are selected based on their observability, bright NEOs are observed by RATIR, fainter ones by UKIRT.
 
-First results from UKIRT have been [published](http://adsabs.harvard.edu/abs/2016AJ....151...98M) in AJ.
+First results from UKIRT have been [published](http://adsabs.harvard.edu/abs/2016AJ....151...98M) in AJ and we have also published some results from RATIR in the meantime...
+
+# Resources
+
+* Mommert, M., Trilling, D. E., Borth, D., Jedicke, R., Butler, N., Reyes-Ruiz, M., Pichardo, B., Petersen, E., Axelrod, T., & Moskovitz, N. (2016), "*First Results from the Rapid-response Spectrophotometric Characterization of Near-Earth Objects using UKIRT*", The Astronomical Journal, 151, 98., [publication](http://doi.org/10.3847/0004-6256/151/4/98), [arxiv](http://arxiv.org/abs/1602.06000)
+
+* Navarro-Meza, S., Mommert, M., Trilling, D. E., Butler, N., Reyes-Ruiz, M., Pichardo, B., Axelrod, T., Jedicke, R., & Moskovitz, N. (2019), "*First Results from the Rapid-response Spectrophotometric Characterization of Near-Earth Objects Using RATIR*", The Astronomical Journal, 157, 190., [publication](http://doi.org/10.3847/1538-3881/ab1138), [arxiv](http://arxiv.org/abs/1903.08320)

@@ -10,11 +10,13 @@ description: |
   smoke plumes. In the future, we will utilize this approach to estimate
   greenhouse gas emissions from remote sensing data on a global scale.
 categories:
-- climate change
-- remote sensing
-- deep learning
+- Applied Research
 tags:
-- research
+- Earth Observation
+- Deep Learning
+- Segmentation
+- Plumes
+- Sentinel-2
 ---
 
 The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth's climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA's Sentinel-2 satellites.
@@ -42,4 +44,20 @@ description="Inference examples from our segmentation model. For different examp
 
 
 This work was presented at the [``Tackling Climate Change with Machine Learning'' Workshop at the NeurIPS 2020](https://www.climatechange.ai/papers/neurips2020/9) conference and the [2021 NVIDIA GTC](https://www.nvidia.com/en-us/gtc/) conference.
-We made the [code](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection) and [data set](https://zenodo.org/record/4250706) from this work available online. The full workshop paper is available at [arXiv](https://arxiv.org/abs/2011.11344). 
+We made the [code](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection) and [data set](https://zenodo.org/record/4250706) from this work available online. 
+
+
+This work was extended by our PhD student Joelle. Checkout her updates [here]({% post_url 2021-12-14-Estimating_Power_Plant_Greenhouse_Gas_Emissions_from_Satellite_Imagery %}).
+
+
+# Resources
+
+* Mommert, M., Sigel, M., Neuhausler, M., Scheibenreif, L., Borth, D., "Characterization of Industrial Smoke Plumes from Remote Sensing Data", [Tackling Climate Change with Machine Learning Workshop,
+NeurIPS 2020](https://www.climatechange.ai/papers/neurips2020/9). 
+
+* Mommert, M. et al. 2020: [dataset](https://zenodo.org/record/4250706)
+
+* Mommert, M. et al. 2020: [code](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection)
+
+
+* Mommert, M., "Characterizing Industrial Smoke Plumes from Remote Sensing Data with Deep Learning", oral presentation at [NVIDIA GTC21](https://www.nvidia.com/en-us/gtc/). 

@@ -10,9 +10,12 @@ description: |
   ensemble shape information for different asteroid populations from the
   first batch of asteroid data from Gaia.
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Asteroids
+- Asteroid Physical Properties
+- Gaia
+
 ---
 
 The [ESA mission Gaia](http://sci.esa.int/gaia/) not only observes a good fraction of the stars in the milky way, but also a huge number of asteroids. Gaia Data Release 2 (DR2) is the first data release to include a number of asteroid observations, limited to G magnitudes (no color information) and a pre-selected sample of 14099 asteroids from different populations. For each asteroids, DR2 contains a median number of 9 observations over the first 9 months of the mission. While this limited data set does not allow for deriving the targets' rotational periods or constraining their taxonomic types, it is useful for a look into the shape distribution of asteroids.
@@ -29,4 +32,6 @@ The most significant effect in both the measured and debiased shape distribution
 
 While the measured shape distributions show clear variations for different subsamples (e.g., as a function of semimajor axis), the small sample size strictly limits the confidence on any deductions. However, this study clearly shows that future Gaia small body data releases (which will hopefully include many more photometric data points for many more asteroids) will provide a treasure trove for studies as the one presented here.
 
-For more information, have a look at the [paper](https://arxiv.org/pdf/1808.08988.pdf).
+# Resources 
+
+* Mommert, M., McNeill, A., Trilling, D. E., Moskovitz, N., Delbo', M. (2018), "*The Main Belt Asteroid Shape Distribution from Gaia Data Release 2*", The Astronomical Journal, 156, 139., [publication](http://doi.org/10.3847/1538-3881/aad338), [arxiv](http://arxiv.org/abs/1808.08988)

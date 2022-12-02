@@ -6,14 +6,14 @@ title: Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Lea
 description: |
   Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!
 categories:
-- deep learning
-- remote sensing
-- mobility
+- Applied Research
 tags:
-- research
----
+- Earth Observation
+- Deep Learning
+- Traffic
+- Sentinel-2
 
-# Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning
+---
 
 Commercial vehicle traffic is currently responsible for 7% of global CO2 emissions. While road freight will remain the dominant mode of surface freight transportation, its contribution to climate change is likely to increase in the short term. Therefore, the quantitative monitoring of commercial vehicle (CV) traffic is essential for implementing targeted road emission regulations. However, ground monitoring stations are costly and less than half of all countries worldwide collect road freight activity. In this work, we investigate the feasibility of detecting and monitoring CV traffic in freely available
 satellite imagery from ESA's Sentinel-2 satellites.
@@ -44,4 +44,8 @@ traffic due to lockdown measures during the first wave of the COVID19 pandemic i
 
 To conclude, our approach enables the estimation of CV traffic rates from remote sensing data only, which makes it applicable on a global scale. The methods presented here constitute a powerful tool to estimate CV traffic rates in areas in which ground-based traffic rate measurements are unavailable.
 
-This project is based on the results of the Master thesis of MBI student Moritz Blattner, who presented this project at the [ICML 2021 Tackling Climate Change with Machine Learning Workshop](https://www.climatechange.ai/papers/icml2021/19).
+This project is based on the results of the Master thesis of MBI student Moritz Blattner, who also presented this project at the [ICML 2021 Tackling Climate Change with Machine Learning Workshop](https://www.climatechange.ai/papers/icml2021/19).
+
+# Resources
+
+* Blattner, M., Mommert, M., Borth, D., "Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning", ICML 2021 Tackling Climate Change with Machine Learning Workshop [publication (open access)](https://www.climatechange.ai/papers/icml2021/19).

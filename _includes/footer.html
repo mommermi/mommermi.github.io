@@ -1,13 +1,32 @@
-<div class="footer">
-  <hr>
-  
-  <p class="footer-entry"> &copy;
-    
-    <a href="mailto:michael.mommert (you-know-what) unisg.ch">
-      Michael Mommert</a> 2022 | powered by
-    <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and
-    <a href="http://themes.jekyllrc.org/midnight/" target="_blank">
-      jekyll-theme-midnight</a> | Hosted on
-    <a href="https://github.com/mommermi/mommermi.github.io"
-       target="_blank">github</a></p>
-</div>
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            &copy; {{ site.time | date: '%Y' }} | Michael Mommert
+          </li>
+          {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+	<p>{%- include social.html -%}</p>
+      </div>
+
+      
+      <div class="footer-col footer-col-3">
+	<p>{{- site.description | escape -}}</p>
+      </div>
+      
+    </div>
+
+  </div>
+
+</footer>

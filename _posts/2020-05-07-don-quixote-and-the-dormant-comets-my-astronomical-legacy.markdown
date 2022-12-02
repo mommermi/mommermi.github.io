@@ -12,12 +12,12 @@ description: |
   active, too, over a period of more than 4 years. Bottom line: Don Quixote
   is rather unique. 
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Don Quixote
+- Dormant Comets
+- Asteroids
 ---
-
-# Don Quixote
 
 [Don Quixote](https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552) was
 discovered in 1983 and although it has a perfectly comet-like orbit,
@@ -34,7 +34,7 @@ singular event (e.g., triggered by a recent impact), or whether the
 object is recurrently active like an active comet.
 
 {% include image.html
-url="/images/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/fig1_dark.png"
+url="/images/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/fig1.png"
 description="2017 Spitzer IRAC mosaics (inverted greyscale): the left
 column shows original mosaics, PRF (point-response-function)-subtracted mosaics are shown in
 the center column, the right column presents radial profiles derived
@@ -68,7 +68,7 @@ faintest observed active comets. Thus, **Don Quixote is most likely an
 active comet, too, implying that it has indeed a reservoir of
 volatiles, consisting of CO or CO2 and - potentially - water**.
 
-# Systematic Characterization of Potentially Active Asteroids
+## Systematic Characterization of Potentially Active Asteroids
 
 The case of Don Quixote serves as a reminder that asteroidal
 appearance and cometary activity are not exclusive states. [Main belt
@@ -100,14 +100,14 @@ this study was to systematically characterize dormant comets and
 near-Sun asteroids, as well as to find other objects like Don Quixote
 or active near-Sun asteroids.
 
-## Observations
+# Observations
 
 Observations were carried out with a range of telescopes, most notably
 the Vatican Advanced Technology Telescope and the Lowell Observatory's
 Discovery Channel Telescope. In total, I spent about 60 nights on the
 VATT and about 30 nights on other telescopes for this program.
 
-## Results
+# Results
 
 My observations resulted in two major findings:
 
@@ -139,3 +139,10 @@ be unique in being an active comet hiding among inert asteroids.
 And that is basically my astronomical legacy. Now it is up to the
 next generation of astronomers to find out more about dormant comets
 and Don Quixote!
+
+
+# Resources
+
+* Mommert, M., Hora, J. L., Trilling, D. E., Biver, N., Wierzchos, K., Harrington Pinto, O., Agarwal, J., Kim, Y., McNeill, A., Womack, M., Knight, M. M., Polishook, D., Moskovitz, N., Kelley, M. S. P. Smith, H. A. (2020), *"Recurrent Cometary Activity in Near-Earth Object (3552) Don Quixote"*, The Planetary Science Journal, 1, 12, [publication (open access)](https://iopscience.iop.org/article/10.3847/PSJ/ab8ae5) 
+
+* Mommert, M., Trilling, D. E., Hora, J. L., Lejoly, C., Gustafsson, A., Knight, M., Moskovitz, N. and Smith, H. A. (2020), *"Systematic Characterization of and Search for Activity in Potentially Active Asteroids"*, The Planetary Science Journal, 1, 10, [publication (open access)](https://iopscience.iop.org/article/10.3847/PSJ/ab8191)

@@ -9,9 +9,12 @@ description: |
   the outskirts of the Solar System that have orbital properties similar to
   those of Pluto. What we found? That Pluto is pretty unique...
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Plutinos
+- Asteroid Physical Properties
+- Herschel Space Observatory
+
 ---
 
 Plutinos are a subpopulation of the Trans-Neptunian Objects (TNOs), which are pristine and icy objects on the outskirts of the Solar System. The orbits of Plutinos - which are named after their prototype, Pluto - are in 2:3 resonance with Neptune, meaning that by the time a Plutino performs 2 full orbits around the Sun, Neptune performs 3. This "mean motion resonance" provides a high degree of stability to the orbits of Plutinos. Hence, Plutinos are dynamically and physically pristine objects.
@@ -29,5 +32,8 @@ Interestingly, none of the Plutinos that we looked at has an albedo as high as P
 
 The results of this study have been published as [Mommert et al. (2012)](http://adsabs.harvard.edu/abs/2012A%26A...541A..93M) in the journal Astronomy & Astrophysics.
 
+# Resources
+
+* Mommert, M., Harris, A. W., Kiss, C., Pál, A., Santos-Sanz, P., Stansberry, J., Delsanti, A., Vilenius, E., Müller, T. G., Peixinho, N., Lellouch, E., Szalai, N., Henry, F., Duffard, R., Fornasier, S., Hartogh, P., Mueller, M., Ortiz, J. L., Protopapa, S., Rengel, M., & Thirouin, A. (2012), "*TNOs are cool: A survey of the trans-Neptunian region. V. Physical characterization of 18 Plutinos using Herschel-PACS observations*", Astronomy and Astrophysics, 541, A93., [publication](http://doi.org/10.1051/0004-6361/201118562), [arxiv](http://arxiv.org/abs/1202.3657)
 
 

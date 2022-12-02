@@ -9,9 +9,12 @@ description: |
   a lot of asteroids over a long period of time, which makes it a unique
   asset for deriving long asteroid rotation periods.
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Asteroids
+- Asteroid Physical Properties
+- TESS
+
 ---
 
 TESS is the [Transiting Exoplanet Survey Satellite](https://tess.mit.edu/), which was launched into space by NASA in 2018 to identify faint brightness variations in stars that are characteristic of planets orbiting around and transiting in front of these stars.
@@ -22,7 +25,7 @@ Over the course of its nominal two-year mission, TESS will monitor more than 200
 
 TESS data are publicly available through [MAST](https://archive.stsci.edu/tess/) - including calibrated Full Frame Images that are stacked over a period of 30 min each. Given the huge field of view of the TESS cameras, there should be an enormous number of asteroids in each frame at any given time. So I went out for an asteroid fishing expedition...
 
-### Extracting asteroids from TESS data
+# Extracting asteroids from TESS data
 
 The idea is conceptually simple:
   * download and pre-process the TESS Full Frame images for further analysis ;
@@ -35,7 +38,7 @@ Putting all these parts together, we can measure brightness variations of a larg
 This project is mainly a computational problem: running one out of four cameras per Sector on a desktop machine takes about one day. Multithreading has been implemented where possible to expedite the processing.
 
 
-### First results
+# First results
 
 A first cool result is shown in this short video clip:
 
@@ -43,7 +46,12 @@ A first cool result is shown in this short video clip:
 
 This video shows the rotational lightcurve of asteroid 1693 Hertzsprung. The left plot shows a thumbnail image centered on the asteroid and the right plot shows the brightness of the target. As time progresses, the variation in brightness, which is caused by the asteroid's irregular shape and rotation, becomes obvious. This specific asteroid has a rotational period of about 9 hrs. Gaps appear in the lightcurve when the asteroid comes too close to areas affected by image artifacts, which are highlighted with red overlays in the left plot.
 
-### Current status
+# Current status
 
 The analysis of the complete TESS data set is now funded through a NASA grant and our first publication is available: [McNeill et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019ApJS..245...29M/abstract)
 
+And paper two is currently underway...
+
+# Resources
+
+* McNeill, A., Mommert, M., Trilling, D. E., Llama, J., & Skiff, B. (2019), "*Asteroid Photometry from the Transiting Exoplanet Survey Satellite: A Pilot Study*", The Astrophysical Journal Supplement Series, 245, 29., [publication](http://doi.org/10.3847/1538-4365/ab5223), [arxiv](http://arxiv.org/abs/1911.01495)

@@ -9,9 +9,12 @@ description: |
   constraints that we were able to place on their properties do not agree
   with the standard picture of small asteroids.
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Near-Earth Asteroids
+- Asteroid Physical Properties
+- Spitzer Space Telescope
+
 ---
 
 Little is known about the physical properties of the smallest NEOs with diameters of less than 10 meters. Due to their small sizes, they are usually very faint and hard to observe. Hence, only a small number of asteroids in this size regime are known and for only very few of those physical properties like diameter and albedo have been measured. However, small NEOs are much more frequent than larger NEOs, making some of these objects easily accessible spacecraft targets and potential impactors. Traditionally, people believed that these small NEOs have formed through collisions and that they are individual slabs of rock, i.e,. monolithic bodies.
@@ -24,4 +27,10 @@ What we found for both objects was somewhat unexpected. Our results show 2011 MD
 
 The results of this analysis are published in two papers: [2009 BD](http://adsabs.harvard.edu/abs/2014ApJ...786..148M) and [2011 MD](http://adsabs.harvard.edu/abs/2014ApJ...789L..22M), and there has been a NASA/JPL [press release](http://www.jpl.nasa.gov/news/news.php?release=2014-193).
 
-**Addendum** (August 2015): Our Spitzer observations were originally performed in support for NASA's [Asteroid Redirect Mission](https://en.wikipedia.org/wiki/Asteroid_Redirect_Mission), which aimed on retrieving an asteroid into an orbit in the Earth-Moon system. Unfortunately, NASA decided to [change its strategy](http://www.space.com/28934-nasa-asteroid-capture-mission-boulder.html) and instead grab a boulder from the surface of a larger asteroid and bring that back into the Earth-Moon system. But on the bright side: our team has been awarded a NASA Group Achievement Award for 'exemplary science implementation, analysis and execution of the Spitzer 2011 MD and 2009 BD near-Earth asteroid observations for NASA's Asteroid Redirect Mission'.
+**Addendum** (August 2015): Our Spitzer observations were originally performed in support for NASA's [Asteroid Redirect Mission](https://en.wikipedia.org/wiki/Asteroid_Redirect_Mission), which aimed on retrieving an asteroid into an orbit in the Earth-Moon system. Unfortunately, NASA first decided to [change its strategy](http://www.space.com/28934-nasa-asteroid-capture-mission-boulder.html) and instead grab a boulder from the surface of a larger asteroid and bring that back into the Earth-Moon system, but then decided to ditch the mission altogether. But on the bright side: our team has been awarded a NASA Group Achievement Award for 'exemplary science implementation, analysis and execution of the Spitzer 2011 MD and 2009 BD near-Earth asteroid observations for NASA's Asteroid Redirect Mission'.
+
+# Resources 
+
+* Mommert, M., Farnocchia, D., Hora, J. L., Chesley, S. R., Trilling, D. E., Chodas, P. W., Mueller, M., Harris, A. W., Smith, H. A., & Fazio, G. G. (2014), "*Physical Properties of Near-Earth Asteroid 2011 MD*", The Astrophysical Journal, 789, L22., [publication](http://doi.org/10.1088/2041-8205/789/1/L22), [arxiv](http://arxiv.org/abs/1406.5253)* 
+
+* Mommert, M., Hora, J. L., Farnocchia, D., Chesley, S. R., Vokrouhlický, D., Trilling, D. E., Mueller, M., Harris, A. W., Smith, H. A., & Fazio, G. G. (2014), "*Constraining the Physical Properties of Near-Earth Object 2009 BD*", The Astrophysical Journal, 786, 148., [publication](http://doi.org/10.1088/0004-637X/786/2/148), [arxiv](http://arxiv.org/abs/1403.7699)

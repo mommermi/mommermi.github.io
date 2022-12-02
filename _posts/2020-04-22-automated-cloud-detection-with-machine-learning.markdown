@@ -4,15 +4,17 @@ date: 2020-04-22
 layout: post
 title: Automated Cloud Detection with Machine Learning
 description: |
-  This is a toy project that turned into a preparation for my new job as
-  computer scientist and even resulted in a publication: using machine
+  This is a toy project that turned into a real research project and a preparation 
+  for my new job as
+  research scientist in computer vision: using machine
   learning techniques to identify clouds in all-sky camera images.
 categories:
-- astronomy
-- machine learning
-- deep learning
+- Astronomy
 tags:
-- research
+- Machine Learning
+- Deep Learning
+- Allsky-Camera
+
 ---
 
 # Motivation
@@ -89,6 +91,10 @@ time. While a meaningful model training process for the *lightgbm*
 model takes only a matter of seconds, it takes up to an hour for the
 *ResNet* approach.
 
+For the full analysis, please refer to the [publication in the
+Astronomical Journal](https://iopscience.iop.org/article/10.3847/1538-3881/ab744f) or the [arxiv pre-print version](https://arxiv.org/abs/2003.11109) of this publication.
+
+
 # Conclusions
 
 I fully recommend the feature-extracted approach, as it easily
@@ -99,10 +105,8 @@ maximum achievable accuracy (i.e., it is not limited by sample size)
 lets me conclude that this accuracy is only limited by human accuracy
 in the manual labeling of the training data.
 
-# Publication
+# Resources
 
-For the full analysis, please refer to the [publication in the
-Astronomical Journal](https://iopscience.iop.org/article/10.3847/1538-3881/ab744f) or the [arxiv pre-print version](https://arxiv.org/abs/2003.11109) of this publication.
+* Mommert, M. 2020, "*Cloud Identification from All-sky Camera Data with Machine Learning*", The Astronomical Journal, 159, 178., [publication](http://doi.org/10.3847/1538-3881/ab744f), [arxiv](http://arxiv.org/abs/2003.11109)
 
-
-
+* Mommert, M. 2020: [code and example data](http://doi.org/10.5281/zenodo.3662849)

@@ -1,5 +1,67 @@
-theme: jekyll-theme-midnight
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
+title: Michael Mommert
+email: michael.mommert(at)unisg.ch
+description: >- # this means to ignore newlines until "baseurl:"
+  Computer vision and Earth observation at the University of St. Gallen.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: mommermi
+github_username:  mommermi
+googlescholar: https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=de&oi=ao
+linkedin_username: michael-mommert
+nasaads: https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Mommert%2C%20Michael%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+ieee: https://ieeexplore.ieee.org/author/37088990951
+orcid: https://orcid.org/0000-0002-8132-778X
+
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+header_pages:
+  - index.markdown
+  - research.markdown
+  - publications.markdown
+  - bio.markdown
+  - archive.markdown

@@ -10,9 +10,11 @@ description: |
   contribute to the volatile reservoir of the asteroid population, it is
   important to understand how many of these objects there are.
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Near-Earth Asteroids
+- Dormant Comets
+
 ---
 
 One long-standing question is: how many asteroids - especially near-Earth asteroids (NEAs) - were comets in the past? In the classical conception, comets have surface ices and form tails and comae in the vicinity of the Sun; asteroids are simply rocks in space. In the recent years, the two classifications became less clear than that.
@@ -27,4 +29,9 @@ In a second analysis, we estimated how many asteroids are likely to be of cometa
 
 In order to resolve this discrepancy and account for this so-called 'discovery bias', we used a well-characterized survey that operates in the thermal-infrared, which is less prone to albedo-based discovery bias. NEOWISE is a program that uses the [WISE](https://en.wikipedia.org/wiki/Wide-field_Infrared_Survey_Explorer) all-sky survey data to search of all kinds of asteroids. Assuming a realistic but synthetic NEA population, we checked, how many of these synthetic NEAs would have been discovered by NEOWISE. With that information and those NEAs actually observed by NEOWISE, we can estimate how many more dead comets there are. We checked two different samples: dead comets larger than 1 km in diameter and dead comets with absolute magnitudes brighter than or equal to 21.  We find that **0.3-3.3% of the NEAs with H <= 21 and 9 (+2/-5)% of the size-limited NEA population are dead comets**. These numbers are slightly lower than previously assumed, implying that fewer NEAs than previously assumed have a cometary origin.
 
-All the details of this analysis are available in a paper that is currently in press at AJ, but already available on [arxiv](http://arxiv.org/abs/1508.04116).
+If you are interested in this work, please also have a look at the [update]({% post_url 2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy %}).
+
+
+# Resources
+
+* Mommert, M., Harris, A. W., Mueller, M., Hora, J. L., Trilling, D. E., Bottke, W. F., Thomas, C. A., Delbo, M., Emery, J. P., Fazio, G., & Smith, H. A. (2015), "*ExploreNEOs. VIII. Dormant Short-period Comets in the Near-Earth Asteroid Population*", The Astronomical Journal, 150, 106., [publication](http://doi.org/10.1088/0004-6256/150/4/106), [arxiv](http://arxiv.org/abs/1508.04116)

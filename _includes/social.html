@@ -1,0 +1,27 @@
+{%- if site.github_username -%}
+<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" title="GitHub"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+{%- endif -%}
+
+{%- if site.linkedin_username -%}
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" title="LinkedIn"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
+{%- endif -%}
+
+{%- if site.twitter_username -%}
+<a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" title="Twitter"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
+{%- endif -%}
+
+{%- if site.googlescholar -%}
+<a href="{{ site.googlescholar | escape}}" title="Google Scholar"><svg class="svg-icon"><span style="color: #888888;"><i class="ai ai-google-scholar-square ai-lg ai-pull-left"></i></span></svg></a>
+{%- endif -%}
+
+{%- if site.nasaads -%}
+<a href="{{ site.nasaads | escape}}" title="NASA ADS"><svg class="svg-icon"><span style="color: #888888;"><i class="ai ai-ads-square ai-lg ai-pull-left"></i></span></svg></a>
+{%- endif -%}
+
+{%- if site.ieee -%}
+<a href="{{ site.ieee | escape}}" title="IEEE"><svg class="svg-icon"><span style="color: #888888;"><i class="ai ai-ieee-square ai-lg ai-pull-left"></i></span></svg></a>
+{%- endif -%}
+
+{%- if site.orcid -%}
+<a href="{{ site.orcid | escape}}" title="ORCiD"><svg class="svg-icon"><span style="color: #888888;"><i class="ai ai-orcid-square ai-lg ai-pull-left"></i></span></svg></a>
+{%- endif -%}

@@ -8,9 +8,10 @@ description: |
   We proposed this idea to NASA and were funded for developing this Python
   module, which is outlined here.
 categories:
-- astronomy
+- Astronomy
 tags:
-- open-source software
+- Open-Source Software
+
 ---
 
 
@@ -33,4 +34,6 @@ The full functionality will encompass the following areas:
 
 If you are interested in using/testing/contributing to sbpy, check out our [website](http://sbpy.org) and [github repo](https://github.com/NASA-Planetary-Science/sbpy) for more information.
 
-I will also feature some functionalities on this website as they become available.
+# Resources
+
+* Mommert, M., Kelley, M. S. P., de Val-Borro, M., Li, J.-Y., Guzman, G., Sipocz, B., Durech, J., Granvik, M., Grundy, W., Moskovitz, N., Penttilä, A., & Samarasinha, N. (2019), "*sbpy: Small-body planetary astronomy*", Astrophysics Source Code Library, ascl:1907.014., [arxiv](http://arxiv.org/abs/ascl:1907.014)

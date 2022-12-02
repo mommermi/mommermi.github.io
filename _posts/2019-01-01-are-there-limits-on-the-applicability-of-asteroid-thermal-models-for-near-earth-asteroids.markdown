@@ -8,9 +8,11 @@ description: |
   physical assumptions. In this analysis, I investigate how these assumptions
   affect their results and applicability to different situations.
 categories:
-- astronomy
+- Astronomy
 tags:
-- research
+- Asteroid Thermal Modeling
+- Asteroid Thermophysical Modeling
+
 ---
 
 The vast majority of all asteroid diameters and albedos that are currently available have been derived from thermal infrared observations using a method called thermal modeling. Thermal models simulate the surface temperature distribution on an asteroid which is used to derive the thermal infrared flux that is emitted by the body. By varying the model parameters - mainly its diameter and albedo - the properties of an asteroid can be fit to observations of the thermal emission and hence estimated.
@@ -29,4 +31,6 @@ The most important result from this study is shown in the plot above (Figure 4 i
 
 We furthermore find that about 5% of all NEA diameters and albedos that were derived with the NEATM from Spitzer and WISE data are affected by this effect and are hence unreliable. Finally, we provide an empirical correction for diameters and albedos derived with the NEATM and the FRM as a function of solar phase angle.
 
-For more information, have a look at the [paper](https://arxiv.org/pdf/1801.03628.pdf).
+# Resources
+
+* Mommert, M., Jedicke, R., & Trilling, D. E. (2018), "*An Investigation of the Ranges of Validity of Asteroid Thermal Models for Near-Earth Asteroid Observations*", The Astronomical Journal, 155, 74., [publication](http://doi.org/10.3847/1538-3881/aaa23b), [arxiv](http://arxiv.org/abs/1801.03628)
