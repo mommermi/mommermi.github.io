@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Computer vision and Earth observation at the University of St. Gallen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mommermi
+# twitter_username: mommermi
 github_username:  mommermi
 googlescholar: https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=de&oi=ao
 linkedin_username: michael-mommert

@@ -6,10 +6,15 @@ title: Bio
 
 <table align="center">
 <tr>
-<td bgcolor="white">2022</td>
-<td align="center" rowspan="3" width="40%" bgcolor="white"><a href="https://www.unisg.ch"><img src="https://www.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/images/en_logo.svg" width="100%" alt="University of St. Gallen"></a></td>
-<td bgcolor="white"><strong>Assistant Professor</strong><br>Computer vision for Earth observation and other domains</td>
+<td bgcolor="white">2023</td>
+<td align="center" rowspan="4" width="40%" bgcolor="white"><a href="https://www.unisg.ch"><img src="https://www.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/images/en_logo.svg" width="100%" alt="University of St. Gallen"></a></td>
+<td rowspan="2" bgcolor="white"><strong>Assistant Professor</strong><br>Computer vision for Earth observation and other domains</td>
 </tr>
+
+<tr>
+<td bgcolor="white">2022</td>
+</tr>
+
 
 <tr>
 <td bgcolor="white">2021</td>
