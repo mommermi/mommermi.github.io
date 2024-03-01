@@ -5,16 +5,16 @@ title: Publications
 
 <h2>Overview</h2>
 
-<a href="https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-2x ai-pull-left"></i> Google Scholar</a>: 3,554 citations, h-index=31, i10-index=53 (as of December 2022)
+<a href="https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-2x ai-pull-left"></i> Google Scholar</a>: 4.294 citations, h-index=34, i10-index=64 (as of March 2024)
 
 * 12 publications as first author in peer-reviewed journals
-* 57 publications as co-author in peer-reviewed journals
-* 10 peer-reviewed contributions to conferences
+* 63 publications as co-author in peer-reviewed journals
+* 14 peer-reviewed contributions to conferences
 * 87 conference contributions (non peer-reviewed)
-* 1 book contribution
+* 3 book contributions
 * 11 other artifacts (white papers, code, or data; non peer-reviewed)
 
-<h2>2022</h2>
+
 
 <!---
 palette of labels:
@@ -30,6 +30,54 @@ erratum
 thesis
 --->
 
+
+
+<h2>2024</h2>
+
+Hayden Smotherman, Pedro H Bernardinelli, Stephen KN Portillo, Andrew J Connolly, J Bryce Kalmbach, Steven Stetzler, Mario Juric, Dino Bektesvic, Zachary Langford, Fred C Adams, William J Oldroyd, Matthew J Holman, Colin Orion Chandler, Cesar Fuentes, David W Gerdes, Hsing Wen Lin, Larissa Markwardt, Andrew McNeill, **Michael Mommert**, Kevin J Napier, Matthew J Payne, Darin Ragozzine, Andrew S Rivkin, Hilke Schlichting, Scott S Sheppard, Ryder Strauss, David E Trilling, Chadwick A Trujillo, "*The DECam Ecliptic Exploration Project (DEEP) VI: first multi-year observations of trans-Neptunian objects*", [The Astronomical Journal, 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad1524) ([open access](https://arxiv.org/pdf/2310.03678)), 2024.
+<!--- co-author journal --->
+
+
+R Strauss, DE Trilling, PH Bernardinelli, C Beach, WJ Oldroyd, SS Sheppard, HE Schlichting, DW Gerdes, FC Adams, CO Chandler, C Fuentes, MJ Holman, M Jurić, HW Lin, L Markwardt, A McNeill, **M Mommert**, KJ Napier, MJ Payne, D Ragozzine, AS Rivkin, H Smotherman, CA Trujillo, "*The DECam Ecliptic Exploration Project (DEEP) IV: Constraints on the shape distribution of bright TNOs*", [The Astronomical Journal, 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad1526) ([open access](https://arxiv.org/pdf/2309.04034)), 2024.
+<!--- co-author journal --->
+
+
+Pedro H Bernardinelli, Hayden Smotherman, Zachary Langford, Stephen KN Portillo, Andrew J Connolly, J Bryce Kalmbach, Steven Stetzler, Mario Juric, William J Oldroyd, Hsing Wen Lin, Fred C Adams, Colin Orion Chandler, Cesar Fuentes, David W Gerdes, Matthew J Holman, Larissa Markwardt, Andrew McNeill, **Michael Mommert**, Kevin J Napier, Matthew J Payne, Darin Ragozzine, Andrew S Rivkin, Hilke Schlichting, Scott S Sheppard, Ryder Strauss, David E Trilling, Chadwick A Trujillo, "*The DECam Ecliptic Exploration Project (DEEP) III: Survey characterization and simulation methods*", [The Astronomical Journal, 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad1527) ([open access](https://arxiv.org/pdf/2310.03671)), 2024.
+<!--- co-author journal --->
+
+Chadwick A Trujillo, Cesar Fuentes, David W Gerdes, Larissa Markwardt, Scott S Sheppard, Ryder Strauss, Colin Orion Chandler, William J Oldroyd, David E Trilling, Hsing Wen Lin, Fred C Adams, Pedro H Bernardinelli, Matthew J Holman, Mario Juric, Andrew McNeill, **Michael Mommert**, Kevin J Napier, Matthew J Payne, Darin Ragozzine, Andrew S Rivkin, Hilke Schlichting, Hayden Smotherman, "*The DECam Ecliptic Exploration Project (DEEP) II. Observational Strategy and Design*", [The Astronomical Journal, 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad1523) ([open access](https://arxiv.org/pdf/2310.19864)), 2024.
+<!--- co-author journal --->
+
+
+David E Trilling, David W Gerdes, Mario Juric, Chadwick A Trujillo, Pedro H Bernardinelli, Kevin J Napier, Hayden Smotherman, Ryder Strauss, Cesar Fuentes, Matthew J Holman, Hsing Wen Lin, Larissa Markwardt, Andrew McNeill, **Michael Mommert**, William J Oldroyd, Matthew J Payne, Darin Ragozzine, Andrew S Rivkin, Hilke Schlichting, Scott S Sheppard, Fred C Adams, Colin Orion Chandler, "*The DECam Ecliptic Exploration Project (DEEP): I. Survey description, science questions, and technical demonstration*", [The Astronomical Journal, 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad1529), ([open access](https://arxiv.org/pdf/2309.03417)), 2024.
+<!--- co-author journal --->
+
+
+<h2>2023</h2>
+
+J. M. Stewart, **M. Mommert**, "*Python for Scientists*" (3rd edition), [Cambridge University Press](https://www.cambridge.org/us/universitypress/subjects/mathematics/computational-science/python-scientists-3rd-edition), 2023.
+<!--- book contribution --->
+
+Julius Lautz, Daniel Leal, Linus Scheibenreif, Damian Borth, Michael Mommert,"*Dataset Distillation for Eurosat*",  [IEEE International Geoscience and Remote Sensing Symposium 2023](https://ieeexplore.ieee.org/iel7/10281394/10281399/10283460.pdf), 2023.
+<!--- conference peer-reviewed --->
+
+
+Philipp Ditzel, **Michael Mommert**, Wolfgang Korosec, "*Künstliche Intelligenz und Data Science in Theorie und Praxis: Von Algorithmen und Methoden zur praktischen Umsetzung in Unternehmen - Energiewirtschaft*", [Springer](https://link.springer.com/book/10.1007/978-3-662-66278-6), Eds.: Gillhuber, Kauermann, Hauner, 2023.
+<!--- book contribution --->
+
+**Michael Mommert**, Nicolas Kesseli, Joelle Hanna, Linus Scheibenreif, Damian Borth, Beg&uuml;m Demir, "*Ben-ge: Extending BigEarthNet with Geographical and Environmental Data*",  [IEEE International Geoscience and Remote Sensing Symposium 2023](https://ieeexplore.ieee.org/iel7/10281394/10281399/10282767.pdf) ([open access](https://arxiv.org/pdf/2307.01741.pdf)), 2023.
+<!--- conference peer-reviewed --->
+
+Joelle Hanna, Damian Borth, **Michael Mommert**, "*Physics-Guided Multitask Learning for Estimating Power Generation and CO2 Emissions from Satellite Imagery*", IEEE Transactions on Geoscience and Remote Sensing, [publication](https://ieeexplore.ieee.org/iel7/36/4358825/10153694.pdf), 2023.
+<!--- co-author journal --->
+
+Joelle Hanna, **Michael Mommert**, Damian Borth, "*Sparse Multimodal Vision Transformer for Weakly Supervised Semantic Segmentation*", [EarthVision Workshop at IEEE/CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023W/EarthVision/papers/Hanna_Sparse_Multimodal_Vision_Transformer_for_Weakly_Supervised_Semantic_Segmentation_CVPRW_2023_paper.pdf), 2023.
+<!--- conference peer-reviewed --->
+
+Linus Scheibenreif, **Michael Mommert**, Damian Borth, "*Masked Vision Transformers for Hyperspectral Image Classification*", [EarthVision Workshop at IEEE/CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023W/EarthVision/papers/Scheibenreif_Masked_Vision_Transformers_for_Hyperspectral_Image_Classification_CVPRW_2023_paper.pdf), 2023.
+<!--- conference peer-reviewed --->
+
+<h2>2022</h2>
 
 Scheibenreif, L., Hanna, J., **Mommert, M.**, Borth, D., "*Self-Supervised Vision Transformers for Land-cover Segmentation and Classification*", [Earthvision Workshop at IEEE/CVPR 2022](https://www.grss-ieee.org/events/earthvision-2022/), [publication (open access)](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.pdf). This work was awarded the **best student paper award** of the Earthvision 2022 workshop.
 <!--- conference peer-reviewed --->

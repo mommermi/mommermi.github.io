@@ -8,14 +8,12 @@ layout: page
 <p align="justify">
 <img src="/images/moi.jpg" alt="C'est moi" class="img-circle"
 align="right" hspace="25" height="30%" width="30%" style="border-radius: 10%;">
-I am Assistant Professor for Computer Vision 
-at the <a href="http://www.unisg.ch">University of St. Gallen</a>'s 
-<a href="https://www.unisg.ch/en/universitaet/schools/computer-science">
-School of Computer Science</a>. My research 
-combines computer vision with Earth observation,
-thereby leveraging scalable Deep Learning approaches to extract knowledge
+I am Professor of Artificial Intelligence in Remote Sensing
+at <a href="http://www.hft-stuttgart.de">Stuttgart University of Applied Sciences</a>. My research 
+combines methods from AI and Computer Vision with Earth observation problems,
+leveraging scalable Deep Learning approaches to extract knowledge
 from remote sensing data. A core motivation for my research is to build methods for efficiently learning tasks applied to
-Earth observations data.
+Earth observation data.
 
 
 <p align="justify">In my previous life, I worked as an astronomer,
@@ -29,7 +27,7 @@ tools to make astronomers' lifes easier.</p>
 
 <h2>Contact</h2>
 
-<p>University of St. Gallen
-<br>School of Computer Science
-<br>Rosenbergstrasse 30
-<br>CH-9000 St. Gallen</p>
+<p>Stuttgart University of Applied Sciences (Hochschule f&auml;r Technik Stuttgart)
+<br>Schellingstr. 24
+<br>70195 Stuttgart
+<br>Germany</p>

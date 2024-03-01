@@ -5,11 +5,20 @@ title: Bio
 
 
 <table align="center">
+
+<tr>
+<td bgcolor="white">2024+</td>
+<td align="center" bgcolor="white"><a href="https://www.hft-stuttgart.de"><img src="https://www.hft-stuttgart.de/fileadmin/Dateien/Marketing/Pressemitteilungen/HFT-logo-klein-Aplustext.jpg" width="70%" alt="Stuttgart University of Applied Sciences"></a></td>
+<td bgcolor="white"><strong>Professor</strong><br>Artificial Intelligence in Remote Sensing</td>
+</tr>
+
 <tr>
 <td bgcolor="white">2023</td>
-<td align="center" rowspan="4" width="40%" bgcolor="white"><a href="https://www.unisg.ch"><img src="https://www.unisg.ch/typo3conf/ext/cs2_prototypes/src/dist/images/en_logo.svg" width="100%" alt="University of St. Gallen"></a></td>
+<td align="center" rowspan="4" width="40%" bgcolor="white"><a href="https://www.unisg.ch"><img src="https://sustainability.unisg.ch/wp-content/uploads/USG_E_RGB_Web_high_res.png" width="100%" alt="University of St. Gallen"></a></td>
 <td rowspan="2" bgcolor="white"><strong>Assistant Professor</strong><br>Computer vision for Earth observation and other domains</td>
 </tr>
+
+
 
 <tr>
 <td bgcolor="white">2022</td>
@@ -63,7 +72,7 @@ title: Bio
 <td bgcolor="white">2012</td>
 <td align="center" rowspan="3" bgcolor="white"><a href="https://www.fu-berlin.de/en/index.html"><img alt="Free Univerity Berlin" src="https://www.fu-berlin.de/sites/corporate-design/grundlagen/_medien/fu_logo_web.png?width=1000" width="90%"></a><a href="https://www.dlr.de/pf">
 <br>
-<img src="https://www.dlr.de/content/en/images/2021/3/dlr-logo-black.jpg?__blob=normal&v=3__ifc1920w" alt="German Aerospace Center (DLR)" width="40%"></a></td>
+<img src="https://www.dlr.de/en/images/2021/3/dlr-logo-black/@@images/image-2000-3854ff06963e6729b8dc5cd4c7711d99.jpeg" alt="German Aerospace Center (DLR)" width="40%"></a></td>
 <td rowspan="3" bgcolor="white"><strong>Dr. rer. nat.</strong> (Ph.D. eq.) in Earth sciences<br><br>Thesis: <a href="https://refubium.fu-berlin.de/handle/fub188/2283"><em>Remnant Planetesimals and their Collisional Fragments: Physical Characterization from Thermal-Infrared Observations</em></a>, supervised by Prof. Dr. Alan W. Harris (DLR)</td>
 </tr>
 
