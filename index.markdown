@@ -27,7 +27,7 @@ tools to make astronomers' lifes easier.</p>
 
 <h2>Contact</h2>
 
-<p>Stuttgart University of Applied Sciences (Hochschule f&auml;r Technik Stuttgart)
+<p>Stuttgart University of Applied Sciences (Hochschule f&uuml;r Technik Stuttgart)
 <br>Schellingstr. 24
 <br>70195 Stuttgart
 <br>Germany</p>
