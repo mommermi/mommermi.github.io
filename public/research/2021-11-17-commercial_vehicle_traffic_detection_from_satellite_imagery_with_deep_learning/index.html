@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning">
+  <meta property="og:description" content="Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2021-11-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-11-17T00:00:00+00:00">
+    <meta property="article:tag" content="Earth Observation">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Traffic">
+    <meta property="article:tag" content="Sentinel-2">
+
+  <meta itemprop="name" content="Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning">
+  <meta itemprop="description" content="Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!">
+  <meta itemprop="datePublished" content="2021-11-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-11-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="666">
+  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Traffic,Sentinel-2">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning">
+  <meta name="twitter:description" content="Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/banner.jpg');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-11-17T00:00:00Z">November 17, 2021</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 4 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 666 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Commercial vehicle traffic is currently responsible for 7% of global CO2 emissions. While road freight will remain the dominant mode of surface freight transportation, its contribution to climate change is likely to increase in the short term. Therefore, the quantitative monitoring of commercial vehicle (CV) traffic is essential for implementing targeted road emission regulations. However, ground monitoring stations are costly and less than half of all countries worldwide collect road freight activity. In this work, we investigate the feasibility of detecting and monitoring CV traffic in freely available
+satellite imagery from ESA&rsquo;s Sentinel-2 satellites.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="trucks.png">
+        <img src="trucks.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Green boxes indicate commercial vehicles (CV) as they move on a Swiss freeway section. Due to a delay in the imaging of the different channels, moving objects exhibit a characteristic rainbow-like appearance in Sentinel-2 images.
+    </figcaption>
+  </figure>
+</div>
+
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="setup.png">
+        <img src="setup.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Workflow of this project. We gather satellite imagery and ground-truth traffic count rates for CVs, identify individual CVs with an object detection model and finally train gradient-boosted tree-based models on CV counts to estimate hourly CV traffic rates for the locations considered.
+    </figcaption>
+  </figure>
+</div>
+
+<p>For this task, we obtain <a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2">Sentinel-2</a> satellite imagery for 33 locations centered on Swiss freeway sections to identify CVs with a deep learning approach.  We detect CVs with a modified <a href="https://proceedings.neurips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf">Faster R-CNN</a> object detection model by exploiting a characteristic feature of moving objects in Sentinel-2 data: a constant delay between image acquisition in the different channels leads to a characteristic &ldquo;rainbow-like&rdquo; appearance for objects that move at sufficient velocity, which is easy to detect. After training our model, we find an average precision score of 72% for the detection of CVs in our imaging data. The model further shows similar performance results for freeway sections outside of Europe (see figure below).</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="brazil.png">
+        <img src="brazil.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      We test our object detection approach on out-of-distribution satellite imagery for different continents. In this example, the trained model correctly identifies all CVs on a freeway section in Brazil (extracted detections shown on the right).
+    </figcaption>
+  </figure>
+</div>
+
+<p>For each freeway section location considered in this project, ground-truth traffic count data is available from <a href="https://www.astra.admin.ch/astra/en/home.html">ASTRA</a>, allowing us to convert snapshot CV counts into hourly traffic rates for CVs. For this purpose, we trained gradient-boosted tree-based regression models in order to predict CV traffic rates from the number of CVs counted per freeway section from our imaging data in addition to other features. We find that it is possible to measure hourly CV traffic volumes for any freeway section in the world within 65% of the actual value or with a root mean square error (RMSE) of ∼160 vehicles per hour. For freeway sections with available but limited ground-truth data, we can predict CV traffic volumes up to within 4% and with an RMSE of ∼60 vehicles per hour. We find that our models are best applied to satellite images with low cloud coverage and for freeway sections above 1 kilometer in length.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="covid.png">
+        <img src="covid.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Our combined model approach enables the detection of CV traffic rate variations in 2020 due to Swiss Covid-19 lockdown regulations for different ports of entry. In agreement with ground-truth traffic rates, we find that the border to Italy was most severly affected by a decrease in traffic, while the border to Germany was barely affected.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Additionally, our results enable the estimation of the relative decline in CV
+traffic due to lockdown measures during the first wave of the COVID19 pandemic in Switzerland in 2020 (see figure above).</p>
+<p>To conclude, our approach enables the estimation of CV traffic rates from remote sensing data only, which makes it applicable on a global scale. The methods presented here constitute a powerful tool to estimate CV traffic rates in areas in which ground-based traffic rate measurements are unavailable.</p>
+<p>This project is based on the results of the Master thesis of MBI student Moritz Blattner, who also presented this project at the <a href="https://www.climatechange.ai/papers/icml2021/19">ICML 2021 Tackling Climate Change with Machine Learning Workshop</a>.</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>Blattner, M., Mommert, M., Borth, D., &ldquo;Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning&rdquo;, ICML 2021 Tackling Climate Change with Machine Learning Workshop <a href="https://www.climatechange.ai/papers/icml2021/19">publication (open access)</a>.</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/earth-observation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Earth Observation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/traffic/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Traffic</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/sentinel-2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentinel-2</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Power Plant Classification from Remote Imaging with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Characterization of Industrial Smoke Plumes from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

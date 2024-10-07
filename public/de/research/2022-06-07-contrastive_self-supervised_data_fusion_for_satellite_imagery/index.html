@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&hellip;">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten">
+  <meta property="og:description" content="Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend…">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2022-06-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-06-07T00:00:00+00:00">
+    <meta property="article:tag" content="Erdbeobachtung">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Selbstüberwachtes Lernen">
+    <meta property="article:tag" content="Datenfusion">
+    <meta property="article:tag" content="Transformer">
+    <meta property="article:tag" content="Klassifizierung">
+
+  <meta itemprop="name" content="Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten">
+  <meta itemprop="description" content="Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend…">
+  <meta itemprop="datePublished" content="2022-06-07T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-06-07T00:00:00+00:00">
+  <meta itemprop="wordCount" content="810">
+  <meta itemprop="keywords" content="Erdbeobachtung,Deep Learning,Selbstüberwachtes Lernen,Datenfusion,Transformer,Klassifizierung,Segmentierung">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten">
+  <meta name="twitter:description" content="Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend…">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/de/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung Seite">
+              Forschung
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/bio/" title="Lebenslauf Seite">
+              Lebenslauf
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/publications/" title="Publikationen Seite">
+              Publikationen
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&hellip;</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-06-07T00:00:00Z">Juni 7, 2022</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 4 Minuten </span>
+        <span class="f6 mv4 dib tracked"> - 810 Wörter </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Dieses Forschungsergebniss besteht aus zwei Teilen, die im Folgenden präsentiert werden.</p>
+<h1 id="kontrastive-selbstüberwachte-datenfusion-für-satellitenbilder">Kontrastive selbstüberwachte Datenfusion für Satellitenbilder</h1>
+<p>Überwachtes Lernen für jede Aufgabe erfordert große Mengen an annotierten Daten. Besonders im Fall von Satellitenbildern sind unannotierte Daten allgegenwärtig, während der Annotierungsprozess oft mühsam und kostspielig ist. Daher ist es sehr lohnenswert, Methoden zu nutzen, um die Menge an benötigten annotierten Daten zu minimieren, die erforderlich ist, um eine gute Leistung der nachgelagerten Aufgabe zu erzielen. In unserer ersten Arbeit nutzen wir kontrastives Lernen in einem multimodalen Setup, um dieses Ergebnis zu erreichen.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="overview.png">
+        <img src="overview.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Eine schematische Darstellung unseres multimodalen kontrastiven selbstüberwachten Lernansatzes: Durch die Nutzung eines kontrastiven Verlusts zwingen wir latente Darstellungen, die aus Multiband-Bildern (Sentinel-2) und SAR-Daten (Sentinel-1) für denselben Standort generiert werden, im latenten Raum zusammenzuziehen, während wir Darstellungen, die für verschiedene Standorte generiert werden, dazu zwingen, sich voneinander abzustoßen. Infolgedessen lernt das Modell reichhaltige Darstellungen, die für jede nachgelagerte Aufgabe feinabgestimmt werden können.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Wir experimentieren mit verschiedenen Ansätzen des selbstüberwachten Lernens, einschließlich SimCLR (Chen et al., 2020) und Multi-Modal Alignment (MMA, Windsor et al., 2021), um unser Modell vorzutrainieren. Basierend auf SimCLR entwickeln wir unseren eigenen Dual-SimCLR-Ansatz, der oben dargestellt ist. In all unseren Ansätzen verzichten wir auf die Nutzung von Datenaugmentationen, die typischerweise für kontrastives selbstüberwachtes Lernen erforderlich sind. Stattdessen nutzen wir aus, dass unsere Datenmodalitäten ko-registriert sind um die für den Lernprozess erforderliche kontrastive Kraft zu erzeugen.</p>
+<p>Wir entwickeln die <strong>Dual-SimCLR</strong>-Architektur für diese Arbeit. Anstatt Datenaugmentationen und ein gemeinsames Backbone zu verwenden, wie es in SimCLR der Fall ist, verwendet unsere Architektur ein separates Backbone für jede Modalität, was zu separaten Darstellungen führt. Im Vortraining des Modells nutzen wir ein MLP als Projektionskopf, um latente Darstellungen zu generieren, auf deren Grundlage der kontrastive Verlust arbeitet. Für das Training einer nachgelagerten Aufgabe feintunen wir den Backbone und implementieren eine vollständig verbundene Schicht als Klassifizierungskopf. Das Modell wird auf großen Mengen unannotierter Daten vortrainiert und auf kleinen Mengen annotiertere Daten feingetunt.</p>
+<p>Für das Vortraining nutzen wir den SEN12MS-Datensatz (Schmitt et al., 2019), der aus Paaren von Sentinel-1- und Sentinel-2-Ausschnitten besteht, wobei verfügbare Labels ignoriert werden; für das Feintuning verwenden wir den GRSS Data Fusion 2020-Datensatz, der mit hochauflösenden LULC-Segmentierungslabels versehen ist. Die nachgelagerte Aufgabe besteht darin, in einem Single-Label- und Multi-Label-Ansatz zu lernen.</p>
+<p>Unsere Ergebnisse zeigen, dass insbesondere Dual-SimCLR sehr erfolgreich darin ist, reichhaltige Darstellungen zu lernen. Die Ergebnisse sowohl für die Single-Label- als auch für die Multi-Label-nachgelagerten Aufgaben übertreffen deutlich eine Reihe von vollständig überwachten Baselines, die einzelne Modalitäten oder verschiedene Datenfusionsansätze nutzen, sowie die anderen getesteten kontrastiven selbstüberwachten Ansätze. Wir können zeigen, dass die gelernten Darstellungen reichhaltig und informativ sind.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="">
+        <img src="" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>Noch wichtiger ist, dass wir die Effizienz des Vortrainings mit unserem Ansatz zeigen können: Durch das Feintuning der gelernten Darstellungen des vortrainierten Backbones sind wir in der Lage, jede vollständig überwachte Baseline mit nur 10% der annotierten Daten zu übertreffen.</p>
+<p>Abschließend ermöglicht unser Ansatz damit das label-effiziente Training von Deep-Learning-Modellen für die Fernerkundung, indem er auf einer großen Menge unbeschrifteter Daten vortrainiert.</p>
+<p>Die Ergebnisse dieser Studie wurden auf dem ISPRS 2022-Kongress in Nizza, Frankreich, präsentiert (die Ergebnisse wurden von Michael Mommert vorgestellt, aber die Arbeit wurde von Linus Scheibenreif durchgeführt).</p>
+<h1 id="selbstüberwachte-vision-transformer-für-die-segmentierung-und-klassifizierung-von-landnutzung">Selbstüberwachte Vision-Transformer für die Segmentierung und Klassifizierung von Landnutzung</h1>
+<p>In einer natürlichen Erweiterung der vorherigen Arbeit ersetzen wir unser vorheriges Modell-Backbone durch ein Paar leistungsstarker Swin-Transformer. Diese Backbones werden in einem kontrastiven selbstüberwachten Ansatz vortrainiert, ähnlich wie in unserer vorherigen Arbeit.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="backbone.png">
+        <img src="backbone.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>Das Ziel dieser <strong>SwinUNet</strong>-Architektur ist es, reichhaltige, aufgabenunabhängige Darstellungen für Anwendungen der Erdbeobachtung zu lernen. Wir testen dieses Merkmal, indem wir das vortrainierte Modell in zwei verschiedenen Aufgaben bewerten: patchbasierte Bildklassifizierung und semantische Bildsegmentierung, wobei wir unterschiedliche Köpfe für diese Aufgaben verwenden.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="downstream.png">
+        <img src="downstream.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>Unsere Ergebnisse stützen unsere Annahme, dass die gelernten Darstellungen reichhaltig und tatsächlich aufgabenunabhängig sind. Ähnlich wie bei unseren vorherigen Ergebnissen können wir zeigen, dass das Feintuning mit deutlich kleineren Mengen an annotierten Daten in der Lage ist, das vollständig überwachte Training von Grund auf zu übertreffen, sowohl bei der Bildklassifizierung als auch bei der semantischen Segmentierung. Darüber hinaus können wir zeigen, dass Transformer-Architekturen erfolgreich beide nachgelagerten Aufgaben mit guter Leistung erlernen.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="/qualitative_results.png">
+        <img src="/qualitative_results.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>Die Ergebnisse dieser Arbeit umfassen eine Reihe vortrainierter Backbone-Architekturen und wurden auf dem Earthvision-Workshop bei CVPR 2023 veröffentlicht, wo sie mit dem Preis für das beste Studentenpapier ausgezeichnet wurden!</p>
+<h1 id="zukunftsaussichten">Zukunftsaussichten</h1>
+<p>Wir möchten darauf hinweisen, dass diese Forschungsrichtung nun von der Schweizerischen Nationalfonds (SNF) gefördert wird. Das Ziel dieses Projekts ist es, selbstüberwachtes Lernen für verschiedene Arten von multimodalen Erdbeobachtungsdaten zu kombinieren. Bleiben Sie dran für unsere kommenden Ergebnisse!</p>
+<h1 id="bibliographie">Bibliographie</h1>
+<ul>
+<li>
+<p>Scheibenreif, L., Hanna, J., Mommert, M., Borth, D., &ldquo;<em>Self-Supervised Vision Transformers for Land-cover Segmentation and Classification</em>&rdquo;, <a href="https://www.grss-ieee.org/events/earthvision-2022/">Earthvision Workshop at IEEE/CVPR 2022</a>, <a href="https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.pdf">publication (open access)</a>. This work was awarded the <strong>best student paper award</strong> of the Earthvision 2022 workshop.</p>
+</li>
+<li>
+<p>Scheibenreif, L., Mommert, M., Borth, D., &ldquo;<em>Contrastive Self-Supervised Data Fusion for Satellite Imagery</em>&rdquo;, International Symposium for Photogrammetry and Remote Sensing, <a href="http://www.alexandria.unisg.ch/266528/1/Scheibenreif2022_ContrastiveSSLDataFusion.pdf">publication</a>, 2022.</p>
+</li>
+<li>
+<p>code: <a href="https://github.com/HSG-AIML/SSLTransformerRS">GitHub and pretrained model backbones</a></p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/de/tags/erdbeobachtung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Erdbeobachtung</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/selbst%C3%BCberwachtes-lernen/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Selbstüberwachtes Lernen</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/datenfusion/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Datenfusion</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/transformer/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Transformer</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/klassifizierung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Klassifizierung</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/segmentierung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Segmentierung</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Ähnliches</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Erkennung von LKWs auf Satellitenbildern mit Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automatisierte Wolkenerkennung mit maschinellem Lernen</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/de/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

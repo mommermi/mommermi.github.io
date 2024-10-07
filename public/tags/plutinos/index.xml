@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plutinos on Michael Mommert</title>
+    <link>http://localhost:1313/tags/plutinos/</link>
+    <description>Recent content in Plutinos on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Oct 2014 22:26:55 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/plutinos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Herschel Observations of Plutinos</title>
+      <link>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</link>
+      <pubDate>Sat, 18 Oct 2014 22:26:55 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</guid>
+      <description>&lt;p&gt;Plutinos are a subpopulation of the Trans-Neptunian Objects (TNOs), which are pristine and icy objects on the outskirts of the Solar System. The orbits of Plutinos - which are named after their prototype, Pluto - are in 2:3 resonance with Neptune, meaning that by the time a Plutino performs 2 full orbits around the Sun, Neptune performs 3. This &amp;ldquo;mean motion resonance&amp;rdquo; provides a high degree of stability to the orbits of Plutinos. Hence, Plutinos are dynamically and physically pristine objects.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

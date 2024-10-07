@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datenfusion on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/datenfusion/</link>
+    <description>Recent content in Datenfusion on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 07 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/datenfusion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten</title>
+      <link>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
+      <description>Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

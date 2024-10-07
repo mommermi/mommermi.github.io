@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multimodal on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/multimodal/</link>
+    <description>Recent content in Multimodal on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/multimodal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodale Diffusion für selbstüberwachtes Vortraining</title>
+      <link>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
+      <description>Deep-Learning-Modelle, die auf Diffusionsprozessen basieren, zeigen ein großes Potenzial in einer Vielzahl von generativen Aufgaben, wie z.B. der Bildgenerierung. Für Anwendungen in der Fernerkundung sind generative Modelle jedoch nicht so verbreitet. Die Frage, die wir zu beantworten versucht haben, ist, ob Diffusionsprozesse verwendet werden können, um Modelle für diskriminative Aufgaben effizient vorzutrainieren?</description>
+    </item>
+    <item>
+      <title>Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten</title>
+      <link>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
+      <description>Multimodale Datensätze für die Fernerkundung sind oft auf zwei Datenmodalitäten beschränkt, wie z.B. multispektrale und SAR-Polarisationsdaten. Um mit einer viel breiteren Palette von Datenmodalitäten zu experimentieren, haben wir den bekannten BigEarthNet-Datensatz erweitert, um eine Vielzahl von Datenmodalitäten einzuschließen.</description>
+    </item>
+  </channel>
+</rss>

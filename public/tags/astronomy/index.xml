@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astronomy on Michael Mommert</title>
+    <link>http://localhost:1313/tags/astronomy/</link>
+    <description>Recent content in Astronomy on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/astronomy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Quixote and the Dormant Comets - My Astronomical Legacy</title>
+      <link>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
+      <description>Don Quixote has been considered asteroidal since its discovery in 1983,&#xA;despite its comet-like orbit. We found activity in this object during&#xA;its 2009 and 2018 apparitions, leading us to believe that it really&#xA;is an active comet. But are there other objects like Don Quixote? I&#xA;monitored a sample of ~100 asteroids that are somewhat likely to turn&#xA;active, too, over a period of more than 4 years. Bottom line: Don Quixote&#xA;is rather unique.</description>
+    </item>
+    <item>
+      <title>Automated Cloud Detection with Machine Learning</title>
+      <link>http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/</guid>
+      <description>This is a toy project that turned into a real research project and a preparation&#xA;for my new job as&#xA;research scientist in computer vision: using machine&#xA;learning techniques to identify clouds in all-sky camera images.</description>
+    </item>
+    <item>
+      <title>SpitzerNEOs - Diameters and Albedos for 2132 Near-Earth Objects</title>
+      <link>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
+      <description>Based on Spitzer Space Telescope observations, we derived diameter and&#xA;albedo estimates for 2132 asteroids in near-Earth space - the largest&#xA;dataset of its kind. Our results and data are available online.</description>
+    </item>
+    <item>
+      <title>A plethora of asteroids in TESS data</title>
+      <link>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
+      <description>TESS is a satellite that observes bright stars to find brightness&#xA;modulations revealing exoplanet transits - but it also observes&#xA;a lot of asteroids over a long period of time, which makes it a unique&#xA;asset for deriving long asteroid rotation periods.</description>
+    </item>
+    <item>
+      <title>Asteroid Shape Information from Gaia DR2</title>
+      <link>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
+      <description>The Gaia mission builds a unique survey of the stars in our Milky Way - but&#xA;it also observes asteroids that are crossing its field of view. We derive&#xA;ensemble shape information for different asteroid populations from the&#xA;first batch of asteroid data from Gaia.</description>
+    </item>
+    <item>
+      <title>Are there Limits on the Applicability of Asteroid Thermal Models for Near-Earth  Asteroids?</title>
+      <link>http://localhost:1313/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</guid>
+      <description>There is a range of asteroid thermal models that are based on different&#xA;physical assumptions. In this analysis, I investigate how these assumptions&#xA;affect their results and applicability to different situations.</description>
+    </item>
+    <item>
+      <title>sbpy - A Python module for small-body planetary astronomy</title>
+      <link>http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</guid>
+      <description>sbpy is an astropy affiliated package for small-body planetary astronomers.&#xA;We proposed this idea to NASA and were funded for developing this Python&#xA;module, which is outlined here.</description>
+    </item>
+    <item>
+      <title>Photometrypipeline</title>
+      <link>http://localhost:1313/research/2017-02-14-photometrypipeline/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2017-02-14-photometrypipeline/</guid>
+      <description>photometrypipeline is a Python software package for automated image&#xA;registration, calibration, and extraction of photometry tailored to the&#xA;needs of asteroid observer. However, pp can also be applied to other&#xA;imaging observations.</description>
+    </item>
+    <item>
+      <title>How many Dead Comets are there?</title>
+      <link>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</guid>
+      <description>Dead comets are small bodies that appear as inactive asteroids, but have&#xA;a cometary origin. Some of these objects might still harbor ices and can&#xA;still activate and appear comet-like. Since these objects might signifcantly&#xA;contribute to the volatile reservoir of the asteroid population, it is&#xA;important to understand how many of these objects there are.</description>
+    </item>
+    <item>
+      <title>Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR</title>
+      <link>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
+      <description>With rapid-response observations using UKIRT, we are able to observe newly&#xA;discovered near-Earth asteroids when they are still close to Earth and&#xA;thus bright. Our observations enable a probabilistic taxonomic&#xA;classification of asteroids with typically small sizes and the determination&#xA;of their compositional distribution.</description>
+    </item>
+    <item>
+      <title>Physical Properties of two tiny Asteroids from Spitzer Observations</title>
+      <link>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
+      <description>We observed two very small asteroids with the Spitzer Space Telescope to&#xA;actually measure their physical properties for the first time. The&#xA;constraints that we were able to place on their properties do not agree&#xA;with the standard picture of small asteroids.</description>
+    </item>
+    <item>
+      <title>Detection of Cometary Activity in NEO Don Quixote</title>
+      <link>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
+      <description>Near-Earth asteroid Don Quixote has long since been considered a good&#xA;candidate for an inactive comet nucleus due to its comet-like orbit. Since&#xA;its discovery in 1983, comet-like has never been observed - until we&#xA;observed this object with the Spitzer Space Telescope&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Herschel Observations of Plutinos</title>
+      <link>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</guid>
+      <description>My first research paper. Using Herschel Space Observatory observations,&#xA;we investigated the physical properties of 18 Plutinos - small bodies at&#xA;the outskirts of the Solar System that have orbital properties similar to&#xA;those of Pluto. What we found? That Pluto is pretty unique&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern">
+  <meta property="og:description" content="Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2021-12-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-12-14T00:00:00+00:00">
+    <meta property="article:tag" content="Erdbeobachtung">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Multi-Task-Learning">
+    <meta property="article:tag" content="Kraftwerk">
+    <meta property="article:tag" content="CO2">
+    <meta property="article:tag" content="Sentinel-2">
+
+  <meta itemprop="name" content="Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern">
+  <meta itemprop="description" content="Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.">
+  <meta itemprop="datePublished" content="2021-12-14T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-12-14T00:00:00+00:00">
+  <meta itemprop="wordCount" content="485">
+  <meta itemprop="keywords" content="Erdbeobachtung,Deep Learning,Multi-Task-Learning,Kraftwerk,CO2,Sentinel-2">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern">
+  <meta name="twitter:description" content="Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/de/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung Seite">
+              Forschung
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/bio/" title="Lebenslauf Seite">
+              Lebenslauf
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/publications/" title="Publikationen Seite">
+              Publikationen
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-12-14T00:00:00Z">Dezember 14, 2021</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 Minuten </span>
+        <span class="f6 mv4 dib tracked"> - 485 Wörter </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Dieses Projekt bildet die logische Erweiterung unseres vorherigen Projekts zur <a href="http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">Charakterisierung industrieller Abgasfahrnen aus Fernerkundungsdaten</a>. Anstatt einfach nur Abgasfahnen zu identifizieren und zu charakterisieren, nutzen wir diese Informationen, um die Treibhausgasemissionen von fossilen Brennstoffkraftwerken zu schätzen.</p>
+<p>Die Idee ist recht einfach: Wir wissen, dass wir Abgasfahnen segmentieren und sie robust von natürlichen Wolken unterscheiden können. Für alle europäischen Kraftwerke kennen wir zu jedem gegebenen Zeitpunkt ihre Stromerzeugungsraten. Daher können wir ein Regressionsmodell trainieren, um die Stromerzeugungsrate aus dem Umfang der beobachteten Abgasfahne abzuschätzen. Allerdings ist die scheinbare Größe der Rauchfahne nicht nur eine Funktion des Stromerzeugungsprozesses. Vielmehr handelt es sich um einen hochkomplexen Prozess, der von Umweltvariablen abhängt. Um diese Variablen zu approximieren, stellen wir unserem Regressionsmodell aktuelle Wetterinformationen zur Verfügung, einschließlich Umgebungstemperatur, Luftdruck und Windgeschwindigkeit.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="overview.png">
+        <img src="overview.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Unsere Modellarchitektur. Satellitenbilder dienen als Eingabe für ein U-Net-Backbone. Die Ausgangsfeaturemap dient als Eingabe für einen Multi-Task-Learning-Ansatz: Wir verwenden separate Köpfe, um die Abgasfahne zu segmentieren, den Kraftwerkstyp zu klassifizieren und die Stromerzeugungsraten abzuschätzen. Letzteres berücksichtigt auch Wettervariablen. Die Architektur wird auf Ground-Truth-Abgasfahnenmasken, Informationen zum Kraftwerkstyp und Stromerzeugungsraten trainiert. Wir stellen fest, dass die Ergebnisse dieses Multi-Task-Learning-Ansatzes die Modelle übertreffen, die einzeln auf diesen Aufgaben  trainiert wurden.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Um unsere Vorhersagen der Stromerzeugungsraten zu verbessern, nutzen wir einen Multi-Task-Learning-Ansatz: Anstatt einfach ein Modell zu trainieren, das die Stromerzeugung vorhersagt, lernen wir zusätzliche Aufgaben, nämlich ein Klassifikationsmodell für Kraftwerkstypen (siehe <a href="http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">hier</a>) und ein Segmentierungsmodell für Rauchfahnen (siehe <a href="http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">hier</a>). Durch das Lernen zusätzlicher Aufgaben generiert das Modell reichhaltigere Darstellungen der zugrunde liegenden Daten, was zu einem robusteren Training und einer besseren Leistung führt. Dies spiegelt sich in unseren Ergebnissen wider: Der kombinierte Multi-Task-Learning-Ansatz schneidet bei jeder gelernten Aufgabe besser ab als ein separat trainiertes Modell. Wir können auch zeigen, dass es von Vorteil ist, Wetterdaten in unsere Modelldaten einzubeziehen.</p>
+<p>Bisher ist unser Modell in der Lage, die Stromerzeugungsraten (mit einem MAE von 139 MW) zu schätzen – wie erhalten wir CO2-Emissionsraten aus diesem Ergebnis? Unser Modell kann auch die Kraftwerkstypen identifizieren; je nach verwendetem Brennstoff stoßen sie unterschiedliche Mengen CO2 pro MWh in die Atmosphäre aus. Durch die Annäherung dieser Emissionsfaktoren sind wir in der Lage, unsere Schätzungen der Stromerzeugungsraten in Schätzungen der Emissionsraten umzuwandeln.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="results.png">
+        <img src="results.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Vorhersageergebnisse aus unserem Multi-Task-Learning-Ansatz: Stromerzeugungsraten links und CO2-Emissionsraten rechts.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Unser Ansatz ermöglicht die Schätzung der Stromerzeugungsraten und CO2-Emissionsraten von Kraftwerken basierend auf frei verfügbaren Sentinel-2-Satellitenbildern. Die Ergebnisse wurden auf dem Workshop <a href="https://www.climatechange.ai/papers/neurips2021/27">Tackling Climate Change with Machine Learning bei NeurIPS 2021</a> und in der Zeitschrift IEEE Transactions on Geoscience and Remote Sensing (siehe unten)  veröffentlicht.</p>
+<h1 id="bibliographie">Bibliographie</h1>
+<ul>
+<li>
+<p>Joelle Hanna, Damian Borth, Michael Mommert, &ldquo;<em>Physics-Guided Multitask Learning for Estimating Power Generation and CO2 Emissions from Satellite Imagery</em>&rdquo;, IEEE Transactions on Geoscience and Remote Sensing, <a href="https://ieeexplore.ieee.org/iel7/36/4358825/10153694.pdf">publication</a>, 2023.</p>
+</li>
+<li>
+<p>Hanna, J., Mommert, M., Scheibenreif, L. Borth, D., &ldquo;Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery&rdquo;, NeurIPS 2021 Tackling Climate Change with Machine Learning Workshop; <a href="https://www.climatechange.ai/papers/neurips2021/27">publication (open access)</a>.</p>
+</li>
+<li>
+<p>Hanna J. et al. 2021, <a href="https://github.com/HSG-AIML/RemoteSensingCO2Estimation">code</a></p>
+</li>
+<li>
+<p>Hanna J. et al. 2021, <a href="https://doi.org/10.5281/zenodo.5644746">dataset</a></p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/de/tags/erdbeobachtung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Erdbeobachtung</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/multi-task-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Multi-Task-Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/kraftwerk/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Kraftwerk</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/co2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">CO2</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/sentinel-2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentinel-2</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Ähnliches</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Erkennung von LKWs auf Satellitenbildern mit Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automatisierte Wolkenerkennung mit maschinellem Lernen</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/de/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

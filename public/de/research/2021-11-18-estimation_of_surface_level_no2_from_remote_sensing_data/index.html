@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten">
+  <meta property="og:description" content="Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2021-11-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-11-18T00:00:00+00:00">
+    <meta property="article:tag" content="Erdbeobachtung">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Luftverschmutzung">
+    <meta property="article:tag" content="NO2">
+    <meta property="article:tag" content="Sentinel-2">
+
+  <meta itemprop="name" content="Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten">
+  <meta itemprop="description" content="Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.">
+  <meta itemprop="datePublished" content="2021-11-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-11-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="348">
+  <meta itemprop="keywords" content="Erdbeobachtung,Deep Learning,Luftverschmutzung,NO2,Sentinel-2">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten">
+  <meta name="twitter:description" content="Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/de/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung Seite">
+              Forschung
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/bio/" title="Lebenslauf Seite">
+              Lebenslauf
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/publications/" title="Publikationen Seite">
+              Publikationen
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-11-18T00:00:00Z">November 18, 2021</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 2 Minuten </span>
+        <span class="f6 mv4 dib tracked"> - 348 Wörter </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Luftverschmutzung hat nachweislich negative Auswirkungen auf die Gesundheit. Ein bedeutendes Luftschadstoff ist NO2, das auf der Erdoberfläche direkt die menschliche Gesundheit beeinflusst und in höheren Lagen zur Bildung von saurem Regen beiträgt und als Vorläufer von Treibhausgasen fungiert. Während die NO2-Säulendichten in der Atmosphäre mit Satellitenbeobachtungen, wie sie von Sentinel-5P bereitgestellt werden, gemessen werden können, sind In-situ-Messungen von Bodenstationen erforderlich, um die NO2-Konzentrationen auf der Oberfläche zu messen, die für die menschliche Exposition relevant sind.</p>
+<p>Unser Student Linus Scheibenreif untersuchte, ob es möglich wäre, das NO2-Niveau an der Oberfläche ausschließlich aus Fernerkundungsbeobachtungen zu approximieren, um ein damit abschätzen zu können wieviel NO2 Menschen ausgesetzt sind. In seinen beiden Veröffentlichungen zeigte Linus, dass</p>
+<ul>
+<li>es möglich ist, die Exposition gegenüber NO2 auf der Oberfläche basierend auf Messungen der EEA Bodenstationen anhand verschiedener Merkmale zu interpolieren (Scheibenreif et al. 2021a), und</li>
+<li>wir können Satellitenbilder mit Messungen der Säulendichte von atmosphärischen Spurengasen kombinieren, um die NO2-Konzentrationen auf der Oberfläche mit hoher räumlicher Auflösung und mittlerer zeitlicher Auflösung zu schätzen (Scheibenreif et al. 2021b).</li>
+</ul>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="figure2.png">
+        <img src="figure2.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Beispielhafte NO2-Vorhersagen basierend auf Sentinel-2- und Sentinel-5P-Eingabedaten aus Scheibenreif et al. 2021b.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Erfahren Sie mehr über Linus&rsquo; Projekte in diesen Blogartikeln (english): <a href="https://hsg-aiml.github.io/2021/04/07/A_Novel_Dataset_for_the_Estimation_of_Surface_NO2_Concentrations_from_Remote_Sensing_Data.html">A Novel Dataset for the Prediction of Surface NO2 Concentrations from Remote Sensing Data</a> und <a href="https://hsg-aiml.github.io/2021/07/23/Estimation_of_Air_Pollution_with_Remote_Sensing_Data.html">Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space</a>.
+Seine Ergebnisse wurden auch in einem Artikel der IEEE Transactions on Geoscience and Remote Sensing zusammengefasst (siehe unten).</p>
+<h1 id="bibliographie">Bibliographie</h1>
+<ul>
+<li>
+<p>Scheibenreif, L., Mommert, M., Borth, D., &ldquo;Towards Global Estimation of Ground-Level NO2 Pollution with Deep Learning and Remote Sensing&rdquo;, IEEE Transactions on Geoscience and Remote Sensing, 2022, <a href="https://doi.org/10.1109/TGRS.2022.3160827">publication</a>, <a href="http://www.alexandria.unisg.ch/266586/1/Toward_Global_Estimation_of_Ground-Level_NO2_Pollution_With_Deep_Learning_and_Remote_Sensing.pdf">open access</a>.</p>
+</li>
+<li>
+<p>Scheibenreif et al. 2022 Dataset: <a href="https://doi.org/10.5281/zenodo.5764262">zenodo</a></p>
+</li>
+<li>
+<p>Scheibenreif et al. 2022 Code: <a href="https://github.com/HSG-AIML/Global-NO2-Estimation">GitHub</a></p>
+</li>
+<li>
+<p>Scheibenreif, L, Mommert, M., Borth, D., &ldquo;Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space&rdquo;, ICML 2021 Tackling Climate Change with Machine Learning Workshop;
+<a href="https://www.climatechange.ai/papers/icml2021/23">publication (open access)</a>.</p>
+</li>
+<li>
+<p>Scheibenreif, L. , Mommert, M., Borth, D., &ldquo;A Novel Dataset and Benchmark for Surface NO2 Prediction from Remote Sensing Data Including COVID Lockdown Measures&rdquo;, IEEE International Geoscience and Remote Sensing Symposium 2021 (<a href="https://igarss2021.com/">IGARSS 2021</a>); <a href="https://ieeexplore.ieee.org/iel7/9553015/9553016/09554037.pdf">publication</a>.</p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/de/tags/erdbeobachtung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Erdbeobachtung</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/luftverschmutzung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Luftverschmutzung</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/no2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">NO2</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/sentinel-2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentinel-2</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Ähnliches</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Erkennung von LKWs auf Satellitenbildern mit Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automatisierte Wolkenerkennung mit maschinellem Lernen</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/de/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

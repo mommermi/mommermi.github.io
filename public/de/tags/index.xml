@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/</link>
+    <description>Recent content in Tags on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/de/tags/deep-learning/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diffusion</title>
+      <link>http://localhost:1313/de/tags/diffusion/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/diffusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Erdbeobachtung</title>
+      <link>http://localhost:1313/de/tags/erdbeobachtung/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/erdbeobachtung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodal</title>
+      <link>http://localhost:1313/de/tags/multimodal/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/multimodal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selbstüberwachtes Lernen</title>
+      <link>http://localhost:1313/de/tags/selbst%C3%BCberwachtes-lernen/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/selbst%C3%BCberwachtes-lernen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datensatz</title>
+      <link>http://localhost:1313/de/tags/datensatz/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/datensatz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Segmentierung</title>
+      <link>http://localhost:1313/de/tags/segmentierung/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/segmentierung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentinel-2</title>
+      <link>http://localhost:1313/de/tags/sentinel-2/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/sentinel-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Verkehrslärm</title>
+      <link>http://localhost:1313/de/tags/verkehrsl%C3%A4rm/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/verkehrsl%C3%A4rm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datenfusion</title>
+      <link>http://localhost:1313/de/tags/datenfusion/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/datenfusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Klassifizierung</title>
+      <link>http://localhost:1313/de/tags/klassifizierung/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/klassifizierung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformer</title>
+      <link>http://localhost:1313/de/tags/transformer/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/transformer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CO2</title>
+      <link>http://localhost:1313/de/tags/co2/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/co2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kraftwerk</title>
+      <link>http://localhost:1313/de/tags/kraftwerk/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/kraftwerk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Task-Learning</title>
+      <link>http://localhost:1313/de/tags/multi-task-learning/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/multi-task-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Luftverschmutzung</title>
+      <link>http://localhost:1313/de/tags/luftverschmutzung/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/luftverschmutzung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NO2</title>
+      <link>http://localhost:1313/de/tags/no2/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/no2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Verkehr</title>
+      <link>http://localhost:1313/de/tags/verkehr/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/verkehr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Abgasfahne</title>
+      <link>http://localhost:1313/de/tags/abgasfahne/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/abgasfahne/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eardbeobachtung</title>
+      <link>http://localhost:1313/de/tags/eardbeobachtung/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/eardbeobachtung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asteroid</title>
+      <link>http://localhost:1313/de/tags/asteroid/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/asteroid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Astronomie</title>
+      <link>http://localhost:1313/de/tags/astronomie/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/astronomie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Don Quixote</title>
+      <link>http://localhost:1313/de/tags/don-quixote/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/don-quixote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schlafende Kometen</title>
+      <link>http://localhost:1313/de/tags/schlafende-kometen/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/schlafende-kometen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Allsky-Kamera</title>
+      <link>http://localhost:1313/de/tags/allsky-kamera/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/allsky-kamera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maschinelles Lernen</title>
+      <link>http://localhost:1313/de/tags/maschinelles-lernen/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/maschinelles-lernen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Erdnaher Asteroid</title>
+      <link>http://localhost:1313/de/tags/erdnaher-asteroid/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/erdnaher-asteroid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physikalische Eigenschaften Von Asteroiden</title>
+      <link>http://localhost:1313/de/tags/physikalische-eigenschaften-von-asteroiden/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/physikalische-eigenschaften-von-asteroiden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spitzer-Weltraumteleskop</title>
+      <link>http://localhost:1313/de/tags/spitzer-weltraumteleskop/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/spitzer-weltraumteleskop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thermisches Modellieren Von Asteroiden</title>
+      <link>http://localhost:1313/de/tags/thermisches-modellieren-von-asteroiden/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/thermisches-modellieren-von-asteroiden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TESS</title>
+      <link>http://localhost:1313/de/tags/tess/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/tess/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaia</title>
+      <link>http://localhost:1313/de/tags/gaia/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/gaia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thermische Modellierung Von Asteroiden</title>
+      <link>http://localhost:1313/de/tags/thermische-modellierung-von-asteroiden/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/thermische-modellierung-von-asteroiden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thermophysikalische Modellierung Von Asteroiden</title>
+      <link>http://localhost:1313/de/tags/thermophysikalische-modellierung-von-asteroiden/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/thermophysikalische-modellierung-von-asteroiden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source Software</title>
+      <link>http://localhost:1313/de/tags/open-source-software/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/open-source-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photometrie</title>
+      <link>http://localhost:1313/de/tags/photometrie/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/photometrie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipeline</title>
+      <link>http://localhost:1313/de/tags/pipeline/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/pipeline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Toter Komet</title>
+      <link>http://localhost:1313/de/tags/toter-komet/</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/toter-komet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rapid-Response</title>
+      <link>http://localhost:1313/de/tags/rapid-response/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/rapid-response/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spektrophotometrie</title>
+      <link>http://localhost:1313/de/tags/spektrophotometrie/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/spektrophotometrie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UKIRT</title>
+      <link>http://localhost:1313/de/tags/ukirt/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/ukirt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inaktiver Komet</title>
+      <link>http://localhost:1313/de/tags/inaktiver-komet/</link>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/inaktiver-komet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Herschel-Weltraumteleskop</title>
+      <link>http://localhost:1313/de/tags/herschel-weltraumteleskop/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/herschel-weltraumteleskop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plutino</title>
+      <link>http://localhost:1313/de/tags/plutino/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/plutino/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

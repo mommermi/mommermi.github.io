@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asteroid on Michael Mommert</title>
+    <link>http://localhost:1313/tags/asteroid/</link>
+    <description>Recent content in Asteroid on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/asteroid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Quixote and the Dormant Comets - My Astronomical Legacy</title>
+      <link>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
+      <description>Don Quixote has been considered asteroidal since its discovery in 1983,&#xA;despite its comet-like orbit. We found activity in this object during&#xA;its 2009 and 2018 apparitions, leading us to believe that it really&#xA;is an active comet. But are there other objects like Don Quixote? I&#xA;monitored a sample of ~100 asteroids that are somewhat likely to turn&#xA;active, too, over a period of more than 4 years. Bottom line: Don Quixote&#xA;is rather unique.</description>
+    </item>
+    <item>
+      <title>A plethora of asteroids in TESS data</title>
+      <link>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
+      <description>TESS is a satellite that observes bright stars to find brightness&#xA;modulations revealing exoplanet transits - but it also observes&#xA;a lot of asteroids over a long period of time, which makes it a unique&#xA;asset for deriving long asteroid rotation periods.</description>
+    </item>
+    <item>
+      <title>Asteroid Shape Information from Gaia DR2</title>
+      <link>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
+      <description>The Gaia mission builds a unique survey of the stars in our Milky Way - but&#xA;it also observes asteroids that are crossing its field of view. We derive&#xA;ensemble shape information for different asteroid populations from the&#xA;first batch of asteroid data from Gaia.</description>
+    </item>
+  </channel>
+</rss>

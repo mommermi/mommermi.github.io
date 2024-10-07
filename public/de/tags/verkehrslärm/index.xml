@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verkehrslärm on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/verkehrsl%C3%A4rm/</link>
+    <description>Recent content in Verkehrslärm on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/verkehrsl%C3%A4rm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</guid>
+      <description>Straßenverkehrslärm ist ein globales Problem, das zu schweren gesundheitlichen Auswirkungen führen kann. Trotz der Allgegenwart von Verkehrslärm ist dessen Quantifizierung oder Schätzung kompliziert, und detaillierte Straßenverkehrskarten sind nur für ausgewählte Länder oder Regionen verfügbar. Wir untersuchen, ob es möglich ist, ein Regressionsmodell zu trainieren, um Straßenverkehrslärm aus Satellitenbildern zu schätzen.</description>
+    </item>
+  </channel>
+</rss>

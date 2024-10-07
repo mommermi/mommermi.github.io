@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asteroid on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/asteroid/</link>
+    <description>Recent content in Asteroid on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/asteroid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe</title>
+      <link>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
+      <description>Don Quixote wird seit seiner Entdeckung im Jahr 1983 als Asteroid betrachtet, trotz seiner kometenartigen Umlaufbahn. Wir fanden während seiner Erscheinungen 2009 und 2018 Aktivität in diesem Objekt, was uns zu der Annahme führte, dass es sich tatsächlich um einen aktiven Kometen handelt. Aber gibt es andere Objekte wie Don Quixote? Ich habe über einen Zeitraum von mehr als 4 Jahren eine Stichprobe von etwa 100 Asteroiden überwacht, die ebenfalls wahrscheinlich aktiv werden könnten. Fazit: Don Quixote ist ziemlich einzigartig.</description>
+    </item>
+    <item>
+      <title>Eine Fülle von Asteroiden in TESS-Daten</title>
+      <link>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
+      <description>TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.</description>
+    </item>
+    <item>
+      <title>Informationen über die Form von Asteroiden aus Gaia DR2</title>
+      <link>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
+      <description>Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.</description>
+    </item>
+  </channel>
+</rss>

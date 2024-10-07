@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diffusion on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/diffusion/</link>
+    <description>Recent content in Diffusion on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodale Diffusion für selbstüberwachtes Vortraining</title>
+      <link>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
+      <description>Deep-Learning-Modelle, die auf Diffusionsprozessen basieren, zeigen ein großes Potenzial in einer Vielzahl von generativen Aufgaben, wie z.B. der Bildgenerierung. Für Anwendungen in der Fernerkundung sind generative Modelle jedoch nicht so verbreitet. Die Frage, die wir zu beantworten versucht haben, ist, ob Diffusionsprozesse verwendet werden können, um Modelle für diskriminative Aufgaben effizient vorzutrainieren?</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rapid-Response on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/rapid-response/</link>
+    <description>Recent content in Rapid-Response on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 25 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/rapid-response/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rapid-Response pektrophotometrische Beobachtungen von NEOs mit UKIRT und RATIR</title>
+      <link>http://localhost:1313/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
+      <description>Mit Schnellreaktionsbeobachtungen mit UKIRT sind wir in der Lage, neu entdeckte erdnahe Asteroiden zu beobachten, während sie sich noch in der Nähe der Erde befinden und somit hell sind. Unsere Beobachtungen ermöglichen eine probabilistische taxonomische Klassifizierung von Asteroiden mit typischerweise kleinen Größen und die Bestimmung ihrer Zusammensetzung.</description>
+    </item>
+  </channel>
+</rss>

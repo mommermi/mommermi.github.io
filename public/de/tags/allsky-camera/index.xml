@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Allsky-Camera on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/allsky-camera/</link>
+    <description>Recent content in Allsky-Camera on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/allsky-camera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Cloud Detection with Machine Learning</title>
+      <link>http://localhost:1313/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/</guid>
+      <description>This is a toy project that turned into a real research project and a preparation&#xA;for my new job as&#xA;research scientist in computer vision: using machine&#xA;learning techniques to identify clouds in all-sky camera images.</description>
+    </item>
+  </channel>
+</rss>

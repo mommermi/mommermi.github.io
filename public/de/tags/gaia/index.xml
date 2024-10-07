@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaia on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/gaia/</link>
+    <description>Recent content in Gaia on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/gaia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Informationen über die Form von Asteroiden aus Gaia DR2</title>
+      <link>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
+      <description>Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.</description>
+    </item>
+  </channel>
+</rss>

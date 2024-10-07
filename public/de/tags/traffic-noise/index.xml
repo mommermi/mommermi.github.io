@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Traffic Noise on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/traffic-noise/</link>
+    <description>Recent content in Traffic Noise on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/traffic-noise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traffic Noise Estimation from Satellite Imagery with Deep Learning</title>
+      <link>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</guid>
+      <description>Road traffic noise is a global issue that can lead to severe health effects. Despite the ubiquity of traffic noise, its quantification or estimation is complicated and detailed road traffic maps are only available for select countries or areas. We investigate whether it is possible to train a segmentation model to esimate road traffic noise from satellite imagery.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Automated Cloud Detection with Machine Learning | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="This is a toy project that turned into a real research project and a preparation
+for my new job as
+research scientist in computer vision: using machine
+learning techniques to identify clouds in all-sky camera images.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Automated Cloud Detection with Machine Learning">
+  <meta property="og:description" content="This is a toy project that turned into a real research project and a preparation
+for my new job as
+research scientist in computer vision: using machine
+learning techniques to identify clouds in all-sky camera images.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2020-04-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-04-22T00:00:00+00:00">
+    <meta property="article:tag" content="Astronomy">
+    <meta property="article:tag" content="Machine Learning">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Allsky-Camera">
+
+  <meta itemprop="name" content="Automated Cloud Detection with Machine Learning">
+  <meta itemprop="description" content="This is a toy project that turned into a real research project and a preparation
+for my new job as
+research scientist in computer vision: using machine
+learning techniques to identify clouds in all-sky camera images.">
+  <meta itemprop="datePublished" content="2020-04-22T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2020-04-22T00:00:00+00:00">
+  <meta itemprop="wordCount" content="592">
+  <meta itemprop="keywords" content="Astronomy,Machine Learning,Deep Learning,Allsky-Camera">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Automated Cloud Detection with Machine Learning">
+  <meta name="twitter:description" content="This is a toy project that turned into a real research project and a preparation
+for my new job as
+research scientist in computer vision: using machine
+learning techniques to identify clouds in all-sky camera images.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/research/12893.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Automated Cloud Detection with Machine Learning</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>This is a toy project that turned into a real research project and a preparation
+for my new job as
+research scientist in computer vision: using machine
+learning techniques to identify clouds in all-sky camera images.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-04-22T00:00:00Z">April 22, 2020</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 592 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="motivation">Motivation</h1>
+<p>Most (optical) telescopes have to be protected from precipitation to
+prevent damage to their optics and electronics. For this reason, most
+observatories use all-sky cameras - cheap, but very sensitive CMOS
+cameras equipped with fish-eye lenses - that monitor the night sky for
+incoming clouds. Telescope operators can observe live streams from these
+cameras to make informed decisions as to whether the current weather
+situation requires the closing of the telescope dome, or not.</p>
+<p>It should be worthwhile to automate this decision-making process so
+that, for instance, robotic telescopes can close their enclosures
+autonomously if clouds are present without any human intervention. A
+very similar system could be used to measure sky quality conditions in
+a highly unbiased way.</p>
+<h1 id="problem">Problem</h1>
+<iframe src="https://player.vimeo.com/video/410776698" width="500"
+height="498" frameborder="0" allow="autoplay; fullscreen"
+allowfullscreen></iframe>
+<p>Unfortunately, the automated detection of clouds in image data is a
+non-trivial task. Due to varying illumination conditions and cloud
+thickness, the heterogeneous sky background brightness, and other
+effects, night sky clouds manifest in different ways in all-sky camera
+images, hampering their identification. Additional complications arise
+during twilight or during &ldquo;bright nights&rdquo;, when the Moon is up. These
+complications are exemplified in the animation shown above, in which
+clouds first appear darker than the clear sky but then brighten
+significantly after Moon rise.</p>
+<p>My hope was that machine learning models should be able to handle this
+level of complexity easily.</p>
+<h1 id="methods-and-data">Methods and Data</h1>
+<p>I tested two different machine learning approaches on this problem:</p>
+<ul>
+<li>a deep learning approach that adopts a
+<a href="https://arxiv.org/abs/1512.03385">ResNet-18</a> implementation working
+directly on the image data, and</li>
+<li>a gradient-boosted tree-based model
+(<a href="https://github.com/microsoft/LightGBM">lightgbm</a>) working on
+preprocessed and extracted features; these features include metrics like
+source count and average background brightness, and time derivatives
+thereof, across a polar grid over each image, as well as additional
+information on the observation circumstances.</li>
+</ul>
+<p>Both models were trained on a set of 1975 all-sky camera images from Lowell
+Observatory&rsquo;s Discovery Telescope (formerly the Discovery Channel Telescope)
+that were randomly drawn from a period of 14 consecutive months. In all images of this set, the presence of clouds on a polar grid was labeled manually.</p>
+<h1 id="results">Results</h1>
+<p>The results were two-fold:</p>
+<ul>
+<li>
+<p>The deep learning approach using the <em>ResNet</em> implementation was
+only able to reach an accuracy of 85%. This is most likely due to
+the relatively small sample size for this model type. Better results
+are possible with a significantly larger sample size.</p>
+</li>
+<li>
+<p>The <em>lightgbm</em> model performs much better with an accuracy of ~95%,
+which is not likely to improve for larger sample sizes.</p>
+</li>
+</ul>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="confusionmatrix.png">
+        <img src="confusionmatrix.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Confusion matrix for both model approaches. These matrices underlines the superior performance of the feature-extracted lightgbm approach over the ResNet approach.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Another major selling point for the <em>lightgbm</em> model is the training
+time. While a meaningful model training process for the <em>lightgbm</em>
+model takes only a matter of seconds, it takes up to an hour for the
+<em>ResNet</em> approach.</p>
+<p>For the full analysis, please refer to the <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ab744f">publication in the
+Astronomical Journal</a> or the <a href="https://arxiv.org/abs/2003.11109">arxiv pre-print version</a> of this publication.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>I fully recommend the feature-extracted approach, as it easily
+outperforms the deep learning approach for this kind of application
+while utilizing only a fraction of the resources. Given the high
+accuracy of the <em>lightgbm</em> and the fact that this seems to be the
+maximum achievable accuracy (i.e., it is not limited by sample size)
+lets me conclude that this accuracy is only limited by human accuracy
+in the manual labeling of the training data.</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>
+<p>Mommert, M. 2020, &ldquo;<em>Cloud Identification from All-sky Camera Data with Machine Learning</em>&rdquo;, The Astronomical Journal, 159, 178., <a href="http://doi.org/10.3847/1538-3881/ab744f">publication</a>, <a href="http://arxiv.org/abs/2003.11109">arxiv</a></p>
+</li>
+<li>
+<p>Mommert, M. 2020: <a href="http://doi.org/10.5281/zenodo.3662849">code and example data</a></p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/astronomy/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Astronomy</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/machine-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Machine Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/allsky-camera/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Allsky-Camera</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/">SpitzerNEOs - Diameters and Albedos for 2132 Near-Earth Objects</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/">A plethora of asteroids in TESS data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/">Asteroid Shape Information from Gaia DR2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/">Are there Limits on the Applicability of Asteroid Thermal Models for Near-Earth  Asteroids?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/">sbpy - A Python module for small-body planetary astronomy</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2017-02-14-photometrypipeline/">Photometrypipeline</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2015-08-21-how-many-dead-comets-are-there/">How many Dead Comets are there?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/">Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/">Physical Properties of two tiny Asteroids from Spitzer Observations</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/">Detection of Cometary Activity in NEO Don Quixote</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-10-18-herschel-observations-of-plutinos/">Herschel Observations of Plutinos</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

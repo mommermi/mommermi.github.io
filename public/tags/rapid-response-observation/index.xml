@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rapid-Response Observation on Michael Mommert</title>
+    <link>http://localhost:1313/tags/rapid-response-observation/</link>
+    <description>Recent content in Rapid-Response Observation on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rapid-response-observation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR</title>
+      <link>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
+      <description>With rapid-response observations using UKIRT, we are able to observe newly&#xA;discovered near-Earth asteroids when they are still close to Earth and&#xA;thus bright. Our observations enable a probabilistic taxonomic&#xA;classification of asteroids with typically small sizes and the determination&#xA;of their compositional distribution.</description>
+    </item>
+  </channel>
+</rss>

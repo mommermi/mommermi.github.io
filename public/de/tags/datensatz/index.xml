@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datensatz on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/datensatz/</link>
+    <description>Recent content in Datensatz on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/datensatz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten</title>
+      <link>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
+      <description>Multimodale Datensätze für die Fernerkundung sind oft auf zwei Datenmodalitäten beschränkt, wie z.B. multispektrale und SAR-Polarisationsdaten. Um mit einer viel breiteren Palette von Datenmodalitäten zu experimentieren, haben wir den bekannten BigEarthNet-Datensatz erweitert, um eine Vielzahl von Datenmodalitäten einzuschließen.</description>
+    </item>
+  </channel>
+</rss>

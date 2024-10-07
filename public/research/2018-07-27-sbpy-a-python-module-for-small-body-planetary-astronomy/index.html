@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>sbpy - A Python module for small-body planetary astronomy | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="sbpy is an astropy affiliated package for small-body planetary astronomers.
+We proposed this idea to NASA and were funded for developing this Python
+module, which is outlined here.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="sbpy - A Python module for small-body planetary astronomy">
+  <meta property="og:description" content="sbpy is an astropy affiliated package for small-body planetary astronomers.
+We proposed this idea to NASA and were funded for developing this Python
+module, which is outlined here.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2018-07-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2018-07-27T00:00:00+00:00">
+    <meta property="article:tag" content="Astronomy">
+    <meta property="article:tag" content="Open-Source Software">
+
+  <meta itemprop="name" content="sbpy - A Python module for small-body planetary astronomy">
+  <meta itemprop="description" content="sbpy is an astropy affiliated package for small-body planetary astronomers.
+We proposed this idea to NASA and were funded for developing this Python
+module, which is outlined here.">
+  <meta itemprop="datePublished" content="2018-07-27T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2018-07-27T00:00:00+00:00">
+  <meta itemprop="wordCount" content="240">
+  <meta itemprop="keywords" content="Astronomy,Open-Source Software">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="sbpy - A Python module for small-body planetary astronomy">
+  <meta name="twitter:description" content="sbpy is an astropy affiliated package for small-body planetary astronomers.
+We proposed this idea to NASA and were funded for developing this Python
+module, which is outlined here.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/research/12893.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">sbpy - A Python module for small-body planetary astronomy</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>sbpy is an astropy affiliated package for small-body planetary astronomers.
+We proposed this idea to NASA and were funded for developing this Python
+module, which is outlined here.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-07-27T00:00:00Z">July 27, 2018</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 2 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 240 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>sbpy is an <a href="http://astropy.org">astropy</a> affiliated package that will provide tools for small-body planetary astronomers. The idea is provide a collection of well-tested and documented tools that asteroid and comet observers use on a daily basis. The goal is to improve the reproducibility of results and to make it easier for (young) researchers to try out new ideas.</p>
+<p>The development of sbpy has just started, as our NASA PDART grant just recently arrived. A lot of work to be done, but a few glimpses of its usefulness can already be seen.</p>
+<p>The full functionality will encompass the following areas:</p>
+<ul>
+<li>observation planning tools tailored to moving objects,</li>
+<li>photometry models for resolved and unresolved observations,</li>
+<li>wrappers and tools for astrometry and orbit fitting,</li>
+<li>spectroscopy analysis tools and models for reflected solar light and emission from gas,</li>
+<li>cometary gas and dust coma simulation and analysis tools,</li>
+<li>asteroid thermal models for flux estimation and size/albedo estimation,</li>
+<li>image enhancement tools for comet comae and PSF subtraction tools,</li>
+<li>lightcurve and shape analysis tools, and</li>
+<li>access tools for various databases for orbital and physical data, as well as ephemerides services.</li>
+</ul>
+<p>If you are interested in using/testing/contributing to sbpy, check out our <a href="http://sbpy.org">website</a> and <a href="https://github.com/NASA-Planetary-Science/sbpy">github repo</a> for more information.</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>Mommert, M., Kelley, M. S. P., de Val-Borro, M., Li, J.-Y., Guzman, G., Sipocz, B., Durech, J., Granvik, M., Grundy, W., Moskovitz, N., Penttilä, A., &amp; Samarasinha, N. (2019), &ldquo;<em>sbpy: Small-body planetary astronomy</em>&rdquo;, Astrophysics Source Code Library, ascl:1907.014., <a href="http://arxiv.org/abs/ascl:1907.014">arxiv</a></li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/astronomy/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Astronomy</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/open-source-software/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Open-Source Software</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2017-02-14-photometrypipeline/">Photometrypipeline</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2015-08-21-how-many-dead-comets-are-there/">How many Dead Comets are there?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/">Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/">Physical Properties of two tiny Asteroids from Spitzer Observations</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/">Detection of Cometary Activity in NEO Don Quixote</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2014-10-18-herschel-observations-of-plutinos/">Herschel Observations of Plutinos</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

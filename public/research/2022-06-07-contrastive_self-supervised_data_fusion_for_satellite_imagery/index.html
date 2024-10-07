@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&hellip;">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data">
+  <meta property="og:description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising…">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2022-06-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-06-07T00:00:00+00:00">
+    <meta property="article:tag" content="Earth Observation">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Self-Supervised Learning">
+    <meta property="article:tag" content="Data Fusion">
+    <meta property="article:tag" content="Transformer">
+    <meta property="article:tag" content="Classification">
+
+  <meta itemprop="name" content="Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data">
+  <meta itemprop="description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising…">
+  <meta itemprop="datePublished" content="2022-06-07T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-06-07T00:00:00+00:00">
+  <meta itemprop="wordCount" content="837">
+  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Self-Supervised Learning,Data Fusion,Transformer,Classification,Segmentation">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data">
+  <meta name="twitter:description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising…">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&hellip;</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-06-07T00:00:00Z">June 7, 2022</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 4 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 837 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>This research consists of two parts that will be presented in the following.</p>
+<h1 id="contrastive-self-supervised-data-fusion-for-satellite-imagery">Contrastive Self-supervised Data Fusion for Satellite Imagery</h1>
+<p>Supervised learning of any task requires large amounts of labeled data. Especially in the case of satellite imagery, unlabeled data is ubiquitous, while the labeling process is often cumbersome and expensive. Therefore, it is highly worthwhile to leverage methods to minimize the amount of labeled data that is required to obtain a good performance of the given down-stream task. In our first work, we leverage contrastive learning in a multi-modal setup to achieve this result.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="overview.png">
+        <img src="overview.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      A schematic depiction of our multi-modal contrastive self-supervised learning approach: by leveraging a contrastive loss, we force latent representations generated from multi-band imaging (Sentinel-2) and SAR data (Sentinel-1) for the same location to attract in latent space, while forcing representations generated for different locations to repel each other. As a result, the model learns rich representations that can be fine-tuned for any downstream task.
+    </figcaption>
+  </figure>
+</div>
+
+<p>We experiment with different self-supervised learning approached including SimCLR (Chen et al., 2020) and Multi-Modal Alignment (MMA, Windsor et al., 2021) to pretrain our model. Based on SimCLR, we build our own Dual-SimCLR approach, which is depicted above. In all our approaches, we abstain from utilizing data augmentations, which typically is required for contrastive self-supervised learning. Instead, we take advantage of the co-located nature of the data modalities to construct the contrastive power required for the learning process.</p>
+<p>We develop the <strong>Dual-SimCLR</strong> architecture for this work. Instead of using data augmentations and a shared backbone as is utilized in SimCLR, our architecture uses a separate backbone for each modality, resulting in separate representations. In the pre-training of the model, we utilize an MLP as projection head to generate latent presentations, based on which the constrastive loss operates. For the training of a down-stream task, we fine-tune the backbone and implement a fully-connected layer as classification head. The model is pre-trained on large amounts of unlabeled data and fine-tuned on small amounts of labeled data.</p>
+<p>For pretraining, we utilize the SEN12MS (Schmitt et al., 2019) dataset, which contains co-located pairs of Sentinel-1 and Sentinel-2 patches, disregarding available labels; for fine-tuning, we utilize the GRSS Data Fusion 2020 dataset, which comes with high-fidelity LULC segmentation labels. The downstream task is learning in a single-label and multi-label approach.</p>
+<p>Our results show that especially Dual-SimCLR is very successful in learning rich representations. The results for both single-label und multi-label downstream tasks clearly outperform a range of fully-supervised baselines that utilize single modalities or different data fusion approaches, as well as the other contrastive self-supervised approaches that were tested. We can show that the learned representations are rich and informative.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="">
+        <img src="" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>More importantly, we are able to show the efficiency of pre-training with our approach: by fine-tuning the learned representations of the pretrained backbone, we are able to <strong>outperform any fully-supervised baseline approach with only 10% of the labeled data</strong>.</p>
+<p>To conclude, our approach enables the label-efficient training of deep learning models for remote sensing by pretraining on a large amount of unlabeled data.</p>
+<p>The results of this study have been presented at the ISPRS 2022 congress in Nice, France (the results have been presented by Michael Mommert, but the work has been done by Linus Scheibenreif).</p>
+<h1 id="self-supervised-vision-transformers-for-land-cover-segmentation-and-classification">Self-supervised Vision Transformers for Land-cover Segmentation and Classification</h1>
+<p>In a natural extension of the previous work, we replace our previous model backbone with a pair of powerful Swin-Transformers. These backbones are pretrained in a contrastive self-supervised fashion, similar as in our previous work.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="backbone.png">
+        <img src="backbone.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>The goal of this <em>SwinUNet</em> architecture is to learn rich, task-agnostic representations for Earth observations applications. We test this characteristic by evaluating the pretrained model on two different tasks: patch-based image classification and semantic image segmentation, utilizing different heads for these tasks.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="downstream.png">
+        <img src="downstream.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>Our results support our assumption that the learned representations are rich and indeed task agnostic. Similarly to our previous results, we can show that for both image classification and semantic segmentation, fine-tuning on significantly smaller amounts of labeled data is able to outperform fully supervised training from scratch. Furthermore, we are able to show that Transformer architectures are successful at learning both downstream tasks with good performance.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="/qualitative_results.png">
+        <img src="/qualitative_results.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>The results of this work include a set pretrained backbone architectures and have been published at the Earthvision workshop at CVPR 2023 and has been awarded the best student paper award!</p>
+<h1 id="future-work">Future Work</h1>
+<p>We would like to note that this line of research is now being funded by the Swiss National Science Foundation (SNF). The goal of this project is to combine self-supervised learning for different types of multi-modal Earth observation data. Stay tuned for our upcoming results!</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>
+<p>Scheibenreif, L., Hanna, J., Mommert, M., Borth, D., &ldquo;<em>Self-Supervised Vision Transformers for Land-cover Segmentation and Classification</em>&rdquo;, <a href="https://www.grss-ieee.org/events/earthvision-2022/">Earthvision Workshop at IEEE/CVPR 2022</a>, <a href="https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.pdf">publication (open access)</a>. This work was awarded the <strong>best student paper award</strong> of the Earthvision 2022 workshop.</p>
+</li>
+<li>
+<p>Scheibenreif, L., Mommert, M., Borth, D., &ldquo;<em>Contrastive Self-Supervised Data Fusion for Satellite Imagery</em>&rdquo;, International Symposium for Photogrammetry and Remote Sensing, <a href="http://www.alexandria.unisg.ch/266528/1/Scheibenreif2022_ContrastiveSSLDataFusion.pdf">publication</a>, 2022.</p>
+</li>
+<li>
+<p>code: <a href="https://github.com/HSG-AIML/SSLTransformerRS">GitHub and pretrained model backbones</a></p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/earth-observation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Earth Observation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/self-supervised-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Self-Supervised Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/data-fusion/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Fusion</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/transformer/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Transformer</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/classification/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Classification</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/segmentation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Segmentation</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Power Plant Classification from Remote Imaging with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Characterization of Industrial Smoke Plumes from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">Estimation of Surface Level NO2 from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

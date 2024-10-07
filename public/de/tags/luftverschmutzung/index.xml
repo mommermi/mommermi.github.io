@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luftverschmutzung on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/luftverschmutzung/</link>
+    <description>Recent content in Luftverschmutzung on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/luftverschmutzung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten</title>
+      <link>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</guid>
+      <description>Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.</description>
+    </item>
+  </channel>
+</rss>

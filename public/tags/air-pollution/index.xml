@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Air Pollution on Michael Mommert</title>
+    <link>http://localhost:1313/tags/air-pollution/</link>
+    <description>Recent content in Air Pollution on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/air-pollution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estimation of Surface Level NO2 from Remote Sensing Data</title>
+      <link>http://localhost:1313/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</guid>
+      <description>Air pollution is a major health issue and often also contributes to climate change. Measuring air pollution is costly and therefore only available in some countries. We investigated whether freely available Earth observation data can be utilized to estimate air pollution on the surface level.</description>
+    </item>
+  </channel>
+</rss>

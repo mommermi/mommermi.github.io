@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open-Source Software on Michael Mommert</title>
+    <link>http://localhost:1313/tags/open-source-software/</link>
+    <description>Recent content in Open-Source Software on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/open-source-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sbpy - A Python module for small-body planetary astronomy</title>
+      <link>http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</guid>
+      <description>sbpy is an astropy affiliated package for small-body planetary astronomers.&#xA;We proposed this idea to NASA and were funded for developing this Python&#xA;module, which is outlined here.</description>
+    </item>
+    <item>
+      <title>Photometrypipeline</title>
+      <link>http://localhost:1313/research/2017-02-14-photometrypipeline/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2017-02-14-photometrypipeline/</guid>
+      <description>photometrypipeline is a Python software package for automated image&#xA;registration, calibration, and extraction of photometry tailored to the&#xA;needs of asteroid observer. However, pp can also be applied to other&#xA;imaging observations.</description>
+    </item>
+  </channel>
+</rss>

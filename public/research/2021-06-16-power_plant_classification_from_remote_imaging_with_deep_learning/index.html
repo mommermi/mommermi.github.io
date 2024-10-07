@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Power Plant Classification from Remote Imaging with Deep Learning | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="We developed a deep learning model that is able to distinguish between
+10 different types of power plants in an effort to automatically identify
+and characterize industrial sites in satellite imagery. This work will
+help us to estimate greenhouse gas emission rates for individual industrial
+sites in the future.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Power Plant Classification from Remote Imaging with Deep Learning">
+  <meta property="og:description" content="We developed a deep learning model that is able to distinguish between
+10 different types of power plants in an effort to automatically identify
+and characterize industrial sites in satellite imagery. This work will
+help us to estimate greenhouse gas emission rates for individual industrial
+sites in the future.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2021-06-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-06-16T00:00:00+00:00">
+    <meta property="article:tag" content="Earth Observation">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Classification">
+    <meta property="article:tag" content="Power Plant">
+    <meta property="article:tag" content="Sentinel-2">
+
+  <meta itemprop="name" content="Power Plant Classification from Remote Imaging with Deep Learning">
+  <meta itemprop="description" content="We developed a deep learning model that is able to distinguish between
+10 different types of power plants in an effort to automatically identify
+and characterize industrial sites in satellite imagery. This work will
+help us to estimate greenhouse gas emission rates for individual industrial
+sites in the future.">
+  <meta itemprop="datePublished" content="2021-06-16T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-06-16T00:00:00+00:00">
+  <meta itemprop="wordCount" content="545">
+  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Classification,Power Plant,Sentinel-2">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Power Plant Classification from Remote Imaging with Deep Learning">
+  <meta name="twitter:description" content="We developed a deep learning model that is able to distinguish between
+10 different types of power plants in an effort to automatically identify
+and characterize industrial sites in satellite imagery. This work will
+help us to estimate greenhouse gas emission rates for individual industrial
+sites in the future.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Power Plant Classification from Remote Imaging with Deep Learning</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>We developed a deep learning model that is able to distinguish between
+10 different types of power plants in an effort to automatically identify
+and characterize industrial sites in satellite imagery. This work will
+help us to estimate greenhouse gas emission rates for individual industrial
+sites in the future.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-06-16T00:00:00Z">June 16, 2021</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 545 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The
+industrial and power-generating economic sectors emit more than half
+of the annually and globally released greenhouse gas emissions,
+strongly contributing to global warming effects. In our recent work
+(<a href="http://localhost:1313/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Mommert et
+al. 2020</a>)
+we laid the foundation to estimating greenhouse gas emissions from
+industrial sites by characterizing industrial smoke plumes from remote
+imaging data only. That work is part of a bigger effort to estimate
+greenhouse gas emission rates from satellite imagery for individual
+industrial sites.  In this work, we made one further step towards
+achieving this goal.</p>
+<p>Different industrial sites contribute very differently to emission
+inventories. For instance, light industrial plants typically produce less
+greenhouse gas emissions than coal-powered power plants. It
+is prudent to account for the nature of industrial sites when trying
+to estimate their emission budget.</p>
+<p>In this work, we investigate the possibility to identify different
+types of power plants from Sentinel-2 satellite imagery.  We
+distinguish between 10 different power plant types: fossil-fuel driven
+power plants utilizing brown coal, gas, or hard coal, nuclear power
+plants and power plants utilizing regenerative energy sources
+involving water (run-of-river, reservoir and pumped storage designs),
+solar, and wind.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="example_activations.png">
+        <img src="example_activations.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Example images and class activation maps for two coal power plants from our sample that were correctly identified. The heatmap plots highlight areas on which the trained model bases its class prediction. In this case, the model focuses on the presence of coal heaps that are indeed indicative of coal-powered plants.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Using a ResNet-50 deep learning model, we are able to achieve a mean
+accuracy of 90.0% in distinguishing 10 different power plant types and
+a background class that contains random satellite image tiles. We also
+find that we are able to identify the cooling mechanisms utilized in
+thermal power plants with a mean accuracy of 87.5%.  A confusion
+matrix (see below) reveals the limitations of our approach: the degree
+of confusion is highest for power plants that utilize similar energy
+source (e.g., hydro-electric plants) or reside in similar geographic
+settings. This shortcoming can likely be addressed with a larger
+training data set - this study is based on 4,154 images of 450
+different power plants grouped in 10 different power plant types.
+Finally, we utilize class activation maps to improve the
+interpretability of our results and find that our trained model takes
+advantage of unique features of different power plant types: oil
+storage structures, coal heaps, wind turbines, or dams.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="confusion_matrix_11classes_mod.png">
+        <img src="confusion_matrix_11classes_mod.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Confusion matrix for the classification of power plant types. Confusion is possible between plants utilizing similar power sources, like hydro-electric plants.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Our results enable us to qualitatively investigate the energy mix from
+Sentinel-2 imaging data, and prove the feasibility to classify
+industrial sites on a global scale from freely available satellite
+imagery. Motivated by the success of this work, we will extend it in
+the future to classify a more diverse set of industrial sites. In
+addition to socio-economic applications, such a classifier will
+support us in estimating greenhouse gas emissions for any industrial
+site on Earth from remote imaging data.</p>
+<p>This work was presented at the <a href="https://igarss2021.com/">IEEE International Geoscience and
+Remote Sensing Symposion (IGARSS) 2021</a>.</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>Mommert, M., Scheibenreif, L., Hanna, J., Borth, D., &ldquo;Power Plant Classification from Remote Imaging With Deep Learning&rdquo;, IEEE International Geoscience and Remote Sensing Symposium 2021 (<a href="https://igarss2021.com/">IGARSS 2021</a>); <a href="https://ieeexplore.ieee.org/iel7/9553015/9553016/09553219.pdf">publication</a>, <a href="https://arxiv.org/abs/2107.10894">arxiv</a>.</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/earth-observation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Earth Observation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/classification/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Classification</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/power-plant/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Power Plant</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/sentinel-2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentinel-2</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Characterization of Industrial Smoke Plumes from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery">
+  <meta property="og:description" content="Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2021-12-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-12-14T00:00:00+00:00">
+    <meta property="article:tag" content="Earth Observation">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Multi-Task Learning">
+    <meta property="article:tag" content="Power Plant">
+    <meta property="article:tag" content="CO2">
+    <meta property="article:tag" content="Sentinel-2">
+
+  <meta itemprop="name" content="Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery">
+  <meta itemprop="description" content="Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.">
+  <meta itemprop="datePublished" content="2021-12-14T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-12-14T00:00:00+00:00">
+  <meta itemprop="wordCount" content="552">
+  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Multi-Task Learning,Power Plant,CO2,Sentinel-2">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery">
+  <meta name="twitter:description" content="Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-12-14T00:00:00Z">December 14, 2021</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 552 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>This project forms the logical extension of our previous project on the <a href="https://mommermi.github.io/applied%20research/2020/12/07/Characterization_of_Industrial_Smoke_Plumes_from_Remote_Sensing_Data.html">characterization of industrial plumes from remote sensing data</a>. Instead of simply identifying and characterizing plumes, we utilize this information to estimate Greenhouse Gas emissions from fossil fuel-firing power plants.</p>
+<p>The idea is rather simple: we know that we can segment plumes and robustly distinguish them from natural clouds. For all European power plants, we know for any given time what their power generation rates are. We can therefore train a regression model to estimate the power generation rate from the extent of the observed plume for any given time. However, the apparent size of the plume is not only a function of the power generation process. Instead, it is a highly complex process that relies on environmental variables. To approximate these variables, we provide concurrent weather information, including ambient temperature, air pressure and wind speed to our regression model.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="overview.png">
+        <img src="overview.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Our model architecture. Satellite imagery serves as input to a U-Net backbone. The output feature map serves as input to a multi-task learning approach: we use separate heads to segment the plume, classify the power plant type and predict power generation rates. The latter also accounts for weather variables. The architecture is trained on ground-truth plume masks, power plant type information and power generation rates. We find the results from this multi-task learning approach to outperform models learned on these tasks separately.
+    </figcaption>
+  </figure>
+</div>
+
+<p>To improve our power generation rate predictions, we utilize a multi-task learning approach: instead of simply training a model that predicts power generation, we learn additional tasks, namely a power plant classification model (see <a href="https://mommermi.github.io/applied%20research/2021/06/16/Power_Plant_Classification_From_Remote_Imaging_With_Deep_Learning">here</a> and a plume segmentation model (see <a href="https://mommermi.github.io/applied%20research/2020/12/07/Characterization_of_Industrial_Smoke_Plumes_from_Remote_Sensing_Data">here</a>). By learning additional tasks, the model generates richer representations of the underlying data, resulting in a more robust training and better performance. This is reflected in our results: the combined multi-task learning approach performs better on each learned tasks than a separately trained model. We can also show the benefit of adding weather data to our model input.</p>
+<p>So far, our model is able to estimate power generation rates (with an MAE of 139 MW) - how do we get CO2 emission rates from this result? Our model is also able to identify power plant types; depending on the fuel they use, they emit different amounts of CO2 per MWh into the atmosphere. By approximating these emission factors, we are able to convert our power generation rate estimates into emission rate estimates.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="results.png">
+        <img src="results.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Prediction results from our multi-task learning approach: power generation rates on the left and CO2 emission rates on the right.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Our approach enables the estimation of power generation rates and CO2 emission rates of power plants based on freely available Sentinel-2 satellite imagery. Results have been published at the <a href="https://www.climatechange.ai/papers/neurips2021/27">Tackling Climate Change with Machine Learning Workshop at NeurIPS 2021</a> and in a IEEE Transactions on Geoscience and Remote Sensing paper (see below).</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>
+<p>Joelle Hanna, Damian Borth, Michael Mommert, &ldquo;<em>Physics-Guided Multitask Learning for Estimating Power Generation and CO2 Emissions from Satellite Imagery</em>&rdquo;, IEEE Transactions on Geoscience and Remote Sensing, <a href="https://ieeexplore.ieee.org/iel7/36/4358825/10153694.pdf">publication</a>, 2023.</p>
+</li>
+<li>
+<p>Hanna, J., Mommert, M., Scheibenreif, L. Borth, D., &ldquo;Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery&rdquo;, NeurIPS 2021 Tackling Climate Change with Machine Learning Workshop; <a href="https://www.climatechange.ai/papers/neurips2021/27">publication (open access)</a>.</p>
+</li>
+<li>
+<p>Hanna J. et al. 2021, <a href="https://github.com/HSG-AIML/RemoteSensingCO2Estimation">code</a></p>
+</li>
+<li>
+<p>Hanna J. et al. 2021, <a href="https://doi.org/10.5281/zenodo.5644746">dataset</a></p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/earth-observation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Earth Observation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/multi-task-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Multi-Task Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/power-plant/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Power Plant</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/co2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">CO2</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/sentinel-2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentinel-2</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Power Plant Classification from Remote Imaging with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">Estimation of Surface Level NO2 from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Characterization of Industrial Smoke Plumes from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inaktiver Komet on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/inaktiver-komet/</link>
+    <description>Recent content in Inaktiver Komet on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 19 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/inaktiver-komet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entdeckung von kometärer Aktivität bei NEO Don Quijote</title>
+      <link>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
+      <description>Der erdnahe Asteroid Don Quixote wird seit langem als ein Kandidat für einen inaktiven Kometenkern gehandelt, was vor allen an seiner kometenähnlichen Umlaufbahn liegt. Seit seiner Entdeckung im Jahr 1983 wurde keine kometenähnliche Aktivität beobachtet – bis wir dieses Objekt mit dem Spitzer-Weltraumteleskop beobachteten&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

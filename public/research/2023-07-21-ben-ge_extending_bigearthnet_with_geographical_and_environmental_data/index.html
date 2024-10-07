@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data">
+  <meta property="og:description" content="Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2023-07-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-07-21T00:00:00+00:00">
+    <meta property="article:tag" content="Earth Observation">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Dataset">
+    <meta property="article:tag" content="Multimodal">
+    <meta property="article:tag" content="Self-Supervised Learning">
+
+  <meta itemprop="name" content="Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data">
+  <meta itemprop="description" content="Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.">
+  <meta itemprop="datePublished" content="2023-07-21T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-07-21T00:00:00+00:00">
+  <meta itemprop="wordCount" content="439">
+  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Dataset,Multimodal,Self-Supervised Learning">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data">
+  <meta name="twitter:description" content="Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-07-21T00:00:00Z">July 21, 2023</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 439 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Earth observation data are by default multi-modal. Data are being acquired by a wide range of sensors, some of which are passive sensors (e.g., multiband imaging) and others are active sensors (e.g., SAR). In addition to such observational data, archival data are available for most locations on Earth.</p>
+<p>Historically, the field of remote sensing and Earth observation has been very active in the combination of different data modalities (&ldquo;data fusion&rdquo;) in its data analyses. In a data fusion approach, two or more data modalities are combined in an analysis to improve the results over using just a single data modality.</p>
+<p>This concept of data fusion has also been used in deep learning applications. However, in most applications, data fusion is limited to two data modalities, which is also reflected by most available datasets. For instance, the widely spread <a href="https://bigearth.net/">BigEarthNet</a> dataset combines Sentinel-1 SAR with Sentinel-2 multispectral data (BigEarthNet-MM; MM stands for multimodal). While this combination is very powerful for many application, the question remains whether additional information might benefit the learning process.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="sample.png">
+        <img src="sample.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Sample from the ben-ge dataset. The figure shows (from left to right) for a random scene: the Sentinel-2 true color image (which is already part of BigEarthNet), the digital elevation model, the ESAWorldCover land use/land cover map, as well as the scene&#39;s climate zone classification, seasonal encoding and air temperature at the time of observation.
+    </figcaption>
+  </figure>
+</div>
+
+<p>To explore the usefulness of different data modalities, we present the <em>ben-ge</em> dataset, which supplements the BigEarthNet-MM dataset by compiling freely and globally available geographical and environmental data.</p>
+<p>The <em>ben-ge</em> (BigEarthNet with Geographical and Environmental data) dataset complements the Sentinel-1 and Sentinel-2 data provided through <a href="https://bigearth.net/">BigEarthNet</a> with the following:</p>
+<ul>
+<li>elevation data extracted from the <a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM">Copernicus Digital Elevation Model GLO-30</a>;</li>
+<li>land-use/land-cover data extracted from <a href="https://esa-worldcover.org/en">ESA Worldcover</a>;</li>
+<li>climate zone information extracted from <a href="https://www.nature.com/articles/sdata2018214">Beck et al. 2018</a>;</li>
+<li>environmental data such as temperature, relative humidity and wind speed concurrent with the Sentinel-1/2 observations from the <a href="https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5">ERA-5 global reanalysis</a>;</li>
+<li>a seasonal encoding ranging from 0 (winter) to 1 (summer).</li>
+</ul>
+<p>Based on this dataset, we showcase the value of combining different data modalities for the downstream tasks of patch-based land-use/land-cover classification and land-use/land-cover segmentation. For instance, we find that the performance on these downstream tasks improves with the number of modalities utilized. Naturally, raster data are more beneficial for segmentation tasks as opposed to per-scene data.</p>
+<p><em>ben-ge</em> is freely available and expected to serve as a test bed for fully supervised and self-supervised Earth observation applications.</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>Michael Mommert, Nicolas Kesseli, Joelle Hanna, Linus Scheibenreif, Damian Borth, Begüm Demir, &ldquo;<em>Ben-ge: Extending BigEarthNet with Geographical and Environmental Data</em>&rdquo;,  <a href="https://ieeexplore.ieee.org/iel7/10281394/10281399/10282767.pdf">IEEE International Geoscience and Remote Sensing Symposium 2023</a> (<a href="https://arxiv.org/pdf/2307.01741.pdf">open access</a>), 2023.</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/earth-observation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Earth Observation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/dataset/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Dataset</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/multimodal/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Multimodal</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/self-supervised-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Self-Supervised Learning</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/">Traffic Noise Estimation from Satellite Imagery with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">Estimation of Surface Level NO2 from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Power Plant Classification from Remote Imaging with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Characterization of Industrial Smoke Plumes from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

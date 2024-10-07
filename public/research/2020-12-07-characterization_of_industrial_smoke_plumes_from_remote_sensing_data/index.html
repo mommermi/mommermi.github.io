@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Characterization of Industrial Smoke Plumes from Remote Sensing Data | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Greenhouse gas emissions from the industrial economic sector are
+a major driver of the currently observed climate change. We developed
+a deep learning approach to identify and characterize industrial
+smoke plumes. In the future, we will utilize this approach to estimate
+greenhouse gas emissions from remote sensing data on a global scale.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Characterization of Industrial Smoke Plumes from Remote Sensing Data">
+  <meta property="og:description" content="Greenhouse gas emissions from the industrial economic sector are
+a major driver of the currently observed climate change. We developed
+a deep learning approach to identify and characterize industrial
+smoke plumes. In the future, we will utilize this approach to estimate
+greenhouse gas emissions from remote sensing data on a global scale.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2020-12-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-12-07T00:00:00+00:00">
+    <meta property="article:tag" content="Earth Observation">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Segmentation">
+    <meta property="article:tag" content="Plume">
+    <meta property="article:tag" content="Sentinel-2">
+
+  <meta itemprop="name" content="Characterization of Industrial Smoke Plumes from Remote Sensing Data">
+  <meta itemprop="description" content="Greenhouse gas emissions from the industrial economic sector are
+a major driver of the currently observed climate change. We developed
+a deep learning approach to identify and characterize industrial
+smoke plumes. In the future, we will utilize this approach to estimate
+greenhouse gas emissions from remote sensing data on a global scale.">
+  <meta itemprop="datePublished" content="2020-12-07T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2020-12-07T00:00:00+00:00">
+  <meta itemprop="wordCount" content="548">
+  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Segmentation,Plume,Sentinel-2">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Characterization of Industrial Smoke Plumes from Remote Sensing Data">
+  <meta name="twitter:description" content="Greenhouse gas emissions from the industrial economic sector are
+a major driver of the currently observed climate change. We developed
+a deep learning approach to identify and characterize industrial
+smoke plumes. In the future, we will utilize this approach to estimate
+greenhouse gas emissions from remote sensing data on a global scale.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Characterization of Industrial Smoke Plumes from Remote Sensing Data</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Greenhouse gas emissions from the industrial economic sector are
+a major driver of the currently observed climate change. We developed
+a deep learning approach to identify and characterize industrial
+smoke plumes. In the future, we will utilize this approach to estimate
+greenhouse gas emissions from remote sensing data on a global scale.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-12-07T00:00:00Z">December 7, 2020</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 548 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth&rsquo;s climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA&rsquo;s Sentinel-2 satellites.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="example_panel.png">
+        <img src="example_panel.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Example images from our set of 21,350 images of industrial sites. Each column corresponds to one of 624 emitter locations. The top row shows the site during activity (smoke is present) and the bottom row during inactivity (smoke is absent). The origin region of the smoke plume is marked by red circles.
+    </figcaption>
+  </figure>
+</div>
+
+<h3 id="classification-of-smoke-plumes">Classification of Smoke Plumes</h3>
+<p>Using a modified ResNet-50, we can detect smoke plumes of different sizes with an accuracy of 94.3%. The model correctly ignores natural clouds and focuses on those imaging channels that are related to the spectral absorption from aerosols and water vapor, enabling the localization of smoke.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="activation_example.png">
+        <img src="activation_example.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Inference examples from our classification model. For different examples from our test sub-sample (columns), we show the true color RGB image (top row), a false color image (center row), and the activations of some hidden layer in our ResNet implementation (bottom row, sharing the same scaling across the row). We find that the location of smoke correlates in most cases with significant aerosol and water vapor signals and that the hidden layer activations fire based on these signals, leading to good localization of the smoke.
+    </figcaption>
+  </figure>
+</div>
+
+<h3 id="segmentation-of-smoke-plumes">Segmentation of Smoke Plumes</h3>
+<p>We exploit this localization ability and train a U-Net segmentation model on a labeled sub-sample of our data, resulting in an Intersection-over-Union (IoU) metric of 0.608 and an overall accuracy for the detection of any smoke plume of 94.0%; on average, our model can reproduce the area covered by smoke in an image to within 5.6%. The performance of our model is mostly limited by occasional confusion with surface objects, the inability to identify semi-transparent smoke, and human limitations to properly identify smoke based on RGB-only images. Nevertheless, our results enable us to reliably detect and qualitatively estimate the level of smoke activity in order to monitor activity in industrial plants across the globe. Our data set and code base are publicly available.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="segmentation_example.png">
+        <img src="segmentation_example.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Inference examples from our segmentation model. For different examples from our test sub-sample (columns), we show the RGB image (top row), a false color image (center row), and the footprint of the ground-truth labels (red areas) and predicted labels (green areas). In general, the segmentation model reliably identifies smoke plumes with few limitations.
+    </figcaption>
+  </figure>
+</div>
+
+<p>This work was presented at the <a href="https://www.climatechange.ai/papers/neurips2020/9">``Tackling Climate Change with Machine Learning&rsquo;&rsquo; Workshop at the NeurIPS 2020</a> conference and the <a href="https://www.nvidia.com/en-us/gtc/">2021 NVIDIA GTC</a> conference.
+We made the <a href="https://github.com/HSG-AIML/IndustrialSmokePlumeDetection">code</a> and <a href="https://zenodo.org/record/4250706">data set</a> from this work available online.</p>
+<p>This work was extended by our PhD student Joelle. Checkout her updates <a href="http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">here</a>.</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>
+<p>Mommert, M., Sigel, M., Neuhausler, M., Scheibenreif, L., Borth, D., &ldquo;Characterization of Industrial Smoke Plumes from Remote Sensing Data&rdquo;, <a href="https://www.climatechange.ai/papers/neurips2020/9">Tackling Climate Change with Machine Learning Workshop,
+NeurIPS 2020</a>.</p>
+</li>
+<li>
+<p>Mommert, M. et al. 2020: <a href="https://zenodo.org/record/4250706">dataset</a></p>
+</li>
+<li>
+<p>Mommert, M. et al. 2020: <a href="https://github.com/HSG-AIML/IndustrialSmokePlumeDetection">code</a></p>
+</li>
+<li>
+<p>Mommert, M., &ldquo;Characterizing Industrial Smoke Plumes from Remote Sensing Data with Deep Learning&rdquo;, oral presentation at <a href="https://www.nvidia.com/en-us/gtc/">NVIDIA GTC21</a>.</p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/earth-observation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Earth Observation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/segmentation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Segmentation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/plume/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Plume</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/sentinel-2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentinel-2</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

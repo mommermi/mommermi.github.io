@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asteroid Physical Properties on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/asteroid-physical-properties/</link>
+    <description>Recent content in Asteroid Physical Properties on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/asteroid-physical-properties/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpitzerNEOs - Diameters and Albedos for 2132 Near-Earth Objects</title>
+      <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
+      <description>Based on Spitzer Space Telescope observations, we derived diameter and&#xA;albedo estimates for 2132 asteroids in near-Earth space - the largest&#xA;dataset of its kind. Our results and data are available online.</description>
+    </item>
+    <item>
+      <title>A plethora of asteroids in TESS data</title>
+      <link>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
+      <description>TESS is a satellite that observes bright stars to find brightness&#xA;modulations revealing exoplanet transits - but it also observes&#xA;a lot of asteroids over a long period of time, which makes it a unique&#xA;asset for deriving long asteroid rotation periods.</description>
+    </item>
+    <item>
+      <title>Asteroid Shape Information from Gaia DR2</title>
+      <link>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
+      <description>The Gaia mission builds a unique survey of the stars in our Milky Way - but&#xA;it also observes asteroids that are crossing its field of view. We derive&#xA;ensemble shape information for different asteroid populations from the&#xA;first batch of asteroid data from Gaia.</description>
+    </item>
+    <item>
+      <title>Physical Properties of two tiny Asteroids from Spitzer Observations</title>
+      <link>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
+      <description>We observed two very small asteroids with the Spitzer Space Telescope to&#xA;actually measure their physical properties for the first time. The&#xA;constraints that we were able to place on their properties do not agree&#xA;with the standard picture of small asteroids.</description>
+    </item>
+    <item>
+      <title>Herschel Observations of Plutinos</title>
+      <link>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</guid>
+      <description>My first research paper. Using Herschel Space Observatory observations,&#xA;we investigated the physical properties of 18 Plutinos - small bodies at&#xA;the outskirts of the Solar System that have orbital properties similar to&#xA;those of Pluto. What we found? That Pluto is pretty unique&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

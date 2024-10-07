@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Don Quixote on Michael Mommert</title>
+    <link>http://localhost:1313/tags/don-quixote/</link>
+    <description>Recent content in Don Quixote on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/don-quixote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Quixote and the Dormant Comets - My Astronomical Legacy</title>
+      <link>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
+      <description>Don Quixote has been considered asteroidal since its discovery in 1983,&#xA;despite its comet-like orbit. We found activity in this object during&#xA;its 2009 and 2018 apparitions, leading us to believe that it really&#xA;is an active comet. But are there other objects like Don Quixote? I&#xA;monitored a sample of ~100 asteroids that are somewhat likely to turn&#xA;active, too, over a period of more than 4 years. Bottom line: Don Quixote&#xA;is rather unique.</description>
+    </item>
+    <item>
+      <title>Detection of Cometary Activity in NEO Don Quixote</title>
+      <link>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
+      <description>Near-Earth asteroid Don Quixote has long since been considered a good&#xA;candidate for an inactive comet nucleus due to its comet-like orbit. Since&#xA;its discovery in 1983, comet-like has never been observed - until we&#xA;observed this object with the Spitzer Space Telescope&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

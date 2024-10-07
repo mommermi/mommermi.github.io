@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Herschel Space Observatory on Michael Mommert</title>
+    <link>http://localhost:1313/tags/herschel-space-observatory/</link>
+    <description>Recent content in Herschel Space Observatory on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/herschel-space-observatory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Herschel Observations of Plutinos</title>
+      <link>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</guid>
+      <description>My first research paper. Using Herschel Space Observatory observations,&#xA;we investigated the physical properties of 18 Plutinos - small bodies at&#xA;the outskirts of the Solar System that have orbital properties similar to&#xA;those of Pluto. What we found? That Pluto is pretty unique&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self-Supervised Learning on Michael Mommert</title>
+    <link>http://localhost:1313/tags/self-supervised-learning/</link>
+    <description>Recent content in Self-Supervised Learning on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/self-supervised-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal Diffusion for Self-Supervised Pretraining</title>
+      <link>http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
+      <description>Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?</description>
+    </item>
+    <item>
+      <title>Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data</title>
+      <link>http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
+      <description>Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.</description>
+    </item>
+    <item>
+      <title>Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data</title>
+      <link>http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
+      <description>Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

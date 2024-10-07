@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thermische Modellierung Von Asteroiden on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/thermische-modellierung-von-asteroiden/</link>
+    <description>Recent content in Thermische Modellierung Von Asteroiden on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/thermische-modellierung-von-asteroiden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gibt es Grenzen für die Anwendbarkeit von thermischen Modellen für Asteroiden bei erdnahen Asteroiden?</title>
+      <link>http://localhost:1313/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</guid>
+      <description>Es gibt eine Reihe von thermischen Modellen für Asteroiden, die auf unterschiedlichen physikalischen Annahmen basieren. In dieser Analyse untersuche ich, wie sich diese Annahmen auf ihre Ergebnisse und die Anwendbarkeit in verschiedenen Situationen auswirken.</description>
+    </item>
+  </channel>
+</rss>

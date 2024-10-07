@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sentinel-2 on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/sentinel-2/</link>
+    <description>Recent content in Sentinel-2 on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/sentinel-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</guid>
+      <description>Straßenverkehrslärm ist ein globales Problem, das zu schweren gesundheitlichen Auswirkungen führen kann. Trotz der Allgegenwart von Verkehrslärm ist dessen Quantifizierung oder Schätzung kompliziert, und detaillierte Straßenverkehrskarten sind nur für ausgewählte Länder oder Regionen verfügbar. Wir untersuchen, ob es möglich ist, ein Regressionsmodell zu trainieren, um Straßenverkehrslärm aus Satellitenbildern zu schätzen.</description>
+    </item>
+    <item>
+      <title>Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern</title>
+      <link>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</guid>
+      <description>Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.</description>
+    </item>
+    <item>
+      <title>Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten</title>
+      <link>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</guid>
+      <description>Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.</description>
+    </item>
+    <item>
+      <title>Erkennung von LKWs auf Satellitenbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</guid>
+      <description>Können wir Lastwagen aus dem Weltraum identifizieren um das Verkehrsaufkommen abzuschätzen? Ja, das können wir!</description>
+    </item>
+    <item>
+      <title>Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</guid>
+      <description>Wir haben ein Deep-Learning-Modell entwickelt, das in der Lage ist, zwischen 10 verschiedenen Arten von Kraftwerken zu unterscheiden. Die Ziel ist es unterchiedliche industrielle Standorte in Satellitenbildern automatisch zu identifizieren und zu charakterisieren. Diese Arbeit wird uns in Zukunft helfen, die Treibhausgasemissionsraten für einzelne Industrieanlagen zu schätzen.</description>
+    </item>
+    <item>
+      <title>Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten</title>
+      <link>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</guid>
+      <description>Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asteroids on Michael Mommert</title>
+    <link>http://localhost:39149/tags/asteroids/</link>
+    <description>Recent content in Asteroids on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:39149/tags/asteroids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Quixote and the Dormant Comets - My Astronomical Legacy</title>
+      <link>http://localhost:39149/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39149/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552&#34;&gt;Don Quixote&lt;/a&gt; was&#xA;discovered in 1983 and although it has a perfectly comet-like orbit,&#xA;no cometary activity (a tail or a coma around the object) have been&#xA;observed. According to protocol, the object was listed as an asteroid.&lt;/p&gt;&#xA;&lt;p&gt;In 2009, we found from observations with the now defunct Spitzer Space&#xA;Telescope that there actually is a faint coma around Don Quixote that most&#xA;likely consists of molecular band emission from either CO or CO2. This is&#xA;discussed in detail &lt;a href=&#34;http://mommermi.github.io/astronomy/2014/10/19/detection-of-cometary-activity-in-neo-don-quixote.html&#34;&gt;here&lt;/a&gt; and in &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2014ApJ...781...25M/abstract&#34;&gt;this paper&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

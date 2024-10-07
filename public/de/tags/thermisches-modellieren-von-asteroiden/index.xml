@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thermisches Modellieren Von Asteroiden on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/thermisches-modellieren-von-asteroiden/</link>
+    <description>Recent content in Thermisches Modellieren Von Asteroiden on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/thermisches-modellieren-von-asteroiden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpitzerNEOs - Durchmesser und Albedos für 2132 erdnahe Objekte</title>
+      <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
+      <description>Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.</description>
+    </item>
+  </channel>
+</rss>

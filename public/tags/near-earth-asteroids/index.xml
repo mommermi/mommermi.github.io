@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Near-Earth Asteroids on Michael Mommert</title>
+    <link>http://localhost:1313/tags/near-earth-asteroids/</link>
+    <description>Recent content in Near-Earth Asteroids on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Feb 2020 05:14:54 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/near-earth-asteroids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpitzerNEOs - Diameters and Albedos for 2132 Near-Earth Objects</title>
+      <link>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
+      <pubDate>Sun, 02 Feb 2020 05:14:54 +0000</pubDate>
+      <guid>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
+      <description>&lt;p&gt;Ever since the early days of my PhD thesis, I have been involved in&#xA;the thermal modeling of thermal-infrared observations of near-Earth&#xA;objects and other asteroids. Such asteroid thermal models simulate the surface&#xA;temperature distributions of asteroids utilizing some simplifying&#xA;assumptions and enabling the estimation of physical properties like&#xA;size and albedo.&lt;/p&gt;&#xA;&lt;p&gt;In the framework of several large-scale &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt; observing programs, we have observed more than 2000 near-Earth objects and measured their thermal emission to constrain their diameters and albedos. Now that Spitzer has officially &lt;a href=&#34;https://www.nasa.gov/press-release/nasa-s-spitzer-space-telescope-ends-mission-of-astronomical-discovery/&#34;&gt;retired&lt;/a&gt;, we have finalized our observations and analysis, and compiled all of our results in one large data set. This compilation comprises 2204 diameter and geometric albedo estimates for 2132 different near-Earth objects - the largest homogeneous data set of its kind for this population.&#xA;The results of these efforts are available &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How many Dead Comets are there?</title>
+      <link>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</link>
+      <pubDate>Fri, 21 Aug 2015 03:09:15 +0000</pubDate>
+      <guid>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</guid>
+      <description>&lt;p&gt;One long-standing question is: how many asteroids - especially near-Earth asteroids (NEAs) - were comets in the past? In the classical conception, comets have surface ices and form tails and comae in the vicinity of the Sun; asteroids are simply rocks in space. In the recent years, the two classifications became less clear than that.&lt;/p&gt;&#xA;&lt;p&gt;Comets can end up on orbits that bring them close to the Earth. We can observe them. But what happens to them after spending a while there? For some comets, like &lt;a href=&#34;https://en.wikipedia.org/wiki/Comet_ISON&#34;&gt;ISON&lt;/a&gt;, being close to the Sun is fatal; they simply disintegrate and disappear. For other comets in near-Earth space, the strong degree of insolation forces them to lose their surface ices quickly and eventually their activity stops - they are &lt;strong&gt;dead&lt;/strong&gt; or &lt;strong&gt;dormant comets&lt;/strong&gt;. Since comet surfaces have very low albedos, these dead comets simply look like low-albedo asteroids and are really hard to identify.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR</title>
+      <link>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
+      <pubDate>Tue, 25 Nov 2014 01:48:50 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
+      <description>&lt;p&gt;The understanding of the compositional distribution of NEOs is important to reconstruct their dynamical and physical evolution, assess the damage potential in case of an impact, and estimate the resources that can be obtained from these bodies in the not-so-far future. Also, there is still a discrepancy between the compositional distribution of meteoritic material found on Earth and the overall composition of the NEO distribution.&lt;/p&gt;&#xA;&lt;p&gt;The most common way to investigate the compositions of asteroids is to perform spectroscopic observations: wavelength-dependent variations of the surface reflectance can be diagnostic for the composition of an object and allow for a taxonomic classification. However, spectroscopic observations are usually only possible for bright and large asteroids and require large telescopes for small asteroids.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Physical Properties of two tiny Asteroids from Spitzer Observations</title>
+      <link>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
+      <pubDate>Mon, 20 Oct 2014 00:44:45 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
+      <description>&lt;p&gt;Little is known about the physical properties of the smallest NEOs with diameters of less than 10 meters. Due to their small sizes, they are usually very faint and hard to observe. Hence, only a small number of asteroids in this size regime are known and for only very few of those physical properties like diameter and albedo have been measured. However, small NEOs are much more frequent than larger NEOs, making some of these objects easily accessible spacecraft targets and potential impactors. Traditionally, people believed that these small NEOs have formed through collisions and that they are individual slabs of rock, i.e,. monolithic bodies.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

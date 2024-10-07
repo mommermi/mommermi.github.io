@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Traffic on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/traffic/</link>
+    <description>Recent content in Traffic on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 17 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/traffic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</title>
+      <link>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</guid>
+      <description>Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!</description>
+    </item>
+  </channel>
+</rss>

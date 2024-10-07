@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dormant Comet on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/dormant-comet/</link>
+    <description>Recent content in Dormant Comet on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 19 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/dormant-comet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detection of Cometary Activity in NEO Don Quixote</title>
+      <link>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
+      <description>Near-Earth asteroid Don Quixote has long since been considered a good&#xA;candidate for an inactive comet nucleus due to its comet-like orbit. Since&#xA;its discovery in 1983, comet-like has never been observed - until we&#xA;observed this object with the Spitzer Space Telescope&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

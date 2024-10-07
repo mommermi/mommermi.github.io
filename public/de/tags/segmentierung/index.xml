@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segmentierung on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/segmentierung/</link>
+    <description>Recent content in Segmentierung on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/segmentierung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</guid>
+      <description>Straßenverkehrslärm ist ein globales Problem, das zu schweren gesundheitlichen Auswirkungen führen kann. Trotz der Allgegenwart von Verkehrslärm ist dessen Quantifizierung oder Schätzung kompliziert, und detaillierte Straßenverkehrskarten sind nur für ausgewählte Länder oder Regionen verfügbar. Wir untersuchen, ob es möglich ist, ein Regressionsmodell zu trainieren, um Straßenverkehrslärm aus Satellitenbildern zu schätzen.</description>
+    </item>
+    <item>
+      <title>Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten</title>
+      <link>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
+      <description>Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten</title>
+      <link>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</guid>
+      <description>Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.</description>
+    </item>
+  </channel>
+</rss>

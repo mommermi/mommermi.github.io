@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rauchfahne on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/rauchfahne/</link>
+    <description>Recent content in Rauchfahne on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/rauchfahne/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charakterisierung industrieller Rauchfahnen aus Fernerkundungsdaten</title>
+      <link>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</guid>
+      <description>Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.</description>
+    </item>
+  </channel>
+</rss>

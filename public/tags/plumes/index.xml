@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plumes on Michael Mommert</title>
+    <link>http://localhost:34001/tags/plumes/</link>
+    <description>Recent content in Plumes on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:34001/tags/plumes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Characterization of Industrial Smoke Plumes from Remote Sensing Data</title>
+      <link>http://localhost:34001/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:34001/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</guid>
+      <description>&lt;p&gt;The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth&amp;rsquo;s climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA&amp;rsquo;s Sentinel-2 satellites.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

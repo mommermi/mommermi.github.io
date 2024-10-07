@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Traffic Noise Estimation from Satellite Imagery with Deep Learning on Michael Mommert</title>
+    <link>http://localhost:1313/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
+    <description>Recent content in Traffic Noise Estimation from Satellite Imagery with Deep Learning on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

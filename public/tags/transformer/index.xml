@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer on Michael Mommert</title>
+    <link>http://localhost:1313/tags/transformer/</link>
+    <description>Recent content in Transformer on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data</title>
+      <link>http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
+      <description>Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

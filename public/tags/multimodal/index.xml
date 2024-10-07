@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multimodal on Michael Mommert</title>
+    <link>http://localhost:1313/tags/multimodal/</link>
+    <description>Recent content in Multimodal on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/multimodal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal Diffusion for Self-Supervised Pretraining</title>
+      <link>http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
+      <description>Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?</description>
+    </item>
+    <item>
+      <title>Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data</title>
+      <link>http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
+      <description>Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.</description>
+    </item>
+  </channel>
+</rss>

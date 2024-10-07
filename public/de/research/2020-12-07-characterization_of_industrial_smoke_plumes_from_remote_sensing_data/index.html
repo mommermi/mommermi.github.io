@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten">
+  <meta property="og:description" content="Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2020-12-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-12-07T00:00:00+00:00">
+    <meta property="article:tag" content="Eardbeobachtung">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Segmentierung">
+    <meta property="article:tag" content="Abgasfahne">
+    <meta property="article:tag" content="Sentinel-2">
+
+  <meta itemprop="name" content="Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten">
+  <meta itemprop="description" content="Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.">
+  <meta itemprop="datePublished" content="2020-12-07T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2020-12-07T00:00:00+00:00">
+  <meta itemprop="wordCount" content="497">
+  <meta itemprop="keywords" content="Eardbeobachtung,Deep Learning,Segmentierung,Abgasfahne,Sentinel-2">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten">
+  <meta name="twitter:description" content="Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/de/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">en</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/research/" title="Forschung Seite">
+              Forschung
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/bio/" title="Lebenslauf Seite">
+              Lebenslauf
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/de/publications/" title="Publikationen Seite">
+              Publikationen
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-12-07T00:00:00Z">Dezember 7, 2020</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 Minuten </span>
+        <span class="f6 mv4 dib tracked"> - 497 Wörter </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Der Haupttreiber der globalen Erwärmung ist Freisetzung von Treibhausgasemissionen (THG) aus industriellen Aktivitäten. Die quantitative Überwachung dieser Emissionen ist notwendig, um ihre Auswirkungen auf das Klima der Erde vollständig zu verstehen und Emissionsvorschriften im großen Maßstab durchzusetzen. In dieser Arbeit untersuchen wir die Möglichkeit, industrielle Rauchfahnen aus global und kostenlos verfügbaren Multiband-Bilddaten der Sentinel-2-Satelliten der ESA zu erkennen und zu quantifizieren.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="example_panel.png">
+        <img src="example_panel.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Beispielbilder aus unserem Satz von 21.350 Bildern industrieller Standorte. Jede Spalte entspricht einem der 624 Standorte. Die oberste Reihe zeigt den Standort während der Aktivität (eine Abgasfahne ist vorhanden) und die untere Reihe während der Inaktivität (Abgasfahne ist nicht vorhanden). Die Ursprungsregion der Abgasfahne ist durch rote Kreise markiert.
+    </figcaption>
+  </figure>
+</div>
+
+<h3 id="klassifizierung-der-abgasfahnen">Klassifizierung der Abgasfahnen</h3>
+<p>Mit einem modifizierten ResNet-50 können wir Abgasfahnen unterschiedlicher Größen mit einer Genauigkeit von 94,3% erkennen. Das Modell ignoriert korrekt natürliche Wolken und konzentriert sich auf die Bildkanäle, die mit der spektralen Absorption von Aerosolen und Wasserdampf in Zusammenhang stehen, was die Lokalisierung von Rauch ermöglicht.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="activation_example.png">
+        <img src="activation_example.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Beispieleaus unserem Klassifizierungsmodell. Für verschiedene Beispiele aus unserem Testdatensatz (Spalten) zeigen wir das echte Farbbild (oberste Reihe), ein Falschfarbbild (mittlere Reihe) und die Aktivierungen einiger versteckter Schichten in unserer ResNet-Implementierung (unterste Reihe, die über die gesamte Reihe dasselbe Scaling verwendet). Wir stellen fest, dass der Standort der Fahne in den meisten Fällen mit signifikanten Aerosol- und Wasserdampfsignalen korreliert und dass die Aktivierungen der versteckten Schichten auf der Grundlage dieser Signale feuern, was zu einer guten Lokalisierung des Rauchs führt.
+    </figcaption>
+  </figure>
+</div>
+
+<h3 id="segmentierung-der-abgasfahnen">Segmentierung der Abgasfahnen</h3>
+<p>Wir nutzen diese Lokalisierungsfähigkeit und trainieren ein U-Net-Segmentierungsmodell auf einer annotierten Teilstichprobe unserer Daten, was zu einem Intersection-over-Union (IoU)-Wert von 0,608 und einer Gesamtgenauigkeit von 94,0 % bei der Erkennung von Rauchfahnen führt; im Durchschnitt kann unser Modell die von einer Fahne bedeckte Fläche auf 5,6% genau reproduzieren. Die Leistung unseres Modells wird hauptsächlich durch gelegentliche Verwechslungen mit Oberflächenobjekten, die Unfähigkeit, halbtransparenten Rauch zu identifizieren, und menschliche Einschränkungen bei der korrekten Identifizierung von Fahrend basierend auf RGB-Bildern begrenzt. Dennoch ermöglichen uns unsere Ergebnisse, Aktivität zuverlässig zu erkennen und qualitativ den Grad der Aktivität zu schätzen, um Industrieanlagen weltweit zu überwachen. Unser Datensatz und unsere Codebasis sind öffentlich verfügbar.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="segmentation_example.png">
+        <img src="segmentation_example.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Beispiele für die Leistung unseres Segmentierungsmodells. Für verschiedene Bilder aus unserer Teststichprobe (Spalten) zeigen wir das RGB-Bild (oberste Reihe), ein Falschfarbenbild (mittlere Reihe) und die Footprints der Ground-Truth-Labels (rote Bereiche) sowie der vorhergesagten Labels (grüne Bereiche). Im Allgemeinen identifiziert das Segmentierungsmodell Abgasfahnen zuverlässig mit wenigen Einschränkungen.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Diese Arbeit wurde auf dem <a href="https://www.climatechange.ai/papers/neurips2020/9">``Tackling Climate Change with Machine Learning&rsquo;&rsquo; Workshop bei NeurIPS 2020</a> und der  <a href="https://www.nvidia.com/en-us/gtc/">2021 NVIDIA GTC</a> präsentiert.
+Der <a href="https://github.com/HSG-AIML/IndustrialSmokePlumeDetection">Code</a> und der <a href="https://zenodo.org/record/4250706">Datensatz</a> sind online verfügbar.</p>
+<p>Diese Arbeit wurde von unserer Doktorandin Joelle erweitert. Schauen Sie sich ihre Updates <a href="http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">hier</a> an.</p>
+<h1 id="bibliographie">Bibliographie</h1>
+<ul>
+<li>
+<p>Mommert, M., Sigel, M., Neuhausler, M., Scheibenreif, L., Borth, D., &ldquo;Characterization of Industrial Smoke Plumes from Remote Sensing Data&rdquo;, <a href="https://www.climatechange.ai/papers/neurips2020/9">Tackling Climate Change with Machine Learning Workshop,
+NeurIPS 2020</a>.</p>
+</li>
+<li>
+<p>Mommert, M. et al. 2020: <a href="https://zenodo.org/record/4250706">dataset</a></p>
+</li>
+<li>
+<p>Mommert, M. et al. 2020: <a href="https://github.com/HSG-AIML/IndustrialSmokePlumeDetection">code</a></p>
+</li>
+<li>
+<p>Mommert, M., &ldquo;Characterizing Industrial Smoke Plumes from Remote Sensing Data with Deep Learning&rdquo;, oral presentation at <a href="https://www.nvidia.com/en-us/gtc/">NVIDIA GTC21</a>.</p>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/de/tags/eardbeobachtung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Eardbeobachtung</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/segmentierung/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Segmentierung</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/abgasfahne/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Abgasfahne</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/de/tags/sentinel-2/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentinel-2</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Ähnliches</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automatisierte Wolkenerkennung mit maschinellem Lernen</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/de/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

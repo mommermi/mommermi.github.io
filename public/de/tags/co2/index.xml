@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CO2 on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/co2/</link>
+    <description>Recent content in CO2 on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/co2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern</title>
+      <link>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</guid>
+      <description>Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kraftwerk on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/kraftwerk/</link>
+    <description>Recent content in Kraftwerk on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/kraftwerk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern</title>
+      <link>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</guid>
+      <description>Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.</description>
+    </item>
+    <item>
+      <title>Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</guid>
+      <description>Wir haben ein Deep-Learning-Modell entwickelt, das in der Lage ist, zwischen 10 verschiedenen Arten von Kraftwerken zu unterscheiden. Die Ziel ist es unterchiedliche industrielle Standorte in Satellitenbildern automatisch zu identifizieren und zu charakterisieren. Diese Arbeit wird uns in Zukunft helfen, die Treibhausgasemissionsraten für einzelne Industrieanlagen zu schätzen.</description>
+    </item>
+  </channel>
+</rss>

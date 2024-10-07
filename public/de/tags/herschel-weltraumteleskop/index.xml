@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Herschel-Weltraumteleskop on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/herschel-weltraumteleskop/</link>
+    <description>Recent content in Herschel-Weltraumteleskop on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sat, 18 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/herschel-weltraumteleskop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Herschel-Beobachtungen von Plutinos</title>
+      <link>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</guid>
+      <description>Meine erste Forschungsarbeit. Mit Beobachtungen des Herschel-Weltraumteleskops untersuchten wir die physikalischen Eigenschaften von 18 Plutinos – kleinen Körpern am Rand des Sonnensystems, die ähnliche orbitalen Eigenschaften wie Pluto aufweisen. Was haben wir herausgefunden? Dass Pluto ziemlich einzigartig ist&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

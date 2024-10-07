@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CO2 on Michael Mommert</title>
+    <link>http://localhost:1313/tags/co2/</link>
+    <description>Recent content in CO2 on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/co2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</title>
+      <link>http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</guid>
+      <description>Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.</description>
+    </item>
+  </channel>
+</rss>

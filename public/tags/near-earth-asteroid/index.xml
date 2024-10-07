@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Near-Earth Asteroid on Michael Mommert</title>
+    <link>http://localhost:1313/tags/near-earth-asteroid/</link>
+    <description>Recent content in Near-Earth Asteroid on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/near-earth-asteroid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpitzerNEOs - Diameters and Albedos for 2132 Near-Earth Objects</title>
+      <link>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
+      <description>Based on Spitzer Space Telescope observations, we derived diameter and&#xA;albedo estimates for 2132 asteroids in near-Earth space - the largest&#xA;dataset of its kind. Our results and data are available online.</description>
+    </item>
+    <item>
+      <title>How many Dead Comets are there?</title>
+      <link>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</guid>
+      <description>Dead comets are small bodies that appear as inactive asteroids, but have&#xA;a cometary origin. Some of these objects might still harbor ices and can&#xA;still activate and appear comet-like. Since these objects might signifcantly&#xA;contribute to the volatile reservoir of the asteroid population, it is&#xA;important to understand how many of these objects there are.</description>
+    </item>
+    <item>
+      <title>Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR</title>
+      <link>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
+      <description>With rapid-response observations using UKIRT, we are able to observe newly&#xA;discovered near-Earth asteroids when they are still close to Earth and&#xA;thus bright. Our observations enable a probabilistic taxonomic&#xA;classification of asteroids with typically small sizes and the determination&#xA;of their compositional distribution.</description>
+    </item>
+    <item>
+      <title>Physical Properties of two tiny Asteroids from Spitzer Observations</title>
+      <link>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
+      <description>We observed two very small asteroids with the Spitzer Space Telescope to&#xA;actually measure their physical properties for the first time. The&#xA;constraints that we were able to place on their properties do not agree&#xA;with the standard picture of small asteroids.</description>
+    </item>
+  </channel>
+</rss>

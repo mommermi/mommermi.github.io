@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Don Quixote on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/don-quixote/</link>
+    <description>Recent content in Don Quixote on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/don-quixote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe</title>
+      <link>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
+      <description>Don Quixote wird seit seiner Entdeckung im Jahr 1983 als Asteroid betrachtet, trotz seiner kometenartigen Umlaufbahn. Wir fanden während seiner Erscheinungen 2009 und 2018 Aktivität in diesem Objekt, was uns zu der Annahme führte, dass es sich tatsächlich um einen aktiven Kometen handelt. Aber gibt es andere Objekte wie Don Quixote? Ich habe über einen Zeitraum von mehr als 4 Jahren eine Stichprobe von etwa 100 Asteroiden überwacht, die ebenfalls wahrscheinlich aktiv werden könnten. Fazit: Don Quixote ist ziemlich einzigartig.</description>
+    </item>
+    <item>
+      <title>Entdeckung von kometärer Aktivität bei NEO Don Quijote</title>
+      <link>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
+      <description>Der erdnahe Asteroid Don Quixote wird seit langem als ein Kandidat für einen inaktiven Kometenkern gehandelt, was vor allen an seiner kometenähnlichen Umlaufbahn liegt. Seit seiner Entdeckung im Jahr 1983 wurde keine kometenähnliche Aktivität beobachtet – bis wir dieses Objekt mit dem Spitzer-Weltraumteleskop beobachteten&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

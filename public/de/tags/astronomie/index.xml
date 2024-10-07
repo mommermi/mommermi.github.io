@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astronomie on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/astronomie/</link>
+    <description>Recent content in Astronomie on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/astronomie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe</title>
+      <link>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
+      <description>Don Quixote wird seit seiner Entdeckung im Jahr 1983 als Asteroid betrachtet, trotz seiner kometenartigen Umlaufbahn. Wir fanden während seiner Erscheinungen 2009 und 2018 Aktivität in diesem Objekt, was uns zu der Annahme führte, dass es sich tatsächlich um einen aktiven Kometen handelt. Aber gibt es andere Objekte wie Don Quixote? Ich habe über einen Zeitraum von mehr als 4 Jahren eine Stichprobe von etwa 100 Asteroiden überwacht, die ebenfalls wahrscheinlich aktiv werden könnten. Fazit: Don Quixote ist ziemlich einzigartig.</description>
+    </item>
+    <item>
+      <title>Automatisierte Wolkenerkennung mit maschinellem Lernen</title>
+      <link>http://localhost:1313/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/</guid>
+      <description>Dies ist ein Spielzeugprojekt, das sich in ein echtes Forschungsprojekt verwandelt hat und eine Vorbereitung auf meinen neuen Job im Bereich der Computer Vision: die Verwendung von Techniken des maschinellen Lernens zur Identifizierung von Wolken in Bildern von All-Sky-Kameras.</description>
+    </item>
+    <item>
+      <title>SpitzerNEOs - Durchmesser und Albedos für 2132 erdnahe Objekte</title>
+      <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
+      <description>Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.</description>
+    </item>
+    <item>
+      <title>Eine Fülle von Asteroiden in TESS-Daten</title>
+      <link>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
+      <description>TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.</description>
+    </item>
+    <item>
+      <title>Informationen über die Form von Asteroiden aus Gaia DR2</title>
+      <link>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
+      <description>Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.</description>
+    </item>
+    <item>
+      <title>Gibt es Grenzen für die Anwendbarkeit von thermischen Modellen für Asteroiden bei erdnahen Asteroiden?</title>
+      <link>http://localhost:1313/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</guid>
+      <description>Es gibt eine Reihe von thermischen Modellen für Asteroiden, die auf unterschiedlichen physikalischen Annahmen basieren. In dieser Analyse untersuche ich, wie sich diese Annahmen auf ihre Ergebnisse und die Anwendbarkeit in verschiedenen Situationen auswirken.</description>
+    </item>
+    <item>
+      <title>sbpy - Ein Python-Modul für die Planetarische Astronomie kleiner Himmelskörper</title>
+      <link>http://localhost:1313/de/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</guid>
+      <description>sbpy ist ein mit Astropy verbundenes Paket für Astronomen, die an kleinen Himmelskörpern interessiert sind. Wir haben diese Idee bei der NASA vorgeschlagen und wurden finanziert, um dieses Python-Modul zu entwickeln, das hier skizziert ist.</description>
+    </item>
+    <item>
+      <title>Photometrypipeline</title>
+      <link>http://localhost:1313/de/research/2017-02-14-photometrypipeline/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2017-02-14-photometrypipeline/</guid>
+      <description>photometrypipeline ist ein Python-Softwarepaket für die automatisierte Bildregistrierung, Kalibrierung und Extraktion von Photometrie, das auf die Bedürfnisse von Asteroidenbeobachtern zugeschnitten ist. pp kann aber auch auch auf andere Bildbeobachtungen angewendet werden.</description>
+    </item>
+    <item>
+      <title>Wie viele tote Kometen gibt es?</title>
+      <link>http://localhost:1313/de/research/2015-08-21-how-many-dead-comets-are-there/</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2015-08-21-how-many-dead-comets-are-there/</guid>
+      <description>Tote Kometen sind kleine Körper, die als inaktive Asteroiden erscheinen, aber einen kometarischen Ursprung haben. Einige dieser Objekte könnten noch Eis enthalten und könnten sich wieder aktivieren und kometenähnlich erscheinen. Da diese Objekte möglicherweise erheblich zum flüchtigen Reservoir der Asteroidpopulation beitragen, ist es wichtig zu verstehen, wie viele dieser Objekte es gibt.</description>
+    </item>
+    <item>
+      <title>Rapid-Response pektrophotometrische Beobachtungen von NEOs mit UKIRT und RATIR</title>
+      <link>http://localhost:1313/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
+      <description>Mit Schnellreaktionsbeobachtungen mit UKIRT sind wir in der Lage, neu entdeckte erdnahe Asteroiden zu beobachten, während sie sich noch in der Nähe der Erde befinden und somit hell sind. Unsere Beobachtungen ermöglichen eine probabilistische taxonomische Klassifizierung von Asteroiden mit typischerweise kleinen Größen und die Bestimmung ihrer Zusammensetzung.</description>
+    </item>
+    <item>
+      <title>Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen</title>
+      <link>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
+      <description>Wir haben zwei sehr kleine Asteroiden mit dem Spitzer-Weltraumteleskop beobachtet, um ihre physikalischen Eigenschaften zum ersten Mal zu messen. Die Einschränkungen, die wir hinsichtlich ihrer Eigenschaften festlegen konnten, stimmen nicht mit dem gängigen Bild kleiner Asteroiden überein.</description>
+    </item>
+    <item>
+      <title>Entdeckung von kometärer Aktivität bei NEO Don Quijote</title>
+      <link>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
+      <description>Der erdnahe Asteroid Don Quixote wird seit langem als ein Kandidat für einen inaktiven Kometenkern gehandelt, was vor allen an seiner kometenähnlichen Umlaufbahn liegt. Seit seiner Entdeckung im Jahr 1983 wurde keine kometenähnliche Aktivität beobachtet – bis wir dieses Objekt mit dem Spitzer-Weltraumteleskop beobachteten&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Herschel-Beobachtungen von Plutinos</title>
+      <link>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</guid>
+      <description>Meine erste Forschungsarbeit. Mit Beobachtungen des Herschel-Weltraumteleskops untersuchten wir die physikalischen Eigenschaften von 18 Plutinos – kleinen Körpern am Rand des Sonnensystems, die ähnliche orbitalen Eigenschaften wie Pluto aufweisen. Was haben wir herausgefunden? Dass Pluto ziemlich einzigartig ist&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

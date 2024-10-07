@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maschinelles Lernen on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/maschinelles-lernen/</link>
+    <description>Recent content in Maschinelles Lernen on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/maschinelles-lernen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatisierte Wolkenerkennung mit maschinellem Lernen</title>
+      <link>http://localhost:1313/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/</guid>
+      <description>Dies ist ein Spielzeugprojekt, das sich in ein echtes Forschungsprojekt verwandelt hat und eine Vorbereitung auf meinen neuen Job im Bereich der Computer Vision: die Verwendung von Techniken des maschinellen Lernens zur Identifizierung von Wolken in Bildern von All-Sky-Kameras.</description>
+    </item>
+  </channel>
+</rss>

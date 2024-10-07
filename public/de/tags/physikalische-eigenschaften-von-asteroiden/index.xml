@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physikalische Eigenschaften Von Asteroiden on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/physikalische-eigenschaften-von-asteroiden/</link>
+    <description>Recent content in Physikalische Eigenschaften Von Asteroiden on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/physikalische-eigenschaften-von-asteroiden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpitzerNEOs - Durchmesser und Albedos für 2132 erdnahe Objekte</title>
+      <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
+      <description>Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.</description>
+    </item>
+    <item>
+      <title>Eine Fülle von Asteroiden in TESS-Daten</title>
+      <link>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
+      <description>TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.</description>
+    </item>
+    <item>
+      <title>Informationen über die Form von Asteroiden aus Gaia DR2</title>
+      <link>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
+      <description>Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.</description>
+    </item>
+    <item>
+      <title>Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen</title>
+      <link>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
+      <description>Wir haben zwei sehr kleine Asteroiden mit dem Spitzer-Weltraumteleskop beobachtet, um ihre physikalischen Eigenschaften zum ersten Mal zu messen. Die Einschränkungen, die wir hinsichtlich ihrer Eigenschaften festlegen konnten, stimmen nicht mit dem gängigen Bild kleiner Asteroiden überein.</description>
+    </item>
+    <item>
+      <title>Herschel-Beobachtungen von Plutinos</title>
+      <link>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</guid>
+      <description>Meine erste Forschungsarbeit. Mit Beobachtungen des Herschel-Weltraumteleskops untersuchten wir die physikalischen Eigenschaften von 18 Plutinos – kleinen Körpern am Rand des Sonnensystems, die ähnliche orbitalen Eigenschaften wie Pluto aufweisen. Was haben wir herausgefunden? Dass Pluto ziemlich einzigartig ist&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

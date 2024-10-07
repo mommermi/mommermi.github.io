@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Multimodal Diffusion for Self-Supervised Pretraining | Michael Mommert</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?">
+    <meta name="generator" content="Hugo 0.135.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/override.css">
+  
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/">
+  <meta property="og:site_name" content="Michael Mommert">
+  <meta property="og:title" content="Multimodal Diffusion for Self-Supervised Pretraining">
+  <meta property="og:description" content="Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2024-07-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-12T00:00:00+00:00">
+    <meta property="article:tag" content="Earth Observation">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Diffusion">
+    <meta property="article:tag" content="Multimodal">
+    <meta property="article:tag" content="Self-Supervised Learning">
+
+  <meta itemprop="name" content="Multimodal Diffusion for Self-Supervised Pretraining">
+  <meta itemprop="description" content="Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?">
+  <meta itemprop="datePublished" content="2024-07-12T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-07-12T00:00:00+00:00">
+  <meta itemprop="wordCount" content="323">
+  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Diffusion,Multimodal,Self-Supervised Learning">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Multimodal Diffusion for Self-Supervised Pretraining">
+  <meta name="twitter:description" content="Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-nearwhite">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
+    <div class="bg-black-40">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Michael Mommert
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/">de</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/bio/" title="Biography page">
+              Biography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Multimodal Diffusion for Self-Supervised Pretraining</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      
+      
+      
+      <div>Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?</div>
+      
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-12T00:00:00Z">July 12, 2024</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 2 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 323 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Diffusion processes are best known for training image-from-text models. The idea behind diffusion processes is rather simple: you take an image and gradually destroy the information by applied Gaussian noise. A diffusion model will now learn to reconstruct the original information (i.e., remove the noise) between two steps. Fully trained, these models are able to create photo-realistic images from noise.</p>
+<p>To create an image from text, the diffusion process has to be conditioned using a text prompt. This is a way to provide additional information to guide the generative process.</p>
+<p>While generative models are not that common in Earth observation, we were wondering, whether we could use a diffusion process to pretrain our models in a self-supervised fashion.</p>
+<p>So we trained a diffusion model on our <a href="http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/"><em>ben-ge</em> dataset</a>. We provide Sentinel-1 and Sentinel-2 raster data as different bands into the model and we experiment the other data modalities as input for the conditioning mechanism.</p>
+<p>Did it work?</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="diffusion_qualitative_sample.png">
+        <img src="diffusion_qualitative_sample.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Synthetic sample generated with our method. The columns show synthetically generated data modalities at different timesteps (top to bottom) of the diffusion process. At the final timestep, realistic and consistent (across the data modalities) scenes emerge from the noise.
+    </figcaption>
+  </figure>
+</div>
+
+<p>As the figure above shows, the model is definitely able to generate realistically looking Sentinel-2 scenes. But more importantly, the Sentinel-1 SAR data that it generates for the same scene, is very consistent with the Sentinel-2 data. This supports the notion that the model learns useful information. But are the learned representations useful for downstream tasks such as land use/land cover classification and segmentation?</p>
+<p>The answer seems clear: diffusion pretraining works well for the segmentation task, but not so much for the classification tasks. Furthermore, conditioning of the model seems to improve the results.</p>
+<p>For more details, please consult our contribution to IGARSS 2024 (see below).</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>Alexander Lontke, Michael Mommert, Damian Borth, &ldquo;<em>Multi-Modal Diffusion for Self-Supervised Pretraining</em>&rdquo;, <a href="https://ieeexplore.ieee.org/abstract/document/10640509">IEEE International Geoscience and Remote Sensing Symposium 2024</a>, 2024.</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/earth-observation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Earth Observation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/deep-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Deep Learning</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/diffusion/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Diffusion</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/multimodal/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Multimodal</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/self-supervised-learning/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Self-Supervised Learning</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/">Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/">Traffic Noise Estimation from Satellite Imagery with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">Estimation of Surface Level NO2 from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Power Plant Classification from Remote Imaging with Deep Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Characterization of Industrial Smoke Plumes from Remote Sensing Data</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Michael Mommert 2024 
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
+    michael.mommert@hft-stuttgart.de
+  </a>
+
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
+    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
+  </a>
+
+  </div>
+</footer>
+
+  </body>
+</html>

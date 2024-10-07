@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Klassifizierung on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/klassifizierung/</link>
+    <description>Recent content in Klassifizierung on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 07 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/klassifizierung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten</title>
+      <link>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
+      <description>Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</guid>
+      <description>Wir haben ein Deep-Learning-Modell entwickelt, das in der Lage ist, zwischen 10 verschiedenen Arten von Kraftwerken zu unterscheiden. Die Ziel ist es unterchiedliche industrielle Standorte in Satellitenbildern automatisch zu identifizieren und zu charakterisieren. Diese Arbeit wird uns in Zukunft helfen, die Treibhausgasemissionsraten für einzelne Industrieanlagen zu schätzen.</description>
+    </item>
+  </channel>
+</rss>
