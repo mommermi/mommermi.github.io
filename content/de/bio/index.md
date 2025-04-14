@@ -1,24 +1,25 @@
 ---
 title: Lebenslauf
 menu: main
+summary: |
+  Ein kurzer Überblick über meinen Lebenslauf.
 ---
 
 
 Ich bin Professor für Künstliche Intelligenz in der Fernerkundung an der [Hochschule für Technik Stuttgart](https://www.hft-stuttgart.de), wo ich im März 2024 ernannt wurde.
 
 {{< image
-src="https://www.hft-stuttgart.de/fileadmin/Dateien/Marketing/Pressemitteilungen/HFT-logo-klein-Aplustext.jpg"
+src="https://www.hft-stuttgart.de/assets/hft_sitepackage/img/logo-HFT-Stuttgart-2025.svg"
 width=30%
-alt="Hochschule für Technik Stuttgart" >}}
+alt="Stuttgart University of Applied Sciences" >}}
 
 Zuvor war ich Assistenzprofessor für Computer Vision (2022 - 2024) an der [School of Computer
 Science](https://www.unisg.ch/en/universitaet/schools/school-of-computer-science/) und Senior Scientist (2020 - 2022) am [AIML Lab](https://hsg-aiml.github.io/) der [Universität St. Gallen](https://www.unisg.ch/en/) (Schweiz), wo ich Erfahrungen in Deep Learning und Machine Learning gesammelt habe.
 
 {{< image
-src="https://sustainability.unisg.ch/wp-content/uploads/USG_E_RGB_Web_high_res.png"
+src="https://www.unisg.ch/fileadmin/user_upload/HSG_ROOT/_Kernauftritt_HSG/Universitaet/Bibliothek/Suchen_und_Nutzen/Datenbanken/Datenbankseiten/A-Z/HSG_Logo_EN_RGB_180px_x_37px.png"
 width=50%
-alt="Universität St. Gallen" >}}
-
+alt="University of St. Gallen" >}}
 
 Davor konzentrierte sich meine Forschung auf ein völlig anderes Gebiet: die Sonnensystems-Astronomie. Als Postdoc und Associate Researcher an der [Northern Arizona University](https://nau.edu/) (2013 - 2018) und als Astronom am [Lowell Observatory](https://lowell.edu/) (2018 - 2020) nutzte ich bodengestützte und weltraumgestützte teleskopische Beobachtungen sowie numerische Modelle, um die physikalischen Eigenschaften von Asteroiden und Kometen zu untersuchen und entwickelte wissenschaftliche Software.
 

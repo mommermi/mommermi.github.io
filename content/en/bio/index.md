@@ -1,6 +1,8 @@
 ---
 title: Biography
 menu: main
+summary: |
+  A brief overview of my biography.
 ---
 
 
@@ -8,7 +10,7 @@ menu: main
 I am Professor of AI in Remote Sensing at the [Stuttgart University of Applied Sciences](https://www.hft-stuttgart.com), where I was appointed in March 2024.
 
 {{< image
-src="https://www.hft-stuttgart.de/fileadmin/Dateien/Marketing/Pressemitteilungen/HFT-logo-klein-Aplustext.jpg"
+src="https://www.hft-stuttgart.de/assets/hft_sitepackage/img/logo-HFT-Stuttgart-2025.svg"
 width=30%
 alt="Stuttgart University of Applied Sciences" >}}
 
@@ -20,7 +22,7 @@ and as Senior Scientist (2020 - 2022) at the [AIML Lab](https://hsg-aiml.github.
 of the [University of St. Gallen](https://www.unisg.ch/en/) (Switzerland), where I gathered experience in deep learning and machine learning.
 
 {{< image
-src="https://sustainability.unisg.ch/wp-content/uploads/USG_E_RGB_Web_high_res.png"
+src="https://www.unisg.ch/fileadmin/user_upload/HSG_ROOT/_Kernauftritt_HSG/Universitaet/Bibliothek/Suchen_und_Nutzen/Datenbanken/Datenbankseiten/A-Z/HSG_Logo_EN_RGB_180px_x_37px.png"
 width=50%
 alt="University of St. Gallen" >}}
 

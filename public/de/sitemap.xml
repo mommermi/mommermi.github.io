@@ -785,6 +785,20 @@
                 href="http://localhost:1313/de/bio/"
                 />
   </url><url>
+    <loc>http://localhost:1313/de/teaching/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/teaching/"
+                />
+  </url><url>
     <loc>http://localhost:1313/de/publications/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

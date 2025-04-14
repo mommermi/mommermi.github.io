@@ -167,14 +167,21 @@
       <link>http://localhost:1313/de/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/bio/</guid>
-      <description>&lt;p&gt;Ich bin Professor für Künstliche Intelligenz in der Fernerkundung an der &lt;a href=&#34;https://www.hft-stuttgart.de&#34;&gt;Hochschule für Technik Stuttgart&lt;/a&gt;, wo ich im März 2024 ernannt wurde.&lt;/p&gt;&#xA;&lt;div class=&#34;wrapper&#34;&#xA;     style=&#34;display: block; margin-left: auto; margin-right: auto; &#xA;            margin-bottom: 20px; width: 90%;&#34;&gt;&#xA;  &lt;figure class=&#34;image&#34;&#xA;&#x9;  style=&#34;display: block; margin-left: auto; margin-right: auto; &#xA;                 width: 30%;&#34;&gt;&#xA;    &lt;a href=&#34;https://www.hft-stuttgart.de/fileadmin/Dateien/Marketing/Pressemitteilungen/HFT-logo-klein-Aplustext.jpg&#34;&gt;&#xA;        &lt;img src=&#34;https://www.hft-stuttgart.de/fileadmin/Dateien/Marketing/Pressemitteilungen/HFT-logo-klein-Aplustext.jpg&#34; alt=&#34;Hochschule für Technik Stuttgart&#34;  align=&#34;center&#34;&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;figcaption style=&#34;font-style: italic; text-align: justify;&#34;&gt;&#xA;      &#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Zuvor war ich Assistenzprofessor für Computer Vision (2022 - 2024) an der &lt;a href=&#34;https://www.unisg.ch/en/universitaet/schools/school-of-computer-science/&#34;&gt;School of Computer&#xA;Science&lt;/a&gt; und Senior Scientist (2020 - 2022) am &lt;a href=&#34;https://hsg-aiml.github.io/&#34;&gt;AIML Lab&lt;/a&gt; der &lt;a href=&#34;https://www.unisg.ch/en/&#34;&gt;Universität St. Gallen&lt;/a&gt; (Schweiz), wo ich Erfahrungen in Deep Learning und Machine Learning gesammelt habe.&lt;/p&gt;</description>
+      <description>Ein kurzer Überblick über meinen Lebenslauf.</description>
+    </item>
+    <item>
+      <title>Lehre</title>
+      <link>http://localhost:1313/de/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/teaching/</guid>
+      <description>Meine Lehraktivitäten konzentrieren sich auf die Bereich des Maschinellen Lernens und Neuronalen Lernens, sowie auf die Fernerkundung. Darüberhinaus unterrichte ich aber auch andere Kurse, etwa mit Bezug zur Photogrammetrie, Sensorsysteme und Physik. Auf dieser Seite teile ich einige meiner Lehrmaterialien.</description>
     </item>
     <item>
       <title>Publikationen</title>
       <link>http://localhost:1313/de/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/publications/</guid>
-      <description>&lt;h2 id=&#34;übersicht&#34;&gt;Übersicht&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=KSfMP58AAAAJ&amp;hl=en&amp;oi=ao&#34;&gt;Google Scholar&lt;/a&gt;: 4.705 Zitierungen, h-index=35, i10-index=68 (am 4. Oktober 2024)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;12 Publikationen als Erstautor in Zeitschriften (peer-reviewed)&lt;/li&gt;&#xA;&lt;li&gt;66 Publikationen als Ko-Autor in Zeitschriften (peer-reviewed)&lt;/li&gt;&#xA;&lt;li&gt;16 Konferenzbeiträge (peer-reviewed)&lt;/li&gt;&#xA;&lt;li&gt;87 Konferenzbeiträge (ohne peer-review)&lt;/li&gt;&#xA;&lt;li&gt;3 Buchbeiträge&lt;/li&gt;&#xA;&lt;li&gt;11 andere Publikationen (white papers, code, oder Daten; ohne peer-review)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!---&#xA;palette of labels:&#xA;first-author journal&#xA;co-author journal&#xA;conference peer-reviewed&#xA;conference non-peer-reviewed&#xA;book contribution&#xA;white paper&#xA;code&#xA;data&#xA;erratum&#xA;thesis&#xA;---&gt;&#xA;&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;&#xA;&lt;p&gt;Joseph L Hora, David E Trilling, Andy J Lopez-Oquendo, Howard A Smith, &lt;strong&gt;Michael Mommert&lt;/strong&gt;, Nicholas Moskovitz, Chris Foster, Michael S Connelley, Charles Lockhart, John T Rayner, Schelte J Bus, Darryl Watanabe, Lars Bergknut, Morgan Bonnet, Alan Tokunaga, &amp;ldquo;&lt;em&gt;Design and Performance of the Upgraded Mid-InfraRed Spectrometer and Imager (MIRSI) on the NASA Infrared Telescope Facility&lt;/em&gt;&amp;rdquo;, Publicatons of the Astronomical Society of the Pacific (&lt;a href=&#34;https://arxiv.org/pdf/2409.02752&#34;&gt;arxiv&lt;/a&gt;), 2024.&lt;/p&gt;</description>
+      <description>Ein Überblick über meine wissenschaftlichen und anderen Veröffentlichungen.</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,17 @@
 ---
 title: Publications
 menu: main
+summary: |
+  A summary of my scientific publications and other contributions.
 ---
 
 ## Overview
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 4.705 citations, h-index=35, i10-index=68 (as of 4 October 2024)
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 5,092 citations, h-index=36, i10-index=69 (as of 14 April 2025)
 
 * 12 publications as first author in peer-reviewed journals
 * 66 publications as co-author in peer-reviewed journals
-* 16 peer-reviewed contributions to conferences
+* 17 peer-reviewed contributions to conferences
 * 87 conference contributions (non peer-reviewed)
 * 3 book contributions
 * 11 other artifacts (white papers, code, or data; non peer-reviewed)
@@ -32,6 +34,10 @@ thesis
 
 
 ## 2024
+
+
+Scheibenreif, Linus, **Michael Mommert** and Damian Borth. "*Parameter Efficient Self-Supervised Geospatial Domain Adaptation*." [2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)](<!--- conference peer-reviewed --->) (2024): 27841-27851.
+<!--- conference peer-reviewed --->
 
 Joseph L Hora, David E Trilling, Andy J Lopez-Oquendo, Howard A Smith, **Michael Mommert**, Nicholas Moskovitz, Chris Foster, Michael S Connelley, Charles Lockhart, John T Rayner, Schelte J Bus, Darryl Watanabe, Lars Bergknut, Morgan Bonnet, Alan Tokunaga, "*Design and Performance of the Upgraded Mid-InfraRed Spectrometer and Imager (MIRSI) on the NASA Infrared Telescope Facility*", Publicatons of the Astronomical Society of the Pacific ([arxiv](https://arxiv.org/pdf/2409.02752)), 2024.
 <!--- co-author journal --->
