@@ -1,166 +1,271 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Research on Michael Mommert</title>
     <link>http://localhost:1313/research/</link>
     <description>Recent content in Research on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creation of an Imperviousness Map from Aerial Imagery</title>
+      <link>http://localhost:1313/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</guid>
+      <description>&lt;p&gt;Asphalt roads, parking lots, buildings and paved courtyards: in our cities, a large share of the ground is sealed. This has consequences. Rainwater can no longer seep into the soil and instead flows into the sewer system, which can lead to flooding during heavy rainfall. Sealed surfaces heat up considerably in summer, plants and animals lose their habitats, and valuable soil is lost.&lt;/p&gt;
+&lt;p&gt;Many cities and municipalities therefore want to unseal areas in a targeted way. To do so, however, they first need to know where and to what extent the ground is sealed. Mapping these areas by hand takes a great deal of time and staff.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modeling of Road Traffic Noise using Deep Learning</title>
+      <link>http://localhost:1313/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</guid>
+      <description>&lt;p&gt;Deep learning has already proven its potential in many areas of remote sensing. One example is the classification of land use and land cover from satellite and aerial imagery.&lt;/p&gt;
+&lt;p&gt;But perhaps we can go one step further: once an AI model has learned how certain things are related, can we also ask it &amp;ldquo;what if?&amp;rdquo; questions? By deliberately changing the data we feed into the model, we can observe how its output changes. In this way, an AI could serve as a kind of simplified simulator, for example in so-called digital twins. These are virtual replicas of real cities or landscapes in which changes can be tested before they are implemented in the real world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI-Based Methods for the Detection and Characterization of Traditional Orchards</title>
+      <link>http://localhost:1313/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</guid>
+      <description>&lt;p&gt;Traditional orchards are among the most species-rich habitats in Central Europe. Especially in southern Germany, their loosely scattered, tall-trunked fruit trees have shaped the landscape for centuries. Yet these orchards have been in decline for decades.&lt;/p&gt;
+&lt;p&gt;Although traditional orchards are legally protected, there is still no up-to-date and complete overview of where they can actually be found. But exactly this knowledge would be the basis for protecting and maintaining them in a targeted way. Surveying all orchards on foot is hardly feasible given the vast area involved, and it would be far too expensive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Urban Vegetation Mapping from High-Resolution Aerial Imagery with Deep Learning</title>
+      <link>http://localhost:1313/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</guid>
+      <description>&lt;p&gt;Trees, parks, lawns and hedges are more than just pleasant to look
+at. Urban greenery helps keep cities cool on hot summer days and soaks
+up rainwater that would otherwise flood streets and overwhelm
+drains. To plan, manage and protect these green spaces, cities need to
+know exactly where vegetation grows. Detailed vegetation maps also
+feed into computer simulations that help cities prepare for heat waves
+and heavy rainfall.&lt;/p&gt;
+&lt;p&gt;Such maps can be created from aerial and satellite images with the
+help of artificial intelligence. Until now, however, most of these
+approaches have been complex to set up and required powerful,
+expensive computers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Multimodal Diffusion for Self-Supervised Pretraining</title>
       <link>http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
-      <description>Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?</description>
+      <description>&lt;p&gt;Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?&lt;/p&gt;
+&lt;p&gt;Diffusion processes are best known for training image-from-text models. The idea behind diffusion processes is rather simple: you take an image and gradually destroy the information by applied Gaussian noise. A diffusion model will now learn to reconstruct the original information (i.e., remove the noise) between two steps. Fully trained, these models are able to create photo-realistic images from noise.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data</title>
       <link>http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
-      <description>Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.</description>
+      <description>&lt;p&gt;Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.&lt;/p&gt;
+&lt;p&gt;Earth observation data are by default multi-modal. Data are being acquired by a wide range of sensors, some of which are passive sensors (e.g., multiband imaging) and others are active sensors (e.g., SAR). In addition to such observational data, archival data are available for most locations on Earth.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Traffic Noise Estimation from Satellite Imagery with Deep Learning</title>
       <link>http://localhost:1313/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</guid>
-      <description>Road traffic noise is a global issue that can lead to severe health effects. Despite the ubiquity of traffic noise, its quantification or estimation is complicated and detailed road traffic maps are only available for select countries or areas. We investigate whether it is possible to train a segmentation model to esimate road traffic noise from satellite imagery.</description>
+      <description>&lt;p&gt;Road traffic noise represents a global health issue. Despite its importance, noise data are unavailable in many regions of the world. Such data are typically inferred through point measurements and complex physical models to simulate the propagation of noise.&lt;/p&gt;
+&lt;p&gt;Since this process is unfeasible in many areas of the world, we therefore propose to approximate noise data from satellite imagery in an end-to-end Deep Learning approach. We train a U-Net segmentation model to estimate road noise based on freely available Sentinel-2 satellite imagery and existing road traffic noise estimates for Switzerland.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data</title>
       <link>http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
-      <description>Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&amp;hellip;</description>
+      <description>&lt;p&gt;This research consists of two parts that will be presented in the following.&lt;/p&gt;
+&lt;h1 id=&#34;contrastive-self-supervised-data-fusion-for-satellite-imagery&#34;&gt;Contrastive Self-supervised Data Fusion for Satellite Imagery&lt;/h1&gt;
+&lt;p&gt;Supervised learning of any task requires large amounts of labeled data. Especially in the case of satellite imagery, unlabeled data is ubiquitous, while the labeling process is often cumbersome and expensive. Therefore, it is highly worthwhile to leverage methods to minimize the amount of labeled data that is required to obtain a good performance of the given down-stream task. In our first work, we leverage contrastive learning in a multi-modal setup to achieve this result.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</title>
       <link>http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</link>
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</guid>
-      <description>Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.</description>
+      <description>&lt;p&gt;This project forms the logical extension of our previous project on the &lt;a href=&#34;https://mommermi.github.io/applied%20research/2020/12/07/Characterization_of_Industrial_Smoke_Plumes_from_Remote_Sensing_Data.html&#34;&gt;characterization of industrial plumes from remote sensing data&lt;/a&gt;. Instead of simply identifying and characterizing plumes, we utilize this information to estimate Greenhouse Gas emissions from fossil fuel-firing power plants.&lt;/p&gt;
+&lt;p&gt;The idea is rather simple: we know that we can segment plumes and robustly distinguish them from natural clouds. For all European power plants, we know for any given time what their power generation rates are. We can therefore train a regression model to estimate the power generation rate from the extent of the observed plume for any given time. However, the apparent size of the plume is not only a function of the power generation process. Instead, it is a highly complex process that relies on environmental variables. To approximate these variables, we provide concurrent weather information, including ambient temperature, air pressure and wind speed to our regression model.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Estimation of Surface Level NO2 from Remote Sensing Data</title>
       <link>http://localhost:1313/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</guid>
-      <description>Air pollution is a major health issue and often also contributes to climate change. Measuring air pollution is costly and therefore only available in some countries. We investigated whether freely available Earth observation data can be utilized to estimate air pollution on the surface level.</description>
+      <description>&lt;p&gt;Exposure to air pollution has been shown to lead to adverse health effects. A major air pollutant is NO2, which, at the surface level, directly affects human health, and, at higher elevations, contributes to acidic rain and represents a precursor to greenhouse gases. While NO2 column densities in the atmosphere can be measured with satellite observations as provided by &lt;a href=&#34;https://sentinel.esa.int/web/sentinel/missions/sentinel-5p&#34;&gt;Sentinel-5P&lt;/a&gt;, it requires in-situ measurements from ground stations to measure NO2 concentrations on the surface level, which is relevant to human exposure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</title>
       <link>http://localhost:1313/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</link>
       <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</guid>
-      <description>Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!</description>
+      <description>&lt;p&gt;Commercial vehicle traffic is currently responsible for 7% of global CO2 emissions. While road freight will remain the dominant mode of surface freight transportation, its contribution to climate change is likely to increase in the short term. Therefore, the quantitative monitoring of commercial vehicle (CV) traffic is essential for implementing targeted road emission regulations. However, ground monitoring stations are costly and less than half of all countries worldwide collect road freight activity. In this work, we investigate the feasibility of detecting and monitoring CV traffic in freely available
+satellite imagery from ESA&amp;rsquo;s Sentinel-2 satellites.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Power Plant Classification from Remote Imaging with Deep Learning</title>
       <link>http://localhost:1313/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</guid>
-      <description>We developed a deep learning model that is able to distinguish between&#xA;10 different types of power plants in an effort to automatically identify&#xA;and characterize industrial sites in satellite imagery. This work will&#xA;help us to estimate greenhouse gas emission rates for individual industrial&#xA;sites in the future.</description>
+      <description>&lt;p&gt;The
+industrial and power-generating economic sectors emit more than half
+of the annually and globally released greenhouse gas emissions,
+strongly contributing to global warming effects. In our recent work
+(&lt;a href=&#34;http://localhost:1313/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/&#34;&gt;Mommert et
+al. 2020&lt;/a&gt;)
+we laid the foundation to estimating greenhouse gas emissions from
+industrial sites by characterizing industrial smoke plumes from remote
+imaging data only. That work is part of a bigger effort to estimate
+greenhouse gas emission rates from satellite imagery for individual
+industrial sites.  In this work, we made one further step towards
+achieving this goal.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Characterization of Industrial Smoke Plumes from Remote Sensing Data</title>
       <link>http://localhost:1313/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</guid>
-      <description>Greenhouse gas emissions from the industrial economic sector are&#xA;a major driver of the currently observed climate change. We developed&#xA;a deep learning approach to identify and characterize industrial&#xA;smoke plumes. In the future, we will utilize this approach to estimate&#xA;greenhouse gas emissions from remote sensing data on a global scale.</description>
+      <description>&lt;p&gt;The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth&amp;rsquo;s climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA&amp;rsquo;s Sentinel-2 satellites.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Don Quixote and the Dormant Comets - My Astronomical Legacy</title>
       <link>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
-      <description>Don Quixote has been considered asteroidal since its discovery in 1983,&#xA;despite its comet-like orbit. We found activity in this object during&#xA;its 2009 and 2018 apparitions, leading us to believe that it really&#xA;is an active comet. But are there other objects like Don Quixote? I&#xA;monitored a sample of ~100 asteroids that are somewhat likely to turn&#xA;active, too, over a period of more than 4 years. Bottom line: Don Quixote&#xA;is rather unique.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552&#34;&gt;Don Quixote&lt;/a&gt; was
+discovered in 1983 and although it has a perfectly comet-like orbit,
+no cometary activity (a tail or a coma around the object) have been
+observed. According to protocol, the object was listed as an asteroid.&lt;/p&gt;
+&lt;p&gt;In 2009, we found from observations with the now defunct Spitzer Space
+Telescope that there actually is a faint coma around Don Quixote that most
+likely consists of molecular band emission from either CO or CO2. This is
+discussed in detail &lt;a href=&#34;http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/&#34;&gt;here&lt;/a&gt; and in &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2014ApJ...781...25M/abstract&#34;&gt;this paper&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automated Cloud Detection with Machine Learning</title>
       <link>http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/</guid>
-      <description>This is a toy project that turned into a real research project and a preparation&#xA;for my new job as&#xA;research scientist in computer vision: using machine&#xA;learning techniques to identify clouds in all-sky camera images.</description>
+      <description>&lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;
+&lt;p&gt;Most (optical) telescopes have to be protected from precipitation to
+prevent damage to their optics and electronics. For this reason, most
+observatories use all-sky cameras - cheap, but very sensitive CMOS
+cameras equipped with fish-eye lenses - that monitor the night sky for
+incoming clouds. Telescope operators can observe live streams from these
+cameras to make informed decisions as to whether the current weather
+situation requires the closing of the telescope dome, or not.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpitzerNEOs - Diameters and Albedos for 2132 Near-Earth Objects</title>
       <link>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
-      <description>Based on Spitzer Space Telescope observations, we derived diameter and&#xA;albedo estimates for 2132 asteroids in near-Earth space - the largest&#xA;dataset of its kind. Our results and data are available online.</description>
+      <description>&lt;p&gt;Ever since the early days of my PhD thesis, I have been involved in
+the thermal modeling of thermal-infrared observations of near-Earth
+objects and other asteroids. Such asteroid thermal models simulate the surface
+temperature distributions of asteroids utilizing some simplifying
+assumptions and enabling the estimation of physical properties like
+size and albedo.&lt;/p&gt;
+&lt;p&gt;In the framework of several large-scale &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt; observing programs, we have observed more than 2000 near-Earth objects and measured their thermal emission to constrain their diameters and albedos. Now that Spitzer has officially &lt;a href=&#34;https://www.nasa.gov/press-release/nasa-s-spitzer-space-telescope-ends-mission-of-astronomical-discovery/&#34;&gt;retired&lt;/a&gt;, we have finalized our observations and analysis, and compiled all of our results in one large data set. This compilation comprises 2204 diameter and geometric albedo estimates for 2132 different near-Earth objects - the largest homogeneous data set of its kind for this population.
+The results of these efforts are available &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A plethora of asteroids in TESS data</title>
       <link>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
       <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
-      <description>TESS is a satellite that observes bright stars to find brightness&#xA;modulations revealing exoplanet transits - but it also observes&#xA;a lot of asteroids over a long period of time, which makes it a unique&#xA;asset for deriving long asteroid rotation periods.</description>
+      <description>&lt;p&gt;TESS is the &lt;a href=&#34;https://tess.mit.edu/&#34;&gt;Transiting Exoplanet Survey Satellite&lt;/a&gt;, which was launched into space by NASA in 2018 to identify faint brightness variations in stars that are characteristic of planets orbiting around and transiting in front of these stars.&lt;/p&gt;
+&lt;div class=&#34;wrapper&#34;
+     style=&#34;display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;&#34;&gt;
+  &lt;figure class=&#34;image&#34;
+	  style=&#34;display: block; margin-left: auto; margin-right: auto; 
+                 width: ;&#34;&gt;
+    &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34;&gt;
+        &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34; alt=&#34;&#34;  align=&#34;center&#34;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&#34;font-style: italic; text-align: justify;&#34;&gt;
+      A rendering of the TESS spacecraft. The instrument consists of four imaging cameras, each covering 24° x 24° of the sky.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Over the course of its nominal two-year mission, TESS will monitor more than 200,000 stars with the photometric accuracy necessary to identify &lt;a href=&#34;https://en.wikipedia.org/wiki/Exoplanet&#34;&gt;exoplanet&lt;/a&gt; transits. In order to observe this huge number of stars, TESS points at different &amp;ldquo;Sectors&amp;rdquo; in the sky, amounting to a total of 85% of the entire sky. Each Sector spanning 24° x 96° is observed over a period of about one month.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Asteroid Shape Information from Gaia DR2</title>
       <link>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
-      <description>The Gaia mission builds a unique survey of the stars in our Milky Way - but&#xA;it also observes asteroids that are crossing its field of view. We derive&#xA;ensemble shape information for different asteroid populations from the&#xA;first batch of asteroid data from Gaia.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://sci.esa.int/gaia/&#34;&gt;ESA mission Gaia&lt;/a&gt; not only observes a good fraction of the stars in the milky way, but also a huge number of asteroids. Gaia Data Release 2 (DR2) is the first data release to include a number of asteroid observations, limited to G magnitudes (no color information) and a pre-selected sample of 14099 asteroids from different populations. For each asteroids, DR2 contains a median number of 9 observations over the first 9 months of the mission. While this limited data set does not allow for deriving the targets&amp;rsquo; rotational periods or constraining their taxonomic types, it is useful for a look into the shape distribution of asteroids.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are there Limits on the Applicability of Asteroid Thermal Models for Near-Earth  Asteroids?</title>
       <link>http://localhost:1313/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</guid>
-      <description>There is a range of asteroid thermal models that are based on different&#xA;physical assumptions. In this analysis, I investigate how these assumptions&#xA;affect their results and applicability to different situations.</description>
+      <description>&lt;p&gt;The vast majority of all asteroid diameters and albedos that are currently available have been derived from thermal infrared observations using a method called thermal modeling. Thermal models simulate the surface temperature distribution on an asteroid which is used to derive the thermal infrared flux that is emitted by the body. By varying the model parameters - mainly its diameter and albedo - the properties of an asteroid can be fit to observations of the thermal emission and hence estimated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>sbpy - A Python module for small-body planetary astronomy</title>
       <link>http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/</guid>
-      <description>sbpy is an astropy affiliated package for small-body planetary astronomers.&#xA;We proposed this idea to NASA and were funded for developing this Python&#xA;module, which is outlined here.</description>
+      <description>&lt;p&gt;sbpy is an &lt;a href=&#34;http://astropy.org&#34;&gt;astropy&lt;/a&gt; affiliated package that will provide tools for small-body planetary astronomers. The idea is provide a collection of well-tested and documented tools that asteroid and comet observers use on a daily basis. The goal is to improve the reproducibility of results and to make it easier for (young) researchers to try out new ideas.&lt;/p&gt;
+&lt;p&gt;The development of sbpy has just started, as our NASA PDART grant just recently arrived. A lot of work to be done, but a few glimpses of its usefulness can already be seen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Photometrypipeline</title>
       <link>http://localhost:1313/research/2017-02-14-photometrypipeline/</link>
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2017-02-14-photometrypipeline/</guid>
-      <description>photometrypipeline is a Python software package for automated image&#xA;registration, calibration, and extraction of photometry tailored to the&#xA;needs of asteroid observer. However, pp can also be applied to other&#xA;imaging observations.</description>
+      <description>&lt;p&gt;In the framework of the &lt;a href=&#34;https://www.manos.lowell.edu&#34;&gt;MANOS&lt;/a&gt; program, I have been working on an automated data analysis pipeline for calibrated asteroid photometry and astrometry from imaging data. This pipeline, which can be applied to any kind of point source observations, is now in a robust state and available through &lt;a href=&#34;https://github.com/mommermi/photometrypipeline&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For details on the pipeline, please refer to official publication (see below).&lt;/p&gt;
+&lt;h1 id=&#34;resources&#34;&gt;Resources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Mommert, M. (2017), &amp;ldquo;&lt;em&gt;PHOTOMETRYPIPELINE: An automated pipeline for calibrated photometry&lt;/em&gt;&amp;rdquo;, Astronomy and Computing, 18, 47., &lt;a href=&#34;http://doi.org/10.1016/j.ascom.2016.11.002&#34;&gt;publication&lt;/a&gt;, &lt;a href=&#34;http://arxiv.org/abs/1702.00834&#34;&gt;arxiv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>How many Dead Comets are there?</title>
       <link>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</link>
       <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</guid>
-      <description>Dead comets are small bodies that appear as inactive asteroids, but have&#xA;a cometary origin. Some of these objects might still harbor ices and can&#xA;still activate and appear comet-like. Since these objects might signifcantly&#xA;contribute to the volatile reservoir of the asteroid population, it is&#xA;important to understand how many of these objects there are.</description>
+      <description>&lt;p&gt;One long-standing question is: how many asteroids - especially near-Earth asteroids (NEAs) - were comets in the past? In the classical conception, comets have surface ices and form tails and comae in the vicinity of the Sun; asteroids are simply rocks in space. In the recent years, the two classifications became less clear than that.&lt;/p&gt;
+&lt;p&gt;Comets can end up on orbits that bring them close to the Earth. We can observe them. But what happens to them after spending a while there? For some comets, like &lt;a href=&#34;https://en.wikipedia.org/wiki/Comet_ISON&#34;&gt;ISON&lt;/a&gt;, being close to the Sun is fatal; they simply disintegrate and disappear. For other comets in near-Earth space, the strong degree of insolation forces them to lose their surface ices quickly and eventually their activity stops - they are &lt;strong&gt;dead&lt;/strong&gt; or &lt;strong&gt;dormant comets&lt;/strong&gt;. Since comet surfaces have very low albedos, these dead comets simply look like low-albedo asteroids and are really hard to identify.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR</title>
       <link>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
       <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
-      <description>With rapid-response observations using UKIRT, we are able to observe newly&#xA;discovered near-Earth asteroids when they are still close to Earth and&#xA;thus bright. Our observations enable a probabilistic taxonomic&#xA;classification of asteroids with typically small sizes and the determination&#xA;of their compositional distribution.</description>
+      <description>&lt;p&gt;The understanding of the compositional distribution of NEOs is important to reconstruct their dynamical and physical evolution, assess the damage potential in case of an impact, and estimate the resources that can be obtained from these bodies in the not-so-far future. Also, there is still a discrepancy between the compositional distribution of meteoritic material found on Earth and the overall composition of the NEO distribution.&lt;/p&gt;
+&lt;p&gt;The most common way to investigate the compositions of asteroids is to perform spectroscopic observations: wavelength-dependent variations of the surface reflectance can be diagnostic for the composition of an object and allow for a taxonomic classification. However, spectroscopic observations are usually only possible for bright and large asteroids and require large telescopes for small asteroids.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Physical Properties of two tiny Asteroids from Spitzer Observations</title>
       <link>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
       <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
-      <description>We observed two very small asteroids with the Spitzer Space Telescope to&#xA;actually measure their physical properties for the first time. The&#xA;constraints that we were able to place on their properties do not agree&#xA;with the standard picture of small asteroids.</description>
+      <description>&lt;p&gt;Little is known about the physical properties of the smallest NEOs with diameters of less than 10 meters. Due to their small sizes, they are usually very faint and hard to observe. Hence, only a small number of asteroids in this size regime are known and for only very few of those physical properties like diameter and albedo have been measured. However, small NEOs are much more frequent than larger NEOs, making some of these objects easily accessible spacecraft targets and potential impactors. Traditionally, people believed that these small NEOs have formed through collisions and that they are individual slabs of rock, i.e,. monolithic bodies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Detection of Cometary Activity in NEO Don Quixote</title>
       <link>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
       <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
-      <description>Near-Earth asteroid Don Quixote has long since been considered a good&#xA;candidate for an inactive comet nucleus due to its comet-like orbit. Since&#xA;its discovery in 1983, comet-like has never been observed - until we&#xA;observed this object with the Spitzer Space Telescope&amp;hellip;</description>
+      <description>&lt;p&gt;Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.&lt;/p&gt;
+&lt;p&gt;The dead comet archetype is NEO (3552) Don Quixote. We observed Don Quixote as part of the ExploreNEOs program, in which ~600 NEOs were observed to derive the diameters and albedos of these objects. Our observations at 3.6 and 4.5 µm were saturated because the target was brighter than expect, revealing something rather unexpected.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Herschel Observations of Plutinos</title>
       <link>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</link>
       <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/</guid>
-      <description>My first research paper. Using Herschel Space Observatory observations,&#xA;we investigated the physical properties of 18 Plutinos - small bodies at&#xA;the outskirts of the Solar System that have orbital properties similar to&#xA;those of Pluto. What we found? That Pluto is pretty unique&amp;hellip;</description>
+      <description>&lt;p&gt;Plutinos are a subpopulation of the Trans-Neptunian Objects (TNOs), which are pristine and icy objects on the outskirts of the Solar System. The orbits of Plutinos - which are named after their prototype, Pluto - are in 2:3 resonance with Neptune, meaning that by the time a Plutino performs 2 full orbits around the Sun, Neptune performs 3. This &amp;ldquo;mean motion resonance&amp;rdquo; provides a high degree of stability to the orbits of Plutinos. Hence, Plutinos are dynamically and physically pristine objects.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

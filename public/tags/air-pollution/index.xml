@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Air Pollution on Michael Mommert</title>
     <link>http://localhost:1313/tags/air-pollution/</link>
     <description>Recent content in Air Pollution on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/air-pollution/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</guid>
-      <description>Air pollution is a major health issue and often also contributes to climate change. Measuring air pollution is costly and therefore only available in some countries. We investigated whether freely available Earth observation data can be utilized to estimate air pollution on the surface level.</description>
+      <description>&lt;p&gt;Exposure to air pollution has been shown to lead to adverse health effects. A major air pollutant is NO2, which, at the surface level, directly affects human health, and, at higher elevations, contributes to acidic rain and represents a precursor to greenhouse gases. While NO2 column densities in the atmosphere can be measured with satellite observations as provided by &lt;a href=&#34;https://sentinel.esa.int/web/sentinel/missions/sentinel-5p&#34;&gt;Sentinel-5P&lt;/a&gt;, it requires in-situ measurements from ground stations to measure NO2 concentrations on the surface level, which is relevant to human exposure.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

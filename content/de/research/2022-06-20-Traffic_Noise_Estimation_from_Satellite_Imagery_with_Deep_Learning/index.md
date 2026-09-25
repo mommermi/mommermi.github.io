@@ -1,17 +1,12 @@
 ---
 date: 2022-06-20
 title: Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning
-summary: |
-  Straßenverkehrslärm ist ein globales Problem, das zu schweren gesundheitlichen Auswirkungen führen kann. Trotz der Allgegenwart von Verkehrslärm ist dessen Quantifizierung oder Schätzung kompliziert, und detaillierte Straßenverkehrskarten sind nur für ausgewählte Länder oder Regionen verfügbar. Wir untersuchen, ob es möglich ist, ein Regressionsmodell zu trainieren, um Straßenverkehrslärm aus Satellitenbildern zu schätzen.
-
 tags:
 - Erdbeobachtung
 - Deep Learning
 - Segmentierung
 - Verkehrslärm
 - Sentinel-2
-thumbnail_image: stein.png
-
 ---
 
 Straßenverkehrslärm stellt ein globales Gesundheitsproblem dar. Trotz seiner Bedeutung sind Lärmdaten in vielen Regionen der Welt nicht verfügbar. Solche Daten werden typischerweise durch Punktmessungen und komplexe physikalische Modelle abgeleitet, um die Ausbreitung von Lärm zu simulieren.

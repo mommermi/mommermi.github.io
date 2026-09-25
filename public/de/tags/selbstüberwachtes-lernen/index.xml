@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Selbstüberwachtes Lernen on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/selbst%C3%BCberwachtes-lernen/</link>
     <description>Recent content in Selbstüberwachtes Lernen on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/selbst%C3%BCberwachtes-lernen/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,21 +13,25 @@
       <link>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
-      <description>Deep-Learning-Modelle, die auf Diffusionsprozessen basieren, zeigen ein großes Potenzial in einer Vielzahl von generativen Aufgaben, wie z.B. der Bildgenerierung. Für Anwendungen in der Fernerkundung sind generative Modelle jedoch nicht so verbreitet. Die Frage, die wir zu beantworten versucht haben, ist, ob Diffusionsprozesse verwendet werden können, um Modelle für diskriminative Aufgaben effizient vorzutrainieren?</description>
+      <description>&lt;p&gt;Diffusionsprozesse sind am besten dafür bekannt, Modelle zu trainieren, die Bilder aus Text generieren. Die Idee hinter Diffusionsprozessen ist recht einfach: Man nimmt ein Bild und zerstört die Informationen schrittweise, indem man Gaußsches Rauschen anwendet. Ein Diffusionsmodell lernt nun, die ursprünglichen Informationen zwischen zwei Schritten wiederherzustellen (d.h. das Rauschen zu entfernen). Vollständig trainiert sind diese Modelle dazu in der Lage, fotorealistische Bilder aus Rauschen zu erzeugen.&lt;/p&gt;
+&lt;p&gt;Um ein Bild aus Text zu erstellen, muss der Diffusionsprozess mit einem Textprompt konditioniert werden. Dies ist eine Möglichkeit, zusätzliche Informationen bereitzustellen, um den generativen Prozess zu steuern.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten</title>
       <link>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
-      <description>Multimodale Datensätze für die Fernerkundung sind oft auf zwei Datenmodalitäten beschränkt, wie z.B. multispektrale und SAR-Polarisationsdaten. Um mit einer viel breiteren Palette von Datenmodalitäten zu experimentieren, haben wir den bekannten BigEarthNet-Datensatz erweitert, um eine Vielzahl von Datenmodalitäten einzuschließen.</description>
+      <description>&lt;p&gt;Erdbeobachtungsdaten sind multimodal. Daten werden von einer Vielzahl von Sensoren erfasst, von denen einige passive Sensoren (z.B. Multiband-Bildgebung) und andere aktive Sensoren (z.B. SAR) sind. Neben solchen Beobachtungsdaten sind für die meisten Standorte auf der Erde auch zusätzliche Archivdaten verfügbar.&lt;/p&gt;
+&lt;p&gt;Die Fernerkundung und Erdbeobachtung waren schon immer sehr aktiv in der Kombination verschiedener Datenmodalitäten (&amp;ldquo;Datenfusion&amp;rdquo;) bei der Analyse von Daten. Bei einem Datenfusionsansatz werden zwei oder mehr Datenmodalitäten in einer Analyse kombiniert, um die Ergebnisse im Vergleich zur Verwendung nur einer einzelnen Datenmodalität zu verbessern.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten</title>
       <link>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
-      <description>Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&amp;hellip;</description>
+      <description>&lt;p&gt;Dieses Forschungsergebniss besteht aus zwei Teilen, die im Folgenden präsentiert werden.&lt;/p&gt;
+&lt;h1 id=&#34;kontrastive-selbstüberwachte-datenfusion-für-satellitenbilder&#34;&gt;Kontrastive selbstüberwachte Datenfusion für Satellitenbilder&lt;/h1&gt;
+&lt;p&gt;Überwachtes Lernen für jede Aufgabe erfordert große Mengen an annotierten Daten. Besonders im Fall von Satellitenbildern sind unannotierte Daten allgegenwärtig, während der Annotierungsprozess oft mühsam und kostspielig ist. Daher ist es sehr lohnenswert, Methoden zu nutzen, um die Menge an benötigten annotierten Daten zu minimieren, die erforderlich ist, um eine gute Leistung der nachgelagerten Aufgabe zu erzielen. In unserer ersten Arbeit nutzen wir kontrastives Lernen in einem multimodalen Setup, um dieses Ergebnis zu erreichen.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

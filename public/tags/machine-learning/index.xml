@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine Learning on Michael Mommert</title>
     <link>http://localhost:1313/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,14 @@
       <link>http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-04-22-automated-cloud-detection-with-machine-learning/</guid>
-      <description>This is a toy project that turned into a real research project and a preparation&#xA;for my new job as&#xA;research scientist in computer vision: using machine&#xA;learning techniques to identify clouds in all-sky camera images.</description>
+      <description>&lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;
+&lt;p&gt;Most (optical) telescopes have to be protected from precipitation to
+prevent damage to their optics and electronics. For this reason, most
+observatories use all-sky cameras - cheap, but very sensitive CMOS
+cameras equipped with fish-eye lenses - that monitor the night sky for
+incoming clouds. Telescope operators can observe live streams from these
+cameras to make informed decisions as to whether the current weather
+situation requires the closing of the telescope dome, or not.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

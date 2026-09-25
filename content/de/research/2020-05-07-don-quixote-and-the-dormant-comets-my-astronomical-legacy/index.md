@@ -1,15 +1,11 @@
 ---
 date: 2020-05-07
 title: Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe
-summary: |
-  Don Quixote wird seit seiner Entdeckung im Jahr 1983 als Asteroid betrachtet, trotz seiner kometenartigen Umlaufbahn. Wir fanden während seiner Erscheinungen 2009 und 2018 Aktivität in diesem Objekt, was uns zu der Annahme führte, dass es sich tatsächlich um einen aktiven Kometen handelt. Aber gibt es andere Objekte wie Don Quixote? Ich habe über einen Zeitraum von mehr als 4 Jahren eine Stichprobe von etwa 100 Asteroiden überwacht, die ebenfalls wahrscheinlich aktiv werden könnten. Fazit: Don Quixote ist ziemlich einzigartig.
 tags:
 - Astronomie
 - Don Quixote
 - Schlafende Kometen
 - Asteroid
-featured_image: /research/12893.png
-thumbnail_image: fig1.png
 ---
 
 [Don Quixote](https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552) wurde 1983 entdeckt und obwohl er eine perfekt kometenartige Umlaufbahn hat, wurde keine kometare Aktivität (ein Schweif oder eine Koma um das Objekt) beobachtet. Laut Protokoll wurde das Objekt als Asteroid eingestuft.

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Streuobst on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/streuobst/</link>
+    <description>Recent content in Streuobst on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/streuobst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einsatz KI-basierter Methoden zur Detektion und Charakterisierung von Streuobstbeständen</title>
+      <link>http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</guid>
+      <description>&lt;p&gt;Streuobstwiesen gehören zu den artenreichsten Lebensräumen in Mitteleuropa. Besonders im Süden Deutschlands prägen die locker verteilten, hochstämmigen Obstbäume seit Jahrhunderten die Landschaft. Doch die Bestände schrumpfen seit Jahrzehnten.&lt;/p&gt;
+&lt;p&gt;Obwohl Streuobstwiesen gesetzlich geschützt sind, fehlt bis heute ein aktueller und vollständiger Überblick darüber, wo sie überhaupt noch stehen. Genau dieses Wissen wäre aber die Grundlage, um sie gezielt zu schützen und zu pflegen. Alle Wiesen zu Fuß zu erfassen, ist bei der riesigen Fläche kaum möglich und viel zu teuer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

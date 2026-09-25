@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Don Quixote on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/don-quixote/</link>
     <description>Recent content in Don Quixote on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/don-quixote/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,14 +13,16 @@
       <link>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
-      <description>Don Quixote wird seit seiner Entdeckung im Jahr 1983 als Asteroid betrachtet, trotz seiner kometenartigen Umlaufbahn. Wir fanden während seiner Erscheinungen 2009 und 2018 Aktivität in diesem Objekt, was uns zu der Annahme führte, dass es sich tatsächlich um einen aktiven Kometen handelt. Aber gibt es andere Objekte wie Don Quixote? Ich habe über einen Zeitraum von mehr als 4 Jahren eine Stichprobe von etwa 100 Asteroiden überwacht, die ebenfalls wahrscheinlich aktiv werden könnten. Fazit: Don Quixote ist ziemlich einzigartig.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552&#34;&gt;Don Quixote&lt;/a&gt; wurde 1983 entdeckt und obwohl er eine perfekt kometenartige Umlaufbahn hat, wurde keine kometare Aktivität (ein Schweif oder eine Koma um das Objekt) beobachtet. Laut Protokoll wurde das Objekt als Asteroid eingestuft.&lt;/p&gt;
+&lt;p&gt;Im Jahr 2009 fanden wir durch Beobachtungen mit dem inzwischen stillgelegten Spitzer-Weltraumteleskop heraus, dass sich tatsächlich eine schwache Koma um Don Quijote befindet, die höchstwahrscheinlich aus molekularer Bandemission von entweder CO oder CO2 besteht. Dies wird ausführlich &lt;a href=&#34;http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/&#34;&gt;hier&lt;/a&gt; und in diesem Papier diskutiert.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Entdeckung von kometärer Aktivität bei NEO Don Quijote</title>
       <link>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
       <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
-      <description>Der erdnahe Asteroid Don Quixote wird seit langem als ein Kandidat für einen inaktiven Kometenkern gehandelt, was vor allen an seiner kometenähnlichen Umlaufbahn liegt. Seit seiner Entdeckung im Jahr 1983 wurde keine kometenähnliche Aktivität beobachtet – bis wir dieses Objekt mit dem Spitzer-Weltraumteleskop beobachteten&amp;hellip;</description>
+      <description>&lt;p&gt;Ein Teil der NEO-Population wird als sogenannte tote Kometen betrachtet. Tote Kometen sind Kometen, die lange Zeit als NEOs verbracht haben und ihre flüchtigen Bestände in zahlreichen, engen Begegnungen mit der Sonne erschöpft haben, d.h. sie sind ausgestorbene Kometen. Sie können durch ihre charakteristischen kometenähnlichen Umlaufbahnen und ihre niedrigen, kometenähnlichen Albedos identifiziert werden.&lt;/p&gt;
+&lt;p&gt;Der Archetyp des toten Kometen ist der NEO (3552) Don Quijote. Wir beobachteten Don Quijote im Rahmen des &lt;em&gt;ExploreNEOs&lt;/em&gt;-Programms, bei dem etwa 600 NEOs beobachtet wurden, um die Durchmesser und Albedos dieser Objekte abzuleiten. Unsere Beobachtungen bei 3,6 und 4,5 µm waren überbelichtet, da das Ziel heller war als erwartet, was etwas ziemlich Unerwartetes offenbarte.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

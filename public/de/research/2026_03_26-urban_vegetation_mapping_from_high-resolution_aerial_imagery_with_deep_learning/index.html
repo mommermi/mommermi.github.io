@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Kartierung städtischer Vegetation aus hochaufgelösten Luftbildern mit Deep Learning | Michael Mommert</title>
+<meta name="keywords" content="Fernerkundung, Deep Learning, Luftbilder, Urbane Umgebung, Vegetation, Segmentierung">
+<meta name="description" content="Bäume, Parks, Rasenflächen und Hecken sind mehr als nur schön anzusehen. Stadtgrün hilft, Städte an heißen Sommertagen kühl zu halten, und nimmt Regenwasser auf, das sonst Straßen überfluten und die Kanalisation überlasten würde. Um diese Grünflächen planen, pflegen und schützen zu können, müssen Städte genau wissen, wo Vegetation wächst. Detaillierte Vegetationskarten fließen zudem in Computersimulationen ein, mit denen sich Städte auf Hitzewellen und Starkregen vorbereiten können.
+Solche Karten lassen sich mithilfe künstlicher Intelligenz aus Luft- und Satellitenbildern erstellen. Bisher waren die meisten dieser Ansätze jedoch aufwendig umzusetzen und erforderten leistungsstarke, teure Computer.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/de/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/de/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+    <script data-goatcounter="https://mommermi.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/de/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/de/research/" title="Forschung">
+                    <span>Forschung</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/bio/" title="Lebenslauf">
+                    <span>Lebenslauf</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/teaching/" title="Lehre">
+                    <span>Lehre</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/publications/" title="Publikationen">
+                    <span>Publikationen</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/de/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/de/research/">Forschung</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      Kartierung städtischer Vegetation aus hochaufgelösten Luftbildern mit Deep Learning
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-03-26 00:00:00 +0000 UTC'>26. März 2026</span>&nbsp;|&nbsp;<span>Übersetzungen:</span>
+    <ul class="i18n_list">
+        <li>
+            <a href="http://localhost:1313/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/">En</a>
+        </li>
+    </ul>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>Bäume, Parks, Rasenflächen und Hecken sind mehr als nur schön anzusehen. Stadtgrün hilft, Städte an heißen Sommertagen kühl zu halten, und nimmt Regenwasser auf, das sonst Straßen überfluten und die Kanalisation überlasten würde. Um diese Grünflächen planen, pflegen und schützen zu können, müssen Städte genau wissen, wo Vegetation wächst. Detaillierte Vegetationskarten fließen zudem in Computersimulationen ein, mit denen sich Städte auf Hitzewellen und Starkregen vorbereiten können.</p>
+<p>Solche Karten lassen sich mithilfe künstlicher Intelligenz aus Luft- und Satellitenbildern erstellen. Bisher waren die meisten dieser Ansätze jedoch aufwendig umzusetzen und erforderten leistungsstarke, teure Computer.</p>
+<h2 id="ein-einfacherer-ansatz">Ein einfacherer Ansatz<a hidden class="anchor" aria-hidden="true" href="#ein-einfacherer-ansatz">#</a></h2>
+<p>In diesem Projekt haben wir untersucht, ob sich Vegetation auch mit leicht verfügbaren KI-Werkzeugen, die auf gewöhnlicher Hardware laufen, zuverlässig kartieren lässt. Dafür haben wir hochaufgelöste Luftbilder von Stuttgart verwendet, in denen jeder Bildpunkt gerade einmal 8 mal 8 Zentimeter am Boden abdeckt. Neben den normalen Farbinformationen erfassen die Bilder auch nahes Infrarotlicht, das für das menschliche Auge unsichtbar ist, aber häufig zur Erkennung von Pflanzen genutzt wird.</p>
+<p>Um der KI beizubringen, wie Vegetation aussieht, haben wir auf knapp 4.000 Bildern von Hand Flächen mit hoher Vegetation (etwa Bäume und Sträucher) und niedriger Vegetation (etwa Rasen und Wiesen) markiert.</p>
+<p>Anschließend haben wir zwei verschiedene Arten von KI-Modellen trainiert. Das erste ordnet jeden einzelnen Bildpunkt eines Bildes danach ein, ob er hohe Vegetation, niedrige Vegetation oder keines von beiden zeigt. Das zweite führt eine Objekterkennung durch und zeichnet Rahmen um einzelne Vegetationsflächen.</p>
+<h2 id="unsere-ergebnisse">Unsere Ergebnisse<a hidden class="anchor" aria-hidden="true" href="#unsere-ergebnisse">#</a></h2>
+<p>Beide Methoden haben Vegetation zuverlässig erkannt, und ihre Ergebnisse stimmten weitgehend mit dem überein, was ein Mensch beim Betrachten der Bilder sieht. Der pixelgenaue Ansatz erwies sich dabei als besonders präzise.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="segmentation_sample_results.png">
+        <img src="segmentation_sample_results.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Wir zeigen ein beispielhaftes Luftbild (links) sowie die Vorhersagen des Modells (gelb und orange eingefärbte Flächen) im Vergleich zu den Referenzmarkierungen (gelbe Umrisse). Niedrige Vegetation ist gelb, hohe Vegetation orange dargestellt. Die Vorhersagen folgen den Referenzmarkierungen sehr genau, was die Fähigkeit des Modells belegt, Vegetation im städtischen Raum zu erkennen. Luftbilder: (c) 2026 Landeshauptstadt Stuttgart, Stadtmessungsamt.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Nebenbei haben wir einige nützliche Erkenntnisse gewonnen. Die Infrarotinformationen erwiesen sich als nicht notwendig: Die Modelle schnitten mit gewöhnlichen Farbbildern genauso gut ab. Auch kleine, schlanke Versionen der Modelle lieferten solide Ergebnisse, sodass keine spezielle Computerausstattung benötigt wird. Der größte begrenzende Faktor für die Genauigkeit war nicht die KI selbst, sondern die Qualität der von Hand erstellten Trainingsbeispiele. Schließlich funktionierten unsere Modelle auch gut mit frei verfügbaren Luftbildern geringerer Auflösung, die sie während des Trainings nie gesehen hatten.</p>
+<h2 id="warum-das-wichtig-ist">Warum das wichtig ist<a hidden class="anchor" aria-hidden="true" href="#warum-das-wichtig-ist">#</a></h2>
+<p>Unsere Ergebnisse zeigen, dass sich genaue Vegetationskarten mit kostenlosen, einfach zu bedienenden KI-Werkzeugen und geringer Rechenleistung aus Luftbildern erstellen lassen. Damit wird die Technologie für einen breiten Kreis von Nutzerinnen und Nutzern zugänglich, von Stadtverwaltungen und Planungsbüros bis hin zu Forschenden und Umweltorganisationen.</p>
+<h2 id="veröffentlichung">Veröffentlichung<a hidden class="anchor" aria-hidden="true" href="#veröffentlichung">#</a></h2>
+<p>Diese Arbeit entstand als Projektarbeit im Rahmen des Moduls „Remote Sensing Studio“ im Studiengang <a href="https://www.hft-stuttgart.de/geomatics/master-photogrammetry-and-geoinformatics">Master Photogrammetry and Geoinformatics</a> an der Hochschule für Technik Stuttgart.</p>
+<p>Die Ergebnisse wurden auf der Jahrestagung der Deutschen Gesellschaft für Photogrammetrie, Fernerkundung und Geoinformation (25.–27. März 2026) in Darmstadt vorgestellt. Der vollständige Beitrag ist verfügbar im Tagungsband:</p>
+<p>K. H. Aung, J. A. Ayala Rico, I. A. Ayibilisah, M. Farhang Khaghan Pour, L. Hakim, S. Joshi, A. K. Rasa,
+B. C. Mwimangire, O. M. Mukiri, N. Rahbardarestani, J. D. Velazquez Cupido, Q. Yousufzai, W. Rauser, M. Mommert, &ldquo;Urban Vegetation Mapping from High-Resolution Aerial Imagery with Deep Learning&rdquo;, Jahrestagung der Deutschen Gesellschaft für Photogrammetrie, Fernerkundung und Geoinformation, 25.-27. März 2026, Darmstadt, <a href="https://dgpf.de/src/tagung/jt2026/proceedings/paper/10_dgpf2026_Aung_et_al.pdf">paper</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/de/tags/fernerkundung/">Fernerkundung</a></li>
+      <li><a href="http://localhost:1313/de/tags/deep-learning/">Deep Learning</a></li>
+      <li><a href="http://localhost:1313/de/tags/luftbilder/">Luftbilder</a></li>
+      <li><a href="http://localhost:1313/de/tags/urbane-umgebung/">Urbane Umgebung</a></li>
+      <li><a href="http://localhost:1313/de/tags/vegetation/">Vegetation</a></li>
+      <li><a href="http://localhost:1313/de/tags/segmentierung/">Segmentierung</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/">
+    <span class="title">« Vorherige</span>
+    <span>Einsatz KI-basierter Methoden zur Detektion und Charakterisierung von Streuobstbeständen</span>
+  </a>
+  <a class="next" href="http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/">
+    <span class="title">Nächste »</span>
+    <span>Multimodale Diffusion für selbstüberwachtes Vortraining</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/de/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

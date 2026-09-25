@@ -1,18 +1,11 @@
 ---
 date: 2014-10-19
 title: Detection of Cometary Activity in NEO Don Quixote
-summary: |
-  Near-Earth asteroid Don Quixote has long since been considered a good
-  candidate for an inactive comet nucleus due to its comet-like orbit. Since
-  its discovery in 1983, comet-like has never been observed - until we
-  observed this object with the Spitzer Space Telescope...
 tags:
 - Astronomy
 - Don Quixote
 - Dormant Comet
 - Spitzer Space Telescope
-featured_image: /research/12893.png
-thumbnail_image: donquixote1.png
 ---
 
 Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.

@@ -1,17 +1,12 @@
 ---
 date: 2020-02-02
 title: SpitzerNEOs - Diameters and Albedos for 2132 Near-Earth Objects
-summary: |
-  Based on Spitzer Space Telescope observations, we derived diameter and
-  albedo estimates for 2132 asteroids in near-Earth space - the largest
-  dataset of its kind. Our results and data are available online.
 tags:
 - Astronomy
 - Near-Earth Asteroid
 - Asteroid Physical Properties
 - Asteroid Thermal Modeling
 - Spitzer Space Telescope
-featured_image: /research/12893.png
 ---
 
 Ever since the early days of my PhD thesis, I have been involved in

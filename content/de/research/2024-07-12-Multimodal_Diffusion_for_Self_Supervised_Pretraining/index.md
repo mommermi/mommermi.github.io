@@ -1,15 +1,12 @@
 ---
 date: 2024-07-12
 title: Multimodale Diffusion für selbstüberwachtes Vortraining
-summary: |
-  Deep-Learning-Modelle, die auf Diffusionsprozessen basieren, zeigen ein großes Potenzial in einer Vielzahl von generativen Aufgaben, wie z.B. der Bildgenerierung. Für Anwendungen in der Fernerkundung sind generative Modelle jedoch nicht so verbreitet. Die Frage, die wir zu beantworten versucht haben, ist, ob Diffusionsprozesse verwendet werden können, um Modelle für diskriminative Aufgaben effizient vorzutrainieren?
 tags:
 - Erdbeobachtung
 - Deep Learning
 - Diffusion
 - Multimodal
 - Selbstüberwachtes Lernen
-thumbnail_image: diffusion_qualitative_sample.png
 ---
 
 Diffusionsprozesse sind am besten dafür bekannt, Modelle zu trainieren, die Bilder aus Text generieren. Die Idee hinter Diffusionsprozessen ist recht einfach: Man nimmt ein Bild und zerstört die Informationen schrittweise, indem man Gaußsches Rauschen anwendet. Ein Diffusionsmodell lernt nun, die ursprünglichen Informationen zwischen zwei Schritten wiederherzustellen (d.h. das Rauschen zu entfernen). Vollständig trainiert sind diese Modelle dazu in der Lage, fotorealistische Bilder aus Rauschen zu erzeugen.

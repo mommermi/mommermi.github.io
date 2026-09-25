@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TESS on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/tess/</link>
     <description>Recent content in TESS on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Sun, 17 Mar 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/tess/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,22 @@
       <link>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
       <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
-      <description>TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.</description>
+      <description>&lt;p&gt;TESS ist der &lt;a href=&#34;https://tess.mit.edu/&#34;&gt;Transiting Exoplanet Survey Satellite&lt;/a&gt;, der 2018 von der NASA ins All gestartet wurde, um schwache Helligkeitsvariationen in Sternen zu identifizieren, die charakteristisch für Planeten sind, die um diese Sterne kreisen und vor ihnen transitiert.
+&lt;div class=&#34;wrapper&#34;
+     style=&#34;display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;&#34;&gt;
+  &lt;figure class=&#34;image&#34;
+	  style=&#34;display: block; margin-left: auto; margin-right: auto; 
+                 width: ;&#34;&gt;
+    &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34;&gt;
+        &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34; alt=&#34;&#34;  align=&#34;center&#34;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&#34;font-style: italic; text-align: justify;&#34;&gt;
+      Eine Darstellung des TESS-Raumschiffs. Das Instrument besteht aus vier Bildkameras, die jeweils 24° x 24° des Himmels abdecken.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

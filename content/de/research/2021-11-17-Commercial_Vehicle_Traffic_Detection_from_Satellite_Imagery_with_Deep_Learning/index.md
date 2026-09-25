@@ -1,15 +1,11 @@
 ---
 date: 2021-11-17
 title: Erkennung von LKWs auf Satellitenbildern mit Deep Learning
-summary: |
-  Können wir Lastwagen aus dem Weltraum identifizieren um das Verkehrsaufkommen abzuschätzen? Ja, das können wir!
 tags:
 - Erdbeobachtung
 - Deep Learning
 - Verkehr
 - Sentinel-2
-thumbnail_image: trucks.png
-
 ---
 
 Der LKW-Verkehr ist derzeit für 7% der globalen CO2-Emissionen verantwortlich. Während der Straßenfrachtverkehr das dominierende Transportmittel für Oberflächenfracht bleiben wird, wird sein Beitrag zum Klimawandel voraussichtlich kurzfristig zunehmen. Daher ist die quantitative Überwachung des Verkehrs von Nutzfahrzeugen entscheidend für die Umsetzung gezielter Emissionsvorschriften für Straßen. Allerdings sind Bodenüberwachungsstationen kostspielig, und weniger als die Hälfte aller Länder weltweit erfasst die Aktivitäten im Straßenfrachtverkehr. In dieser Arbeit untersuchen wir die Machbarkeit der Erkennung und Überwachung des Nutzfahrzeugverkehrs in frei verfügbaren Satellitenbildern der Sentinel-2-Satelliten der ESA.

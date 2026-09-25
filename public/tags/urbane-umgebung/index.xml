@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Urbane Umgebung on Michael Mommert</title>
+    <link>http://localhost:1313/tags/urbane-umgebung/</link>
+    <description>Recent content in Urbane Umgebung on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/urbane-umgebung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erstellung einer Versiegelungskarte aus Luftbildern</title>
+      <link>http://localhost:1313/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</guid>
+      <description>&lt;p&gt;Asphaltierte Straßen, Parkplätze, Gebäude und gepflasterte Höfe: In unseren Städten ist ein großer Teil des Bodens versiegelt. Das hat Folgen. Regenwasser kann nicht mehr versickern und fließt in die Kanalisation ab, was bei Starkregen zu Überschwemmungen führen kann. Versiegelte Flächen heizen sich im Sommer stark auf, Pflanzen und Tiere verlieren ihren Lebensraum, und wertvoller Boden geht verloren.&lt;/p&gt;
+&lt;p&gt;Viele Städte und Gemeinden möchten deshalb Flächen gezielt wieder entsiegeln. Dafür müssen sie aber zunächst wissen, wo und wie stark der Boden versiegelt ist. Diese Flächen von Hand zu erfassen, kostet jedoch viel Zeit und Personal.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

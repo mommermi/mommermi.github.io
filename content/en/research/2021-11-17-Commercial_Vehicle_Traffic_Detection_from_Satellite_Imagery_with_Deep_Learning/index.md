@@ -1,16 +1,11 @@
 ---
 date: 2021-11-17
 title: Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning
-summary: |
-  Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!
 tags:
 - Earth Observation
 - Deep Learning
 - Traffic
 - Sentinel-2
-featured_image: banner.jpg
-thumbnail_image: trucks.png
-
 ---
 
 Commercial vehicle traffic is currently responsible for 7% of global CO2 emissions. While road freight will remain the dominant mode of surface freight transportation, its contribution to climate change is likely to increase in the short term. Therefore, the quantitative monitoring of commercial vehicle (CV) traffic is essential for implementing targeted road emission regulations. However, ground monitoring stations are costly and less than half of all countries worldwide collect road freight activity. In this work, we investigate the feasibility of detecting and monitoring CV traffic in freely available

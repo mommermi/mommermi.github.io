@@ -1,8 +1,6 @@
 ---
 date: 2022-06-07
 title: Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten
-summary: |
-  Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend...
 tags:
 - Erdbeobachtung
 - Deep Learning
@@ -11,8 +9,6 @@ tags:
 - Transformer
 - Klassifizierung
 - Segmentierung
-thumbnail_image: overview.png
-
 ---
 
 Dieses Forschungsergebniss besteht aus zwei Teilen, die im Folgenden präsentiert werden.

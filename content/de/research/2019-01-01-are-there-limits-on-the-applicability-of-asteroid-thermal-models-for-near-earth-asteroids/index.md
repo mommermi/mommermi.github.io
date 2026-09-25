@@ -1,14 +1,10 @@
 ---
 date: 2019-01-01
 title: Gibt es Grenzen für die Anwendbarkeit von thermischen Modellen für Asteroiden bei erdnahen Asteroiden?
-summary: |
-  Es gibt eine Reihe von thermischen Modellen für Asteroiden, die auf unterschiedlichen physikalischen Annahmen basieren. In dieser Analyse untersuche ich, wie sich diese Annahmen auf ihre Ergebnisse und die Anwendbarkeit in verschiedenen Situationen auswirken.
 tags:
 - Astronomie
 - thermische Modellierung von Asteroiden
 - thermophysikalische Modellierung von Asteroiden
-featured_image: /research/12893.png
-thumbnail_image: neatm.png
 ---
 
 Die überwiegende Mehrheit aller derzeit verfügbaren Asteroidendurchmesser und Albedos wurde aus thermischen Infrarotbeobachtungen abgeleitet, die eine Methode namens thermisches Modellieren verwenden. Thermische Modelle simulieren die Oberflächentemperaturverteilung eines Asteroiden, die verwendet wird, um den thermischen Infrarotfluss abzuleiten, der von dem Körper emittiert wird. Durch Variation der Modellparameter – hauptsächlich Durchmesser und Albedo – können die Eigenschaften eines Asteroiden an Beobachtungen der thermischen Emission angepasst und somit geschätzt werden.

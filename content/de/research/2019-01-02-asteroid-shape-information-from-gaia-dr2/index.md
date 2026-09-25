@@ -1,15 +1,11 @@
 ---
 date: 2019-01-02
 title: Informationen über die Form von Asteroiden aus Gaia DR2
-summary: |
-  Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.
 tags:
 - Astronomie
 - Asteroid
 - Physikalische Eigenschaften von Asteroiden
 - Gaia
-featured_image: /research/12893.png
-thumbnail_image: gaia.png
 ---
 
 Die ESA-Mission [Gaia](http://sci.esa.int/gaia/)Gaia beobachtet nicht nur einen großen Teil der Sterne in der Milchstraße, sondern auch eine enorme Anzahl von Asteroiden. Der Gaia-Datenrelease 2 (DR2) ist der erste Datenrelease, der eine Reihe von Asteroidbeobachtungen enthält, beschränkt auf G-Helligkeiten (ohne Farbinformationen) und eine vorab ausgewählte Stichprobe von 14.099 Asteroiden aus verschiedenen Populationen. Für jeden Asteroiden enthält DR2 eine mediane Anzahl von 9 Beobachtungen über die ersten 9 Monate der Mission. Während dieser begrenzte Datensatz nicht zulässt, die Rotationsperioden der Ziele abzuleiten oder ihre taxonomischen Typen einzugrenzen, ist er nützlich, um einen Blick auf die Formverteilung der Asteroiden zu werfen.

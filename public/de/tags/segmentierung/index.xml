@@ -1,33 +1,85 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Segmentierung on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/segmentierung/</link>
     <description>Recent content in Segmentierung on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
-    <lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <language>de-DE</language>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/segmentierung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erstellung einer Versiegelungskarte aus Luftbildern</title>
+      <link>http://localhost:1313/de/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</guid>
+      <description>&lt;p&gt;Asphaltierte Straßen, Parkplätze, Gebäude und gepflasterte Höfe: In unseren Städten ist ein großer Teil des Bodens versiegelt. Das hat Folgen. Regenwasser kann nicht mehr versickern und fließt in die Kanalisation ab, was bei Starkregen zu Überschwemmungen führen kann. Versiegelte Flächen heizen sich im Sommer stark auf, Pflanzen und Tiere verlieren ihren Lebensraum, und wertvoller Boden geht verloren.&lt;/p&gt;
+&lt;p&gt;Viele Städte und Gemeinden möchten deshalb Flächen gezielt wieder entsiegeln. Dafür müssen sie aber zunächst wissen, wo und wie stark der Boden versiegelt ist. Diese Flächen von Hand zu erfassen, kostet jedoch viel Zeit und Personal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modellierung der Straßenlärmbelastung mittels Deep Learning</title>
+      <link>http://localhost:1313/de/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</guid>
+      <description>&lt;p&gt;Deep Learning hat schon in vielen Bereichen der Fernerkundung sein Potenzial unter Beweis stellen können. Ein Beispiel hierfür ist Bestimmung von Landnutzung und Landbedeckung aus Satelliten- und Luftbildern.&lt;/p&gt;
+&lt;p&gt;Vielleicht kann man aber noch einen Schritt weiter gehen: Hat ein KI-Modell erst einmal gelernt, wie bestimmte Dinge zusammenhängen, kann man ihm auch „Was wäre, wenn?“-Fragen stellen? Man verändert gezielt die Daten, die man dem Modell gibt, und beobachtet, wie sich seine Antwort verändert. So ließe sich eine KI als eine Art vereinfachter Simulator nutzen, zum Beispiel in sogenannten digitalen Zwillingen. Das sind virtuelle Abbilder echter Städte oder Landschaften, an denen man Veränderungen ausprobieren kann, bevor man sie in der Wirklichkeit umsetzt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Einsatz KI-basierter Methoden zur Detektion und Charakterisierung von Streuobstbeständen</title>
+      <link>http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</guid>
+      <description>&lt;p&gt;Streuobstwiesen gehören zu den artenreichsten Lebensräumen in Mitteleuropa. Besonders im Süden Deutschlands prägen die locker verteilten, hochstämmigen Obstbäume seit Jahrhunderten die Landschaft. Doch die Bestände schrumpfen seit Jahrzehnten.&lt;/p&gt;
+&lt;p&gt;Obwohl Streuobstwiesen gesetzlich geschützt sind, fehlt bis heute ein aktueller und vollständiger Überblick darüber, wo sie überhaupt noch stehen. Genau dieses Wissen wäre aber die Grundlage, um sie gezielt zu schützen und zu pflegen. Alle Wiesen zu Fuß zu erfassen, ist bei der riesigen Fläche kaum möglich und viel zu teuer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kartierung städtischer Vegetation aus hochaufgelösten Luftbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</guid>
+      <description>&lt;p&gt;Bäume, Parks, Rasenflächen und Hecken sind mehr als nur schön anzusehen. Stadtgrün hilft, Städte an heißen Sommertagen kühl zu halten, und nimmt Regenwasser auf, das sonst Straßen überfluten und die Kanalisation überlasten würde. Um diese Grünflächen planen, pflegen und schützen zu können, müssen Städte genau wissen, wo Vegetation wächst. Detaillierte Vegetationskarten fließen zudem in Computersimulationen ein, mit denen sich Städte auf Hitzewellen und Starkregen vorbereiten können.&lt;/p&gt;
+&lt;p&gt;Solche Karten lassen sich mithilfe künstlicher Intelligenz aus Luft- und Satellitenbildern erstellen. Bisher waren die meisten dieser Ansätze jedoch aufwendig umzusetzen und erforderten leistungsstarke, teure Computer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning</title>
       <link>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</guid>
-      <description>Straßenverkehrslärm ist ein globales Problem, das zu schweren gesundheitlichen Auswirkungen führen kann. Trotz der Allgegenwart von Verkehrslärm ist dessen Quantifizierung oder Schätzung kompliziert, und detaillierte Straßenverkehrskarten sind nur für ausgewählte Länder oder Regionen verfügbar. Wir untersuchen, ob es möglich ist, ein Regressionsmodell zu trainieren, um Straßenverkehrslärm aus Satellitenbildern zu schätzen.</description>
+      <description>&lt;p&gt;Straßenverkehrslärm stellt ein globales Gesundheitsproblem dar. Trotz seiner Bedeutung sind Lärmdaten in vielen Regionen der Welt nicht verfügbar. Solche Daten werden typischerweise durch Punktmessungen und komplexe physikalische Modelle abgeleitet, um die Ausbreitung von Lärm zu simulieren.&lt;/p&gt;
+&lt;p&gt;Da dieser Prozess in vielen Gebieten der Welt nicht durchführbar ist, schlagen wir vor, Lärmdaten aus Satellitenbildern in einem End-to-End-Deep-Learning-Ansatz zu approximieren. Wir trainieren ein U-Net-Segmentierungsmodell, um Verkehrslärm basierend auf frei verfügbaren Sentinel-2-Satellitenbildern und bestehenden Schätzungen des Straßenverkehrslärms für die Schweiz zu schätzen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten</title>
       <link>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
-      <description>Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&amp;hellip;</description>
+      <description>&lt;p&gt;Dieses Forschungsergebniss besteht aus zwei Teilen, die im Folgenden präsentiert werden.&lt;/p&gt;
+&lt;h1 id=&#34;kontrastive-selbstüberwachte-datenfusion-für-satellitenbilder&#34;&gt;Kontrastive selbstüberwachte Datenfusion für Satellitenbilder&lt;/h1&gt;
+&lt;p&gt;Überwachtes Lernen für jede Aufgabe erfordert große Mengen an annotierten Daten. Besonders im Fall von Satellitenbildern sind unannotierte Daten allgegenwärtig, während der Annotierungsprozess oft mühsam und kostspielig ist. Daher ist es sehr lohnenswert, Methoden zu nutzen, um die Menge an benötigten annotierten Daten zu minimieren, die erforderlich ist, um eine gute Leistung der nachgelagerten Aufgabe zu erzielen. In unserer ersten Arbeit nutzen wir kontrastives Lernen in einem multimodalen Setup, um dieses Ergebnis zu erreichen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten</title>
       <link>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</guid>
-      <description>Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.</description>
+      <description>&lt;p&gt;Der Haupttreiber der globalen Erwärmung ist Freisetzung von Treibhausgasemissionen (THG) aus industriellen Aktivitäten. Die quantitative Überwachung dieser Emissionen ist notwendig, um ihre Auswirkungen auf das Klima der Erde vollständig zu verstehen und Emissionsvorschriften im großen Maßstab durchzusetzen. In dieser Arbeit untersuchen wir die Möglichkeit, industrielle Rauchfahnen aus global und kostenlos verfügbaren Multiband-Bilddaten der Sentinel-2-Satelliten der ESA zu erkennen und zu quantifizieren.&lt;/p&gt;
+&lt;div class=&#34;wrapper&#34;
+     style=&#34;display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;&#34;&gt;
+  &lt;figure class=&#34;image&#34;
+	  style=&#34;display: block; margin-left: auto; margin-right: auto; 
+                 width: ;&#34;&gt;
+    &lt;a href=&#34;example_panel.png&#34;&gt;
+        &lt;img src=&#34;example_panel.png&#34; alt=&#34;&#34;  align=&#34;center&#34;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&#34;font-style: italic; text-align: justify;&#34;&gt;
+      Beispielbilder aus unserem Satz von 21.350 Bildern industrieller Standorte. Jede Spalte entspricht einem der 624 Standorte. Die oberste Reihe zeigt den Standort während der Aktivität (eine Abgasfahne ist vorhanden) und die untere Reihe während der Inaktivität (Abgasfahne ist nicht vorhanden). Die Ursprungsregion der Abgasfahne ist durch rote Kreise markiert.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;klassifizierung-der-abgasfahnen&#34;&gt;Klassifizierung der Abgasfahnen&lt;/h3&gt;
+&lt;p&gt;Mit einem modifizierten ResNet-50 können wir Abgasfahnen unterschiedlicher Größen mit einer Genauigkeit von 94,3% erkennen. Das Modell ignoriert korrekt natürliche Wolken und konzentriert sich auf die Bildkanäle, die mit der spektralen Absorption von Aerosolen und Wasserdampf in Zusammenhang stehen, was die Lokalisierung von Rauch ermöglicht.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

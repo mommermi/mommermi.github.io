@@ -1,12 +1,9 @@
 ---
 date: 2018-07-27
 title: sbpy - Ein Python-Modul für die Planetarische Astronomie kleiner Himmelskörper
-summary: |
-  sbpy ist ein mit Astropy verbundenes Paket für Astronomen, die an kleinen Himmelskörpern interessiert sind. Wir haben diese Idee bei der NASA vorgeschlagen und wurden finanziert, um dieses Python-Modul zu entwickeln, das hier skizziert ist.
 tags:
 - Astronomie
 - Open-Source Software
-featured_image: /research/12893.png
 ---
 
 sbpy ist ein mit Astropy verbundenes Paket, das Tools für Astronomen mit einem Interesse an kleinen Himmelskörpern bereitstellt. Die Idee ist, eine Sammlung von gut getesteten und dokumentierten Werkzeugen anzubieten, die Asteroiden- und Kometenbeobachter täglich nutzen. Das Ziel ist es, die Reproduzierbarkeit von Ergebnissen zu verbessern und es (jungen) Forschern zu erleichtern, neue Ideen auszuprobieren.

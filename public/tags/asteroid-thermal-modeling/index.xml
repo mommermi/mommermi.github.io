@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Asteroid Thermal Modeling on Michael Mommert</title>
     <link>http://localhost:1313/tags/asteroid-thermal-modeling/</link>
     <description>Recent content in Asteroid Thermal Modeling on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/asteroid-thermal-modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,14 +13,21 @@
       <link>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
-      <description>Based on Spitzer Space Telescope observations, we derived diameter and&#xA;albedo estimates for 2132 asteroids in near-Earth space - the largest&#xA;dataset of its kind. Our results and data are available online.</description>
+      <description>&lt;p&gt;Ever since the early days of my PhD thesis, I have been involved in
+the thermal modeling of thermal-infrared observations of near-Earth
+objects and other asteroids. Such asteroid thermal models simulate the surface
+temperature distributions of asteroids utilizing some simplifying
+assumptions and enabling the estimation of physical properties like
+size and albedo.&lt;/p&gt;
+&lt;p&gt;In the framework of several large-scale &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt; observing programs, we have observed more than 2000 near-Earth objects and measured their thermal emission to constrain their diameters and albedos. Now that Spitzer has officially &lt;a href=&#34;https://www.nasa.gov/press-release/nasa-s-spitzer-space-telescope-ends-mission-of-astronomical-discovery/&#34;&gt;retired&lt;/a&gt;, we have finalized our observations and analysis, and compiled all of our results in one large data set. This compilation comprises 2204 diameter and geometric albedo estimates for 2132 different near-Earth objects - the largest homogeneous data set of its kind for this population.
+The results of these efforts are available &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are there Limits on the Applicability of Asteroid Thermal Models for Near-Earth  Asteroids?</title>
       <link>http://localhost:1313/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</guid>
-      <description>There is a range of asteroid thermal models that are based on different&#xA;physical assumptions. In this analysis, I investigate how these assumptions&#xA;affect their results and applicability to different situations.</description>
+      <description>&lt;p&gt;The vast majority of all asteroid diameters and albedos that are currently available have been derived from thermal infrared observations using a method called thermal modeling. Thermal models simulate the surface temperature distribution on an asteroid which is used to derive the thermal infrared flux that is emitted by the body. By varying the model parameters - mainly its diameter and albedo - the properties of an asteroid can be fit to observations of the thermal emission and hence estimated.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

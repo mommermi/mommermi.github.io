@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Detection of Cometary Activity in NEO Don Quixote | Michael Mommert</title>
+<meta name="keywords" content="Astronomy, Don Quixote, Dormant Comet, Spitzer Space Telescope">
+<meta name="description" content="Near-Earth asteroid Don Quixote has long since been considered a good
+candidate for an inactive comet nucleus due to its comet-like orbit. Since
+its discovery in 1983, comet-like has never been observed - until we
+observed this object with the Spitzer Space Telescope&hellip;">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/en/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/en/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/homeinfoparams/" title="Homeinfoparams"
+                                aria-label="Homeinfoparams">Homeinfoparams</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/en/bio/" title="Biography">
+                    <span>Biography</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Forschung">
+                    <span>Forschung</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/bio/" title="Lebenslauf">
+                    <span>Lebenslauf</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/teaching/" title="Lehre">
+                    <span>Lehre</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/publications/" title="Publikationen">
+                    <span>Publikationen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/">Michael Mommert</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/research/">Research</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      Detection of Cometary Activity in NEO Don Quixote
+    </h1>
+    <div class="post-meta">
+
+<span title='2014-10-19 00:00:00 +0000 UTC'>19. Oktober 2014</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.</p>
+<p>The dead comet archetype is NEO (3552) Don Quixote. We observed Don Quixote as part of the ExploreNEOs program, in which ~600 NEOs were observed to derive the diameters and albedos of these objects. Our observations at 3.6 and 4.5 µm were saturated because the target was brighter than expect, revealing something rather unexpected.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="donquixote1.png">
+        <img src="donquixote1.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Inverted-scale original images (top row) and psf-subtracted images (bottom row) for Don Quixote and a similarly bright calibration star.
+    </figcaption>
+  </figure>
+</div>
+
+<p>The subtraction of the Spitzer IRAC point-spread-function (psf) from our observations show some kind of extended emission around the object at 4.5 µm, but not so at 3.6 µm. We went into some effort to show that the extended emission is not an image artifact, it is not a background source, not a latency effect, and not a result of the saturation of the object. The latter is obvious after applying the same psf-subtraction technique to a saturated image of an even brighter calibration star (HD 149661).</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="donquixote2.png">
+        <img src="donquixote2.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Radial brightness profile plots from our Spitzer observations.
+    </figcaption>
+  </figure>
+</div>
+
+<p>The nature of the extended emission becomes clear after plotting the radial brightness distribution around the object. At 3.6 µm, the distribution is rather noisy and basically in agreement with a null result, whereas at 4.5 µm, the radial brightness distribution is clearly proportional to the reciprocal distance from the target center. This behavior is typical for cometary comae, consisting of optically thin dust and gas that is ejected from the surface as ices sublimate in the warming sunlight. After subtracting the model for a cometary coma from our observations, even a faint tail becomes obvious.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="https://photojournal.jpl.nasa.gov/figures/PIA17443_fig1.jpg">
+        <img src="https://photojournal.jpl.nasa.gov/figures/PIA17443_fig1.jpg" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      
+    </figcaption>
+  </figure>
+</div>
+
+<p>The fact that we observe cometary activity at 4.5 but not at 3.6 µm provides constraints on the composition of the coma. If significant amounts of dust would be ejected together with the gas, the emission would be visible in both bands, more likely so at 3.6 µm, which is not the case. The most likely explanation is emission from molecular bands: both CO and CO2 have molecular band emission lines that fall into the 4.5 µm bandpass, but not into the 3.6 µm bandpass. Both materials have been found in cometary spectra, but CO2 is usually more likely. The activity we find in Don Quixote is rather minute and comparable to the weakest activities found in active comets. Still, the fact that this object does show activity, which has not been discovered in 30 years after its discovery as an asteroid, is extraordinary.</p>
+<p>Another interesting fact we could derive from its taxonomic classification as a D-type asteroid and meteorite analog material is that Don Quixote is likely to hold a large amount of water. Based on the diameter we derived (18.4 km), Don Quixote is likely to hold 100 billion tons of water, which is about the same amount of water as in Lake Tahoe, California.</p>
+<p>Our study has been published <a href="http://adsabs.harvard.edu/abs/2014ApJ...781...25M">here</a> and press releases have been issued by several institutions including <a href="http://www.jpl.nasa.gov/news/news.php?release=2013-274">NASA JPL</a> and the <a href="http://www.europlanet-eu.org/epsc2013/76-epsc2013/media-press/619-don-quixote-revealed-as-a-comet-hiding-in-plain-sight">European Planetary Science Congress</a>, where the results have been presented.</p>
+<h1 id="update">Update<a hidden class="anchor" aria-hidden="true" href="#update">#</a></h1>
+<p>Please note that in 2020 we found again activity in Don Quixote, revealing the recurrent nature of its activity. See <a href="http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/">here</a> for details.</p>
+<h1 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h1>
+<ul>
+<li>Mommert, M., Hora, J. L., Harris, A. W., Reach, W. T., Emery, J. P., Thomas, C. A., Mueller, M., Cruikshank, D. P., Trilling, D. E., Delbo, M., &amp; Smith, H. A. (2014), &ldquo;<em>The Discovery of Cometary Activity in Near-Earth Asteroid (3552) Don Quixote</em>&rdquo;, The Astrophysical Journal, 781, 25., <a href="http://doi.org/10.1088/0004-637X/781/1/25">publication</a>, <a href="http://arxiv.org/abs/1312.0673">arxiv</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/astronomy/">Astronomy</a></li>
+      <li><a href="http://localhost:1313/tags/don-quixote/">Don Quixote</a></li>
+      <li><a href="http://localhost:1313/tags/dormant-comet/">Dormant Comet</a></li>
+      <li><a href="http://localhost:1313/tags/spitzer-space-telescope/">Spitzer Space Telescope</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

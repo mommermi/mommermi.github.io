@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Orchards on Michael Mommert</title>
+    <link>http://localhost:1313/tags/orchards/</link>
+    <description>Recent content in Orchards on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/orchards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-Based Methods for the Detection and Characterization of Traditional Orchards</title>
+      <link>http://localhost:1313/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</guid>
+      <description>&lt;p&gt;Traditional orchards are among the most species-rich habitats in Central Europe. Especially in southern Germany, their loosely scattered, tall-trunked fruit trees have shaped the landscape for centuries. Yet these orchards have been in decline for decades.&lt;/p&gt;
+&lt;p&gt;Although traditional orchards are legally protected, there is still no up-to-date and complete overview of where they can actually be found. But exactly this knowledge would be the basis for protecting and maintaining them in a targeted way. Surveying all orchards on foot is hardly feasible given the vast area involved, and it would be far too expensive.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

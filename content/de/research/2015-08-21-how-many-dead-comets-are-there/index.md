@@ -1,13 +1,10 @@
 ---
 date: 2015-08-21
 title: Wie viele tote Kometen gibt es?
-summary: |
-  Tote Kometen sind kleine Körper, die als inaktive Asteroiden erscheinen, aber einen kometarischen Ursprung haben. Einige dieser Objekte könnten noch Eis enthalten und könnten sich wieder aktivieren und kometenähnlich erscheinen. Da diese Objekte möglicherweise erheblich zum flüchtigen Reservoir der Asteroidpopulation beitragen, ist es wichtig zu verstehen, wie viele dieser Objekte es gibt.
 tags:
 - Astronomie
 - Erdnaher Asteroid
 - Toter Komet
-featured_image: /research/12893.png
 ---
 
 Eine langjährige Frage ist diese: Wie viele Asteroiden – insbesondere erdnahe Asteroiden (NEAs) – waren in der Vergangenheit Kometen? In der klassischen Vorstellung haben Kometen Oberflächen-Eis und bilden in der Nähe der Sonne Schweife und Komas; Asteroiden sind einfach Steine im Weltraum. In den letzten Jahren sind die beiden Klassifikationen weniger klar geworden.

@@ -1,14 +1,9 @@
 ---
 date: 2018-07-27
 title: sbpy - A Python module for small-body planetary astronomy
-summary: |
-  sbpy is an astropy affiliated package for small-body planetary astronomers.
-  We proposed this idea to NASA and were funded for developing this Python
-  module, which is outlined here.
 tags:
 - Astronomy
 - Open-Source Software
-featured_image: /research/12893.png
 ---
 
 

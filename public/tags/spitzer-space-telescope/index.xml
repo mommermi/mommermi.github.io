@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spitzer Space Telescope on Michael Mommert</title>
     <link>http://localhost:1313/tags/spitzer-space-telescope/</link>
     <description>Recent content in Spitzer Space Telescope on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/spitzer-space-telescope/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,21 +13,29 @@
       <link>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
-      <description>Based on Spitzer Space Telescope observations, we derived diameter and&#xA;albedo estimates for 2132 asteroids in near-Earth space - the largest&#xA;dataset of its kind. Our results and data are available online.</description>
+      <description>&lt;p&gt;Ever since the early days of my PhD thesis, I have been involved in
+the thermal modeling of thermal-infrared observations of near-Earth
+objects and other asteroids. Such asteroid thermal models simulate the surface
+temperature distributions of asteroids utilizing some simplifying
+assumptions and enabling the estimation of physical properties like
+size and albedo.&lt;/p&gt;
+&lt;p&gt;In the framework of several large-scale &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt; observing programs, we have observed more than 2000 near-Earth objects and measured their thermal emission to constrain their diameters and albedos. Now that Spitzer has officially &lt;a href=&#34;https://www.nasa.gov/press-release/nasa-s-spitzer-space-telescope-ends-mission-of-astronomical-discovery/&#34;&gt;retired&lt;/a&gt;, we have finalized our observations and analysis, and compiled all of our results in one large data set. This compilation comprises 2204 diameter and geometric albedo estimates for 2132 different near-Earth objects - the largest homogeneous data set of its kind for this population.
+The results of these efforts are available &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Physical Properties of two tiny Asteroids from Spitzer Observations</title>
       <link>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
       <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
-      <description>We observed two very small asteroids with the Spitzer Space Telescope to&#xA;actually measure their physical properties for the first time. The&#xA;constraints that we were able to place on their properties do not agree&#xA;with the standard picture of small asteroids.</description>
+      <description>&lt;p&gt;Little is known about the physical properties of the smallest NEOs with diameters of less than 10 meters. Due to their small sizes, they are usually very faint and hard to observe. Hence, only a small number of asteroids in this size regime are known and for only very few of those physical properties like diameter and albedo have been measured. However, small NEOs are much more frequent than larger NEOs, making some of these objects easily accessible spacecraft targets and potential impactors. Traditionally, people believed that these small NEOs have formed through collisions and that they are individual slabs of rock, i.e,. monolithic bodies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Detection of Cometary Activity in NEO Don Quixote</title>
       <link>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
       <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
-      <description>Near-Earth asteroid Don Quixote has long since been considered a good&#xA;candidate for an inactive comet nucleus due to its comet-like orbit. Since&#xA;its discovery in 1983, comet-like has never been observed - until we&#xA;observed this object with the Spitzer Space Telescope&amp;hellip;</description>
+      <description>&lt;p&gt;Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.&lt;/p&gt;
+&lt;p&gt;The dead comet archetype is NEO (3552) Don Quixote. We observed Don Quixote as part of the ExploreNEOs program, in which ~600 NEOs were observed to derive the diameters and albedos of these objects. Our observations at 3.6 and 4.5 µm were saturated because the target was brighter than expect, revealing something rather unexpected.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

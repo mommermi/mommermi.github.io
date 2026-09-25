@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Don Quixote on Michael Mommert</title>
     <link>http://localhost:1313/tags/don-quixote/</link>
     <description>Recent content in Don Quixote on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/don-quixote/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,14 +13,22 @@
       <link>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
-      <description>Don Quixote has been considered asteroidal since its discovery in 1983,&#xA;despite its comet-like orbit. We found activity in this object during&#xA;its 2009 and 2018 apparitions, leading us to believe that it really&#xA;is an active comet. But are there other objects like Don Quixote? I&#xA;monitored a sample of ~100 asteroids that are somewhat likely to turn&#xA;active, too, over a period of more than 4 years. Bottom line: Don Quixote&#xA;is rather unique.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552&#34;&gt;Don Quixote&lt;/a&gt; was
+discovered in 1983 and although it has a perfectly comet-like orbit,
+no cometary activity (a tail or a coma around the object) have been
+observed. According to protocol, the object was listed as an asteroid.&lt;/p&gt;
+&lt;p&gt;In 2009, we found from observations with the now defunct Spitzer Space
+Telescope that there actually is a faint coma around Don Quixote that most
+likely consists of molecular band emission from either CO or CO2. This is
+discussed in detail &lt;a href=&#34;http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/&#34;&gt;here&lt;/a&gt; and in &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2014ApJ...781...25M/abstract&#34;&gt;this paper&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Detection of Cometary Activity in NEO Don Quixote</title>
       <link>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
       <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
-      <description>Near-Earth asteroid Don Quixote has long since been considered a good&#xA;candidate for an inactive comet nucleus due to its comet-like orbit. Since&#xA;its discovery in 1983, comet-like has never been observed - until we&#xA;observed this object with the Spitzer Space Telescope&amp;hellip;</description>
+      <description>&lt;p&gt;Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.&lt;/p&gt;
+&lt;p&gt;The dead comet archetype is NEO (3552) Don Quixote. We observed Don Quixote as part of the ExploreNEOs program, in which ~600 NEOs were observed to derive the diameters and albedos of these objects. Our observations at 3.6 and 4.5 µm were saturated because the target was brighter than expect, revealing something rather unexpected.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

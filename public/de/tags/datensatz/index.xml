@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Datensatz on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/datensatz/</link>
     <description>Recent content in Datensatz on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/datensatz/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,8 @@
       <link>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
-      <description>Multimodale Datensätze für die Fernerkundung sind oft auf zwei Datenmodalitäten beschränkt, wie z.B. multispektrale und SAR-Polarisationsdaten. Um mit einer viel breiteren Palette von Datenmodalitäten zu experimentieren, haben wir den bekannten BigEarthNet-Datensatz erweitert, um eine Vielzahl von Datenmodalitäten einzuschließen.</description>
+      <description>&lt;p&gt;Erdbeobachtungsdaten sind multimodal. Daten werden von einer Vielzahl von Sensoren erfasst, von denen einige passive Sensoren (z.B. Multiband-Bildgebung) und andere aktive Sensoren (z.B. SAR) sind. Neben solchen Beobachtungsdaten sind für die meisten Standorte auf der Erde auch zusätzliche Archivdaten verfügbar.&lt;/p&gt;
+&lt;p&gt;Die Fernerkundung und Erdbeobachtung waren schon immer sehr aktiv in der Kombination verschiedener Datenmodalitäten (&amp;ldquo;Datenfusion&amp;rdquo;) bei der Analyse von Daten. Bei einem Datenfusionsansatz werden zwei oder mehr Datenmodalitäten in einer Analyse kombiniert, um die Ergebnisse im Vergleich zur Verwendung nur einer einzelnen Datenmodalität zu verbessern.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

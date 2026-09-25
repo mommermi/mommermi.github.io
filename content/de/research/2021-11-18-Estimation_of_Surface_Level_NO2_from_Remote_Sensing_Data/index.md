@@ -1,16 +1,12 @@
 ---
 date: 2021-11-18
 title: Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten
-summary: |
-  Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.
 tags:
 - Erdbeobachtung
 - Deep Learning
 - Luftverschmutzung
 - NO2
 - Sentinel-2
-thumbnail_image: figure2.png
-
 ---
 
 Luftverschmutzung hat nachweislich negative Auswirkungen auf die Gesundheit. Ein bedeutendes Luftschadstoff ist NO2, das auf der Erdoberfläche direkt die menschliche Gesundheit beeinflusst und in höheren Lagen zur Bildung von saurem Regen beiträgt und als Vorläufer von Treibhausgasen fungiert. Während die NO2-Säulendichten in der Atmosphäre mit Satellitenbeobachtungen, wie sie von Sentinel-5P bereitgestellt werden, gemessen werden können, sind In-situ-Messungen von Bodenstationen erforderlich, um die NO2-Konzentrationen auf der Oberfläche zu messen, die für die menschliche Exposition relevant sind.

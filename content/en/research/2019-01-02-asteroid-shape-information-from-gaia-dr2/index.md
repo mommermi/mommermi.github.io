@@ -1,18 +1,11 @@
 ---
 date: 2019-01-02
 title: Asteroid Shape Information from Gaia DR2
-summary: |
-  The Gaia mission builds a unique survey of the stars in our Milky Way - but
-  it also observes asteroids that are crossing its field of view. We derive
-  ensemble shape information for different asteroid populations from the
-  first batch of asteroid data from Gaia.
 tags:
 - Astronomy
 - Asteroid
 - Asteroid Physical Properties
 - Gaia
-featured_image: /research/12893.png
-thumbnail_image: gaia.png
 ---
 
 The [ESA mission Gaia](http://sci.esa.int/gaia/) not only observes a good fraction of the stars in the milky way, but also a huge number of asteroids. Gaia Data Release 2 (DR2) is the first data release to include a number of asteroid observations, limited to G magnitudes (no color information) and a pre-selected sample of 14099 asteroids from different populations. For each asteroids, DR2 contains a median number of 9 observations over the first 9 months of the mission. While this limited data set does not allow for deriving the targets' rotational periods or constraining their taxonomic types, it is useful for a look into the shape distribution of asteroids.

@@ -1,15 +1,12 @@
 ---
 date: 2020-12-07
 title: Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten
-summary: |
-  Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.
 tags:
 - Eardbeobachtung
 - Deep Learning
 - Segmentierung
 - Abgasfahne
 - Sentinel-2
-thumbnail_image: example_panel.png
 ---
 
 Der Haupttreiber der globalen Erwärmung ist Freisetzung von Treibhausgasemissionen (THG) aus industriellen Aktivitäten. Die quantitative Überwachung dieser Emissionen ist notwendig, um ihre Auswirkungen auf das Klima der Erde vollständig zu verstehen und Emissionsvorschriften im großen Maßstab durchzusetzen. In dieser Arbeit untersuchen wir die Möglichkeit, industrielle Rauchfahnen aus global und kostenlos verfügbaren Multiband-Bilddaten der Sentinel-2-Satelliten der ESA zu erkennen und zu quantifizieren.

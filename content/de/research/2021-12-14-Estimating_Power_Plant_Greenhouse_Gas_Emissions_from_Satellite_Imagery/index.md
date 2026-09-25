@@ -1,8 +1,6 @@
 ---
 date: 2021-12-14
 title: Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern
-summary: |
-  Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.
 tags:
 - Erdbeobachtung
 - Deep Learning
@@ -10,8 +8,6 @@ tags:
 - Kraftwerk
 - CO2
 - Sentinel-2
-thumbnail_image: overview.png
-
 ---
 
 Dieses Projekt bildet die logische Erweiterung unseres vorherigen Projekts zur [Charakterisierung industrieller Abgasfahrnen aus Fernerkundungsdaten]({{< ref "2021-12-14-Estimating_Power_Plant_Greenhouse_Gas_Emissions_from_Satellite_Imagery" >}}). Anstatt einfach nur Abgasfahnen zu identifizieren und zu charakterisieren, nutzen wir diese Informationen, um die Treibhausgasemissionen von fossilen Brennstoffkraftwerken zu schätzen.

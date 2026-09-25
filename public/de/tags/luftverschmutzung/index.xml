@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Luftverschmutzung on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/luftverschmutzung/</link>
     <description>Recent content in Luftverschmutzung on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/luftverschmutzung/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</guid>
-      <description>Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.</description>
+      <description>&lt;p&gt;Luftverschmutzung hat nachweislich negative Auswirkungen auf die Gesundheit. Ein bedeutendes Luftschadstoff ist NO2, das auf der Erdoberfläche direkt die menschliche Gesundheit beeinflusst und in höheren Lagen zur Bildung von saurem Regen beiträgt und als Vorläufer von Treibhausgasen fungiert. Während die NO2-Säulendichten in der Atmosphäre mit Satellitenbeobachtungen, wie sie von Sentinel-5P bereitgestellt werden, gemessen werden können, sind In-situ-Messungen von Bodenstationen erforderlich, um die NO2-Konzentrationen auf der Oberfläche zu messen, die für die menschliche Exposition relevant sind.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

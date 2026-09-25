@@ -1,13 +1,14 @@
 ---
 title: Publikationen
 menu: main
-summary: |
-  Ein Überblick über meine wissenschaftlichen und anderen Veröffentlichungen.
 ---
+
+
+<!---
 
 ## Übersicht
 
-[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 5.092 Zitierungen, h-index=36, i10-index=69 (am 14. April 2025)
+[Google Scholar](https://scholar.google.com/citations?user=KSfMP58AAAAJ&hl=en&oi=ao): 6.295 Zitierungen, h-index=42, i10-index=84 (am 21. September 2026)
 
 * 12 Publikationen als Erstautor in Zeitschriften (peer-reviewed)
 * 66 Publikationen als Ko-Autor in Zeitschriften (peer-reviewed)
@@ -16,8 +17,6 @@ summary: |
 * 3 Buchbeiträge
 * 11 andere Publikationen (white papers, code, oder Daten; ohne peer-review)
 
-
-<!---
 palette of labels:
 first-author journal
 co-author journal
@@ -32,6 +31,37 @@ thesis
 --->
 
 
+## 2026
+
+
+Htet Aung Kyaw, Alejandro Ayala Rico Jairo, Isaac Ayibilisah Awontemi, Mahnoush Farhang, Lukman Hakim, Sunita Joshi, Abdul Khaliq Rasa, Cephas Mwimangire Bisimwa, Osca Mwongera Mukiri, Negar Rahbardarestani, Jorge David Velazquez Cupido, Qismat Yousufzai, Wilhelm Rauser, **Michael Mommert**, "*Urban Vegetation Mapping from High-Resolution Aerial Imagery with Deep Learning*", 46. Wissenschaftlich-Technische Jahrestagung der DGPF eV, 25.-27. März 2026, Darmstadt, 2026, [HFTor](https://opus.bsz-bw.de/hft/frontdoor/index/index/docId/1491).
+<!--- conference peer-reviewed --->
+
+Sunita Joshi, **Michael Mommert**, "*Modellierung der Straßenverkehrslärmbelastung mittels Deep Learning*", Nationales Forum für Fernerkundung und Copernicus, 28.-30. April 2026, Darmstadt, 2026. 
+<!--- conference non-peer-reviewed --->
+
+Volker Coors, **Michael Mommert**, "*Schlussbericht zum Vorhaben Space4iCity-FH-lmpuls 2016 Intensivierungsphase: Nutzung von Erdbeobachtungsdaten zur Verbesserung der Datenbasis für Stadtklimasimulationen*", Hannover: Technische Informationsbibliothek, [Renate](https://oa.tib.eu/renate/items/92196822-eef9-4674-95bf-4b3020669246/full), 2026.
+<!--- white paper --->
+
+
+Andy J López-Oquendo, David E Trilling, **Michael Mommert**, Michaël Marsset, "*Probing the Taxonomic Diversity of the Small Near-Earth Object Population*", [The Planetary Science Journal](https://iopscience.iop.org/article/10.3847/PSJ/ae9f3f/pdf), 9, 2026.
+<!--- co-author journal --->
+
+Nicholas Moskovitz, Theodore Kareta, Samantha Hemmelgarn, Hannah Zigo, Maxime Devogèle, Audrey Thirouin, Katie Breeland-Newcomb, Brian Burt, Annika Gustaffson, Mitchell Magnuson, **Michael Mommert**, David Polishook, Robert Schottland, Brian Skiff, Cristina Thomas, Mark Willman, "*NEO colors from the mission accessible near-earth object survey (MANOS)*", [The Planetary Science Journal](https://iopscience.iop.org/article/10.3847/PSJ/ae5642/meta), 4, 2026.
+<!--- co-author journal --->
+
+## 2025
+
+
+Steven Stetzler, Mario Jurić, Pedro H Bernardinelli, Dino Bektešević, Colin Orion Chandler, Andrew J Connolly, Fred C Adams, Cesar Fuentes, David W Gerdes, Matthew J Holman, Hsing Wen Lin, Larissa Markwardt, Andrew McNeill, **Michael Mommert**, Kevin J Napier, William J Oldroyd, Matthew J Payne, Andrew S Rivkin, Luis E Salazar-Manzano, Hilke Schlichting, Scott S Sheppard, Dallin Spencer, Ryder Strauss, David E Trilling, Chadwick A Trujillo, "*An Efficient Shift-and-stack Algorithm Applied to Detection Catalogs*", [The Astronomical Journal](https://iopscience.iop.org/article/10.3847/1538-3881/ae0e1a/pdf), 6, 2025.
+<!--- co-author journal --->
+
+
+Murat Osswald, Louis Niederlöhner, Sascha Köjer, Tobias Ziedorn, Valerio Gulli, **Michael Mommert**, Helmut Mayer, "*FineAir: Finest-grained airplanes in high-resolution satellite images*", [Proceedings of the Winter Conference on Applications of Computer Vision](https://openaccess.thecvf.com/content/WACV2025W/CV4EO/papers/Osswald_FineAir_Finest-grained_Airplanes_in_High-resolution_Satellite_Images_WACVW_2025_paper.pdf), 1191-1199, 2026.
+<!--- conference peer-reviewed --->
+
+**Michael Mommert**, Hamed Hemati, "*Automated Land Use/Land Cover Refinement for Multispectral Satellite Imagery*", Living Planet Symposium, Vienna, 2026, [HFTor](https://opus.bsz-bw.de/hft/frontdoor/index/index/docId/1322).
+<!--- conference non-peer-reviewed --->
 
 ## 2024
 
@@ -51,8 +81,14 @@ Nafiseh Kakhani, **Michael Mommert**, Thomas Scholten, "*Advanced Prediction of 
 Alexander Lontke, **Michael Mommert**, Damian Borth, "*Multi-Modal Diffusion for Self-Supervised Pretraining*", [IEEE International Geoscience and Remote Sensing Symposium 2024](https://ieeexplore.ieee.org/abstract/document/10640509), 2024.
 <!--- conference peer-reviewed --->
 
-Samuel Navarro-Meza, David Trilling, **Michael Mommert**, Nathaniel Butler, Mauricio Reyes-Ruiz, "*Taxonomy of Subkilometer Near-Earth Objects from Multiwavelength Photometry with RATIR*", [The Astronomical Journal, Vol. 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad23d0/meta), 2024.
 
+MIRSI
+
+
+
+
+Samuel Navarro-Meza, David Trilling, **Michael Mommert**, Nathaniel Butler, Mauricio Reyes-Ruiz, "*Taxonomy of Subkilometer Near-Earth Objects from Multiwavelength Photometry with RATIR*", [The Astronomical Journal, Vol. 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad23d0/meta), 2024.
+<!--- co-author journal --->
 
 Hayden Smotherman, Pedro H Bernardinelli, Stephen KN Portillo, Andrew J Connolly, J Bryce Kalmbach, Steven Stetzler, Mario Juric, Dino Bektesvic, Zachary Langford, Fred C Adams, William J Oldroyd, Matthew J Holman, Colin Orion Chandler, Cesar Fuentes, David W Gerdes, Hsing Wen Lin, Larissa Markwardt, Andrew McNeill, **Michael Mommert**, Kevin J Napier, Matthew J Payne, Darin Ragozzine, Andrew S Rivkin, Hilke Schlichting, Scott S Sheppard, Ryder Strauss, David E Trilling, Chadwick A Trujillo, "*The DECam Ecliptic Exploration Project (DEEP) VI: first multi-year observations of trans-Neptunian objects*", [The Astronomical Journal, 167](https://iopscience.iop.org/article/10.3847/1538-3881/ad1524) ([open access](https://arxiv.org/pdf/2310.03678)), 2024.
 <!--- co-author journal --->

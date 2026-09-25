@@ -1,16 +1,16 @@
 ---
 date: 2024-07-12
 title: Multimodal Diffusion for Self-Supervised Pretraining
-summary: |
-  Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?
 tags:
 - Earth Observation
 - Deep Learning
 - Diffusion
 - Multimodal
 - Self-supervised Learning
-thumbnail_image: diffusion_qualitative_sample.png
 ---
+
+Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?
+
 
 Diffusion processes are best known for training image-from-text models. The idea behind diffusion processes is rather simple: you take an image and gradually destroy the information by applied Gaussian noise. A diffusion model will now learn to reconstruct the original information (i.e., remove the noise) between two steps. Fully trained, these models are able to create photo-realistic images from noise.
 

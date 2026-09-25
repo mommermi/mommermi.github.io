@@ -1,17 +1,12 @@
 ---
 date: 2021-11-18
 title: Estimation of Surface Level NO2 from Remote Sensing Data
-summary: |
-  Air pollution is a major health issue and often also contributes to climate change. Measuring air pollution is costly and therefore only available in some countries. We investigated whether freely available Earth observation data can be utilized to estimate air pollution on the surface level. 
 tags:
 - Earth Observation
 - Deep Learning
 - Air Pollution
 - NO2
 - Sentinel-2
-featured_image: banner.jpg
-thumbnail_image: figure2.png
-
 ---
 
 

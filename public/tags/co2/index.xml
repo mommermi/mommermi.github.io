@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CO2 on Michael Mommert</title>
     <link>http://localhost:1313/tags/co2/</link>
     <description>Recent content in CO2 on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/co2/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,8 @@
       <link>http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</link>
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</guid>
-      <description>Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.</description>
+      <description>&lt;p&gt;This project forms the logical extension of our previous project on the &lt;a href=&#34;https://mommermi.github.io/applied%20research/2020/12/07/Characterization_of_Industrial_Smoke_Plumes_from_Remote_Sensing_Data.html&#34;&gt;characterization of industrial plumes from remote sensing data&lt;/a&gt;. Instead of simply identifying and characterizing plumes, we utilize this information to estimate Greenhouse Gas emissions from fossil fuel-firing power plants.&lt;/p&gt;
+&lt;p&gt;The idea is rather simple: we know that we can segment plumes and robustly distinguish them from natural clouds. For all European power plants, we know for any given time what their power generation rates are. We can therefore train a regression model to estimate the power generation rate from the extent of the observed plume for any given time. However, the apparent size of the plume is not only a function of the power generation process. Instead, it is a highly complex process that relies on environmental variables. To approximate these variables, we provide concurrent weather information, including ambient temperature, air pressure and wind speed to our regression model.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

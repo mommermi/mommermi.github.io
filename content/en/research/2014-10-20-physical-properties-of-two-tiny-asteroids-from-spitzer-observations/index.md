@@ -1,18 +1,11 @@
 ---
 date: 2014-10-20
 title: Physical Properties of two tiny Asteroids from Spitzer Observations
-summary: |
-  We observed two very small asteroids with the Spitzer Space Telescope to
-  actually measure their physical properties for the first time. The
-  constraints that we were able to place on their properties do not agree
-  with the standard picture of small asteroids.
 tags:
 - Astronomy
 - Near-Earth Asteroid
 - Asteroid Physical Properties
 - Spitzer Space Telescope
-featured_image: /research/12893.png
-thumbnail_image: tinyneos_schematic.png
 ---
 
 Little is known about the physical properties of the smallest NEOs with diameters of less than 10 meters. Due to their small sizes, they are usually very faint and hard to observe. Hence, only a small number of asteroids in this size regime are known and for only very few of those physical properties like diameter and albedo have been measured. However, small NEOs are much more frequent than larger NEOs, making some of these objects easily accessible spacecraft targets and potential impactors. Traditionally, people believed that these small NEOs have formed through collisions and that they are individual slabs of rock, i.e,. monolithic bodies.

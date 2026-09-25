@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Asteroid on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/asteroid/</link>
     <description>Recent content in Asteroid on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/asteroid/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,21 +13,37 @@
       <link>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
-      <description>Don Quixote wird seit seiner Entdeckung im Jahr 1983 als Asteroid betrachtet, trotz seiner kometenartigen Umlaufbahn. Wir fanden während seiner Erscheinungen 2009 und 2018 Aktivität in diesem Objekt, was uns zu der Annahme führte, dass es sich tatsächlich um einen aktiven Kometen handelt. Aber gibt es andere Objekte wie Don Quixote? Ich habe über einen Zeitraum von mehr als 4 Jahren eine Stichprobe von etwa 100 Asteroiden überwacht, die ebenfalls wahrscheinlich aktiv werden könnten. Fazit: Don Quixote ist ziemlich einzigartig.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552&#34;&gt;Don Quixote&lt;/a&gt; wurde 1983 entdeckt und obwohl er eine perfekt kometenartige Umlaufbahn hat, wurde keine kometare Aktivität (ein Schweif oder eine Koma um das Objekt) beobachtet. Laut Protokoll wurde das Objekt als Asteroid eingestuft.&lt;/p&gt;
+&lt;p&gt;Im Jahr 2009 fanden wir durch Beobachtungen mit dem inzwischen stillgelegten Spitzer-Weltraumteleskop heraus, dass sich tatsächlich eine schwache Koma um Don Quijote befindet, die höchstwahrscheinlich aus molekularer Bandemission von entweder CO oder CO2 besteht. Dies wird ausführlich &lt;a href=&#34;http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/&#34;&gt;hier&lt;/a&gt; und in diesem Papier diskutiert.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Eine Fülle von Asteroiden in TESS-Daten</title>
       <link>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
       <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
-      <description>TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.</description>
+      <description>&lt;p&gt;TESS ist der &lt;a href=&#34;https://tess.mit.edu/&#34;&gt;Transiting Exoplanet Survey Satellite&lt;/a&gt;, der 2018 von der NASA ins All gestartet wurde, um schwache Helligkeitsvariationen in Sternen zu identifizieren, die charakteristisch für Planeten sind, die um diese Sterne kreisen und vor ihnen transitiert.
+&lt;div class=&#34;wrapper&#34;
+     style=&#34;display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;&#34;&gt;
+  &lt;figure class=&#34;image&#34;
+	  style=&#34;display: block; margin-left: auto; margin-right: auto; 
+                 width: ;&#34;&gt;
+    &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34;&gt;
+        &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34; alt=&#34;&#34;  align=&#34;center&#34;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&#34;font-style: italic; text-align: justify;&#34;&gt;
+      Eine Darstellung des TESS-Raumschiffs. Das Instrument besteht aus vier Bildkameras, die jeweils 24° x 24° des Himmels abdecken.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
     </item>
     <item>
       <title>Informationen über die Form von Asteroiden aus Gaia DR2</title>
       <link>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
-      <description>Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.</description>
+      <description>&lt;p&gt;Die ESA-Mission &lt;a href=&#34;http://sci.esa.int/gaia/&#34;&gt;Gaia&lt;/a&gt;Gaia beobachtet nicht nur einen großen Teil der Sterne in der Milchstraße, sondern auch eine enorme Anzahl von Asteroiden. Der Gaia-Datenrelease 2 (DR2) ist der erste Datenrelease, der eine Reihe von Asteroidbeobachtungen enthält, beschränkt auf G-Helligkeiten (ohne Farbinformationen) und eine vorab ausgewählte Stichprobe von 14.099 Asteroiden aus verschiedenen Populationen. Für jeden Asteroiden enthält DR2 eine mediane Anzahl von 9 Beobachtungen über die ersten 9 Monate der Mission. Während dieser begrenzte Datensatz nicht zulässt, die Rotationsperioden der Ziele abzuleiten oder ihre taxonomischen Typen einzugrenzen, ist er nützlich, um einen Blick auf die Formverteilung der Asteroiden zu werfen.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

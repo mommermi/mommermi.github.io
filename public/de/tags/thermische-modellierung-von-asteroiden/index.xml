@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Thermische Modellierung Von Asteroiden on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/thermische-modellierung-von-asteroiden/</link>
     <description>Recent content in Thermische Modellierung Von Asteroiden on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/thermische-modellierung-von-asteroiden/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,8 @@
       <link>http://localhost:1313/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/</guid>
-      <description>Es gibt eine Reihe von thermischen Modellen für Asteroiden, die auf unterschiedlichen physikalischen Annahmen basieren. In dieser Analyse untersuche ich, wie sich diese Annahmen auf ihre Ergebnisse und die Anwendbarkeit in verschiedenen Situationen auswirken.</description>
+      <description>&lt;p&gt;Die überwiegende Mehrheit aller derzeit verfügbaren Asteroidendurchmesser und Albedos wurde aus thermischen Infrarotbeobachtungen abgeleitet, die eine Methode namens thermisches Modellieren verwenden. Thermische Modelle simulieren die Oberflächentemperaturverteilung eines Asteroiden, die verwendet wird, um den thermischen Infrarotfluss abzuleiten, der von dem Körper emittiert wird. Durch Variation der Modellparameter – hauptsächlich Durchmesser und Albedo – können die Eigenschaften eines Asteroiden an Beobachtungen der thermischen Emission angepasst und somit geschätzt werden.&lt;/p&gt;
+&lt;p&gt;Thermische Modelle sind viel einfacher als die ausgefeilteren &lt;a href=&#34;http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/&#34;&gt;thermophysikalischen Modelle&lt;/a&gt;. Sie nehmen beispielsweise eine sphärische Form des Asteroiden an, und die Oberflächentemperatur wird unter der Annahme eines sofortigen thermischen Gleichgewichts abgeleitet. Die Modelldefinitionen können variieren. Das Standard Thermal Model (STM) berücksichtigt nicht den Sonnenphasenwinkel und geht von einer sehr langsamen Rotation und/oder niedriger thermischer Trägheit des Asteroiden aus, während das Fast-Rotating Model (FRM) von einer schnellen Rotation und/oder hoher thermischer Trägheit ausgeht. Das derzeit am weitesten verbreitete Modell ist das Near-Earth Asteroid Thermal Model (NEATM), das auf dem STM basiert, aber geometrisch den Sonnenphasenwinkel berücksichtigt und den sogenannten Beaming-Parameter verwendet, um die Oberflächentemperatur global zu modulieren.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Verkehr on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/verkehr/</link>
     <description>Recent content in Verkehr on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
-    <lastBuildDate>Wed, 17 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <language>de-DE</language>
+    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/verkehr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modellierung der Straßenlärmbelastung mittels Deep Learning</title>
+      <link>http://localhost:1313/de/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</guid>
+      <description>&lt;p&gt;Deep Learning hat schon in vielen Bereichen der Fernerkundung sein Potenzial unter Beweis stellen können. Ein Beispiel hierfür ist Bestimmung von Landnutzung und Landbedeckung aus Satelliten- und Luftbildern.&lt;/p&gt;
+&lt;p&gt;Vielleicht kann man aber noch einen Schritt weiter gehen: Hat ein KI-Modell erst einmal gelernt, wie bestimmte Dinge zusammenhängen, kann man ihm auch „Was wäre, wenn?“-Fragen stellen? Man verändert gezielt die Daten, die man dem Modell gibt, und beobachtet, wie sich seine Antwort verändert. So ließe sich eine KI als eine Art vereinfachter Simulator nutzen, zum Beispiel in sogenannten digitalen Zwillingen. Das sind virtuelle Abbilder echter Städte oder Landschaften, an denen man Veränderungen ausprobieren kann, bevor man sie in der Wirklichkeit umsetzt.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Erkennung von LKWs auf Satellitenbildern mit Deep Learning</title>
       <link>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</link>
       <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</guid>
-      <description>Können wir Lastwagen aus dem Weltraum identifizieren um das Verkehrsaufkommen abzuschätzen? Ja, das können wir!</description>
+      <description>&lt;p&gt;Der LKW-Verkehr ist derzeit für 7% der globalen CO2-Emissionen verantwortlich. Während der Straßenfrachtverkehr das dominierende Transportmittel für Oberflächenfracht bleiben wird, wird sein Beitrag zum Klimawandel voraussichtlich kurzfristig zunehmen. Daher ist die quantitative Überwachung des Verkehrs von Nutzfahrzeugen entscheidend für die Umsetzung gezielter Emissionsvorschriften für Straßen. Allerdings sind Bodenüberwachungsstationen kostspielig, und weniger als die Hälfte aller Länder weltweit erfasst die Aktivitäten im Straßenfrachtverkehr. In dieser Arbeit untersuchen wir die Machbarkeit der Erkennung und Überwachung des Nutzfahrzeugverkehrs in frei verfügbaren Satellitenbildern der Sentinel-2-Satelliten der ESA.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

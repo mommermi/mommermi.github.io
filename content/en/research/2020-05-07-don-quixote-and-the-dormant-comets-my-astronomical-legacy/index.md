@@ -1,21 +1,11 @@
 ---
 date: 2020-05-07
 title: Don Quixote and the Dormant Comets - My Astronomical Legacy
-summary: |
-  Don Quixote has been considered asteroidal since its discovery in 1983,
-  despite its comet-like orbit. We found activity in this object during
-  its 2009 and 2018 apparitions, leading us to believe that it really
-  is an active comet. But are there other objects like Don Quixote? I
-  monitored a sample of ~100 asteroids that are somewhat likely to turn
-  active, too, over a period of more than 4 years. Bottom line: Don Quixote
-  is rather unique. 
 tags:
 - Astronomy
 - Don Quixote
 - Dormant Comets
 - Asteroid
-featured_image: /research/12893.png
-thumbnail_image: fig1.png
 ---
 
 [Don Quixote](https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552) was

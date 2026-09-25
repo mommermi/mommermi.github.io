@@ -1,68 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Erdbeobachtung on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/erdbeobachtung/</link>
     <description>Recent content in Erdbeobachtung on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <language>de-DE</language>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/erdbeobachtung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erstellung einer Versiegelungskarte aus Luftbildern</title>
+      <link>http://localhost:1313/de/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</guid>
+      <description>&lt;p&gt;Asphaltierte Straßen, Parkplätze, Gebäude und gepflasterte Höfe: In unseren Städten ist ein großer Teil des Bodens versiegelt. Das hat Folgen. Regenwasser kann nicht mehr versickern und fließt in die Kanalisation ab, was bei Starkregen zu Überschwemmungen führen kann. Versiegelte Flächen heizen sich im Sommer stark auf, Pflanzen und Tiere verlieren ihren Lebensraum, und wertvoller Boden geht verloren.&lt;/p&gt;
+&lt;p&gt;Viele Städte und Gemeinden möchten deshalb Flächen gezielt wieder entsiegeln. Dafür müssen sie aber zunächst wissen, wo und wie stark der Boden versiegelt ist. Diese Flächen von Hand zu erfassen, kostet jedoch viel Zeit und Personal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modellierung der Straßenlärmbelastung mittels Deep Learning</title>
+      <link>http://localhost:1313/de/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</guid>
+      <description>&lt;p&gt;Deep Learning hat schon in vielen Bereichen der Fernerkundung sein Potenzial unter Beweis stellen können. Ein Beispiel hierfür ist Bestimmung von Landnutzung und Landbedeckung aus Satelliten- und Luftbildern.&lt;/p&gt;
+&lt;p&gt;Vielleicht kann man aber noch einen Schritt weiter gehen: Hat ein KI-Modell erst einmal gelernt, wie bestimmte Dinge zusammenhängen, kann man ihm auch „Was wäre, wenn?“-Fragen stellen? Man verändert gezielt die Daten, die man dem Modell gibt, und beobachtet, wie sich seine Antwort verändert. So ließe sich eine KI als eine Art vereinfachter Simulator nutzen, zum Beispiel in sogenannten digitalen Zwillingen. Das sind virtuelle Abbilder echter Städte oder Landschaften, an denen man Veränderungen ausprobieren kann, bevor man sie in der Wirklichkeit umsetzt.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Multimodale Diffusion für selbstüberwachtes Vortraining</title>
       <link>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
-      <description>Deep-Learning-Modelle, die auf Diffusionsprozessen basieren, zeigen ein großes Potenzial in einer Vielzahl von generativen Aufgaben, wie z.B. der Bildgenerierung. Für Anwendungen in der Fernerkundung sind generative Modelle jedoch nicht so verbreitet. Die Frage, die wir zu beantworten versucht haben, ist, ob Diffusionsprozesse verwendet werden können, um Modelle für diskriminative Aufgaben effizient vorzutrainieren?</description>
+      <description>&lt;p&gt;Diffusionsprozesse sind am besten dafür bekannt, Modelle zu trainieren, die Bilder aus Text generieren. Die Idee hinter Diffusionsprozessen ist recht einfach: Man nimmt ein Bild und zerstört die Informationen schrittweise, indem man Gaußsches Rauschen anwendet. Ein Diffusionsmodell lernt nun, die ursprünglichen Informationen zwischen zwei Schritten wiederherzustellen (d.h. das Rauschen zu entfernen). Vollständig trainiert sind diese Modelle dazu in der Lage, fotorealistische Bilder aus Rauschen zu erzeugen.&lt;/p&gt;
+&lt;p&gt;Um ein Bild aus Text zu erstellen, muss der Diffusionsprozess mit einem Textprompt konditioniert werden. Dies ist eine Möglichkeit, zusätzliche Informationen bereitzustellen, um den generativen Prozess zu steuern.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten</title>
       <link>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/</guid>
-      <description>Multimodale Datensätze für die Fernerkundung sind oft auf zwei Datenmodalitäten beschränkt, wie z.B. multispektrale und SAR-Polarisationsdaten. Um mit einer viel breiteren Palette von Datenmodalitäten zu experimentieren, haben wir den bekannten BigEarthNet-Datensatz erweitert, um eine Vielzahl von Datenmodalitäten einzuschließen.</description>
+      <description>&lt;p&gt;Erdbeobachtungsdaten sind multimodal. Daten werden von einer Vielzahl von Sensoren erfasst, von denen einige passive Sensoren (z.B. Multiband-Bildgebung) und andere aktive Sensoren (z.B. SAR) sind. Neben solchen Beobachtungsdaten sind für die meisten Standorte auf der Erde auch zusätzliche Archivdaten verfügbar.&lt;/p&gt;
+&lt;p&gt;Die Fernerkundung und Erdbeobachtung waren schon immer sehr aktiv in der Kombination verschiedener Datenmodalitäten (&amp;ldquo;Datenfusion&amp;rdquo;) bei der Analyse von Daten. Bei einem Datenfusionsansatz werden zwei oder mehr Datenmodalitäten in einer Analyse kombiniert, um die Ergebnisse im Vergleich zur Verwendung nur einer einzelnen Datenmodalität zu verbessern.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning</title>
       <link>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/</guid>
-      <description>Straßenverkehrslärm ist ein globales Problem, das zu schweren gesundheitlichen Auswirkungen führen kann. Trotz der Allgegenwart von Verkehrslärm ist dessen Quantifizierung oder Schätzung kompliziert, und detaillierte Straßenverkehrskarten sind nur für ausgewählte Länder oder Regionen verfügbar. Wir untersuchen, ob es möglich ist, ein Regressionsmodell zu trainieren, um Straßenverkehrslärm aus Satellitenbildern zu schätzen.</description>
+      <description>&lt;p&gt;Straßenverkehrslärm stellt ein globales Gesundheitsproblem dar. Trotz seiner Bedeutung sind Lärmdaten in vielen Regionen der Welt nicht verfügbar. Solche Daten werden typischerweise durch Punktmessungen und komplexe physikalische Modelle abgeleitet, um die Ausbreitung von Lärm zu simulieren.&lt;/p&gt;
+&lt;p&gt;Da dieser Prozess in vielen Gebieten der Welt nicht durchführbar ist, schlagen wir vor, Lärmdaten aus Satellitenbildern in einem End-to-End-Deep-Learning-Ansatz zu approximieren. Wir trainieren ein U-Net-Segmentierungsmodell, um Verkehrslärm basierend auf frei verfügbaren Sentinel-2-Satellitenbildern und bestehenden Schätzungen des Straßenverkehrslärms für die Schweiz zu schätzen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten</title>
       <link>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/</guid>
-      <description>Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&amp;hellip;</description>
+      <description>&lt;p&gt;Dieses Forschungsergebniss besteht aus zwei Teilen, die im Folgenden präsentiert werden.&lt;/p&gt;
+&lt;h1 id=&#34;kontrastive-selbstüberwachte-datenfusion-für-satellitenbilder&#34;&gt;Kontrastive selbstüberwachte Datenfusion für Satellitenbilder&lt;/h1&gt;
+&lt;p&gt;Überwachtes Lernen für jede Aufgabe erfordert große Mengen an annotierten Daten. Besonders im Fall von Satellitenbildern sind unannotierte Daten allgegenwärtig, während der Annotierungsprozess oft mühsam und kostspielig ist. Daher ist es sehr lohnenswert, Methoden zu nutzen, um die Menge an benötigten annotierten Daten zu minimieren, die erforderlich ist, um eine gute Leistung der nachgelagerten Aufgabe zu erzielen. In unserer ersten Arbeit nutzen wir kontrastives Lernen in einem multimodalen Setup, um dieses Ergebnis zu erreichen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern</title>
       <link>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</link>
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/</guid>
-      <description>Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.</description>
+      <description>&lt;p&gt;Dieses Projekt bildet die logische Erweiterung unseres vorherigen Projekts zur &lt;a href=&#34;http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/&#34;&gt;Charakterisierung industrieller Abgasfahrnen aus Fernerkundungsdaten&lt;/a&gt;. Anstatt einfach nur Abgasfahnen zu identifizieren und zu charakterisieren, nutzen wir diese Informationen, um die Treibhausgasemissionen von fossilen Brennstoffkraftwerken zu schätzen.&lt;/p&gt;
+&lt;p&gt;Die Idee ist recht einfach: Wir wissen, dass wir Abgasfahnen segmentieren und sie robust von natürlichen Wolken unterscheiden können. Für alle europäischen Kraftwerke kennen wir zu jedem gegebenen Zeitpunkt ihre Stromerzeugungsraten. Daher können wir ein Regressionsmodell trainieren, um die Stromerzeugungsrate aus dem Umfang der beobachteten Abgasfahne abzuschätzen. Allerdings ist die scheinbare Größe der Rauchfahne nicht nur eine Funktion des Stromerzeugungsprozesses. Vielmehr handelt es sich um einen hochkomplexen Prozess, der von Umweltvariablen abhängt. Um diese Variablen zu approximieren, stellen wir unserem Regressionsmodell aktuelle Wetterinformationen zur Verfügung, einschließlich Umgebungstemperatur, Luftdruck und Windgeschwindigkeit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten</title>
       <link>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/</guid>
-      <description>Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.</description>
+      <description>&lt;p&gt;Luftverschmutzung hat nachweislich negative Auswirkungen auf die Gesundheit. Ein bedeutendes Luftschadstoff ist NO2, das auf der Erdoberfläche direkt die menschliche Gesundheit beeinflusst und in höheren Lagen zur Bildung von saurem Regen beiträgt und als Vorläufer von Treibhausgasen fungiert. Während die NO2-Säulendichten in der Atmosphäre mit Satellitenbeobachtungen, wie sie von Sentinel-5P bereitgestellt werden, gemessen werden können, sind In-situ-Messungen von Bodenstationen erforderlich, um die NO2-Konzentrationen auf der Oberfläche zu messen, die für die menschliche Exposition relevant sind.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Erkennung von LKWs auf Satellitenbildern mit Deep Learning</title>
       <link>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</link>
       <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/</guid>
-      <description>Können wir Lastwagen aus dem Weltraum identifizieren um das Verkehrsaufkommen abzuschätzen? Ja, das können wir!</description>
+      <description>&lt;p&gt;Der LKW-Verkehr ist derzeit für 7% der globalen CO2-Emissionen verantwortlich. Während der Straßenfrachtverkehr das dominierende Transportmittel für Oberflächenfracht bleiben wird, wird sein Beitrag zum Klimawandel voraussichtlich kurzfristig zunehmen. Daher ist die quantitative Überwachung des Verkehrs von Nutzfahrzeugen entscheidend für die Umsetzung gezielter Emissionsvorschriften für Straßen. Allerdings sind Bodenüberwachungsstationen kostspielig, und weniger als die Hälfte aller Länder weltweit erfasst die Aktivitäten im Straßenfrachtverkehr. In dieser Arbeit untersuchen wir die Machbarkeit der Erkennung und Überwachung des Nutzfahrzeugverkehrs in frei verfügbaren Satellitenbildern der Sentinel-2-Satelliten der ESA.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning</title>
       <link>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/</guid>
-      <description>Wir haben ein Deep-Learning-Modell entwickelt, das in der Lage ist, zwischen 10 verschiedenen Arten von Kraftwerken zu unterscheiden. Die Ziel ist es unterchiedliche industrielle Standorte in Satellitenbildern automatisch zu identifizieren und zu charakterisieren. Diese Arbeit wird uns in Zukunft helfen, die Treibhausgasemissionsraten für einzelne Industrieanlagen zu schätzen.</description>
+      <description>&lt;p&gt;Die industriellen und energieerzeugenden Wirtschaftssektoren stoßen mehr als die Hälfte der jährlich und global freigesetzten Treibhausgasemissionen aus und tragen somit erheblich zu den globalen Erwärmungseffekten bei. In unserer jüngsten Arbeit (&lt;a href=&#34;http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/&#34;&gt;Mommert et al. 2020&lt;/a&gt;) haben wir die Grundlage für die Schätzung von Treibhausgasemissionen aus Industrieanlagen gelegt, indem wir industrielle Rauchfahnen ausschließlich aus Daten der Fernbildgebung charakterisiert haben. Diese Arbeit ist Teil eines größeren Vorhabens zur Schätzung der Treibhausgasemissionsraten aus Satellitenbildern für einzelne Industrieanlagen. In dieser Arbeit haben wir einen weiteren Schritt in Richtung dieses Ziels gemacht.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>A plethora of asteroids in TESS data | Michael Mommert</title>
+<meta name="keywords" content="Astronomy, Asteroid, Asteroid Physical Properties, TESS">
+<meta name="description" content="TESS is a satellite that observes bright stars to find brightness
+modulations revealing exoplanet transits - but it also observes
+a lot of asteroids over a long period of time, which makes it a unique
+asset for deriving long asteroid rotation periods.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/en/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/en/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/homeinfoparams/" title="Homeinfoparams"
+                                aria-label="Homeinfoparams">Homeinfoparams</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/en/bio/" title="Biography">
+                    <span>Biography</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Forschung">
+                    <span>Forschung</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/bio/" title="Lebenslauf">
+                    <span>Lebenslauf</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/teaching/" title="Lehre">
+                    <span>Lehre</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/publications/" title="Publikationen">
+                    <span>Publikationen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/">Michael Mommert</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/research/">Research</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      A plethora of asteroids in TESS data
+    </h1>
+    <div class="post-meta">
+
+<span title='2019-03-17 00:00:00 +0000 UTC'>17. März 2019</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>TESS is the <a href="https://tess.mit.edu/">Transiting Exoplanet Survey Satellite</a>, which was launched into space by NASA in 2018 to identify faint brightness variations in stars that are characteristic of planets orbiting around and transiting in front of these stars.</p>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      A rendering of the TESS spacecraft. The instrument consists of four imaging cameras, each covering 24° x 24° of the sky.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Over the course of its nominal two-year mission, TESS will monitor more than 200,000 stars with the photometric accuracy necessary to identify <a href="https://en.wikipedia.org/wiki/Exoplanet">exoplanet</a> transits. In order to observe this huge number of stars, TESS points at different &ldquo;Sectors&rdquo; in the sky, amounting to a total of 85% of the entire sky. Each Sector spanning 24° x 96° is observed over a period of about one month.</p>
+<p>TESS data are publicly available through <a href="https://archive.stsci.edu/tess/">MAST</a> - including calibrated Full Frame Images that are stacked over a period of 30 min each. Given the huge field of view of the TESS cameras, there should be an enormous number of asteroids in each frame at any given time. So I went out for an asteroid fishing expedition&hellip;</p>
+<h1 id="extracting-asteroids-from-tess-data">Extracting asteroids from TESS data<a hidden class="anchor" aria-hidden="true" href="#extracting-asteroids-from-tess-data">#</a></h1>
+<p>The idea is conceptually simple:</p>
+<ul>
+<li>download and pre-process the TESS Full Frame images for further analysis ;</li>
+<li>perform a background subtraction to remove stars and other fixed sources to improve the detection of moving objects;</li>
+<li>predict the locations of all known ~800,000 asteroids for the time of the observations in order to be able to identify them in the frames;</li>
+<li>perform photometry and measure their brightness.</li>
+</ul>
+<p>Putting all these parts together, we can measure brightness variations of a large number of asteroids over a baseline of up to nearly one month - this is a unique data set that enables the accurate measurement of rotational periods over a continuous period of time that is not accessible from the ground: keep in mind that ground-based observations are restricted to night-time observations only, whereas TESS is able to observe 24/7.</p>
+<p>This project is mainly a computational problem: running one out of four cameras per Sector on a desktop machine takes about one day. Multithreading has been implemented where possible to expedite the processing.</p>
+<h1 id="first-results">First results<a hidden class="anchor" aria-hidden="true" href="#first-results">#</a></h1>
+<p>A first cool result is shown in this short video clip:</p>
+<!-- raw HTML omitted -->
+<p>This video shows the rotational lightcurve of asteroid 1693 Hertzsprung. The left plot shows a thumbnail image centered on the asteroid and the right plot shows the brightness of the target. As time progresses, the variation in brightness, which is caused by the asteroid&rsquo;s irregular shape and rotation, becomes obvious. This specific asteroid has a rotational period of about 9 hrs. Gaps appear in the lightcurve when the asteroid comes too close to areas affected by image artifacts, which are highlighted with red overlays in the left plot.</p>
+<h1 id="current-status">Current status<a hidden class="anchor" aria-hidden="true" href="#current-status">#</a></h1>
+<p>The analysis of the complete TESS data set is now funded through a NASA grant and our first publication is available: <a href="https://ui.adsabs.harvard.edu/abs/2019ApJS..245...29M/abstract">McNeill et al. (2019)</a>.</p>
+<p>&hellip; And paper two now also available: <a href="https://iopscience.iop.org/article/10.3847/1538-3881/acf194/pdf">McNeill et al. (2023)</a>.</p>
+<h1 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h1>
+<ul>
+<li>
+<p>McNeill, A., Mommert, M., Trilling, D. E., Llama, J., &amp; Skiff, B. (2019), &ldquo;<em>Asteroid Photometry from the Transiting Exoplanet Survey Satellite: A Pilot Study</em>&rdquo;, The Astrophysical Journal Supplement Series, 245, 29., <a href="http://doi.org/10.3847/1538-4365/ab5223">publication</a>, <a href="http://arxiv.org/abs/1911.01495">arxiv</a></p>
+</li>
+<li>
+<p>McNeill, A., Gowanlock, M., Mommert, M., Trilling, D. E., Llama, J., &amp; Paddock, N. (2023), &ldquo;<em>An Untargeted Survey of the Rotational Properties of Main-belt Asteroids using the
+Transiting Exoplanet Survey Satellite (TESS)</em>&rdquo;, The Astronomical Journal, 166, 152, <a href="https://iopscience.iop.org/article/10.3847/1538-3881/acf194/pdf">publication</a>.</p>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/astronomy/">Astronomy</a></li>
+      <li><a href="http://localhost:1313/tags/asteroid/">Asteroid</a></li>
+      <li><a href="http://localhost:1313/tags/asteroid-physical-properties/">Asteroid Physical Properties</a></li>
+      <li><a href="http://localhost:1313/tags/tess/">TESS</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

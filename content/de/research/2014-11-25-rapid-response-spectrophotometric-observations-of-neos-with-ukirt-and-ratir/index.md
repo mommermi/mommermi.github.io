@@ -1,16 +1,12 @@
 ---
 date: 2014-11-25
 title: Rapid-Response pektrophotometrische Beobachtungen von NEOs mit UKIRT und RATIR
-summary: |
-  Mit Schnellreaktionsbeobachtungen mit UKIRT sind wir in der Lage, neu entdeckte erdnahe Asteroiden zu beobachten, während sie sich noch in der Nähe der Erde befinden und somit hell sind. Unsere Beobachtungen ermöglichen eine probabilistische taxonomische Klassifizierung von Asteroiden mit typischerweise kleinen Größen und die Bestimmung ihrer Zusammensetzung.
 tags:
 - Astronomie
 - Erdnaher Asteroid
 - Rapid-Response
 - Spektrophotometrie
 - UKIRT
-featured_image: /research/12893.png
-thumbnail_image: lightcurve.png
 ---
 
 Das Verständnis der Zusammensetzungen von NEOs ist wichtig, um ihre dynamische und physikalische Evolution zu rekonstruieren, das Schadenspotenzial im Falle eines Einschlags zu bewerten und die Ressourcen abzuschätzen, die in naher Zukunft aus diesen Körpern gewonnen werden können. Zudem gibt es immer noch eine Diskrepanz zwischen der Zusammensetzungsverteilung von meteoritischem Material, das auf der Erde gefunden wurde, und der Gesamtzusammensetzung der NEO-Verteilung.

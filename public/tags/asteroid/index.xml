@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Asteroid on Michael Mommert</title>
     <link>http://localhost:1313/tags/asteroid/</link>
     <description>Recent content in Asteroid on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/asteroid/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,21 +13,44 @@
       <link>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
-      <description>Don Quixote has been considered asteroidal since its discovery in 1983,&#xA;despite its comet-like orbit. We found activity in this object during&#xA;its 2009 and 2018 apparitions, leading us to believe that it really&#xA;is an active comet. But are there other objects like Don Quixote? I&#xA;monitored a sample of ~100 asteroids that are somewhat likely to turn&#xA;active, too, over a period of more than 4 years. Bottom line: Don Quixote&#xA;is rather unique.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552&#34;&gt;Don Quixote&lt;/a&gt; was
+discovered in 1983 and although it has a perfectly comet-like orbit,
+no cometary activity (a tail or a coma around the object) have been
+observed. According to protocol, the object was listed as an asteroid.&lt;/p&gt;
+&lt;p&gt;In 2009, we found from observations with the now defunct Spitzer Space
+Telescope that there actually is a faint coma around Don Quixote that most
+likely consists of molecular band emission from either CO or CO2. This is
+discussed in detail &lt;a href=&#34;http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/&#34;&gt;here&lt;/a&gt; and in &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2014ApJ...781...25M/abstract&#34;&gt;this paper&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A plethora of asteroids in TESS data</title>
       <link>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
       <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
-      <description>TESS is a satellite that observes bright stars to find brightness&#xA;modulations revealing exoplanet transits - but it also observes&#xA;a lot of asteroids over a long period of time, which makes it a unique&#xA;asset for deriving long asteroid rotation periods.</description>
+      <description>&lt;p&gt;TESS is the &lt;a href=&#34;https://tess.mit.edu/&#34;&gt;Transiting Exoplanet Survey Satellite&lt;/a&gt;, which was launched into space by NASA in 2018 to identify faint brightness variations in stars that are characteristic of planets orbiting around and transiting in front of these stars.&lt;/p&gt;
+&lt;div class=&#34;wrapper&#34;
+     style=&#34;display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;&#34;&gt;
+  &lt;figure class=&#34;image&#34;
+	  style=&#34;display: block; margin-left: auto; margin-right: auto; 
+                 width: ;&#34;&gt;
+    &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34;&gt;
+        &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34; alt=&#34;&#34;  align=&#34;center&#34;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&#34;font-style: italic; text-align: justify;&#34;&gt;
+      A rendering of the TESS spacecraft. The instrument consists of four imaging cameras, each covering 24° x 24° of the sky.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Over the course of its nominal two-year mission, TESS will monitor more than 200,000 stars with the photometric accuracy necessary to identify &lt;a href=&#34;https://en.wikipedia.org/wiki/Exoplanet&#34;&gt;exoplanet&lt;/a&gt; transits. In order to observe this huge number of stars, TESS points at different &amp;ldquo;Sectors&amp;rdquo; in the sky, amounting to a total of 85% of the entire sky. Each Sector spanning 24° x 96° is observed over a period of about one month.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Asteroid Shape Information from Gaia DR2</title>
       <link>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
-      <description>The Gaia mission builds a unique survey of the stars in our Milky Way - but&#xA;it also observes asteroids that are crossing its field of view. We derive&#xA;ensemble shape information for different asteroid populations from the&#xA;first batch of asteroid data from Gaia.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://sci.esa.int/gaia/&#34;&gt;ESA mission Gaia&lt;/a&gt; not only observes a good fraction of the stars in the milky way, but also a huge number of asteroids. Gaia Data Release 2 (DR2) is the first data release to include a number of asteroid observations, limited to G magnitudes (no color information) and a pre-selected sample of 14099 asteroids from different populations. For each asteroids, DR2 contains a median number of 9 observations over the first 9 months of the mission. While this limited data set does not allow for deriving the targets&amp;rsquo; rotational periods or constraining their taxonomic types, it is useful for a look into the shape distribution of asteroids.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

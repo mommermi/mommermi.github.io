@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Thermisches Modellieren Von Asteroiden on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/thermisches-modellieren-von-asteroiden/</link>
     <description>Recent content in Thermisches Modellieren Von Asteroiden on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/thermisches-modellieren-von-asteroiden/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,8 @@
       <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
-      <description>Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.</description>
+      <description>&lt;p&gt;Seit den frühen Tagen meiner Doktorarbeit bin ich an der thermischen Modellierung von thermischen Infrarotbeobachtungen erdnaher Objekte und anderer Asteroiden beteiligt. Solche thermischen Modelle für Asteroiden simulieren die Oberflächentemperaturverteilungen von Asteroiden unter Verwendung einiger vereinfachender Annahmen und ermöglichen die Schätzung physikalischer Eigenschaften wie Größe und Albedo.&lt;/p&gt;
+&lt;p&gt;Im Rahmen mehrerer großangelegter &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt;-Beobachtungsprogramme haben wir mehr als 2000 erdnahe Objekte beobachtet und ihre thermische Emission gemessen, um ihre Durchmesser und Albedos einzugrenzen. Jetzt, da Spitzer offiziell in den Ruhestand gegangen ist, haben wir unsere Beobachtungen und Analysen abgeschlossen und alle unsere Ergebnisse in einem großen Datensatz zusammengefasst. Diese Zusammenstellung umfasst 2204 Schätzungen von Durchmessern und geometrischen Albedos für 2132 verschiedene erdnahe Objekte – der größte homogene Datensatz seiner Art für diese Population. Die Ergebnisse dieser Bemühungen sind auf &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt; verfügbar.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,19 +1,12 @@
 ---
 date: 2020-12-07
 title: Characterization of Industrial Smoke Plumes from Remote Sensing Data
-summary: |
-  Greenhouse gas emissions from the industrial economic sector are
-  a major driver of the currently observed climate change. We developed
-  a deep learning approach to identify and characterize industrial
-  smoke plumes. In the future, we will utilize this approach to estimate
-  greenhouse gas emissions from remote sensing data on a global scale.
 tags:
 - Earth Observation
 - Deep Learning
 - Segmentation
 - Plume
 - Sentinel-2
-thumbnail_image: example_panel.png
 ---
 
 The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth's climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA's Sentinel-2 satellites.

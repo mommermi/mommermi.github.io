@@ -1,8 +1,6 @@
 ---
 date: 2021-12-14
 title: Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery
-summary: |
-  Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.
 tags:
 - Earth Observation
 - Deep Learning
@@ -10,8 +8,6 @@ tags:
 - Power Plant
 - CO2
 - Sentinel-2
-thumbnail_image: overview.png
-
 ---
 
 This project forms the logical extension of our previous project on the [characterization of industrial plumes from remote sensing data](https://mommermi.github.io/applied%20research/2020/12/07/Characterization_of_Industrial_Smoke_Plumes_from_Remote_Sensing_Data.html). Instead of simply identifying and characterizing plumes, we utilize this information to estimate Greenhouse Gas emissions from fossil fuel-firing power plants.

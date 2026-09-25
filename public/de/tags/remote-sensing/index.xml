@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Remote Sensing on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/remote-sensing/</link>
+    <description>Recent content in Remote Sensing on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Urban Vegetation Mapping from High-Resolution Aerial Imagery with Deep Learning</title>
+      <link>http://localhost:1313/de/research/2026_03_26_urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_03_26_urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</guid>
+      <description>&lt;p&gt;Trees, parks, lawns and hedges are more than just pleasant to look
+at. Urban greenery helps keep cities cool on hot summer days and soaks
+up rainwater that would otherwise flood streets and overwhelm
+drains. To plan, manage and protect these green spaces, cities need to
+know exactly where vegetation grows. Detailed vegetation maps also
+feed into computer simulations that help cities prepare for heat waves
+and heavy rainfall.&lt;/p&gt;
+&lt;p&gt;Such maps can be created from aerial and satellite images with the
+help of artificial intelligence. Until now, however, most of these
+approaches have been complex to set up and required powerful,
+expensive computers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

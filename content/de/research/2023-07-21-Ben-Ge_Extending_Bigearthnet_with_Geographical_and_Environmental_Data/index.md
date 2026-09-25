@@ -1,15 +1,12 @@
 ---
 date: 2023-07-21
 title: Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten
-summary: |
-  Multimodale Datensätze für die Fernerkundung sind oft auf zwei Datenmodalitäten beschränkt, wie z.B. multispektrale und SAR-Polarisationsdaten. Um mit einer viel breiteren Palette von Datenmodalitäten zu experimentieren, haben wir den bekannten BigEarthNet-Datensatz erweitert, um eine Vielzahl von Datenmodalitäten einzuschließen.
 tags:
 - Erdbeobachtung
 - Deep Learning
 - Datensatz
 - Multimodal
 - Selbstüberwachtes Lernen
-thumbnail_image: sample.png
 ---
 
 Erdbeobachtungsdaten sind multimodal. Daten werden von einer Vielzahl von Sensoren erfasst, von denen einige passive Sensoren (z.B. Multiband-Bildgebung) und andere aktive Sensoren (z.B. SAR) sind. Neben solchen Beobachtungsdaten sind für die meisten Standorte auf der Erde auch zusätzliche Archivdaten verfügbar.

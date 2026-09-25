@@ -1,15 +1,11 @@
 ---
 date: 2014-10-19
 title: Entdeckung von kometärer Aktivität bei NEO Don Quijote
-summary: |
-  Der erdnahe Asteroid Don Quixote wird seit langem als ein Kandidat für einen inaktiven Kometenkern gehandelt, was vor allen an seiner kometenähnlichen Umlaufbahn liegt. Seit seiner Entdeckung im Jahr 1983 wurde keine kometenähnliche Aktivität beobachtet – bis wir dieses Objekt mit dem Spitzer-Weltraumteleskop beobachteten...
 tags:
 - Astronomie
 - Don Quixote
 - Inaktiver Komet
 - Spitzer-Weltraumteleskop
-featured_image: /research/12893.png
-thumbnail_image: donquixote1.png
 ---
 
 

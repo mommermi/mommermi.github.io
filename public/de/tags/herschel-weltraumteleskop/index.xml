@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Herschel-Weltraumteleskop on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/herschel-weltraumteleskop/</link>
     <description>Recent content in Herschel-Weltraumteleskop on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Sat, 18 Oct 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/herschel-weltraumteleskop/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</link>
       <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</guid>
-      <description>Meine erste Forschungsarbeit. Mit Beobachtungen des Herschel-Weltraumteleskops untersuchten wir die physikalischen Eigenschaften von 18 Plutinos – kleinen Körpern am Rand des Sonnensystems, die ähnliche orbitalen Eigenschaften wie Pluto aufweisen. Was haben wir herausgefunden? Dass Pluto ziemlich einzigartig ist&amp;hellip;</description>
+      <description>&lt;p&gt;Plutinos sind eine Unterpopulation der transneptunischen Objekte (TNOs), die aus ursprünglichen und eisigen Objekten am Rand des Sonnensystems bestehen. Die Umlaufbahnen der Plutinos – die nach ihrem Prototyp, Pluto, benannt sind – stehen in einer 2:3-Resonanz mit Neptun, was bedeutet, dass ein Plutino, während er 2 vollständige Umläufe um die Sonne vollzieht, Neptun 3 Umläufe vollendet. Diese &amp;ldquo;mittlere Bewegungsresonanz&amp;rdquo; sorgt für eine hohe Stabilität der Umlaufbahnen der Plutinos. Daher sind Plutinos dynamisch und physikalisch ursprüngliche Objekte.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

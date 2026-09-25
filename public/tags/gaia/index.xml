@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gaia on Michael Mommert</title>
     <link>http://localhost:1313/tags/gaia/</link>
     <description>Recent content in Gaia on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/gaia/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
-      <description>The Gaia mission builds a unique survey of the stars in our Milky Way - but&#xA;it also observes asteroids that are crossing its field of view. We derive&#xA;ensemble shape information for different asteroid populations from the&#xA;first batch of asteroid data from Gaia.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://sci.esa.int/gaia/&#34;&gt;ESA mission Gaia&lt;/a&gt; not only observes a good fraction of the stars in the milky way, but also a huge number of asteroids. Gaia Data Release 2 (DR2) is the first data release to include a number of asteroid observations, limited to G magnitudes (no color information) and a pre-selected sample of 14099 asteroids from different populations. For each asteroids, DR2 contains a median number of 9 observations over the first 9 months of the mission. While this limited data set does not allow for deriving the targets&amp;rsquo; rotational periods or constraining their taxonomic types, it is useful for a look into the shape distribution of asteroids.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

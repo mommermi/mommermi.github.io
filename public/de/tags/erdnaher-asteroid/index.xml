@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Erdnaher Asteroid on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/erdnaher-asteroid/</link>
     <description>Recent content in Erdnaher Asteroid on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/erdnaher-asteroid/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,28 +13,31 @@
       <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
-      <description>Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.</description>
+      <description>&lt;p&gt;Seit den frühen Tagen meiner Doktorarbeit bin ich an der thermischen Modellierung von thermischen Infrarotbeobachtungen erdnaher Objekte und anderer Asteroiden beteiligt. Solche thermischen Modelle für Asteroiden simulieren die Oberflächentemperaturverteilungen von Asteroiden unter Verwendung einiger vereinfachender Annahmen und ermöglichen die Schätzung physikalischer Eigenschaften wie Größe und Albedo.&lt;/p&gt;
+&lt;p&gt;Im Rahmen mehrerer großangelegter &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt;-Beobachtungsprogramme haben wir mehr als 2000 erdnahe Objekte beobachtet und ihre thermische Emission gemessen, um ihre Durchmesser und Albedos einzugrenzen. Jetzt, da Spitzer offiziell in den Ruhestand gegangen ist, haben wir unsere Beobachtungen und Analysen abgeschlossen und alle unsere Ergebnisse in einem großen Datensatz zusammengefasst. Diese Zusammenstellung umfasst 2204 Schätzungen von Durchmessern und geometrischen Albedos für 2132 verschiedene erdnahe Objekte – der größte homogene Datensatz seiner Art für diese Population. Die Ergebnisse dieser Bemühungen sind auf &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt; verfügbar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wie viele tote Kometen gibt es?</title>
       <link>http://localhost:1313/de/research/2015-08-21-how-many-dead-comets-are-there/</link>
       <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2015-08-21-how-many-dead-comets-are-there/</guid>
-      <description>Tote Kometen sind kleine Körper, die als inaktive Asteroiden erscheinen, aber einen kometarischen Ursprung haben. Einige dieser Objekte könnten noch Eis enthalten und könnten sich wieder aktivieren und kometenähnlich erscheinen. Da diese Objekte möglicherweise erheblich zum flüchtigen Reservoir der Asteroidpopulation beitragen, ist es wichtig zu verstehen, wie viele dieser Objekte es gibt.</description>
+      <description>&lt;p&gt;Eine langjährige Frage ist diese: Wie viele Asteroiden – insbesondere erdnahe Asteroiden (NEAs) – waren in der Vergangenheit Kometen? In der klassischen Vorstellung haben Kometen Oberflächen-Eis und bilden in der Nähe der Sonne Schweife und Komas; Asteroiden sind einfach Steine im Weltraum. In den letzten Jahren sind die beiden Klassifikationen weniger klar geworden.&lt;/p&gt;
+&lt;p&gt;Kometen können auf Bahnen geraten, die sie der Erde nahebringen. Wir können sie beobachten. Aber was passiert mit ihnen, nachdem sie eine Weile dort verbracht haben? Bei einigen Kometen, wie ISON, ist es tödlich, der Sonne nahe zu sein; sie zerfallen einfach und verschwinden. Bei anderen Kometen im erdnahen Raum führt die Strahlung der Sonne dazu, dass sie ihr Oberflächen-Eis schnell verlieren, und schließlich inaktiv werden - sie sind tote oder schlafende Kometen. Da die Oberflächen von Kometen sehr niedrige Albedos haben, sehen diese toten Kometen einfach wie Asteroiden mit niedrigem Albedo aus und sind wirklich schwer zu identifizieren.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rapid-Response pektrophotometrische Beobachtungen von NEOs mit UKIRT und RATIR</title>
       <link>http://localhost:1313/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</link>
       <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/</guid>
-      <description>Mit Schnellreaktionsbeobachtungen mit UKIRT sind wir in der Lage, neu entdeckte erdnahe Asteroiden zu beobachten, während sie sich noch in der Nähe der Erde befinden und somit hell sind. Unsere Beobachtungen ermöglichen eine probabilistische taxonomische Klassifizierung von Asteroiden mit typischerweise kleinen Größen und die Bestimmung ihrer Zusammensetzung.</description>
+      <description>&lt;p&gt;Das Verständnis der Zusammensetzungen von NEOs ist wichtig, um ihre dynamische und physikalische Evolution zu rekonstruieren, das Schadenspotenzial im Falle eines Einschlags zu bewerten und die Ressourcen abzuschätzen, die in naher Zukunft aus diesen Körpern gewonnen werden können. Zudem gibt es immer noch eine Diskrepanz zwischen der Zusammensetzungsverteilung von meteoritischem Material, das auf der Erde gefunden wurde, und der Gesamtzusammensetzung der NEO-Verteilung.&lt;/p&gt;
+&lt;p&gt;Der gebräuchlichste Weg, die Zusammensetzungen von Asteroiden zu untersuchen, besteht darin, spektroskopische Beobachtungen durchzuführen: Wellenlängenabhängige Variationen der Oberflächenreflexion können diagnostisch für die Zusammensetzung eines Objekts sein und eine taxonomische Klassifikation ermöglichen. Allerdings sind spektroskopische Beobachtungen normalerweise nur für helle und große Asteroiden möglich und erfordern große Teleskope für kleine Asteroiden.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen</title>
       <link>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
       <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
-      <description>Wir haben zwei sehr kleine Asteroiden mit dem Spitzer-Weltraumteleskop beobachtet, um ihre physikalischen Eigenschaften zum ersten Mal zu messen. Die Einschränkungen, die wir hinsichtlich ihrer Eigenschaften festlegen konnten, stimmen nicht mit dem gängigen Bild kleiner Asteroiden überein.</description>
+      <description>&lt;p&gt;Über die physikalischen Eigenschaften der kleinsten erdnäheren Objekte (NEOs) mit Durchmessern von weniger als 10 Metern ist wenig bekannt. Aufgrund ihrer geringen Größe sind sie normalerweise sehr schwach und schwer zu beobachten. Daher sind nur eine kleine Anzahl von Asteroiden in diesem Größenbereich bekannt, und nur für sehr wenige von ihnen wurden physikalische Eigenschaften wie Durchmesser und Albedo gemessen. Kleine NEOs sind jedoch viel häufiger als größere NEOs, was einige dieser Objekte zu leicht zugänglichen Zielen für Raumfahrzeuge und potenziellen Einschlägen macht. Traditionell glaubte man, dass diese kleinen NEOs durch Kollisionen entstanden sind und dass sie individuelle Gesteinsbrocken, d.h. monolithische Körper, sind.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

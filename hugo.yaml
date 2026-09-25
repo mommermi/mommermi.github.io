@@ -1,0 +1,31 @@
+baseURL: https://mommermi.github.io
+locale: en-us
+title: Michael Mommert
+theme: ["PaperMod"]
+
+SectionPagesMenu: "main"
+
+languages:
+  de:
+    direction: ltr
+    label: Deutsch
+    locale: de-DE
+    weight: 0.5
+    contentDir: content/de
+  en:
+    direction: ltr
+    label: English
+    locale: en-US
+    weight: 1
+    contentDir: content/en
+
+params:
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  defaultTheme: auto
+  disableSpecial1stPost: true
+  contact:
+    email: michael.mommert(you-know-what)hft-stuttgart.de
+    
+ignoreLogs: ['warning-goldmark-raw-html']
+

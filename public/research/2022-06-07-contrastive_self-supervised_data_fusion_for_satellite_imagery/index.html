@@ -1,176 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data | Michael Mommert</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&hellip;">
-    <meta name="generator" content="Hugo 0.146.3">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+<html lang="en" dir="ltr" data-theme="auto">
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data | Michael Mommert</title>
+<meta name="keywords" content="Earth Observation, Deep Learning, Self-supervised Learning, Data Fusion, Transformer, Classification, Segmentation">
+<meta name="description" content="This research consists of two parts that will be presented in the following.
+Contrastive Self-supervised Data Fusion for Satellite Imagery
+Supervised learning of any task requires large amounts of labeled data. Especially in the case of satellite imagery, unlabeled data is ubiquitous, while the labeling process is often cumbersome and expensive. Therefore, it is highly worthwhile to leverage methods to minimize the amount of labeled data that is required to obtain a good performance of the given down-stream task. In our first work, we leverage contrastive learning in a multi-modal setup to achieve this result.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-  
-    <link rel="stylesheet" href="/css/override.css">
-  
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-    
-
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
-    
-
-    <meta property="og:url" content="http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">
-  <meta property="og:site_name" content="Michael Mommert">
-  <meta property="og:title" content="Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data">
-  <meta property="og:description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising…">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="research">
-    <meta property="article:published_time" content="2022-06-07T00:00:00+00:00">
-    <meta property="article:modified_time" content="2022-06-07T00:00:00+00:00">
-    <meta property="article:tag" content="Earth Observation">
-    <meta property="article:tag" content="Deep Learning">
-    <meta property="article:tag" content="Self-Supervised Learning">
-    <meta property="article:tag" content="Data Fusion">
-    <meta property="article:tag" content="Transformer">
-    <meta property="article:tag" content="Classification">
-
-  <meta itemprop="name" content="Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data">
-  <meta itemprop="description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising…">
-  <meta itemprop="datePublished" content="2022-06-07T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2022-06-07T00:00:00+00:00">
-  <meta itemprop="wordCount" content="837">
-  <meta itemprop="keywords" content="Earth Observation,Deep Learning,Self-Supervised Learning,Data Fusion,Transformer,Classification,Segmentation">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data">
-  <meta name="twitter:description" content="Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising…">
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-nearwhite">
-
-    
-   
-  
-
-  
-  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
-    <div class="bg-black-40">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        Michael Mommert
-      
-    </a>
-    <div class="flex-l items-center">
-      
-<h4></h4>
-<ul class="pl0 mr3">
-    
-    <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white white-90 no-underline" href="/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">de</a>
-    </li>
-    
-</ul>
-
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/bio/" title="Biography page">
-              Biography
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/publications/" title="Publications page">
-              Publications
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/research/" title="Research page">
-              Research
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/teaching/" title="Teaching page">
-              Teaching
-            </a>
-          </li>
-          
+</script>
+    <script data-goatcounter="https://mommermi.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/de/" title="Deutsch"
+                                aria-label="Deutsch">De</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/bio/" title="Biography">
+                    <span>Biography</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
         </ul>
-      
-      <div class="ananke-socials"></div>
+    </nav>
+</header>
+<main class="main">
 
-    </div>
-  </div>
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/research/">Research</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
 </nav>
+    <h1 class="post-title entry-hint-parent">
+      Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data
+    </h1>
+    <div class="post-meta">
 
-      <div class="tc-l pv6 ph3 ph4-ns">
-        
-          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data</div>
-          
-        
-      </div>
-    </div>
-  </header>
+<span title='2022-06-07 00:00:00 +0000 UTC'>June 7, 2022</span>&nbsp;|&nbsp;<span>Translations:</span>
+    <ul class="i18n_list">
+        <li>
+            <a href="http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/">De</a>
+        </li>
+    </ul>
 
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        
-      </aside>
-      
-      
-      
-      <div>Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&hellip;</div>
-      
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2022-06-07T00:00:00Z">June 7, 2022</time>
-      
-
-      
-      
-        <span class="f6 mv4 dib tracked"> - 4 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 837 words </span>
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>This research consists of two parts that will be presented in the following.</p>
-<h1 id="contrastive-self-supervised-data-fusion-for-satellite-imagery">Contrastive Self-supervised Data Fusion for Satellite Imagery</h1>
+</div>
+  </header> 
+  <div class="post-content md-content"><p>This research consists of two parts that will be presented in the following.</p>
+<h1 id="contrastive-self-supervised-data-fusion-for-satellite-imagery">Contrastive Self-supervised Data Fusion for Satellite Imagery<a hidden class="anchor" aria-hidden="true" href="#contrastive-self-supervised-data-fusion-for-satellite-imagery">#</a></h1>
 <p>Supervised learning of any task requires large amounts of labeled data. Especially in the case of satellite imagery, unlabeled data is ubiquitous, while the labeling process is often cumbersome and expensive. Therefore, it is highly worthwhile to leverage methods to minimize the amount of labeled data that is required to obtain a good performance of the given down-stream task. In our first work, we leverage contrastive learning in a multi-modal setup to achieve this result.</p>
 <div class="wrapper"
      style="display: block; margin-left: auto; margin-right: auto; 
@@ -209,7 +199,7 @@
 <p>More importantly, we are able to show the efficiency of pre-training with our approach: by fine-tuning the learned representations of the pretrained backbone, we are able to <strong>outperform any fully-supervised baseline approach with only 10% of the labeled data</strong>.</p>
 <p>To conclude, our approach enables the label-efficient training of deep learning models for remote sensing by pretraining on a large amount of unlabeled data.</p>
 <p>The results of this study have been presented at the ISPRS 2022 congress in Nice, France (the results have been presented by Michael Mommert, but the work has been done by Linus Scheibenreif).</p>
-<h1 id="self-supervised-vision-transformers-for-land-cover-segmentation-and-classification">Self-supervised Vision Transformers for Land-cover Segmentation and Classification</h1>
+<h1 id="self-supervised-vision-transformers-for-land-cover-segmentation-and-classification">Self-supervised Vision Transformers for Land-cover Segmentation and Classification<a hidden class="anchor" aria-hidden="true" href="#self-supervised-vision-transformers-for-land-cover-segmentation-and-classification">#</a></h1>
 <p>In a natural extension of the previous work, we replace our previous model backbone with a pair of powerful Swin-Transformers. These backbones are pretrained in a contrastive self-supervised fashion, similar as in our previous work.</p>
 <div class="wrapper"
      style="display: block; margin-left: auto; margin-right: auto; 
@@ -259,9 +249,9 @@
 </div>
 
 <p>The results of this work include a set pretrained backbone architectures and have been published at the Earthvision workshop at CVPR 2023 and has been awarded the best student paper award!</p>
-<h1 id="future-work">Future Work</h1>
+<h1 id="future-work">Future Work<a hidden class="anchor" aria-hidden="true" href="#future-work">#</a></h1>
 <p>We would like to note that this line of research is now being funded by the Swiss National Science Foundation (SNF). The goal of this project is to combine self-supervised learning for different types of multi-modal Earth observation data. Stay tuned for our upcoming results!</p>
-<h1 id="resources">Resources</h1>
+<h1 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h1>
 <ul>
 <li>
 <p>Scheibenreif, L., Hanna, J., Mommert, M., Borth, D., &ldquo;<em>Self-Supervised Vision Transformers for Land-cover Segmentation and Classification</em>&rdquo;, <a href="https://www.grss-ieee.org/events/earthvision-2022/">Earthvision Workshop at IEEE/CVPR 2022</a>, <a href="https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.pdf">publication (open access)</a>. This work was awarded the <strong>best student paper award</strong> of the Earthvision 2022 workshop.</p>
@@ -273,101 +263,113 @@
 <p>code: <a href="https://github.com/HSG-AIML/SSLTransformerRS">GitHub and pretrained model backbones</a></p>
 </li>
 </ul>
-<ul class="pa0">
-  
-   <li class="list di">
-     <a href="/tags/earth-observation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Earth Observation</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/deep-learning/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Deep Learning</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/self-supervised-learning/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Self-Supervised Learning</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/data-fusion/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Data Fusion</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/transformer/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Transformer</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/classification/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Classification</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/segmentation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Segmentation</a>
-   </li>
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
-    </div>
 
-    <aside class="w-30-l mt6-l">
-
-
-
-
-  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">Related</p>
-    <ul class="pa0 list">
-	   
-	     <li  class="mb2">
-          <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/">Power Plant Classification from Remote Imaging with Deep Learning</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/">Characterization of Industrial Smoke Plumes from Remote Sensing Data</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">Estimation of Surface Level NO2 from Remote Sensing Data</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/">Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/">Automated Cloud Detection with Machine Learning</a>
-        </li>
-	    
-    </ul>
-</div>
-
-</aside>
-
-  </article>
-
-    </main>
-    <script id="partials/analytics.html" data-goatcounter="https://mommermi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
-    &copy;  Michael Mommert 2025 
-  </a>
-
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
-    michael.mommert@hft-stuttgart.de
-  </a>
-
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
-    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
-  </a>
 
   </div>
-</footer>
 
-  </body>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/earth-observation/">Earth Observation</a></li>
+      <li><a href="http://localhost:1313/tags/deep-learning/">Deep Learning</a></li>
+      <li><a href="http://localhost:1313/tags/self-supervised-learning/">Self-Supervised Learning</a></li>
+      <li><a href="http://localhost:1313/tags/data-fusion/">Data Fusion</a></li>
+      <li><a href="http://localhost:1313/tags/transformer/">Transformer</a></li>
+      <li><a href="http://localhost:1313/tags/classification/">Classification</a></li>
+      <li><a href="http://localhost:1313/tags/segmentation/">Segmentation</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/">
+    <span class="title">« Prev</span>
+    <span>Traffic Noise Estimation from Satellite Imagery with Deep Learning</span>
+  </a>
+  <a class="next" href="http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/">
+    <span class="title">Next »</span>
+    <span>Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>

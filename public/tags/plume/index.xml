@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Plume on Michael Mommert</title>
     <link>http://localhost:1313/tags/plume/</link>
     <description>Recent content in Plume on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/plume/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/</guid>
-      <description>Greenhouse gas emissions from the industrial economic sector are&#xA;a major driver of the currently observed climate change. We developed&#xA;a deep learning approach to identify and characterize industrial&#xA;smoke plumes. In the future, we will utilize this approach to estimate&#xA;greenhouse gas emissions from remote sensing data on a global scale.</description>
+      <description>&lt;p&gt;The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth&amp;rsquo;s climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA&amp;rsquo;s Sentinel-2 satellites.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,18 +1,11 @@
 ---
 date: 2019-03-17
 title: A plethora of asteroids in TESS data
-summary: |
-  TESS is a satellite that observes bright stars to find brightness
-  modulations revealing exoplanet transits - but it also observes
-  a lot of asteroids over a long period of time, which makes it a unique
-  asset for deriving long asteroid rotation periods.
 tags:
 - Astronomy
 - Asteroid
 - Asteroid Physical Properties
 - TESS
-featured_image: /research/12893.png
-thumbnail_image: https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png
 ---
 
 TESS is the [Transiting Exoplanet Survey Satellite](https://tess.mit.edu/), which was launched into space by NASA in 2018 to identify faint brightness variations in stars that are characteristic of planets orbiting around and transiting in front of these stars.

@@ -1,8 +1,6 @@
 ---
 date: 2022-06-07
 title: Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data
-summary: |
-  Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising...  
 tags:
 - Earth Observation
 - Deep Learning
@@ -11,8 +9,6 @@ tags:
 - Transformer
 - Classification
 - Segmentation
-thumbnail_image: overview.png
-
 ---
 
 This research consists of two parts that will be presented in the following.

@@ -1,18 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/</link>
     <description>Recent content in Tags on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <language>de-DE</language>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning</title>
       <link>http://localhost:1313/de/tags/deep-learning/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Erdbeobachtung</title>
+      <link>http://localhost:1313/de/tags/erdbeobachtung/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/erdbeobachtung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Segmentierung</title>
+      <link>http://localhost:1313/de/tags/segmentierung/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/segmentierung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urbane Umgebung</title>
+      <link>http://localhost:1313/de/tags/urbane-umgebung/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/urbane-umgebung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodal</title>
+      <link>http://localhost:1313/de/tags/multimodal/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/multimodal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Verkehr</title>
+      <link>http://localhost:1313/de/tags/verkehr/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/verkehr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fernerkundung</title>
+      <link>http://localhost:1313/de/tags/fernerkundung/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/fernerkundung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Luftbilder</title>
+      <link>http://localhost:1313/de/tags/luftbilder/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/luftbilder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streuobst</title>
+      <link>http://localhost:1313/de/tags/streuobst/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/streuobst/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vegetation</title>
+      <link>http://localhost:1313/de/tags/vegetation/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/vegetation/</guid>
       <description></description>
     </item>
     <item>
@@ -20,20 +83,6 @@
       <link>http://localhost:1313/de/tags/diffusion/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/tags/diffusion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Erdbeobachtung</title>
-      <link>http://localhost:1313/de/tags/erdbeobachtung/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/tags/erdbeobachtung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Multimodal</title>
-      <link>http://localhost:1313/de/tags/multimodal/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/tags/multimodal/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +97,6 @@
       <link>http://localhost:1313/de/tags/datensatz/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/tags/datensatz/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Segmentierung</title>
-      <link>http://localhost:1313/de/tags/segmentierung/</link>
-      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/tags/segmentierung/</guid>
       <description></description>
     </item>
     <item>
@@ -125,13 +167,6 @@
       <link>http://localhost:1313/de/tags/no2/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/tags/no2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Verkehr</title>
-      <link>http://localhost:1313/de/tags/verkehr/</link>
-      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/tags/verkehr/</guid>
       <description></description>
     </item>
     <item>
@@ -247,7 +282,7 @@
       <description></description>
     </item>
     <item>
-      <title>Open-Source Software</title>
+      <title>Open-Source-Software</title>
       <link>http://localhost:1313/de/tags/open-source-software/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/tags/open-source-software/</guid>

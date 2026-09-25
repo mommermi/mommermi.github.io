@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Toter Komet on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/toter-komet/</link>
     <description>Recent content in Toter Komet on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Fri, 21 Aug 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/toter-komet/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,8 @@
       <link>http://localhost:1313/de/research/2015-08-21-how-many-dead-comets-are-there/</link>
       <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2015-08-21-how-many-dead-comets-are-there/</guid>
-      <description>Tote Kometen sind kleine Körper, die als inaktive Asteroiden erscheinen, aber einen kometarischen Ursprung haben. Einige dieser Objekte könnten noch Eis enthalten und könnten sich wieder aktivieren und kometenähnlich erscheinen. Da diese Objekte möglicherweise erheblich zum flüchtigen Reservoir der Asteroidpopulation beitragen, ist es wichtig zu verstehen, wie viele dieser Objekte es gibt.</description>
+      <description>&lt;p&gt;Eine langjährige Frage ist diese: Wie viele Asteroiden – insbesondere erdnahe Asteroiden (NEAs) – waren in der Vergangenheit Kometen? In der klassischen Vorstellung haben Kometen Oberflächen-Eis und bilden in der Nähe der Sonne Schweife und Komas; Asteroiden sind einfach Steine im Weltraum. In den letzten Jahren sind die beiden Klassifikationen weniger klar geworden.&lt;/p&gt;
+&lt;p&gt;Kometen können auf Bahnen geraten, die sie der Erde nahebringen. Wir können sie beobachten. Aber was passiert mit ihnen, nachdem sie eine Weile dort verbracht haben? Bei einigen Kometen, wie ISON, ist es tödlich, der Sonne nahe zu sein; sie zerfallen einfach und verschwinden. Bei anderen Kometen im erdnahen Raum führt die Strahlung der Sonne dazu, dass sie ihr Oberflächen-Eis schnell verlieren, und schließlich inaktiv werden - sie sind tote oder schlafende Kometen. Da die Oberflächen von Kometen sehr niedrige Albedos haben, sehen diese toten Kometen einfach wie Asteroiden mit niedrigem Albedo aus und sind wirklich schwer zu identifizieren.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

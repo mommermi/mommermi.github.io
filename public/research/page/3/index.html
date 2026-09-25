@@ -1,190 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>research | Michael Mommert</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Michael Mommert: AI for Remote Sensing">
-    <meta name="generator" content="Hugo 0.134.3">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+<html lang="en" dir="ltr" data-theme="auto">
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Research | Michael Mommert</title>
+<meta name="keywords" content="">
+<meta name="description" content="In my research, I combine methods from the fields of machine learning and deep learning with multimodal remote sensing data.
+This results in applications that make it possible to systematically extract information from large datasets and make it usable for interdisciplinary problems.
+I place particular focus on the efficiency of the methods used, allowing them to be trained and applied on relatively small datasets and with simple computing infrastructure.
+Below, I show examples from my research:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/research/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/research/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/research/">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/de/research/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-    
+            .toc {
+                background: var(--entry);
+            }
+        }
 
-    
-      
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-    
-
-    
-    
-      <link href="/research/index.xml" rel="alternate" type="application/rss+xml" title="Michael Mommert" />
-      <link href="/research/index.xml" rel="feed" type="application/rss+xml" title="Michael Mommert" />
-      
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/research/">
-    
-
-    <meta property="og:url" content="http://localhost:1313/research/">
-  <meta property="og:site_name" content="Michael Mommert">
-  <meta property="og:title" content="research">
-  <meta property="og:description" content="My research focuses on the intersection of deep learning and remote sensing. I am specifically interested in methods that improve the efficiency and efficacy of machine learning methods. I investigate the use of different pretraining techniques, the fusion of different data modalities and the guiding the learning process through physics-inspired principles. I further employ such models to a range of different applications that are related to fields such as ecology, urban planning, mobility, and economics.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
-
-  <meta itemprop="name" content="research">
-  <meta itemprop="description" content="My research focuses on the intersection of deep learning and remote sensing. I am specifically interested in methods that improve the efficiency and efficacy of machine learning methods. I investigate the use of different pretraining techniques, the fusion of different data modalities and the guiding the learning process through physics-inspired principles. I further employ such models to a range of different applications that are related to fields such as ecology, urban planning, mobility, and economics.">
-  <meta itemprop="datePublished" content="2024-09-09T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-09-09T00:00:00+00:00">
-  <meta itemprop="wordCount" content="75">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="research">
-  <meta name="twitter:description" content="My research focuses on the intersection of deep learning and remote sensing. I am specifically interested in methods that improve the efficiency and efficacy of machine learning methods. I investigate the use of different pretraining techniques, the fusion of different data modalities and the guiding the learning process through physics-inspired principles. I further employ such models to a range of different applications that are related to fields such as ecology, urban planning, mobility, and economics.">
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-nearwhite">
-
-    
-
-  
-  <header class="cover bg-top" style="background-image: url('http://localhost:1313/banner.jpg');">
-    <div class="bg-black-20">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        Michael Mommert
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/bio/" title="bio page">
-              bio
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/publications/" title="publications page">
-              publications
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/research/" title="research page">
-              research
-            </a>
-          </li>
-          
-        </ul>
-      
-      
-<div class="ananke-socials">
-  
-</div>
-
-    </div>
-  </div>
-</nav>
-
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          research
-        </h1>
-        
-      </div>
-    </div>
-  </header>
-
-
-    <main class="pb7" role="main">
-      
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><p>My research focuses on the intersection of deep learning and remote sensing.
-I am specifically interested in <strong>methods</strong> that improve the efficiency and efficacy of machine learning methods. I investigate the use of different pretraining techniques, the fusion of different data modalities and the guiding the learning process through physics-inspired principles.
-I further employ such models to a range of different <strong>applications</strong> that are related to fields such as ecology, urban planning, mobility, and economics.</p>
-</section>
-    <section class="flex-ns flex-wrap justify-around mt5">
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">research</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2014-10-18-herschel-observations-of-plutinos/" class="link black dim">
-        Herschel Observations of Plutinos
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      My first research paper. Using Herschel Space Observatory observations,
-we investigated the physical properties of 18 Plutinos - small bodies at
-the outskirts of the Solar System that have orbital properties similar to
-those of Pluto. What we found? That Pluto is pretty unique&hellip;
-    </div>
-    <a href="/research/2014-10-18-herschel-observations-of-plutinos/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-  </div>
-</div>
-
+</script>
+    <script data-goatcounter="https://mommermi.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/de/" title="Deutsch"
+                                aria-label="Deutsch">De</a>
+                        </li>
+                    </ul>
+            </div>
         </div>
-      
-    </section>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/research/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/research/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/research/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/research/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul></article>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/bio/" title="Biography">
+                    <span>Biography</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Research">
+                    <span class="active">Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+  <h1>
+    Research
+  </h1>
+</header>
+<div class="post-content md-content"><p>In my research, I combine methods from the fields of machine learning and deep learning with multimodal remote sensing data.</p>
+<p>This results in applications that make it possible to systematically extract information from large datasets and make it usable for interdisciplinary problems.</p>
+<p>I place particular focus on the efficiency of the methods used, allowing them to be trained and applied on relatively small datasets and with simple computing infrastructure.</p>
+<p>Below, I show examples from my research:</p>
 
-    </main>
-    <footer class="bg-black-20 bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
-    &copy;  Michael Mommert 2024 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
+
 </div>
-</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Photometrypipeline
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In the framework of the MANOS program, I have been working on an automated data analysis pipeline for calibrated asteroid photometry and astrometry from imaging data. This pipeline, which can be applied to any kind of point source observations, is now in a robust state and available through github.
+For details on the pipeline, please refer to official publication (see below).
+Resources Mommert, M. (2017), “PHOTOMETRYPIPELINE: An automated pipeline for calibrated photometry”, Astronomy and Computing, 18, 47., publication, arxiv </p>
   </div>
-</footer>
+  <footer class="entry-footer">
 
-  </body>
+<span title='2017-02-14 00:00:00 +0000 UTC'>February 14, 2017</span></footer>
+  <a class="entry-link" aria-label="post link to Photometrypipeline" href="http://localhost:1313/research/2017-02-14-photometrypipeline/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How many Dead Comets are there?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>One long-standing question is: how many asteroids - especially near-Earth asteroids (NEAs) - were comets in the past? In the classical conception, comets have surface ices and form tails and comae in the vicinity of the Sun; asteroids are simply rocks in space. In the recent years, the two classifications became less clear than that.
+Comets can end up on orbits that bring them close to the Earth. We can observe them. But what happens to them after spending a while there? For some comets, like ISON, being close to the Sun is fatal; they simply disintegrate and disappear. For other comets in near-Earth space, the strong degree of insolation forces them to lose their surface ices quickly and eventually their activity stops - they are dead or dormant comets. Since comet surfaces have very low albedos, these dead comets simply look like low-albedo asteroids and are really hard to identify.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2015-08-21 00:00:00 +0000 UTC'>August 21, 2015</span></footer>
+  <a class="entry-link" aria-label="post link to How many Dead Comets are there?" href="http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The understanding of the compositional distribution of NEOs is important to reconstruct their dynamical and physical evolution, assess the damage potential in case of an impact, and estimate the resources that can be obtained from these bodies in the not-so-far future. Also, there is still a discrepancy between the compositional distribution of meteoritic material found on Earth and the overall composition of the NEO distribution.
+The most common way to investigate the compositions of asteroids is to perform spectroscopic observations: wavelength-dependent variations of the surface reflectance can be diagnostic for the composition of an object and allow for a taxonomic classification. However, spectroscopic observations are usually only possible for bright and large asteroids and require large telescopes for small asteroids.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2014-11-25 00:00:00 +0000 UTC'>November 25, 2014</span></footer>
+  <a class="entry-link" aria-label="post link to Rapid-Response Spectrophotometric Observations of NEOs with UKIRT and RATIR" href="http://localhost:1313/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Physical Properties of two tiny Asteroids from Spitzer Observations
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Little is known about the physical properties of the smallest NEOs with diameters of less than 10 meters. Due to their small sizes, they are usually very faint and hard to observe. Hence, only a small number of asteroids in this size regime are known and for only very few of those physical properties like diameter and albedo have been measured. However, small NEOs are much more frequent than larger NEOs, making some of these objects easily accessible spacecraft targets and potential impactors. Traditionally, people believed that these small NEOs have formed through collisions and that they are individual slabs of rock, i.e,. monolithic bodies.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2014-10-20 00:00:00 +0000 UTC'>October 20, 2014</span></footer>
+  <a class="entry-link" aria-label="post link to Physical Properties of two tiny Asteroids from Spitzer Observations" href="http://localhost:1313/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Detection of Cometary Activity in NEO Don Quixote
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Part of the NEO population is considered to consist of so-called dead comets. Dead comets are comets that have spent a long time as NEOs and have been depleted their volatile inventories in numerous, close encounters with the Sun, i.e., they are extinct comets. They can be identified through their distinctive comet-like orbits and their low, comet-like albedos.
+The dead comet archetype is NEO (3552) Don Quixote. We observed Don Quixote as part of the ExploreNEOs program, in which ~600 NEOs were observed to derive the diameters and albedos of these objects. Our observations at 3.6 and 4.5 µm were saturated because the target was brighter than expect, revealing something rather unexpected.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2014-10-19 00:00:00 +0000 UTC'>October 19, 2014</span></footer>
+  <a class="entry-link" aria-label="post link to Detection of Cometary Activity in NEO Don Quixote" href="http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Herschel Observations of Plutinos
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Plutinos are a subpopulation of the Trans-Neptunian Objects (TNOs), which are pristine and icy objects on the outskirts of the Solar System. The orbits of Plutinos - which are named after their prototype, Pluto - are in 2:3 resonance with Neptune, meaning that by the time a Plutino performs 2 full orbits around the Sun, Neptune performs 3. This “mean motion resonance” provides a high degree of stability to the orbits of Plutinos. Hence, Plutinos are dynamically and physically pristine objects.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2014-10-18 00:00:00 +0000 UTC'>October 18, 2014</span></footer>
+  <a class="entry-link" aria-label="post link to Herschel Observations of Plutinos" href="http://localhost:1313/research/2014-10-18-herschel-observations-of-plutinos/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/research/page/2/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>

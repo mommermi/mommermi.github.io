@@ -1,16 +1,15 @@
 ---
 date: 2023-07-21
 title: Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data
-summary: |
-  Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.
 tags:
 - Earth Observation
 - Deep Learning
 - Dataset
 - Multimodal
 - Self-supervised Learning
-thumbnail_image: sample.png
 ---
+
+Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.
 
 Earth observation data are by default multi-modal. Data are being acquired by a wide range of sensors, some of which are passive sensors (e.g., multiband imaging) and others are active sensors (e.g., SAR). In addition to such observational data, archival data are available for most locations on Earth.
 

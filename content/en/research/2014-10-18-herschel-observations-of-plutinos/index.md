@@ -1,18 +1,11 @@
 ---
 date: 2014-10-18
 title: Herschel Observations of Plutinos
-summary: |
-  My first research paper. Using Herschel Space Observatory observations,
-  we investigated the physical properties of 18 Plutinos - small bodies at
-  the outskirts of the Solar System that have orbital properties similar to
-  those of Pluto. What we found? That Pluto is pretty unique...
 tags:
 - Astronomy
 - Plutino
 - Asteroid Physical Properties
 - Herschel Space Observatory
-featured_image: /research/12893.png
-thumbnail_image: mommert2012_plutinos_histograms.png
 ---
 
 Plutinos are a subpopulation of the Trans-Neptunian Objects (TNOs), which are pristine and icy objects on the outskirts of the Solar System. The orbits of Plutinos - which are named after their prototype, Pluto - are in 2:3 resonance with Neptune, meaning that by the time a Plutino performs 2 full orbits around the Sun, Neptune performs 3. This "mean motion resonance" provides a high degree of stability to the orbits of Plutinos. Hence, Plutinos are dynamically and physically pristine objects.

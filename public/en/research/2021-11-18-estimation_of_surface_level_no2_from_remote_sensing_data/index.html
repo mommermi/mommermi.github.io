@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Estimation of Surface Level NO2 from Remote Sensing Data | Michael Mommert</title>
+<meta name="keywords" content="Earth Observation, Deep Learning, Air Pollution, NO2, Sentinel-2">
+<meta name="description" content="Air pollution is a major health issue and often also contributes to climate change. Measuring air pollution is costly and therefore only available in some countries. We investigated whether freely available Earth observation data can be utilized to estimate air pollution on the surface level.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/en/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/en/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/homeinfoparams/" title="Homeinfoparams"
+                                aria-label="Homeinfoparams">Homeinfoparams</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/en/bio/" title="Biography">
+                    <span>Biography</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Forschung">
+                    <span>Forschung</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/bio/" title="Lebenslauf">
+                    <span>Lebenslauf</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/teaching/" title="Lehre">
+                    <span>Lehre</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/publications/" title="Publikationen">
+                    <span>Publikationen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/">Michael Mommert</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/research/">Research</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      Estimation of Surface Level NO2 from Remote Sensing Data
+    </h1>
+    <div class="post-meta">
+
+<span title='2021-11-18 00:00:00 +0000 UTC'>18. November 2021</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>Exposure to air pollution has been shown to lead to adverse health effects. A major air pollutant is NO2, which, at the surface level, directly affects human health, and, at higher elevations, contributes to acidic rain and represents a precursor to greenhouse gases. While NO2 column densities in the atmosphere can be measured with satellite observations as provided by <a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-5p">Sentinel-5P</a>, it requires in-situ measurements from ground stations to measure NO2 concentrations on the surface level, which is relevant to human exposure.</p>
+<p>Our student Linus Scheibenreif investigated whether it would be possible to approximate surface level NO2 from remote sensing observations only, providing a tool to estimate human exposure to NO2 on a useful spatial and temporal scale. In his two publications, Linus showed that</p>
+<ul>
+<li>it is possible to interpolate surface level NO2 exposure between measurements provided by <a href="https://www.eea.europa.eu/">EEA</a> ground stations based on different types of features (<a href="https://ieeexplore.ieee.org/iel7/9553015/9553016/09554037.pdf">Scheibenreif et al. 2021a</a>), and</li>
+<li>we can combine satellite imagery with atmospheric trace gas column density measurements to estimate surface level NO2 concentrations with high spatial resolution and intermediate temporal resolution (<a href="https://www.climatechange.ai/papers/icml2021/23">Scheibenreif et al. 2021b</a>).</li>
+</ul>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="figure2.png">
+        <img src="figure2.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Exemplary NO2 predictions based on Sentinel-2 and Sentinel-5P input data from Scheibenreif et al. 2021b.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Learn more about Linus&rsquo; projects in these blog articles: <a href="https://hsg-aiml.github.io/2021/04/07/A_Novel_Dataset_for_the_Estimation_of_Surface_NO2_Concentrations_from_Remote_Sensing_Data.html">A Novel Dataset for the Prediction of Surface NO2 Concentrations from Remote Sensing Data</a> and <a href="https://hsg-aiml.github.io/2021/07/23/Estimation_of_Air_Pollution_with_Remote_Sensing_Data.html">Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space</a>.
+His results have also been summarized in a IEEE Transactions on Geoscience and Remote Sensing journal paper (see below).</p>
+<h1 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h1>
+<ul>
+<li>
+<p>Scheibenreif, L., Mommert, M., Borth, D., &ldquo;Towards Global Estimation of Ground-Level NO2 Pollution with Deep Learning and Remote Sensing&rdquo;, IEEE Transactions on Geoscience and Remote Sensing, 2022, <a href="https://doi.org/10.1109/TGRS.2022.3160827">publication</a>, <a href="http://www.alexandria.unisg.ch/266586/1/Toward_Global_Estimation_of_Ground-Level_NO2_Pollution_With_Deep_Learning_and_Remote_Sensing.pdf">open access</a>.</p>
+</li>
+<li>
+<p>Scheibenreif et al. 2022 Dataset: <a href="https://doi.org/10.5281/zenodo.5764262">zenodo</a></p>
+</li>
+<li>
+<p>Scheibenreif et al. 2022 Code: <a href="https://github.com/HSG-AIML/Global-NO2-Estimation">GitHub</a></p>
+</li>
+<li>
+<p>Scheibenreif, L, Mommert, M., Borth, D., &ldquo;Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space&rdquo;, ICML 2021 Tackling Climate Change with Machine Learning Workshop;
+<a href="https://www.climatechange.ai/papers/icml2021/23">publication (open access)</a>.</p>
+</li>
+<li>
+<p>Scheibenreif, L. , Mommert, M., Borth, D., &ldquo;A Novel Dataset and Benchmark for Surface NO2 Prediction from Remote Sensing Data Including COVID Lockdown Measures&rdquo;, IEEE International Geoscience and Remote Sensing Symposium 2021 (<a href="https://igarss2021.com/">IGARSS 2021</a>); <a href="https://ieeexplore.ieee.org/iel7/9553015/9553016/09554037.pdf">publication</a>.</p>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/earth-observation/">Earth Observation</a></li>
+      <li><a href="http://localhost:1313/tags/deep-learning/">Deep Learning</a></li>
+      <li><a href="http://localhost:1313/tags/air-pollution/">Air Pollution</a></li>
+      <li><a href="http://localhost:1313/tags/no2/">NO2</a></li>
+      <li><a href="http://localhost:1313/tags/sentinel-2/">Sentinel-2</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

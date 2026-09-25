@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Multimodal Data on Michael Mommert</title>
+    <link>http://localhost:1313/tags/multimodal-data/</link>
+    <description>Recent content in Multimodal Data on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/multimodal-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modeling of Road Traffic Noise using Deep Learning</title>
+      <link>http://localhost:1313/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</guid>
+      <description>&lt;p&gt;Deep learning has already proven its potential in many areas of remote sensing. One example is the classification of land use and land cover from satellite and aerial imagery.&lt;/p&gt;
+&lt;p&gt;But perhaps we can go one step further: once an AI model has learned how certain things are related, can we also ask it &amp;ldquo;what if?&amp;rdquo; questions? By deliberately changing the data we feed into the model, we can observe how its output changes. In this way, an AI could serve as a kind of simplified simulator, for example in so-called digital twins. These are virtual replicas of real cities or landscapes in which changes can be tested before they are implemented in the real world.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,15 +1,11 @@
 ---
 date: 2019-03-17
 title: Eine Fülle von Asteroiden in TESS-Daten
-summary: |
-  TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.
 tags:
 - Astronomie
 - Asteroid
 - physikalische Eigenschaften von Asteroiden
 - TESS
-featured_image: /research/12893.png
-thumbnail_image: https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png
 ---
 
 TESS ist der [Transiting Exoplanet Survey Satellite](https://tess.mit.edu/), der 2018 von der NASA ins All gestartet wurde, um schwache Helligkeitsvariationen in Sternen zu identifizieren, die charakteristisch für Planeten sind, die um diese Sterne kreisen und vor ihnen transitiert.

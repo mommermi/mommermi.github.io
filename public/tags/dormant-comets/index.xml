@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dormant Comets on Michael Mommert</title>
     <link>http://localhost:1313/tags/dormant-comets/</link>
     <description>Recent content in Dormant Comets on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/dormant-comets/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,14 +13,22 @@
       <link>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/</guid>
-      <description>Don Quixote has been considered asteroidal since its discovery in 1983,&#xA;despite its comet-like orbit. We found activity in this object during&#xA;its 2009 and 2018 apparitions, leading us to believe that it really&#xA;is an active comet. But are there other objects like Don Quixote? I&#xA;monitored a sample of ~100 asteroids that are somewhat likely to turn&#xA;active, too, over a period of more than 4 years. Bottom line: Don Quixote&#xA;is rather unique.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3552&#34;&gt;Don Quixote&lt;/a&gt; was
+discovered in 1983 and although it has a perfectly comet-like orbit,
+no cometary activity (a tail or a coma around the object) have been
+observed. According to protocol, the object was listed as an asteroid.&lt;/p&gt;
+&lt;p&gt;In 2009, we found from observations with the now defunct Spitzer Space
+Telescope that there actually is a faint coma around Don Quixote that most
+likely consists of molecular band emission from either CO or CO2. This is
+discussed in detail &lt;a href=&#34;http://localhost:1313/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/&#34;&gt;here&lt;/a&gt; and in &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2014ApJ...781...25M/abstract&#34;&gt;this paper&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How many Dead Comets are there?</title>
       <link>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</link>
       <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/2015-08-21-how-many-dead-comets-are-there/</guid>
-      <description>Dead comets are small bodies that appear as inactive asteroids, but have&#xA;a cometary origin. Some of these objects might still harbor ices and can&#xA;still activate and appear comet-like. Since these objects might signifcantly&#xA;contribute to the volatile reservoir of the asteroid population, it is&#xA;important to understand how many of these objects there are.</description>
+      <description>&lt;p&gt;One long-standing question is: how many asteroids - especially near-Earth asteroids (NEAs) - were comets in the past? In the classical conception, comets have surface ices and form tails and comae in the vicinity of the Sun; asteroids are simply rocks in space. In the recent years, the two classifications became less clear than that.&lt;/p&gt;
+&lt;p&gt;Comets can end up on orbits that bring them close to the Earth. We can observe them. But what happens to them after spending a while there? For some comets, like &lt;a href=&#34;https://en.wikipedia.org/wiki/Comet_ISON&#34;&gt;ISON&lt;/a&gt;, being close to the Sun is fatal; they simply disintegrate and disappear. For other comets in near-Earth space, the strong degree of insolation forces them to lose their surface ices quickly and eventually their activity stops - they are &lt;strong&gt;dead&lt;/strong&gt; or &lt;strong&gt;dormant comets&lt;/strong&gt;. Since comet surfaces have very low albedos, these dead comets simply look like low-albedo asteroids and are really hard to identify.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

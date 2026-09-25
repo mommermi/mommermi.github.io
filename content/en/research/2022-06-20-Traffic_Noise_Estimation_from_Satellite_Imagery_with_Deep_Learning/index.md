@@ -1,16 +1,12 @@
 ---
 date: 2022-06-20
 title: Traffic Noise Estimation from Satellite Imagery with Deep Learning 
-summary: |
-  Road traffic noise is a global issue that can lead to severe health effects. Despite the ubiquity of traffic noise, its quantification or estimation is complicated and detailed road traffic maps are only available for select countries or areas. We investigate whether it is possible to train a segmentation model to esimate road traffic noise from satellite imagery.
 tags:
 - Earth Observation
 - Deep Learning
 - Segmentation
 - Traffic Noise
 - Sentinel-2
-thumbnail_image: stein.png
-
 ---
 
 Road traffic noise represents a global health issue. Despite its importance, noise data are unavailable in many regions of the world. Such data are typically inferred through point measurements and complex physical models to simulate the propagation of noise. 

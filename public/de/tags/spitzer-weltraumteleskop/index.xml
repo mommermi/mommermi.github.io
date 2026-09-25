@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spitzer-Weltraumteleskop on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/spitzer-weltraumteleskop/</link>
     <description>Recent content in Spitzer-Weltraumteleskop on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/spitzer-weltraumteleskop/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,21 +13,23 @@
       <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
-      <description>Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.</description>
+      <description>&lt;p&gt;Seit den frühen Tagen meiner Doktorarbeit bin ich an der thermischen Modellierung von thermischen Infrarotbeobachtungen erdnaher Objekte und anderer Asteroiden beteiligt. Solche thermischen Modelle für Asteroiden simulieren die Oberflächentemperaturverteilungen von Asteroiden unter Verwendung einiger vereinfachender Annahmen und ermöglichen die Schätzung physikalischer Eigenschaften wie Größe und Albedo.&lt;/p&gt;
+&lt;p&gt;Im Rahmen mehrerer großangelegter &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt;-Beobachtungsprogramme haben wir mehr als 2000 erdnahe Objekte beobachtet und ihre thermische Emission gemessen, um ihre Durchmesser und Albedos einzugrenzen. Jetzt, da Spitzer offiziell in den Ruhestand gegangen ist, haben wir unsere Beobachtungen und Analysen abgeschlossen und alle unsere Ergebnisse in einem großen Datensatz zusammengefasst. Diese Zusammenstellung umfasst 2204 Schätzungen von Durchmessern und geometrischen Albedos für 2132 verschiedene erdnahe Objekte – der größte homogene Datensatz seiner Art für diese Population. Die Ergebnisse dieser Bemühungen sind auf &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt; verfügbar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen</title>
       <link>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
       <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
-      <description>Wir haben zwei sehr kleine Asteroiden mit dem Spitzer-Weltraumteleskop beobachtet, um ihre physikalischen Eigenschaften zum ersten Mal zu messen. Die Einschränkungen, die wir hinsichtlich ihrer Eigenschaften festlegen konnten, stimmen nicht mit dem gängigen Bild kleiner Asteroiden überein.</description>
+      <description>&lt;p&gt;Über die physikalischen Eigenschaften der kleinsten erdnäheren Objekte (NEOs) mit Durchmessern von weniger als 10 Metern ist wenig bekannt. Aufgrund ihrer geringen Größe sind sie normalerweise sehr schwach und schwer zu beobachten. Daher sind nur eine kleine Anzahl von Asteroiden in diesem Größenbereich bekannt, und nur für sehr wenige von ihnen wurden physikalische Eigenschaften wie Durchmesser und Albedo gemessen. Kleine NEOs sind jedoch viel häufiger als größere NEOs, was einige dieser Objekte zu leicht zugänglichen Zielen für Raumfahrzeuge und potenziellen Einschlägen macht. Traditionell glaubte man, dass diese kleinen NEOs durch Kollisionen entstanden sind und dass sie individuelle Gesteinsbrocken, d.h. monolithische Körper, sind.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Entdeckung von kometärer Aktivität bei NEO Don Quijote</title>
       <link>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</link>
       <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/</guid>
-      <description>Der erdnahe Asteroid Don Quixote wird seit langem als ein Kandidat für einen inaktiven Kometenkern gehandelt, was vor allen an seiner kometenähnlichen Umlaufbahn liegt. Seit seiner Entdeckung im Jahr 1983 wurde keine kometenähnliche Aktivität beobachtet – bis wir dieses Objekt mit dem Spitzer-Weltraumteleskop beobachteten&amp;hellip;</description>
+      <description>&lt;p&gt;Ein Teil der NEO-Population wird als sogenannte tote Kometen betrachtet. Tote Kometen sind Kometen, die lange Zeit als NEOs verbracht haben und ihre flüchtigen Bestände in zahlreichen, engen Begegnungen mit der Sonne erschöpft haben, d.h. sie sind ausgestorbene Kometen. Sie können durch ihre charakteristischen kometenähnlichen Umlaufbahnen und ihre niedrigen, kometenähnlichen Albedos identifiziert werden.&lt;/p&gt;
+&lt;p&gt;Der Archetyp des toten Kometen ist der NEO (3552) Don Quijote. Wir beobachteten Don Quijote im Rahmen des &lt;em&gt;ExploreNEOs&lt;/em&gt;-Programms, bei dem etwa 600 NEOs beobachtet wurden, um die Durchmesser und Albedos dieser Objekte abzuleiten. Unsere Beobachtungen bei 3,6 und 4,5 µm waren überbelichtet, da das Ziel heller war als erwartet, was etwas ziemlich Unerwartetes offenbarte.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

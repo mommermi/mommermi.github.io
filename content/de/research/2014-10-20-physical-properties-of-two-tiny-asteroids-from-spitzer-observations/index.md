@@ -1,15 +1,11 @@
 ---
 date: 2014-10-20
 title: Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen
-summary: |
-  Wir haben zwei sehr kleine Asteroiden mit dem Spitzer-Weltraumteleskop beobachtet, um ihre physikalischen Eigenschaften zum ersten Mal zu messen. Die Einschränkungen, die wir hinsichtlich ihrer Eigenschaften festlegen konnten, stimmen nicht mit dem gängigen Bild kleiner Asteroiden überein.
 tags:
 - Astronomie
 - Erdnaher Asteroid
 - Physikalische Eigenschaften von Asteroiden
 - Spitzer-Weltraumteleskop
-featured_image: /research/12893.png
-thumbnail_image: tinyneos_schematic.png
 ---
 
 Über die physikalischen Eigenschaften der kleinsten erdnäheren Objekte (NEOs) mit Durchmessern von weniger als 10 Metern ist wenig bekannt. Aufgrund ihrer geringen Größe sind sie normalerweise sehr schwach und schwer zu beobachten. Daher sind nur eine kleine Anzahl von Asteroiden in diesem Größenbereich bekannt, und nur für sehr wenige von ihnen wurden physikalische Eigenschaften wie Durchmesser und Albedo gemessen. Kleine NEOs sind jedoch viel häufiger als größere NEOs, was einige dieser Objekte zu leicht zugänglichen Zielen für Raumfahrzeuge und potenziellen Einschlägen macht. Traditionell glaubte man, dass diese kleinen NEOs durch Kollisionen entstanden sind und dass sie individuelle Gesteinsbrocken, d.h. monolithische Körper, sind.

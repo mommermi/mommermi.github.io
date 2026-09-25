@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Forschung | Michael Mommert</title>
+<meta name="keywords" content="">
+<meta name="description" content="In meiner Forschung kombiniere ich Methoden aus den Bereichen des Maschinellen Lernens und des Deep Learnings mit multimodalen Fernerkundungsdaten.
+Daraus entstehen Anwendungen, die es erlauben, systematisch Informationen aus grossen Datensätzen zu extrahieren und diese für interdisziplinäre Problemstellungen nutzbar zu machen.
+Einen Fokus lege ich dabei auf die Effizienz der verwendeten Methoden, wodurch diese auf relativ kleinen Datensätzen und mit einfacher Rechnerinfrastruktur trainiert und verwendet werden können.
+Im Folgenden zeige ich Beispiele aus meiner Forschung:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/de/research/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/de/research/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/research/">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/de/research/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+    <script data-goatcounter="https://mommermi.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/de/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/de/research/" title="Forschung">
+                    <span class="active">Forschung</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/bio/" title="Lebenslauf">
+                    <span>Lebenslauf</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/teaching/" title="Lehre">
+                    <span>Lehre</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/publications/" title="Publikationen">
+                    <span>Publikationen</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/de/">Home</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+  <h1>
+    Forschung
+  </h1>
+</header>
+<div class="post-content md-content"><p>In meiner Forschung kombiniere ich Methoden aus den Bereichen des Maschinellen Lernens und des Deep Learnings mit multimodalen Fernerkundungsdaten.</p>
+<p>Daraus entstehen Anwendungen, die es erlauben, systematisch Informationen aus grossen Datensätzen zu extrahieren und diese für interdisziplinäre Problemstellungen nutzbar zu machen.</p>
+<p>Einen Fokus lege ich dabei auf die Effizienz der verwendeten Methoden, wodurch diese auf relativ kleinen Datensätzen und mit einfacher Rechnerinfrastruktur trainiert und verwendet werden können.</p>
+<p>Im Folgenden zeige ich Beispiele aus meiner Forschung:</p>
+
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Erkennung von LKWs auf Satellitenbildern mit Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Der LKW-Verkehr ist derzeit für 7% der globalen CO2-Emissionen verantwortlich. Während der Straßenfrachtverkehr das dominierende Transportmittel für Oberflächenfracht bleiben wird, wird sein Beitrag zum Klimawandel voraussichtlich kurzfristig zunehmen. Daher ist die quantitative Überwachung des Verkehrs von Nutzfahrzeugen entscheidend für die Umsetzung gezielter Emissionsvorschriften für Straßen. Allerdings sind Bodenüberwachungsstationen kostspielig, und weniger als die Hälfte aller Länder weltweit erfasst die Aktivitäten im Straßenfrachtverkehr. In dieser Arbeit untersuchen wir die Machbarkeit der Erkennung und Überwachung des Nutzfahrzeugverkehrs in frei verfügbaren Satellitenbildern der Sentinel-2-Satelliten der ESA.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2021-11-17 00:00:00 +0000 UTC'>17. November 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Erkennung von LKWs auf Satellitenbildern mit Deep Learning" href="http://localhost:1313/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Die industriellen und energieerzeugenden Wirtschaftssektoren stoßen mehr als die Hälfte der jährlich und global freigesetzten Treibhausgasemissionen aus und tragen somit erheblich zu den globalen Erwärmungseffekten bei. In unserer jüngsten Arbeit (Mommert et al. 2020) haben wir die Grundlage für die Schätzung von Treibhausgasemissionen aus Industrieanlagen gelegt, indem wir industrielle Rauchfahnen ausschließlich aus Daten der Fernbildgebung charakterisiert haben. Diese Arbeit ist Teil eines größeren Vorhabens zur Schätzung der Treibhausgasemissionsraten aus Satellitenbildern für einzelne Industrieanlagen. In dieser Arbeit haben wir einen weiteren Schritt in Richtung dieses Ziels gemacht.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2021-06-16 00:00:00 +0000 UTC'>16. Juni 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning" href="http://localhost:1313/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Der Haupttreiber der globalen Erwärmung ist Freisetzung von Treibhausgasemissionen (THG) aus industriellen Aktivitäten. Die quantitative Überwachung dieser Emissionen ist notwendig, um ihre Auswirkungen auf das Klima der Erde vollständig zu verstehen und Emissionsvorschriften im großen Maßstab durchzusetzen. In dieser Arbeit untersuchen wir die Möglichkeit, industrielle Rauchfahnen aus global und kostenlos verfügbaren Multiband-Bilddaten der Sentinel-2-Satelliten der ESA zu erkennen und zu quantifizieren.
+Beispielbilder aus unserem Satz von 21.350 Bildern industrieller Standorte. Jede Spalte entspricht einem der 624 Standorte. Die oberste Reihe zeigt den Standort während der Aktivität (eine Abgasfahne ist vorhanden) und die untere Reihe während der Inaktivität (Abgasfahne ist nicht vorhanden). Die Ursprungsregion der Abgasfahne ist durch rote Kreise markiert. Klassifizierung der Abgasfahnen Mit einem modifizierten ResNet-50 können wir Abgasfahnen unterschiedlicher Größen mit einer Genauigkeit von 94,3% erkennen. Das Modell ignoriert korrekt natürliche Wolken und konzentriert sich auf die Bildkanäle, die mit der spektralen Absorption von Aerosolen und Wasserdampf in Zusammenhang stehen, was die Lokalisierung von Rauch ermöglicht.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2020-12-07 00:00:00 +0000 UTC'>7. Dezember 2020</span></footer>
+  <a class="entry-link" aria-label="post link to Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten" href="http://localhost:1313/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Don Quixote wurde 1983 entdeckt und obwohl er eine perfekt kometenartige Umlaufbahn hat, wurde keine kometare Aktivität (ein Schweif oder eine Koma um das Objekt) beobachtet. Laut Protokoll wurde das Objekt als Asteroid eingestuft.
+Im Jahr 2009 fanden wir durch Beobachtungen mit dem inzwischen stillgelegten Spitzer-Weltraumteleskop heraus, dass sich tatsächlich eine schwache Koma um Don Quijote befindet, die höchstwahrscheinlich aus molekularer Bandemission von entweder CO oder CO2 besteht. Dies wird ausführlich hier und in diesem Papier diskutiert.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2020-05-07 00:00:00 +0000 UTC'>7. Mai 2020</span></footer>
+  <a class="entry-link" aria-label="post link to Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe" href="http://localhost:1313/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Automatisierte Wolkenerkennung mit maschinellem Lernen
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Motivation Die meisten (optischen) Teleskope müssen vor Niederschlägen geschützt werden, um Schäden an ihrer Optik und Elektronik zu verhindern. Aus diesem Grund verwenden die meisten Observatorien Allsky-Kameras – günstige, aber sehr empfindliche CMOS-Kameras, die mit Fisheye-Objektiven ausgestattet sind – die den Nachthimmel auf herannahende Wolken überwachen. Teleskopbetreiber können Live-Streams von diesen Kameras beobachten, um informierte Entscheidungen darüber zu treffen, ob die aktuelle Wettersituation das Schließen der Teleskopkuppel erfordert oder nicht.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2020-04-22 00:00:00 +0000 UTC'>22. April 2020</span></footer>
+  <a class="entry-link" aria-label="post link to Automatisierte Wolkenerkennung mit maschinellem Lernen" href="http://localhost:1313/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">SpitzerNEOs - Durchmesser und Albedos für 2132 erdnahe Objekte
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Seit den frühen Tagen meiner Doktorarbeit bin ich an der thermischen Modellierung von thermischen Infrarotbeobachtungen erdnaher Objekte und anderer Asteroiden beteiligt. Solche thermischen Modelle für Asteroiden simulieren die Oberflächentemperaturverteilungen von Asteroiden unter Verwendung einiger vereinfachender Annahmen und ermöglichen die Schätzung physikalischer Eigenschaften wie Größe und Albedo.
+Im Rahmen mehrerer großangelegter Spitzer Space Telescope-Beobachtungsprogramme haben wir mehr als 2000 erdnahe Objekte beobachtet und ihre thermische Emission gemessen, um ihre Durchmesser und Albedos einzugrenzen. Jetzt, da Spitzer offiziell in den Ruhestand gegangen ist, haben wir unsere Beobachtungen und Analysen abgeschlossen und alle unsere Ergebnisse in einem großen Datensatz zusammengefasst. Diese Zusammenstellung umfasst 2204 Schätzungen von Durchmessern und geometrischen Albedos für 2132 verschiedene erdnahe Objekte – der größte homogene Datensatz seiner Art für diese Population. Die Ergebnisse dieser Bemühungen sind auf GitHub verfügbar.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2020-02-02 00:00:00 +0000 UTC'>2. Februar 2020</span></footer>
+  <a class="entry-link" aria-label="post link to SpitzerNEOs - Durchmesser und Albedos für 2132 erdnahe Objekte" href="http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Eine Fülle von Asteroiden in TESS-Daten
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TESS ist der Transiting Exoplanet Survey Satellite, der 2018 von der NASA ins All gestartet wurde, um schwache Helligkeitsvariationen in Sternen zu identifizieren, die charakteristisch für Planeten sind, die um diese Sterne kreisen und vor ihnen transitiert. Eine Darstellung des TESS-Raumschiffs. Das Instrument besteht aus vier Bildkameras, die jeweils 24° x 24° des Himmels abdecken. ...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2019-03-17 00:00:00 +0000 UTC'>17. März 2019</span></footer>
+  <a class="entry-link" aria-label="post link to Eine Fülle von Asteroiden in TESS-Daten" href="http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Informationen über die Form von Asteroiden aus Gaia DR2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Die ESA-Mission GaiaGaia beobachtet nicht nur einen großen Teil der Sterne in der Milchstraße, sondern auch eine enorme Anzahl von Asteroiden. Der Gaia-Datenrelease 2 (DR2) ist der erste Datenrelease, der eine Reihe von Asteroidbeobachtungen enthält, beschränkt auf G-Helligkeiten (ohne Farbinformationen) und eine vorab ausgewählte Stichprobe von 14.099 Asteroiden aus verschiedenen Populationen. Für jeden Asteroiden enthält DR2 eine mediane Anzahl von 9 Beobachtungen über die ersten 9 Monate der Mission. Während dieser begrenzte Datensatz nicht zulässt, die Rotationsperioden der Ziele abzuleiten oder ihre taxonomischen Typen einzugrenzen, ist er nützlich, um einen Blick auf die Formverteilung der Asteroiden zu werfen.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2019-01-02 00:00:00 +0000 UTC'>2. Januar 2019</span></footer>
+  <a class="entry-link" aria-label="post link to Informationen über die Form von Asteroiden aus Gaia DR2" href="http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Gibt es Grenzen für die Anwendbarkeit von thermischen Modellen für Asteroiden bei erdnahen Asteroiden?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Die überwiegende Mehrheit aller derzeit verfügbaren Asteroidendurchmesser und Albedos wurde aus thermischen Infrarotbeobachtungen abgeleitet, die eine Methode namens thermisches Modellieren verwenden. Thermische Modelle simulieren die Oberflächentemperaturverteilung eines Asteroiden, die verwendet wird, um den thermischen Infrarotfluss abzuleiten, der von dem Körper emittiert wird. Durch Variation der Modellparameter – hauptsächlich Durchmesser und Albedo – können die Eigenschaften eines Asteroiden an Beobachtungen der thermischen Emission angepasst und somit geschätzt werden.
+Thermische Modelle sind viel einfacher als die ausgefeilteren thermophysikalischen Modelle. Sie nehmen beispielsweise eine sphärische Form des Asteroiden an, und die Oberflächentemperatur wird unter der Annahme eines sofortigen thermischen Gleichgewichts abgeleitet. Die Modelldefinitionen können variieren. Das Standard Thermal Model (STM) berücksichtigt nicht den Sonnenphasenwinkel und geht von einer sehr langsamen Rotation und/oder niedriger thermischer Trägheit des Asteroiden aus, während das Fast-Rotating Model (FRM) von einer schnellen Rotation und/oder hoher thermischer Trägheit ausgeht. Das derzeit am weitesten verbreitete Modell ist das Near-Earth Asteroid Thermal Model (NEATM), das auf dem STM basiert, aber geometrisch den Sonnenphasenwinkel berücksichtigt und den sogenannten Beaming-Parameter verwendet, um die Oberflächentemperatur global zu modulieren.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2019-01-01 00:00:00 +0000 UTC'>1. Januar 2019</span></footer>
+  <a class="entry-link" aria-label="post link to Gibt es Grenzen für die Anwendbarkeit von thermischen Modellen für Asteroiden bei erdnahen Asteroiden?" href="http://localhost:1313/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">sbpy - Ein Python-Modul für die Planetarische Astronomie kleiner Himmelskörper
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>sbpy ist ein mit Astropy verbundenes Paket, das Tools für Astronomen mit einem Interesse an kleinen Himmelskörpern bereitstellt. Die Idee ist, eine Sammlung von gut getesteten und dokumentierten Werkzeugen anzubieten, die Asteroiden- und Kometenbeobachter täglich nutzen. Das Ziel ist es, die Reproduzierbarkeit von Ergebnissen zu verbessern und es (jungen) Forschern zu erleichtern, neue Ideen auszuprobieren.
+Die Entwicklung von sbpy hat gerade erst begonnen, da unser NASA PDART-Grant kürzlich eingetroffen ist. Es gibt noch viel zu tun, aber einige Einblicke in seine Nützlichkeit sind bereits sichtbar.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2018-07-27 00:00:00 +0000 UTC'>27. Juli 2018</span></footer>
+  <a class="entry-link" aria-label="post link to sbpy - Ein Python-Modul für die Planetarische Astronomie kleiner Himmelskörper" href="http://localhost:1313/de/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/de/research/">
+      «&nbsp;Vorherige&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/de/research/page/3/">Nächste&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/de/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vegetation on Michael Mommert</title>
+    <link>http://localhost:1313/de/tags/vegetation/</link>
+    <description>Recent content in Vegetation on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/vegetation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einsatz KI-basierter Methoden zur Detektion und Charakterisierung von Streuobstbeständen</title>
+      <link>http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</guid>
+      <description>&lt;p&gt;Streuobstwiesen gehören zu den artenreichsten Lebensräumen in Mitteleuropa. Besonders im Süden Deutschlands prägen die locker verteilten, hochstämmigen Obstbäume seit Jahrhunderten die Landschaft. Doch die Bestände schrumpfen seit Jahrzehnten.&lt;/p&gt;
+&lt;p&gt;Obwohl Streuobstwiesen gesetzlich geschützt sind, fehlt bis heute ein aktueller und vollständiger Überblick darüber, wo sie überhaupt noch stehen. Genau dieses Wissen wäre aber die Grundlage, um sie gezielt zu schützen und zu pflegen. Alle Wiesen zu Fuß zu erfassen, ist bei der riesigen Fläche kaum möglich und viel zu teuer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kartierung städtischer Vegetation aus hochaufgelösten Luftbildern mit Deep Learning</title>
+      <link>http://localhost:1313/de/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</guid>
+      <description>&lt;p&gt;Bäume, Parks, Rasenflächen und Hecken sind mehr als nur schön anzusehen. Stadtgrün hilft, Städte an heißen Sommertagen kühl zu halten, und nimmt Regenwasser auf, das sonst Straßen überfluten und die Kanalisation überlasten würde. Um diese Grünflächen planen, pflegen und schützen zu können, müssen Städte genau wissen, wo Vegetation wächst. Detaillierte Vegetationskarten fließen zudem in Computersimulationen ein, mit denen sich Städte auf Hitzewellen und Starkregen vorbereiten können.&lt;/p&gt;
+&lt;p&gt;Solche Karten lassen sich mithilfe künstlicher Intelligenz aus Luft- und Satellitenbildern erstellen. Bisher waren die meisten dieser Ansätze jedoch aufwendig umzusetzen und erforderten leistungsstarke, teure Computer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

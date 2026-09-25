@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Diffusion on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/diffusion/</link>
     <description>Recent content in Diffusion on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,8 @@
       <link>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/</guid>
-      <description>Deep-Learning-Modelle, die auf Diffusionsprozessen basieren, zeigen ein großes Potenzial in einer Vielzahl von generativen Aufgaben, wie z.B. der Bildgenerierung. Für Anwendungen in der Fernerkundung sind generative Modelle jedoch nicht so verbreitet. Die Frage, die wir zu beantworten versucht haben, ist, ob Diffusionsprozesse verwendet werden können, um Modelle für diskriminative Aufgaben effizient vorzutrainieren?</description>
+      <description>&lt;p&gt;Diffusionsprozesse sind am besten dafür bekannt, Modelle zu trainieren, die Bilder aus Text generieren. Die Idee hinter Diffusionsprozessen ist recht einfach: Man nimmt ein Bild und zerstört die Informationen schrittweise, indem man Gaußsches Rauschen anwendet. Ein Diffusionsmodell lernt nun, die ursprünglichen Informationen zwischen zwei Schritten wiederherzustellen (d.h. das Rauschen zu entfernen). Vollständig trainiert sind diese Modelle dazu in der Lage, fotorealistische Bilder aus Rauschen zu erzeugen.&lt;/p&gt;
+&lt;p&gt;Um ein Bild aus Text zu erstellen, muss der Diffusionsprozess mit einem Textprompt konditioniert werden. Dies ist eine Möglichkeit, zusätzliche Informationen bereitzustellen, um den generativen Prozess zu steuern.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

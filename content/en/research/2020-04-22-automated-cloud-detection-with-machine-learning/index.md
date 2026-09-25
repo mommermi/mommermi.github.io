@@ -1,18 +1,11 @@
 ---
 date: 2020-04-22 
 title: Automated Cloud Detection with Machine Learning
-summary: |
-  This is a toy project that turned into a real research project and a preparation 
-  for my new job as
-  research scientist in computer vision: using machine
-  learning techniques to identify clouds in all-sky camera images.
 tags:
 - Astronomy
 - Machine Learning
 - Deep Learning
 - Allsky-Camera
-featured_image: /research/12893.png
-thumbnail_image: confusionmatrix.png
 ---
 
 # Motivation

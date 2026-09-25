@@ -1,363 +1,395 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Michael Mommert</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Michael Mommert: AI for Remote Sensing">
-    <meta name="generator" content="Hugo 0.146.3">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+<html lang="en" dir="ltr" data-theme="auto">
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Deep Learning | Michael Mommert</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/tags/deep-learning/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/deep-learning/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/deep-learning/">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/deep-learning/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-  
-    <link rel="stylesheet" href="/css/override.css">
-  
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-    
-
-
-    
-      
-
-    
-
-    
-    
-      <link href="/tags/deep-learning/index.xml" rel="alternate" type="application/rss+xml" title="Michael Mommert" />
-      <link href="/tags/deep-learning/index.xml" rel="feed" type="application/rss+xml" title="Michael Mommert" />
-      
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/tags/deep-learning/">
-    
-
-    <meta property="og:url" content="http://localhost:1313/tags/deep-learning/">
-  <meta property="og:site_name" content="Michael Mommert">
-  <meta property="og:title" content="Deep Learning">
-  <meta property="og:description" content="Michael Mommert: AI for Remote Sensing">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
-
-  <meta itemprop="name" content="Deep Learning">
-  <meta itemprop="description" content="Michael Mommert: AI for Remote Sensing">
-  <meta itemprop="datePublished" content="2024-07-12T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-07-12T00:00:00+00:00">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Deep Learning">
-  <meta name="twitter:description" content="Michael Mommert: AI for Remote Sensing">
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-nearwhite">
-
-    
-
-  
-  
-  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
-    
-    <div class="bg-black-40">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        Michael Mommert
-      
-    </a>
-    <div class="flex-l items-center">
-      
-<h4></h4>
-<ul class="pl0 mr3">
-    
-    <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white white-90 no-underline" href="/de/tags/deep-learning/">de</a>
-    </li>
-    
-</ul>
-
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/bio/" title="Biography page">
-              Biography
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/publications/" title="Publications page">
-              Publications
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/research/" title="Research page">
-              Research
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/teaching/" title="Teaching page">
-              Teaching
-            </a>
-          </li>
-          
+</script>
+    <script data-goatcounter="https://mommermi.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/de/" title="Deutsch"
+                                aria-label="Deutsch">De</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/bio/" title="Biography">
+                    <span>Biography</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
         </ul>
-      
-      <div class="ananke-socials"></div>
-
-    </div>
-  </div>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/tags/">Tags</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
 </nav>
+  <h1>
+    Deep Learning
+  </h1>
+</header>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Deep Learning
-        </h1>
-        
-      </div>
-    </div>
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Creation of an Imperviousness Map from Aerial Imagery
+    </h2>
   </header>
-
-
-    <main class="pb7" role="main">
-      
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links mid-gray">
-      <p>Below you will find pages that utilize the taxonomy term “Deep Learning”</p>
-    </div>
-  </article>
-  <div class="mw8 center">
-    <section class="flex-ns mt5 flex-wrap justify-around">
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">12 Jul 2024</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/" class="link black dim">
-        Multimodal Diffusion for Self-Supervised Pretraining
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?
-    </div>
-    <a href="/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  <div class="entry-content">
+    <p>Asphalt roads, parking lots, buildings and paved courtyards: in our cities, a large share of the ground is sealed. This has consequences. Rainwater can no longer seep into the soil and instead flows into the sewer system, which can lead to flooding during heavy rainfall. Sealed surfaces heat up considerably in summer, plants and animals lose their habitats, and valuable soil is lost.
+Many cities and municipalities therefore want to unseal areas in a targeted way. To do so, however, they first need to know where and to what extent the ground is sealed. Mapping these areas by hand takes a great deal of time and staff.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">21 Jul 2023</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/" class="link black dim">
-        Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.
-    </div>
-    <a href="/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2026-09-25 00:00:00 +0000 UTC'>September 25, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Creation of an Imperviousness Map from Aerial Imagery" href="http://localhost:1313/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Modeling of Road Traffic Noise using Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Deep learning has already proven its potential in many areas of remote sensing. One example is the classification of land use and land cover from satellite and aerial imagery.
+But perhaps we can go one step further: once an AI model has learned how certain things are related, can we also ask it “what if?” questions? By deliberately changing the data we feed into the model, we can observe how its output changes. In this way, an AI could serve as a kind of simplified simulator, for example in so-called digital twins. These are virtual replicas of real cities or landscapes in which changes can be tested before they are implemented in the real world.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">20 Jun 2022</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/" class="link black dim">
-        Traffic Noise Estimation from Satellite Imagery with Deep Learning
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Road traffic noise is a global issue that can lead to severe health effects. Despite the ubiquity of traffic noise, its quantification or estimation is complicated and detailed road traffic maps are only available for select countries or areas. We investigate whether it is possible to train a segmentation model to esimate road traffic noise from satellite imagery.
-    </div>
-    <a href="/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2026-04-30 00:00:00 +0000 UTC'>April 30, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Modeling of Road Traffic Noise using Deep Learning" href="http://localhost:1313/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI-Based Methods for the Detection and Characterization of Traditional Orchards
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Traditional orchards are among the most species-rich habitats in Central Europe. Especially in southern Germany, their loosely scattered, tall-trunked fruit trees have shaped the landscape for centuries. Yet these orchards have been in decline for decades.
+Although traditional orchards are legally protected, there is still no up-to-date and complete overview of where they can actually be found. But exactly this knowledge would be the basis for protecting and maintaining them in a targeted way. Surveying all orchards on foot is hardly feasible given the vast area involved, and it would be far too expensive.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">7 Jun 2022</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/" class="link black dim">
-        Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Self-supervised learning provides a powerful means to pretrain models based on un-labeled data. Un-labeled Earth observation data are abundant: this circumstance combined with the availability of multi modal data makes Earth observation a perfect playground for self-supervised learning. Our early results are very promising&hellip;
-    </div>
-    <a href="/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2026-03-26 00:00:00 +0000 UTC'>March 26, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to AI-Based Methods for the Detection and Characterization of Traditional Orchards" href="http://localhost:1313/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Urban Vegetation Mapping from High-Resolution Aerial Imagery with Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Trees, parks, lawns and hedges are more than just pleasant to look at. Urban greenery helps keep cities cool on hot summer days and soaks up rainwater that would otherwise flood streets and overwhelm drains. To plan, manage and protect these green spaces, cities need to know exactly where vegetation grows. Detailed vegetation maps also feed into computer simulations that help cities prepare for heat waves and heavy rainfall.
+Such maps can be created from aerial and satellite images with the help of artificial intelligence. Until now, however, most of these approaches have been complex to set up and required powerful, expensive computers.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">14 Dec 2021</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/" class="link black dim">
-        Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Tracking Greenhouse Gas emissions will be increasingly important in the future, as power generation from fossil fuels is supposed to fade out. Independent tools to monitor power plants are required for this task. We present a method that uses freely available satellite imagery to estimate power generation and CO2 emission rates on a global scale.
-    </div>
-    <a href="/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2026-03-26 00:00:00 +0000 UTC'>March 26, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Urban Vegetation Mapping from High-Resolution Aerial Imagery with Deep Learning" href="http://localhost:1313/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Multimodal Diffusion for Self-Supervised Pretraining
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Deep learning models based on diffusion processes have shown great potential in a range of generative tasks, such as image generation. For remote sensing applications, generative models are not that common. The question that we tried to answer is whether diffusion processes can be used to efficiently pretrain models for discriminative tasks?
+Diffusion processes are best known for training image-from-text models. The idea behind diffusion processes is rather simple: you take an image and gradually destroy the information by applied Gaussian noise. A diffusion model will now learn to reconstruct the original information (i.e., remove the noise) between two steps. Fully trained, these models are able to create photo-realistic images from noise.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">18 Nov 2021</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/" class="link black dim">
-        Estimation of Surface Level NO2 from Remote Sensing Data
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Air pollution is a major health issue and often also contributes to climate change. Measuring air pollution is costly and therefore only available in some countries. We investigated whether freely available Earth observation data can be utilized to estimate air pollution on the surface level.
-    </div>
-    <a href="/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2024-07-12 00:00:00 +0000 UTC'>July 12, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Multimodal Diffusion for Self-Supervised Pretraining" href="http://localhost:1313/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Multimodal datasets for remote sensing are oftentimes limited to two data modalities, such as multispectral and SAR polarization data. In order to experiment with a much wider range of data modalities, we extended the well-known BigEarthNet dataset to includes a wide range of data modalities.
+Earth observation data are by default multi-modal. Data are being acquired by a wide range of sensors, some of which are passive sensors (e.g., multiband imaging) and others are active sensors (e.g., SAR). In addition to such observational data, archival data are available for most locations on Earth.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">17 Nov 2021</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/" class="link black dim">
-        Commercial Vehicle Traffic Detection from Satellite Imagery with Deep Learning
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Can we identify trucks from space and estimate truck traffic rates anywhere on the planet? Yes, we can!
-    </div>
-    <a href="/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2023-07-21 00:00:00 +0000 UTC'>July 21, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to Ben-Ge - Extending Bigearthnet with Geographical and Environmental Data" href="http://localhost:1313/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Traffic Noise Estimation from Satellite Imagery with Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Road traffic noise represents a global health issue. Despite its importance, noise data are unavailable in many regions of the world. Such data are typically inferred through point measurements and complex physical models to simulate the propagation of noise.
+Since this process is unfeasible in many areas of the world, we therefore propose to approximate noise data from satellite imagery in an end-to-end Deep Learning approach. We train a U-Net segmentation model to estimate road noise based on freely available Sentinel-2 satellite imagery and existing road traffic noise estimates for Switzerland.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">16 Jun 2021</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/" class="link black dim">
-        Power Plant Classification from Remote Imaging with Deep Learning
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      We developed a deep learning model that is able to distinguish between
-10 different types of power plants in an effort to automatically identify
-and characterize industrial sites in satellite imagery. This work will
-help us to estimate greenhouse gas emission rates for individual industrial
-sites in the future.
-    </div>
-    <a href="/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2022-06-20 00:00:00 +0000 UTC'>June 20, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Traffic Noise Estimation from Satellite Imagery with Deep Learning" href="http://localhost:1313/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This research consists of two parts that will be presented in the following.
+Contrastive Self-supervised Data Fusion for Satellite Imagery Supervised learning of any task requires large amounts of labeled data. Especially in the case of satellite imagery, unlabeled data is ubiquitous, while the labeling process is often cumbersome and expensive. Therefore, it is highly worthwhile to leverage methods to minimize the amount of labeled data that is required to obtain a good performance of the given down-stream task. In our first work, we leverage contrastive learning in a multi-modal setup to achieve this result.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">7 Dec 2020</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/" class="link black dim">
-        Characterization of Industrial Smoke Plumes from Remote Sensing Data
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Greenhouse gas emissions from the industrial economic sector are
-a major driver of the currently observed climate change. We developed
-a deep learning approach to identify and characterize industrial
-smoke plumes. In the future, we will utilize this approach to estimate
-greenhouse gas emissions from remote sensing data on a global scale.
-    </div>
-    <a href="/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2022-06-07 00:00:00 +0000 UTC'>June 7, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Contrastive Self-Supervised Learning for Multi-modal Earth Observation Data" href="http://localhost:1313/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This project forms the logical extension of our previous project on the characterization of industrial plumes from remote sensing data. Instead of simply identifying and characterizing plumes, we utilize this information to estimate Greenhouse Gas emissions from fossil fuel-firing power plants.
+The idea is rather simple: we know that we can segment plumes and robustly distinguish them from natural clouds. For all European power plants, we know for any given time what their power generation rates are. We can therefore train a regression model to estimate the power generation rate from the extent of the observed plume for any given time. However, the apparent size of the plume is not only a function of the power generation process. Instead, it is a highly complex process that relies on environmental variables. To approximate these variables, we provide concurrent weather information, including ambient temperature, air pressure and wind speed to our regression model.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">22 Apr 2020</span>
-    <h1 class="f3 near-black">
-      <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/" class="link black dim">
-        Automated Cloud Detection with Machine Learning
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      This is a toy project that turned into a real research project and a preparation
-for my new job as
-research scientist in computer vision: using machine
-learning techniques to identify clouds in all-sky camera images.
-    </div>
-    <a href="/research/2020-04-22-automated-cloud-detection-with-machine-learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+<span title='2021-12-14 00:00:00 +0000 UTC'>December 14, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery" href="http://localhost:1313/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Estimation of Surface Level NO2 from Remote Sensing Data
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Exposure to air pollution has been shown to lead to adverse health effects. A major air pollutant is NO2, which, at the surface level, directly affects human health, and, at higher elevations, contributes to acidic rain and represents a precursor to greenhouse gases. While NO2 column densities in the atmosphere can be measured with satellite observations as provided by Sentinel-5P, it requires in-situ measurements from ground stations to measure NO2 concentrations on the surface level, which is relevant to human exposure.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer">
 
-        </div>
-      
-    </section>
-  </div>
-
-    </main>
-    <script id="partials/analytics.html" data-goatcounter="https://mommermi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
-    &copy;  Michael Mommert 2025 
-  </a>
-
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
-    michael.mommert@hft-stuttgart.de
-  </a>
-
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
-    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
-  </a>
-
-  </div>
+<span title='2021-11-18 00:00:00 +0000 UTC'>November 18, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Estimation of Surface Level NO2 from Remote Sensing Data" href="http://localhost:1313/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/tags/deep-learning/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
 </footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Michael Mommert</a></span> · 
 
-  </body>
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>

@@ -1,855 +1,400 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Forschung | Michael Mommert</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Michael Mommert: AI for Remote Sensing">
-    <meta name="generator" content="Hugo 0.146.3">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+<html lang="de" dir="ltr" data-theme="auto">
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Forschung | Michael Mommert</title>
+<meta name="keywords" content="">
+<meta name="description" content="In meiner Forschung kombiniere ich Methoden aus den Bereichen des Maschinellen Lernens und des Deep Learnings mit multimodalen Fernerkundungsdaten.
+Daraus entstehen Anwendungen, die es erlauben, systematisch Informationen aus grossen Datensätzen zu extrahieren und diese für interdisziplinäre Problemstellungen nutzbar zu machen.
+Einen Fokus lege ich dabei auf die Effizienz der verwendeten Methoden, wodurch diese auf relativ kleinen Datensätzen und mit einfacher Rechnerinfrastruktur trainiert und verwendet werden können.
+Im Folgenden zeige ich Beispiele aus meiner Forschung:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/de/research/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/de/research/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/research/">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/de/research/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-  
-    <link rel="stylesheet" href="/css/override.css">
-  
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-    
-
-
-    
-      
-
-    
-
-    
-    
-      <link href="/de/research/index.xml" rel="alternate" type="application/rss+xml" title="Michael Mommert" />
-      <link href="/de/research/index.xml" rel="feed" type="application/rss+xml" title="Michael Mommert" />
-      
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/de/research/">
-    
-
-    <meta property="og:url" content="http://localhost:1313/de/research/">
-  <meta property="og:site_name" content="Michael Mommert">
-  <meta property="og:title" content="Forschung">
-  <meta property="og:description" content="Michael Mommert: AI for Remote Sensing">
-  <meta property="og:locale" content="de">
-  <meta property="og:type" content="website">
-
-  <meta itemprop="name" content="Forschung">
-  <meta itemprop="description" content="Michael Mommert: AI for Remote Sensing">
-  <meta itemprop="datePublished" content="2024-07-12T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-07-12T00:00:00+00:00">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Forschung">
-  <meta name="twitter:description" content="Michael Mommert: AI for Remote Sensing">
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-nearwhite">
-
-    
-
-  
-  
-  <header class="cover bg-top" style="background-image: url('http://localhost:1313/remote_sensing.png');">
-    
-    <div class="bg-black-40">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/de/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        Michael Mommert
-      
-    </a>
-    <div class="flex-l items-center">
-      
-<h4></h4>
-<ul class="pl0 mr3">
-    
-    <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white white-90 no-underline" href="/research/">en</a>
-    </li>
-    
-</ul>
-
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/de/research/" title="Forschung Seite">
-              Forschung
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/de/bio/" title="Lebenslauf Seite">
-              Lebenslauf
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/de/teaching/" title="Lehre Seite">
-              Lehre
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/de/publications/" title="Publikationen Seite">
-              Publikationen
-            </a>
-          </li>
-          
+</script>
+    <script data-goatcounter="https://mommermi.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/de/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/de/research/" title="Forschung">
+                    <span class="active">Forschung</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/bio/" title="Lebenslauf">
+                    <span>Lebenslauf</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/teaching/" title="Lehre">
+                    <span>Lehre</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/publications/" title="Publikationen">
+                    <span>Publikationen</span>
+                </a>
+            </li>
         </ul>
-      
-      <div class="ananke-socials"></div>
-
-    </div>
-  </div>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/de/">Home</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
 </nav>
+  <h1>
+    Forschung
+  </h1>
+</header>
+<div class="post-content md-content"><p>In meiner Forschung kombiniere ich Methoden aus den Bereichen des Maschinellen Lernens und des Deep Learnings mit multimodalen Fernerkundungsdaten.</p>
+<p>Daraus entstehen Anwendungen, die es erlauben, systematisch Informationen aus grossen Datensätzen zu extrahieren und diese für interdisziplinäre Problemstellungen nutzbar zu machen.</p>
+<p>Einen Fokus lege ich dabei auf die Effizienz der verwendeten Methoden, wodurch diese auf relativ kleinen Datensätzen und mit einfacher Rechnerinfrastruktur trainiert und verwendet werden können.</p>
+<p>Im Folgenden zeige ich Beispiele aus meiner Forschung:</p>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Forschung
-        </h1>
-        
-      </div>
-    </div>
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Erstellung einer Versiegelungskarte aus Luftbildern
+    </h2>
   </header>
-
-
-    <main class="pb7" role="main">
-      
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
-    <section class="flex-ns flex-wrap justify-aroundmt5">
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/" class="color-inherit dim link">
-            Multimodale Diffusion für selbstüberwachtes Vortraining
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2024-07-12T00:00:00Z">Juli 12, 2024</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/diffusion_qualitative_sample.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Multimodale Diffusion für selbstüberwachtes Vortraining">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Deep-Learning-Modelle, die auf Diffusionsprozessen basieren, zeigen ein großes Potenzial in einer Vielzahl von generativen Aufgaben, wie z.B. der Bildgenerierung. Für Anwendungen in der Fernerkundung sind generative Modelle jedoch nicht so verbreitet. Die Frage, die wir zu beantworten versucht haben, ist, ob Diffusionsprozesse verwendet werden können, um Modelle für diskriminative Aufgaben effizient vorzutrainieren?
-        </div>
-
-          <a href="/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+  <div class="entry-content">
+    <p>Asphaltierte Straßen, Parkplätze, Gebäude und gepflasterte Höfe: In unseren Städten ist ein großer Teil des Bodens versiegelt. Das hat Folgen. Regenwasser kann nicht mehr versickern und fließt in die Kanalisation ab, was bei Starkregen zu Überschwemmungen führen kann. Versiegelte Flächen heizen sich im Sommer stark auf, Pflanzen und Tiere verlieren ihren Lebensraum, und wertvoller Boden geht verloren.
+Viele Städte und Gemeinden möchten deshalb Flächen gezielt wieder entsiegeln. Dafür müssen sie aber zunächst wissen, wo und wie stark der Boden versiegelt ist. Diese Flächen von Hand zu erfassen, kostet jedoch viel Zeit und Personal.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2026-09-25 00:00:00 +0000 UTC'>25. September 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Erstellung einer Versiegelungskarte aus Luftbildern" href="http://localhost:1313/de/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/" class="color-inherit dim link">
-            Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2023-07-21T00:00:00Z">Juli 21, 2023</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/sample.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Multimodale Datensätze für die Fernerkundung sind oft auf zwei Datenmodalitäten beschränkt, wie z.B. multispektrale und SAR-Polarisationsdaten. Um mit einer viel breiteren Palette von Datenmodalitäten zu experimentieren, haben wir den bekannten BigEarthNet-Datensatz erweitert, um eine Vielzahl von Datenmodalitäten einzuschließen.
-        </div>
-
-          <a href="/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Modellierung der Straßenlärmbelastung mittels Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Deep Learning hat schon in vielen Bereichen der Fernerkundung sein Potenzial unter Beweis stellen können. Ein Beispiel hierfür ist Bestimmung von Landnutzung und Landbedeckung aus Satelliten- und Luftbildern.
+Vielleicht kann man aber noch einen Schritt weiter gehen: Hat ein KI-Modell erst einmal gelernt, wie bestimmte Dinge zusammenhängen, kann man ihm auch „Was wäre, wenn?“-Fragen stellen? Man verändert gezielt die Daten, die man dem Modell gibt, und beobachtet, wie sich seine Antwort verändert. So ließe sich eine KI als eine Art vereinfachter Simulator nutzen, zum Beispiel in sogenannten digitalen Zwillingen. Das sind virtuelle Abbilder echter Städte oder Landschaften, an denen man Veränderungen ausprobieren kann, bevor man sie in der Wirklichkeit umsetzt.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2026-04-30 00:00:00 +0000 UTC'>30. April 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Modellierung der Straßenlärmbelastung mittels Deep Learning" href="http://localhost:1313/de/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/" class="color-inherit dim link">
-            Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2022-06-20T00:00:00Z">Juni 20, 2022</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/stein.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Straßenverkehrslärm ist ein globales Problem, das zu schweren gesundheitlichen Auswirkungen führen kann. Trotz der Allgegenwart von Verkehrslärm ist dessen Quantifizierung oder Schätzung kompliziert, und detaillierte Straßenverkehrskarten sind nur für ausgewählte Länder oder Regionen verfügbar. Wir untersuchen, ob es möglich ist, ein Regressionsmodell zu trainieren, um Straßenverkehrslärm aus Satellitenbildern zu schätzen.
-        </div>
-
-          <a href="/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Einsatz KI-basierter Methoden zur Detektion und Charakterisierung von Streuobstbeständen
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Streuobstwiesen gehören zu den artenreichsten Lebensräumen in Mitteleuropa. Besonders im Süden Deutschlands prägen die locker verteilten, hochstämmigen Obstbäume seit Jahrhunderten die Landschaft. Doch die Bestände schrumpfen seit Jahrzehnten.
+Obwohl Streuobstwiesen gesetzlich geschützt sind, fehlt bis heute ein aktueller und vollständiger Überblick darüber, wo sie überhaupt noch stehen. Genau dieses Wissen wäre aber die Grundlage, um sie gezielt zu schützen und zu pflegen. Alle Wiesen zu Fuß zu erfassen, ist bei der riesigen Fläche kaum möglich und viel zu teuer.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2026-03-26 00:00:00 +0000 UTC'>26. März 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Einsatz KI-basierter Methoden zur Detektion und Charakterisierung von Streuobstbeständen" href="http://localhost:1313/de/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/" class="color-inherit dim link">
-            Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2022-06-07T00:00:00Z">Juni 7, 2022</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/overview.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Selbstüberwachtes Lernen bietet eine leistungsstarke Möglichkeit, Modelle auf der Grundlage von unannotierten Daten vorzutrainieren. Unannotierte Erdbeobachtungsdaten sind reichlich vorhanden: Diese Gegebenheit in Kombination mit der Verfügbarkeit multimodaler Daten macht die Erdbeobachtung zu einem perfekten Spielplatz für selbstüberwachtes Lernen. Unsere frühen Ergebnisse sind sehr vielversprechend&hellip;
-        </div>
-
-          <a href="/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Kartierung städtischer Vegetation aus hochaufgelösten Luftbildern mit Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Bäume, Parks, Rasenflächen und Hecken sind mehr als nur schön anzusehen. Stadtgrün hilft, Städte an heißen Sommertagen kühl zu halten, und nimmt Regenwasser auf, das sonst Straßen überfluten und die Kanalisation überlasten würde. Um diese Grünflächen planen, pflegen und schützen zu können, müssen Städte genau wissen, wo Vegetation wächst. Detaillierte Vegetationskarten fließen zudem in Computersimulationen ein, mit denen sich Städte auf Hitzewellen und Starkregen vorbereiten können.
+Solche Karten lassen sich mithilfe künstlicher Intelligenz aus Luft- und Satellitenbildern erstellen. Bisher waren die meisten dieser Ansätze jedoch aufwendig umzusetzen und erforderten leistungsstarke, teure Computer.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2026-03-26 00:00:00 +0000 UTC'>26. März 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Kartierung städtischer Vegetation aus hochaufgelösten Luftbildern mit Deep Learning" href="http://localhost:1313/de/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/" class="color-inherit dim link">
-            Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2021-12-14T00:00:00Z">Dezember 14, 2021</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/overview.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Die Überwachung von Treibhausgasemissionen wird in Zukunft zunehmend wichtig sein, da die Stromerzeugung aus fossilen Brennstoffen zurückgefahren werden soll. Für diese Aufgabe sind unabhängige Werkzeuge zur Überwachung von Kraftwerken erforderlich. Wir präsentieren eine Methode, die frei verfügbare Satellitenbilder nutzt, um die Stromerzeugung und die CO2-Emissionsraten auf globaler Ebene zu schätzen.
-        </div>
-
-          <a href="/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Multimodale Diffusion für selbstüberwachtes Vortraining
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Diffusionsprozesse sind am besten dafür bekannt, Modelle zu trainieren, die Bilder aus Text generieren. Die Idee hinter Diffusionsprozessen ist recht einfach: Man nimmt ein Bild und zerstört die Informationen schrittweise, indem man Gaußsches Rauschen anwendet. Ein Diffusionsmodell lernt nun, die ursprünglichen Informationen zwischen zwei Schritten wiederherzustellen (d.h. das Rauschen zu entfernen). Vollständig trainiert sind diese Modelle dazu in der Lage, fotorealistische Bilder aus Rauschen zu erzeugen.
+Um ein Bild aus Text zu erstellen, muss der Diffusionsprozess mit einem Textprompt konditioniert werden. Dies ist eine Möglichkeit, zusätzliche Informationen bereitzustellen, um den generativen Prozess zu steuern.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2024-07-12 00:00:00 +0000 UTC'>12. Juli 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Multimodale Diffusion für selbstüberwachtes Vortraining" href="http://localhost:1313/de/research/2024-07-12-multimodal_diffusion_for_self_supervised_pretraining/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/" class="color-inherit dim link">
-            Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2021-11-18T00:00:00Z">November 18, 2021</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/figure2.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Luftverschmutzung ist ein großes Gesundheitsproblem und trägt in den meisten Fällen auch zum Klimawandel bei. Die Messung der Luftverschmutzung ist kostspielig und daher nur in einigen Ländern verfügbar. Wir haben untersucht, ob frei verfügbare Erdbeobachtungsdaten genutzt werden können, um die Luftverschmutzung an der Erdoberfläche zu abschätzen.
-        </div>
-
-          <a href="/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Erdbeobachtungsdaten sind multimodal. Daten werden von einer Vielzahl von Sensoren erfasst, von denen einige passive Sensoren (z.B. Multiband-Bildgebung) und andere aktive Sensoren (z.B. SAR) sind. Neben solchen Beobachtungsdaten sind für die meisten Standorte auf der Erde auch zusätzliche Archivdaten verfügbar.
+Die Fernerkundung und Erdbeobachtung waren schon immer sehr aktiv in der Kombination verschiedener Datenmodalitäten (“Datenfusion”) bei der Analyse von Daten. Bei einem Datenfusionsansatz werden zwei oder mehr Datenmodalitäten in einer Analyse kombiniert, um die Ergebnisse im Vergleich zur Verwendung nur einer einzelnen Datenmodalität zu verbessern.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2023-07-21 00:00:00 +0000 UTC'>21. Juli 2023</span></footer>
+  <a class="entry-link" aria-label="post link to Ben-Ge - Erweiterung von Bigearthnet mit geografischen und umweltbezogenen Daten" href="http://localhost:1313/de/research/2023-07-21-ben-ge_extending_bigearthnet_with_geographical_and_environmental_data/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/" class="color-inherit dim link">
-            Erkennung von LKWs auf Satellitenbildern mit Deep Learning
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2021-11-17T00:00:00Z">November 17, 2021</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/trucks.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Erkennung von LKWs auf Satellitenbildern mit Deep Learning">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Können wir Lastwagen aus dem Weltraum identifizieren um das Verkehrsaufkommen abzuschätzen? Ja, das können wir!
-        </div>
-
-          <a href="/de/research/2021-11-17-commercial_vehicle_traffic_detection_from_satellite_imagery_with_deep_learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Straßenverkehrslärm stellt ein globales Gesundheitsproblem dar. Trotz seiner Bedeutung sind Lärmdaten in vielen Regionen der Welt nicht verfügbar. Solche Daten werden typischerweise durch Punktmessungen und komplexe physikalische Modelle abgeleitet, um die Ausbreitung von Lärm zu simulieren.
+Da dieser Prozess in vielen Gebieten der Welt nicht durchführbar ist, schlagen wir vor, Lärmdaten aus Satellitenbildern in einem End-to-End-Deep-Learning-Ansatz zu approximieren. Wir trainieren ein U-Net-Segmentierungsmodell, um Verkehrslärm basierend auf frei verfügbaren Sentinel-2-Satellitenbildern und bestehenden Schätzungen des Straßenverkehrslärms für die Schweiz zu schätzen.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2022-06-20 00:00:00 +0000 UTC'>20. Juni 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Schätzung des Verkehrslärms aus Satellitenbildern mit Deep Learning" href="http://localhost:1313/de/research/2022-06-20-traffic_noise_estimation_from_satellite_imagery_with_deep_learning/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/" class="color-inherit dim link">
-            Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2021-06-16T00:00:00Z">Juni 16, 2021</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/example_activations.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Wir haben ein Deep-Learning-Modell entwickelt, das in der Lage ist, zwischen 10 verschiedenen Arten von Kraftwerken zu unterscheiden. Die Ziel ist es unterchiedliche industrielle Standorte in Satellitenbildern automatisch zu identifizieren und zu charakterisieren. Diese Arbeit wird uns in Zukunft helfen, die Treibhausgasemissionsraten für einzelne Industrieanlagen zu schätzen.
-        </div>
-
-          <a href="/de/research/2021-06-16-power_plant_classification_from_remote_imaging_with_deep_learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dieses Forschungsergebniss besteht aus zwei Teilen, die im Folgenden präsentiert werden.
+Kontrastive selbstüberwachte Datenfusion für Satellitenbilder Überwachtes Lernen für jede Aufgabe erfordert große Mengen an annotierten Daten. Besonders im Fall von Satellitenbildern sind unannotierte Daten allgegenwärtig, während der Annotierungsprozess oft mühsam und kostspielig ist. Daher ist es sehr lohnenswert, Methoden zu nutzen, um die Menge an benötigten annotierten Daten zu minimieren, die erforderlich ist, um eine gute Leistung der nachgelagerten Aufgabe zu erzielen. In unserer ersten Arbeit nutzen wir kontrastives Lernen in einem multimodalen Setup, um dieses Ergebnis zu erreichen.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2022-06-07 00:00:00 +0000 UTC'>7. Juni 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Kontrastives selbstüberwachtes Lernen für multimodale Erdbeobachtungsdaten" href="http://localhost:1313/de/research/2022-06-07-contrastive_self-supervised_data_fusion_for_satellite_imagery/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/" class="color-inherit dim link">
-            Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2020-12-07T00:00:00Z">Dezember 7, 2020</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/example_panel.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Charakterisierung industrieller Abgasfahnen aus Fernerkundungsdaten">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Treibhausgasemissionen aus dem industriellen Wirtschaftssektor sind ein wesentlicher Treiber des derzeit beobachteten Klimawandels. Wir haben einen Ansatz des maschinellen Lernens entwickelt, um industrielle Rauchfahnen zu identifizieren und zu charakterisieren. In Zukunft werden wir diesen Ansatz nutzen, um Treibhausgasemissionen aus Fernerkundungsdaten im globalen Maßstab zu schätzen.
-        </div>
-
-          <a href="/de/research/2020-12-07-characterization_of_industrial_smoke_plumes_from_remote_sensing_data/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dieses Projekt bildet die logische Erweiterung unseres vorherigen Projekts zur Charakterisierung industrieller Abgasfahrnen aus Fernerkundungsdaten. Anstatt einfach nur Abgasfahnen zu identifizieren und zu charakterisieren, nutzen wir diese Informationen, um die Treibhausgasemissionen von fossilen Brennstoffkraftwerken zu schätzen.
+Die Idee ist recht einfach: Wir wissen, dass wir Abgasfahnen segmentieren und sie robust von natürlichen Wolken unterscheiden können. Für alle europäischen Kraftwerke kennen wir zu jedem gegebenen Zeitpunkt ihre Stromerzeugungsraten. Daher können wir ein Regressionsmodell trainieren, um die Stromerzeugungsrate aus dem Umfang der beobachteten Abgasfahne abzuschätzen. Allerdings ist die scheinbare Größe der Rauchfahne nicht nur eine Funktion des Stromerzeugungsprozesses. Vielmehr handelt es sich um einen hochkomplexen Prozess, der von Umweltvariablen abhängt. Um diese Variablen zu approximieren, stellen wir unserem Regressionsmodell aktuelle Wetterinformationen zur Verfügung, einschließlich Umgebungstemperatur, Luftdruck und Windgeschwindigkeit.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2021-12-14 00:00:00 +0000 UTC'>14. Dezember 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Abschätzung von Treibhausgasemissionen von Kraftwerken aus Satellitenbildern" href="http://localhost:1313/de/research/2021-12-14-estimating_power_plant_greenhouse_gas_emissions_from_satellite_imagery/"></a>
 </article>
 
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/" class="color-inherit dim link">
-            Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2020-05-07T00:00:00Z">Mai 7, 2020</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/fig1.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Don Quixote und die schlafenden Kometen - Mein astronomisches Erbe">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Don Quixote wird seit seiner Entdeckung im Jahr 1983 als Asteroid betrachtet, trotz seiner kometenartigen Umlaufbahn. Wir fanden während seiner Erscheinungen 2009 und 2018 Aktivität in diesem Objekt, was uns zu der Annahme führte, dass es sich tatsächlich um einen aktiven Kometen handelt. Aber gibt es andere Objekte wie Don Quixote? Ich habe über einen Zeitraum von mehr als 4 Jahren eine Stichprobe von etwa 100 Asteroiden überwacht, die ebenfalls wahrscheinlich aktiv werden könnten. Fazit: Don Quixote ist ziemlich einzigartig.
-        </div>
-
-          <a href="/de/research/2020-05-07-don-quixote-and-the-dormant-comets-my-astronomical-legacy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Luftverschmutzung hat nachweislich negative Auswirkungen auf die Gesundheit. Ein bedeutendes Luftschadstoff ist NO2, das auf der Erdoberfläche direkt die menschliche Gesundheit beeinflusst und in höheren Lagen zur Bildung von saurem Regen beiträgt und als Vorläufer von Treibhausgasen fungiert. Während die NO2-Säulendichten in der Atmosphäre mit Satellitenbeobachtungen, wie sie von Sentinel-5P bereitgestellt werden, gemessen werden können, sind In-situ-Messungen von Bodenstationen erforderlich, um die NO2-Konzentrationen auf der Oberfläche zu messen, die für die menschliche Exposition relevant sind.
+...</p>
   </div>
-  
+  <footer class="entry-footer">
+
+<span title='2021-11-18 00:00:00 +0000 UTC'>18. November 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Bestimmung von NO2-Konzentrationen an der Erdoberfläche aus Fernerkundungsdaten" href="http://localhost:1313/de/research/2021-11-18-estimation_of_surface_level_no2_from_remote_sensing_data/"></a>
 </article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/" class="color-inherit dim link">
-            Automatisierte Wolkenerkennung mit maschinellem Lernen
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2020-04-22T00:00:00Z">April 22, 2020</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/confusionmatrix.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Automatisierte Wolkenerkennung mit maschinellem Lernen">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Dies ist ein Spielzeugprojekt, das sich in ein echtes Forschungsprojekt verwandelt hat und eine Vorbereitung auf meinen neuen Job im Bereich der Computer Vision: die Verwendung von Techniken des maschinellen Lernens zur Identifizierung von Wolken in Bildern von All-Sky-Kameras.
-        </div>
-
-          <a href="/de/research/2020-04-22-automated-cloud-detection-with-machine-learning/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/" class="color-inherit dim link">
-            SpitzerNEOs - Durchmesser und Albedos für 2132 erdnahe Objekte
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2020-02-02T00:00:00Z">Februar 2, 2020</time>
-	
-	
-	
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.
-        </div>
-
-          <a href="/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/" class="color-inherit dim link">
-            Eine Fülle von Asteroiden in TESS-Daten
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2019-03-17T00:00:00Z">März 17, 2019</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Eine Fülle von Asteroiden in TESS-Daten">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.
-        </div>
-
-          <a href="/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/" class="color-inherit dim link">
-            Informationen über die Form von Asteroiden aus Gaia DR2
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2019-01-02T00:00:00Z">Januar 2, 2019</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/gaia.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Informationen über die Form von Asteroiden aus Gaia DR2">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.
-        </div>
-
-          <a href="/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/" class="color-inherit dim link">
-            Gibt es Grenzen für die Anwendbarkeit von thermischen Modellen für Asteroiden bei erdnahen Asteroiden?
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2019-01-01T00:00:00Z">Januar 1, 2019</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/neatm.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Gibt es Grenzen für die Anwendbarkeit von thermischen Modellen für Asteroiden bei erdnahen Asteroiden?">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Es gibt eine Reihe von thermischen Modellen für Asteroiden, die auf unterschiedlichen physikalischen Annahmen basieren. In dieser Analyse untersuche ich, wie sich diese Annahmen auf ihre Ergebnisse und die Anwendbarkeit in verschiedenen Situationen auswirken.
-        </div>
-
-          <a href="/de/research/2019-01-01-are-there-limits-on-the-applicability-of-asteroid-thermal-models-for-near-earth-asteroids/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/" class="color-inherit dim link">
-            sbpy - Ein Python-Modul für die Planetarische Astronomie kleiner Himmelskörper
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2018-07-27T00:00:00Z">Juli 27, 2018</time>
-	
-	
-	
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          sbpy ist ein mit Astropy verbundenes Paket für Astronomen, die an kleinen Himmelskörpern interessiert sind. Wir haben diese Idee bei der NASA vorgeschlagen und wurden finanziert, um dieses Python-Modul zu entwickeln, das hier skizziert ist.
-        </div>
-
-          <a href="/de/research/2018-07-27-sbpy-a-python-module-for-small-body-planetary-astronomy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2017-02-14-photometrypipeline/" class="color-inherit dim link">
-            Photometrypipeline
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2017-02-14T00:00:00Z">Februar 14, 2017</time>
-	
-	
-	
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          photometrypipeline ist ein Python-Softwarepaket für die automatisierte Bildregistrierung, Kalibrierung und Extraktion von Photometrie, das auf die Bedürfnisse von Asteroidenbeobachtern zugeschnitten ist. pp kann aber auch auch auf andere Bildbeobachtungen angewendet werden.
-        </div>
-
-          <a href="/de/research/2017-02-14-photometrypipeline/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2015-08-21-how-many-dead-comets-are-there/" class="color-inherit dim link">
-            Wie viele tote Kometen gibt es?
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2015-08-21T00:00:00Z">August 21, 2015</time>
-	
-	
-	
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Tote Kometen sind kleine Körper, die als inaktive Asteroiden erscheinen, aber einen kometarischen Ursprung haben. Einige dieser Objekte könnten noch Eis enthalten und könnten sich wieder aktivieren und kometenähnlich erscheinen. Da diese Objekte möglicherweise erheblich zum flüchtigen Reservoir der Asteroidpopulation beitragen, ist es wichtig zu verstehen, wie viele dieser Objekte es gibt.
-        </div>
-
-          <a href="/de/research/2015-08-21-how-many-dead-comets-are-there/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/" class="color-inherit dim link">
-            Rapid-Response pektrophotometrische Beobachtungen von NEOs mit UKIRT und RATIR
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2014-11-25T00:00:00Z">November 25, 2014</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/lightcurve.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Rapid-Response pektrophotometrische Beobachtungen von NEOs mit UKIRT und RATIR">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Mit Schnellreaktionsbeobachtungen mit UKIRT sind wir in der Lage, neu entdeckte erdnahe Asteroiden zu beobachten, während sie sich noch in der Nähe der Erde befinden und somit hell sind. Unsere Beobachtungen ermöglichen eine probabilistische taxonomische Klassifizierung von Asteroiden mit typischerweise kleinen Größen und die Bestimmung ihrer Zusammensetzung.
-        </div>
-
-          <a href="/de/research/2014-11-25-rapid-response-spectrophotometric-observations-of-neos-with-ukirt-and-ratir/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/" class="color-inherit dim link">
-            Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2014-10-20T00:00:00Z">Oktober 20, 2014</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/tinyneos_schematic.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Wir haben zwei sehr kleine Asteroiden mit dem Spitzer-Weltraumteleskop beobachtet, um ihre physikalischen Eigenschaften zum ersten Mal zu messen. Die Einschränkungen, die wir hinsichtlich ihrer Eigenschaften festlegen konnten, stimmen nicht mit dem gängigen Bild kleiner Asteroiden überein.
-        </div>
-
-          <a href="/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/" class="color-inherit dim link">
-            Entdeckung von kometärer Aktivität bei NEO Don Quijote
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2014-10-19T00:00:00Z">Oktober 19, 2014</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/donquixote1.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Entdeckung von kometärer Aktivität bei NEO Don Quijote">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Der erdnahe Asteroid Don Quixote wird seit langem als ein Kandidat für einen inaktiven Kometenkern gehandelt, was vor allen an seiner kometenähnlichen Umlaufbahn liegt. Seit seiner Entdeckung im Jahr 1983 wurde keine kometenähnliche Aktivität beobachtet – bis wir dieses Objekt mit dem Spitzer-Weltraumteleskop beobachteten&hellip;
-        </div>
-
-          <a href="/de/research/2014-10-19-detection-of-cometary-activity-in-neo-don-quixote/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-	  
-<article class="bb b--black-10">
-  <div class="db pv4 ph5  no-underline dark-gray">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/de/research/2014-10-18-herschel-observations-of-plutinos/" class="color-inherit dim link">
-            Herschel-Beobachtungen von Plutinos
-            </a>
-        </h1>
-
-        
-          <time class="f6 dib tracked" datetime="2014-10-18T00:00:00Z">Oktober 18, 2014</time>
-	
-	
-	
-	<div class="mt3 mb4">
-	  <img src="/de/research/2014-10-18-herschel-observations-of-plutinos/mommert2012_plutinos_histograms.png" class="img" style="display: block; width: 50%; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;" alt="image from Herschel-Beobachtungen von Plutinos">
-	  </div>
-        
-
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Meine erste Forschungsarbeit. Mit Beobachtungen des Herschel-Weltraumteleskops untersuchten wir die physikalischen Eigenschaften von 18 Plutinos – kleinen Körpern am Rand des Sonnensystems, die ähnliche orbitalen Eigenschaften wie Pluto aufweisen. Was haben wir herausgefunden? Dass Pluto ziemlich einzigartig ist&hellip;
-        </div>
-
-          <a href="/de/research/2014-10-18-herschel-observations-of-plutinos/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">weiterlesen</a>
-  </div>
-  
-</article>
-
-	   
-        </div>
-      
-    </section></article>
-
-    </main>
-    <script id="partials/analytics.html" data-goatcounter="https://mommermi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<footer class="bg-black-60 bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/de/" >
-    &copy;  Michael Mommert 2025 
-  </a>
-
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="mailto:michael.mommert@hft-stuttgart.de" >
-    michael.mommert@hft-stuttgart.de
-  </a>
-
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.hft-stuttgart.com" >
-    Stuttgart University of Applied Sciences, Schellingstr. 24, 70174 Stuttgart, Germany
-  </a>
-
-  </div>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/de/research/page/2/">Nächste&nbsp;&nbsp;»
+    </a>
+  </nav>
 </footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/de/">Michael Mommert</a></span> · 
 
-  </body>
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>

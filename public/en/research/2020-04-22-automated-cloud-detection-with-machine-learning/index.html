@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Automated Cloud Detection with Machine Learning | Michael Mommert</title>
+<meta name="keywords" content="Astronomy, Machine Learning, Deep Learning, Allsky-Camera">
+<meta name="description" content="This is a toy project that turned into a real research project and a preparation
+for my new job as
+research scientist in computer vision: using machine
+learning techniques to identify clouds in all-sky camera images.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/en/research/2020-04-22-automated-cloud-detection-with-machine-learning/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="de" href="http://localhost:1313/en/research/2020-04-22-automated-cloud-detection-with-machine-learning/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Michael Mommert (Alt + H)">Michael Mommert</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/homeinfoparams/" title="Homeinfoparams"
+                                aria-label="Homeinfoparams">Homeinfoparams</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/en/bio/" title="Biography">
+                    <span>Biography</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Forschung">
+                    <span>Forschung</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/bio/" title="Lebenslauf">
+                    <span>Lebenslauf</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/teaching/" title="Lehre">
+                    <span>Lehre</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/" title="Michael Mommert">
+                    <span>Michael Mommert</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/de/publications/" title="Publikationen">
+                    <span>Publikationen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/">Michael Mommert</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/en/research/">Research</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      Automated Cloud Detection with Machine Learning
+    </h1>
+    <div class="post-meta">
+
+<span title='2020-04-22 00:00:00 +0000 UTC'>22. April 2020</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h1 id="motivation">Motivation<a hidden class="anchor" aria-hidden="true" href="#motivation">#</a></h1>
+<p>Most (optical) telescopes have to be protected from precipitation to
+prevent damage to their optics and electronics. For this reason, most
+observatories use all-sky cameras - cheap, but very sensitive CMOS
+cameras equipped with fish-eye lenses - that monitor the night sky for
+incoming clouds. Telescope operators can observe live streams from these
+cameras to make informed decisions as to whether the current weather
+situation requires the closing of the telescope dome, or not.</p>
+<p>It should be worthwhile to automate this decision-making process so
+that, for instance, robotic telescopes can close their enclosures
+autonomously if clouds are present without any human intervention. A
+very similar system could be used to measure sky quality conditions in
+a highly unbiased way.</p>
+<h1 id="problem">Problem<a hidden class="anchor" aria-hidden="true" href="#problem">#</a></h1>
+<!-- raw HTML omitted -->
+<p>Unfortunately, the automated detection of clouds in image data is a
+non-trivial task. Due to varying illumination conditions and cloud
+thickness, the heterogeneous sky background brightness, and other
+effects, night sky clouds manifest in different ways in all-sky camera
+images, hampering their identification. Additional complications arise
+during twilight or during &ldquo;bright nights&rdquo;, when the Moon is up. These
+complications are exemplified in the animation shown above, in which
+clouds first appear darker than the clear sky but then brighten
+significantly after Moon rise.</p>
+<p>My hope was that machine learning models should be able to handle this
+level of complexity easily.</p>
+<h1 id="methods-and-data">Methods and Data<a hidden class="anchor" aria-hidden="true" href="#methods-and-data">#</a></h1>
+<p>I tested two different machine learning approaches on this problem:</p>
+<ul>
+<li>a deep learning approach that adopts a
+<a href="https://arxiv.org/abs/1512.03385">ResNet-18</a> implementation working
+directly on the image data, and</li>
+<li>a gradient-boosted tree-based model
+(<a href="https://github.com/microsoft/LightGBM">lightgbm</a>) working on
+preprocessed and extracted features; these features include metrics like
+source count and average background brightness, and time derivatives
+thereof, across a polar grid over each image, as well as additional
+information on the observation circumstances.</li>
+</ul>
+<p>Both models were trained on a set of 1975 all-sky camera images from Lowell
+Observatory&rsquo;s Discovery Telescope (formerly the Discovery Channel Telescope)
+that were randomly drawn from a period of 14 consecutive months. In all images of this set, the presence of clouds on a polar grid was labeled manually.</p>
+<h1 id="results">Results<a hidden class="anchor" aria-hidden="true" href="#results">#</a></h1>
+<p>The results were two-fold:</p>
+<ul>
+<li>
+<p>The deep learning approach using the <em>ResNet</em> implementation was
+only able to reach an accuracy of 85%. This is most likely due to
+the relatively small sample size for this model type. Better results
+are possible with a significantly larger sample size.</p>
+</li>
+<li>
+<p>The <em>lightgbm</em> model performs much better with an accuracy of ~95%,
+which is not likely to improve for larger sample sizes.</p>
+</li>
+</ul>
+<div class="wrapper"
+     style="display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;">
+  <figure class="image"
+	  style="display: block; margin-left: auto; margin-right: auto; 
+                 width: ;">
+    <a href="confusionmatrix.png">
+        <img src="confusionmatrix.png" alt=""  align="center">
+    </a>
+    <figcaption style="font-style: italic; text-align: justify;">
+      Confusion matrix for both model approaches. These matrices underlines the superior performance of the feature-extracted lightgbm approach over the ResNet approach.
+    </figcaption>
+  </figure>
+</div>
+
+<p>Another major selling point for the <em>lightgbm</em> model is the training
+time. While a meaningful model training process for the <em>lightgbm</em>
+model takes only a matter of seconds, it takes up to an hour for the
+<em>ResNet</em> approach.</p>
+<p>For the full analysis, please refer to the <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ab744f">publication in the
+Astronomical Journal</a> or the <a href="https://arxiv.org/abs/2003.11109">arxiv pre-print version</a> of this publication.</p>
+<h1 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h1>
+<p>I fully recommend the feature-extracted approach, as it easily
+outperforms the deep learning approach for this kind of application
+while utilizing only a fraction of the resources. Given the high
+accuracy of the <em>lightgbm</em> and the fact that this seems to be the
+maximum achievable accuracy (i.e., it is not limited by sample size)
+lets me conclude that this accuracy is only limited by human accuracy
+in the manual labeling of the training data.</p>
+<h1 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h1>
+<ul>
+<li>
+<p>Mommert, M. 2020, &ldquo;<em>Cloud Identification from All-sky Camera Data with Machine Learning</em>&rdquo;, The Astronomical Journal, 159, 178., <a href="http://doi.org/10.3847/1538-3881/ab744f">publication</a>, <a href="http://arxiv.org/abs/2003.11109">arxiv</a></p>
+</li>
+<li>
+<p>Mommert, M. 2020: <a href="http://doi.org/10.5281/zenodo.3662849">code and example data</a></p>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/astronomy/">Astronomy</a></li>
+      <li><a href="http://localhost:1313/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="http://localhost:1313/tags/deep-learning/">Deep Learning</a></li>
+      <li><a href="http://localhost:1313/tags/allsky-camera/">Allsky-Camera</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Michael Mommert</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

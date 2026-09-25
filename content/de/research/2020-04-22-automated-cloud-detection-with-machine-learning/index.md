@@ -1,15 +1,11 @@
 ---
 date: 2020-04-22 
 title: Automatisierte Wolkenerkennung mit maschinellem Lernen
-summary: |
-  Dies ist ein Spielzeugprojekt, das sich in ein echtes Forschungsprojekt verwandelt hat und eine Vorbereitung auf meinen neuen Job im Bereich der Computer Vision: die Verwendung von Techniken des maschinellen Lernens zur Identifizierung von Wolken in Bildern von All-Sky-Kameras.
 tags:
 - Astronomie
 - Maschinelles Lernen
 - Deep Learning
 - Allsky-Kamera
-featured_image: /research/12893.png
-thumbnail_image: confusionmatrix.png
 ---
 
 # Motivation

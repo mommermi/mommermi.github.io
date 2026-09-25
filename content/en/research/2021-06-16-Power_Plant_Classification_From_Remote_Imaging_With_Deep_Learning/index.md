@@ -1,20 +1,12 @@
 ---
 date: 2021-06-16
 title: Power Plant Classification from Remote Imaging with Deep Learning
-summary: |
-  We developed a deep learning model that is able to distinguish between
-  10 different types of power plants in an effort to automatically identify
-  and characterize industrial sites in satellite imagery. This work will
-  help us to estimate greenhouse gas emission rates for individual industrial
-  sites in the future.
 tags:
 - Earth Observation
 - Deep Learning
 - Classification
 - Power Plant
 - Sentinel-2
-thumbnail_image: example_activations.png
-
 ---
 
 

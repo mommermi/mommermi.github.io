@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Physikalische Eigenschaften Von Asteroiden on Michael Mommert</title>
     <link>http://localhost:1313/de/tags/physikalische-eigenschaften-von-asteroiden/</link>
     <description>Recent content in Physikalische Eigenschaften Von Asteroiden on Michael Mommert</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/physikalische-eigenschaften-von-asteroiden/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,35 +13,51 @@
       <link>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2020-02-02-spitzerneos-diameters-and-albedos-for-2132-near-earth-objects/</guid>
-      <description>Basierend auf Beobachtungen des Spitzer-Weltraumteleskops haben wir Durchmesser- und Albedo-Schätzungen für 2132 Asteroiden im erdnahen Raum abgeleitet – der größte Datensatz seiner Art. Unsere Ergebnisse und Daten sind online verfügbar.</description>
+      <description>&lt;p&gt;Seit den frühen Tagen meiner Doktorarbeit bin ich an der thermischen Modellierung von thermischen Infrarotbeobachtungen erdnaher Objekte und anderer Asteroiden beteiligt. Solche thermischen Modelle für Asteroiden simulieren die Oberflächentemperaturverteilungen von Asteroiden unter Verwendung einiger vereinfachender Annahmen und ermöglichen die Schätzung physikalischer Eigenschaften wie Größe und Albedo.&lt;/p&gt;
+&lt;p&gt;Im Rahmen mehrerer großangelegter &lt;a href=&#34;https://en.wikipedia.org/wiki/Spitzer_Space_Telescope&#34;&gt;Spitzer Space Telescope&lt;/a&gt;-Beobachtungsprogramme haben wir mehr als 2000 erdnahe Objekte beobachtet und ihre thermische Emission gemessen, um ihre Durchmesser und Albedos einzugrenzen. Jetzt, da Spitzer offiziell in den Ruhestand gegangen ist, haben wir unsere Beobachtungen und Analysen abgeschlossen und alle unsere Ergebnisse in einem großen Datensatz zusammengefasst. Diese Zusammenstellung umfasst 2204 Schätzungen von Durchmessern und geometrischen Albedos für 2132 verschiedene erdnahe Objekte – der größte homogene Datensatz seiner Art für diese Population. Die Ergebnisse dieser Bemühungen sind auf &lt;a href=&#34;https://github.com/mommermi/spitzerneos&#34;&gt;GitHub&lt;/a&gt; verfügbar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Eine Fülle von Asteroiden in TESS-Daten</title>
       <link>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</link>
       <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2019-03-17-a-plethora-of-asteroids-in-tess-data/</guid>
-      <description>TESS ist ein Satellit, der helle Sterne beobachtet, um Helligkeitsmodulationen zu finden, die Exoplanetentransite offenbaren – aber er beobachtet auch viele Asteroiden über einen langen Zeitraum, was ihn zu einem einzigartigen Instrument zur Ableitung langer Rotationsperioden von Asteroiden macht.</description>
+      <description>&lt;p&gt;TESS ist der &lt;a href=&#34;https://tess.mit.edu/&#34;&gt;Transiting Exoplanet Survey Satellite&lt;/a&gt;, der 2018 von der NASA ins All gestartet wurde, um schwache Helligkeitsvariationen in Sternen zu identifizieren, die charakteristisch für Planeten sind, die um diese Sterne kreisen und vor ihnen transitiert.
+&lt;div class=&#34;wrapper&#34;
+     style=&#34;display: block; margin-left: auto; margin-right: auto; 
+            margin-bottom: 20px; width: 90%;&#34;&gt;
+  &lt;figure class=&#34;image&#34;
+	  style=&#34;display: block; margin-left: auto; margin-right: auto; 
+                 width: ;&#34;&gt;
+    &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34;&gt;
+        &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c2/Transiting_Exoplanet_Survey_Satellite_artist_concept_%28transparent_background%29.png&#34; alt=&#34;&#34;  align=&#34;center&#34;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&#34;font-style: italic; text-align: justify;&#34;&gt;
+      Eine Darstellung des TESS-Raumschiffs. Das Instrument besteht aus vier Bildkameras, die jeweils 24° x 24° des Himmels abdecken.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
     </item>
     <item>
       <title>Informationen über die Form von Asteroiden aus Gaia DR2</title>
       <link>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2019-01-02-asteroid-shape-information-from-gaia-dr2/</guid>
-      <description>Die Gaia-Mission erstellt eine einzigartige Erhebung der Sterne in unserer Milchstraße – sie beobachtet jedoch auch Asteroiden, die ihr Sichtfeld durchqueren. Wir leiten Informationen über die Formverteilungen verschiedener Asteroidpopulationen aus der ersten Charge von Asteroidendaten von Gaia ab.</description>
+      <description>&lt;p&gt;Die ESA-Mission &lt;a href=&#34;http://sci.esa.int/gaia/&#34;&gt;Gaia&lt;/a&gt;Gaia beobachtet nicht nur einen großen Teil der Sterne in der Milchstraße, sondern auch eine enorme Anzahl von Asteroiden. Der Gaia-Datenrelease 2 (DR2) ist der erste Datenrelease, der eine Reihe von Asteroidbeobachtungen enthält, beschränkt auf G-Helligkeiten (ohne Farbinformationen) und eine vorab ausgewählte Stichprobe von 14.099 Asteroiden aus verschiedenen Populationen. Für jeden Asteroiden enthält DR2 eine mediane Anzahl von 9 Beobachtungen über die ersten 9 Monate der Mission. Während dieser begrenzte Datensatz nicht zulässt, die Rotationsperioden der Ziele abzuleiten oder ihre taxonomischen Typen einzugrenzen, ist er nützlich, um einen Blick auf die Formverteilung der Asteroiden zu werfen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Physikalische Eigenschaften von zwei kleinen Asteroiden aus Spitzer-Beobachtungen</title>
       <link>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</link>
       <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-10-20-physical-properties-of-two-tiny-asteroids-from-spitzer-observations/</guid>
-      <description>Wir haben zwei sehr kleine Asteroiden mit dem Spitzer-Weltraumteleskop beobachtet, um ihre physikalischen Eigenschaften zum ersten Mal zu messen. Die Einschränkungen, die wir hinsichtlich ihrer Eigenschaften festlegen konnten, stimmen nicht mit dem gängigen Bild kleiner Asteroiden überein.</description>
+      <description>&lt;p&gt;Über die physikalischen Eigenschaften der kleinsten erdnäheren Objekte (NEOs) mit Durchmessern von weniger als 10 Metern ist wenig bekannt. Aufgrund ihrer geringen Größe sind sie normalerweise sehr schwach und schwer zu beobachten. Daher sind nur eine kleine Anzahl von Asteroiden in diesem Größenbereich bekannt, und nur für sehr wenige von ihnen wurden physikalische Eigenschaften wie Durchmesser und Albedo gemessen. Kleine NEOs sind jedoch viel häufiger als größere NEOs, was einige dieser Objekte zu leicht zugänglichen Zielen für Raumfahrzeuge und potenziellen Einschlägen macht. Traditionell glaubte man, dass diese kleinen NEOs durch Kollisionen entstanden sind und dass sie individuelle Gesteinsbrocken, d.h. monolithische Körper, sind.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Herschel-Beobachtungen von Plutinos</title>
       <link>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</link>
       <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/research/2014-10-18-herschel-observations-of-plutinos/</guid>
-      <description>Meine erste Forschungsarbeit. Mit Beobachtungen des Herschel-Weltraumteleskops untersuchten wir die physikalischen Eigenschaften von 18 Plutinos – kleinen Körpern am Rand des Sonnensystems, die ähnliche orbitalen Eigenschaften wie Pluto aufweisen. Was haben wir herausgefunden? Dass Pluto ziemlich einzigartig ist&amp;hellip;</description>
+      <description>&lt;p&gt;Plutinos sind eine Unterpopulation der transneptunischen Objekte (TNOs), die aus ursprünglichen und eisigen Objekten am Rand des Sonnensystems bestehen. Die Umlaufbahnen der Plutinos – die nach ihrem Prototyp, Pluto, benannt sind – stehen in einer 2:3-Resonanz mit Neptun, was bedeutet, dass ein Plutino, während er 2 vollständige Umläufe um die Sonne vollzieht, Neptun 3 Umläufe vollendet. Diese &amp;ldquo;mittlere Bewegungsresonanz&amp;rdquo; sorgt für eine hohe Stabilität der Umlaufbahnen der Plutinos. Daher sind Plutinos dynamisch und physikalisch ursprüngliche Objekte.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

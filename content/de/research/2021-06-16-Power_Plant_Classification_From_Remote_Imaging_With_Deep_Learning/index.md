@@ -1,15 +1,12 @@
 ---
 date: 2021-06-16
 title: Klassifizierung von Kraftwerken aus Satellitenbildern mit Deep Learning
-summary: |
-  Wir haben ein Deep-Learning-Modell entwickelt, das in der Lage ist, zwischen 10 verschiedenen Arten von Kraftwerken zu unterscheiden. Die Ziel ist es unterchiedliche industrielle Standorte in Satellitenbildern automatisch zu identifizieren und zu charakterisieren. Diese Arbeit wird uns in Zukunft helfen, die Treibhausgasemissionsraten für einzelne Industrieanlagen zu schätzen.
 tags:
 - Erdbeobachtung
 - Deep Learning
 - Klassifizierung
 - Kraftwerk
 - Sentinel-2
-thumbnail_image: example_activations.png
 ---
 
 

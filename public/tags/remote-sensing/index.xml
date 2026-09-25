@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Remote Sensing on Michael Mommert</title>
+    <link>http://localhost:1313/tags/remote-sensing/</link>
+    <description>Recent content in Remote Sensing on Michael Mommert</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creation of an Imperviousness Map from Aerial Imagery</title>
+      <link>http://localhost:1313/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_09_25-erstellung_einer_versiegelungskarte_aus_luftbildern/</guid>
+      <description>&lt;p&gt;Asphalt roads, parking lots, buildings and paved courtyards: in our cities, a large share of the ground is sealed. This has consequences. Rainwater can no longer seep into the soil and instead flows into the sewer system, which can lead to flooding during heavy rainfall. Sealed surfaces heat up considerably in summer, plants and animals lose their habitats, and valuable soil is lost.&lt;/p&gt;
+&lt;p&gt;Many cities and municipalities therefore want to unseal areas in a targeted way. To do so, however, they first need to know where and to what extent the ground is sealed. Mapping these areas by hand takes a great deal of time and staff.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modeling of Road Traffic Noise using Deep Learning</title>
+      <link>http://localhost:1313/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_04_30-modellierung_der_strassenlaermbelastung_mittels_deep_learning/</guid>
+      <description>&lt;p&gt;Deep learning has already proven its potential in many areas of remote sensing. One example is the classification of land use and land cover from satellite and aerial imagery.&lt;/p&gt;
+&lt;p&gt;But perhaps we can go one step further: once an AI model has learned how certain things are related, can we also ask it &amp;ldquo;what if?&amp;rdquo; questions? By deliberately changing the data we feed into the model, we can observe how its output changes. In this way, an AI could serve as a kind of simplified simulator, for example in so-called digital twins. These are virtual replicas of real cities or landscapes in which changes can be tested before they are implemented in the real world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI-Based Methods for the Detection and Characterization of Traditional Orchards</title>
+      <link>http://localhost:1313/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_03_26-einsatz_ki-basierter_methoden_zur_detektion_und_charakterisierung_von_streuobstbestaenden/</guid>
+      <description>&lt;p&gt;Traditional orchards are among the most species-rich habitats in Central Europe. Especially in southern Germany, their loosely scattered, tall-trunked fruit trees have shaped the landscape for centuries. Yet these orchards have been in decline for decades.&lt;/p&gt;
+&lt;p&gt;Although traditional orchards are legally protected, there is still no up-to-date and complete overview of where they can actually be found. But exactly this knowledge would be the basis for protecting and maintaining them in a targeted way. Surveying all orchards on foot is hardly feasible given the vast area involved, and it would be far too expensive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Urban Vegetation Mapping from High-Resolution Aerial Imagery with Deep Learning</title>
+      <link>http://localhost:1313/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/2026_03_26-urban_vegetation_mapping_from_high-resolution_aerial_imagery_with_deep_learning/</guid>
+      <description>&lt;p&gt;Trees, parks, lawns and hedges are more than just pleasant to look
+at. Urban greenery helps keep cities cool on hot summer days and soaks
+up rainwater that would otherwise flood streets and overwhelm
+drains. To plan, manage and protect these green spaces, cities need to
+know exactly where vegetation grows. Detailed vegetation maps also
+feed into computer simulations that help cities prepare for heat waves
+and heavy rainfall.&lt;/p&gt;
+&lt;p&gt;Such maps can be created from aerial and satellite images with the
+help of artificial intelligence. Until now, however, most of these
+approaches have been complex to set up and required powerful,
+expensive computers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

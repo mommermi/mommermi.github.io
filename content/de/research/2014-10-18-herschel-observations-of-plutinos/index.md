@@ -1,15 +1,11 @@
 ---
 date: 2014-10-18
 title: Herschel-Beobachtungen von Plutinos
-summary: |
-  Meine erste Forschungsarbeit. Mit Beobachtungen des Herschel-Weltraumteleskops untersuchten wir die physikalischen Eigenschaften von 18 Plutinos – kleinen Körpern am Rand des Sonnensystems, die ähnliche orbitalen Eigenschaften wie Pluto aufweisen. Was haben wir herausgefunden? Dass Pluto ziemlich einzigartig ist...
 tags:
 - Astronomie
 - Plutino
 - Physikalische Eigenschaften von Asteroiden
 -  Herschel-Weltraumteleskop
-featured_image: /research/12893.png
-thumbnail_image: mommert2012_plutinos_histograms.png
 ---
 
 Plutinos sind eine Unterpopulation der transneptunischen Objekte (TNOs), die aus ursprünglichen und eisigen Objekten am Rand des Sonnensystems bestehen. Die Umlaufbahnen der Plutinos – die nach ihrem Prototyp, Pluto, benannt sind – stehen in einer 2:3-Resonanz mit Neptun, was bedeutet, dass ein Plutino, während er 2 vollständige Umläufe um die Sonne vollzieht, Neptun 3 Umläufe vollendet. Diese "mittlere Bewegungsresonanz" sorgt für eine hohe Stabilität der Umlaufbahnen der Plutinos. Daher sind Plutinos dynamisch und physikalisch ursprüngliche Objekte.
